@@ -1,6 +1,8 @@
-# Selective Recovery for Multilingual ASR
+# Selective Recovery for Multilingual ASR: Candidate Acquisition and Acceptance
 
-Reproduction code and anonymized numerical evidence for the V119 results, released alongside manuscript V120. The running prospective confirmation and four-path cost extension are not included as completed results.
+Reproduction code and anonymized numerical evidence for the submitted manuscript. The package reproduces the complete five-language evaluation and the paired N+R/S+R cost estimates reported in the paper.
+
+Reported accuracy: 17.087% and 31.681% macro WER on the complete five-language FLEURS and Common Voice v27 TEST splits over three checkpoints, matching the unconditional-recovery control to within 0.001 pp, preserving 370 of 373 beneficial Common Voice recoveries, at a 0.09-0.30% invocation rate pooled over recordings. Paired stratified measurements estimate 5.09% and 4.40% lower mean latency at one checkpoint.
 
 The package contains no audio, model weights, raw reference transcripts or client names. The numerical inputs use anonymous recording IDs. Model and corpus access remains subject to the original providers' terms.
 
@@ -47,4 +49,4 @@ Accuracy covers complete five-language official TEST: 3,665 FLEURS and 58,514 CV
 
 Timing covers checkpoint 101 only: 255/472 stratified sampled recordings, three rounds, 2,181 same-card pairs. It is population-weighted estimation, not complete-population timing. The accepted historical measurements used three A40 devices (physical 0/2/3); the archive records their actual allocation. Current GPU policy is separate and must be followed for any new run. Models are resident; initialization/warmup is excluded. This comparison is N+R versus S+R, not Native-alone versus S+R or no-acquisition-alone versus S+R. Peak memory is not reduced.
 
-There is no new positive independent confirmation in V119. Previously locked Bulgarian/Croatian shows no acquisition gain. `REVIEW_RESPONSE_V119_CN.md` identifies unresolved concerns without claiming all review items are closed.
+**Scope.** The five-language evaluation and the Czech/Slovak results are retrospective. Bulgarian and Croatian predictions were locked before reference access, but on those two corpora the trigger does not separate acquisition from no acquisition, so they bound the method's applicability rather than confirm it.
