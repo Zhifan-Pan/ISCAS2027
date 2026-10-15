@@ -1,0 +1,108 @@
+{
+  "session": 0,
+  "index": 230,
+  "id": "8e86b05fb1525f3d82c09333d68743b21bc121da69b9f1713e0e8a2e53b06f42",
+  "corpus": "CV27",
+  "language": "fa",
+  "stratum": "CV27:fa:3:behavior_census",
+  "inclusion_probability": 1.0,
+  "population_count": 11,
+  "sample_count": 11,
+  "outer_trigger": true,
+  "native_output_change": true,
+  "path_order": [
+    "SplusR",
+    "NplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 2,
+  "paired": [
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 10060.831921873614,
+      "peak_allocated_bytes": 2950409216,
+      "peak_reserved_bytes": 3831496704,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 2,
+        "reused_first_search": 1,
+        "PLL_calls": 6,
+        "PLL_tokens": 477,
+        "teacher_calls": 6
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 1.993010300793685e-06
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 42,
+          "no_speech_probability": 1.993010300793685e-06
+        }
+      ],
+      "bank_sizes": [
+        [
+          5,
+          6
+        ]
+      ],
+      "selected_new": [
+        true
+      ],
+      "output_sha256": "076118d99202ea7b9dba2b9b76e09779c9659955f09408e77e6d6238ec1c0518"
+    },
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 10054.558688076213,
+      "peak_allocated_bytes": 2950409216,
+      "peak_reserved_bytes": 3831496704,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 2,
+        "reused_first_search": 0,
+        "PLL_calls": 6,
+        "PLL_tokens": 477,
+        "teacher_calls": 6
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 1.993010300793685e-06
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 42,
+          "no_speech_probability": 1.993010300793685e-06
+        }
+      ],
+      "bank_sizes": [
+        [
+          5,
+          6
+        ]
+      ],
+      "selected_new": [
+        true
+      ],
+      "output_sha256": "076118d99202ea7b9dba2b9b76e09779c9659955f09408e77e6d6238ec1c0518"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false
+}

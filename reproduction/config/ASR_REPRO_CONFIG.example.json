@@ -1,0 +1,10 @@
+{
+  "whisper_snapshot": "/path/to/whisper-small/snapshots/EXPECTED_REVISION",
+  "xlmr_snapshot": "/path/to/xlm-roberta-base/snapshots/EXPECTED_REVISION",
+  "adapter_directories": {
+    "101": "/path/to/checkpoint_101/adapter",
+    "202": "/path/to/checkpoint_202/adapter",
+    "303": "/path/to/checkpoint_303/adapter"
+  },
+  "note": "Supply legally obtained assets matching VERSIONS_AND_ASSETS.json. No substitutions."
+}

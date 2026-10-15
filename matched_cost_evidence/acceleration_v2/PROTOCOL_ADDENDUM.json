@@ -1,0 +1,56 @@
+{
+  "status": "FROZEN_BEFORE_EXECUTION",
+  "created_utc": "2026-10-14T23:53:35.775215+00:00",
+  "authorization": "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/acceleration_v2/USER_GPU_AUTHORIZATION.json",
+  "measurement_rounds": 3,
+  "records_per_round": 727,
+  "preserved_accepted_pairs": {
+    "0": 727,
+    "1": 149,
+    "2": 146
+  },
+  "physical_gpus": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "allocation": "Atomic dynamic claims of only unresolved (round, recording) pairs; one exclusive worker per card; both paths remain on the same physical card. No duplicate acceptance.",
+  "unchanged": [
+    "Frozen inference and output hashes",
+    "Sample manifest and inclusion probabilities",
+    "Three rounds and deterministic path order",
+    "Waveform-to-selection timing boundaries",
+    "100 ms interference monitoring, whole-pair exclusion",
+    "Paired record bootstrap, census fixed, ordinary FPC"
+  ],
+  "changed": [
+    "Rounds may span workers and devices; not independent single-process sessions",
+    "Three paired warmup recordings per worker startup",
+    "Allocation recorded per accepted pair; conditional pooled inference, device subsets descriptive only"
+  ],
+  "scope": "Conditional on observed executions and devices, not a population hardware uncertainty interval",
+  "references": {
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/acceleration_v2/USER_GPU_AUTHORIZATION.json": {
+      "sha256": "512471166bd076ec234240537aa8189401ab520fc794b9963555d274aaa51d38",
+      "bytes": 556
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/acceleration_v2/ADMISSION.json": {
+      "sha256": "836ce2a77b1d25e22daf9be49f402d9413c3c492c5f75ad83aa23dc3f9bd3419",
+      "bytes": 4612
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/TIMING_PROTOCOL.json": {
+      "sha256": "cdcd730cb1edcefa5724319fcab1a819422ffb2e8592e5d877cc921155553e47",
+      "bytes": 2247
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/runtime.py": {
+      "sha256": "69fb9871ee004ad76aa15c858c365c65a6cddb8a5c3fec5511fc522ddefe659d",
+      "bytes": 7283
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/FROZEN_OUTPUT_HASHES.json": {
+      "sha256": "d756266f6604f4629b988dab0f984b05e88e8869bd298762e1cf97dc8649ded0",
+      "bytes": 21204670
+    }
+  },
+  "prior_addendum": "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/acceleration_v1/PROTOCOL_ADDENDUM.json"
+}

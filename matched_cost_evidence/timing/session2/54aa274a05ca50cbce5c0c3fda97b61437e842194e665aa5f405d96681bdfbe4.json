@@ -1,0 +1,126 @@
+{
+  "session": 2,
+  "index": 313,
+  "id": "54aa274a05ca50cbce5c0c3fda97b61437e842194e665aa5f405d96681bdfbe4",
+  "corpus": "CV27",
+  "language": "it",
+  "stratum": "CV27:it:3:behavior_census",
+  "inclusion_probability": 1.0,
+  "population_count": 5,
+  "sample_count": 5,
+  "outer_trigger": false,
+  "native_output_change": true,
+  "path_order": [
+    "SplusR",
+    "NplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 2,
+  "paired": [
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 629.3835160322487,
+      "peak_allocated_bytes": 2209459712,
+      "peak_reserved_bytes": 3902799872,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 5,
+        "PLL_tokens": 84,
+        "teacher_calls": 5
+      },
+      "native_events": [],
+      "bank_sizes": [
+        [
+          5,
+          5
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "9a2b9ff7cdb999de75edf5ccb527466adb9735577306b44c21f202b860ed6fe2"
+    },
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 2498.5642980318516,
+      "peak_allocated_bytes": 2283332096,
+      "peak_reserved_bytes": 3902799872,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 6,
+        "reused_first_search": 0,
+        "PLL_calls": 6,
+        "PLL_tokens": 94,
+        "teacher_calls": 6
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 17,
+          "no_speech_probability": 0.46535348892211914
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 20,
+          "no_speech_probability": 0.46535348892211914
+        },
+        {
+          "window": 0,
+          "temperature": 0.4,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 15,
+          "no_speech_probability": 0.46535348892211914
+        },
+        {
+          "window": 0,
+          "temperature": 0.6,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 30,
+          "no_speech_probability": 0.46535348892211914
+        },
+        {
+          "window": 0,
+          "temperature": 0.8,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 13,
+          "no_speech_probability": 0.46535348892211914
+        },
+        {
+          "window": 0,
+          "temperature": 1.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 13,
+          "no_speech_probability": 0.46535348892211914
+        }
+      ],
+      "bank_sizes": [
+        [
+          5,
+          6
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "9a2b9ff7cdb999de75edf5ccb527466adb9735577306b44c21f202b860ed6fe2"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false,
+  "worker_pid": 2425142,
+  "worker_run": "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/runs/four_card/gpu2_1792027261403728473",
+  "execution_addendum": "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/acceleration_v2/PROTOCOL_ADDENDUM.json"
+}

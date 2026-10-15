@@ -1,0 +1,175 @@
+{
+  "session": 2,
+  "index": 198,
+  "id": "478021d92dee8169e8b80cd08911ff5c177528385e8b08165517ad06e083ea44",
+  "corpus": "CV27",
+  "language": "fa",
+  "stratum": "CV27:fa:2:behavior_census",
+  "inclusion_probability": 1.0,
+  "population_count": 24,
+  "sample_count": 24,
+  "outer_trigger": true,
+  "native_output_change": true,
+  "path_order": [
+    "NplusR",
+    "SplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 3,
+  "paired": [
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 30122.463031904772,
+      "peak_allocated_bytes": 2948550656,
+      "peak_reserved_bytes": 3428843520,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 6,
+        "reused_first_search": 0,
+        "PLL_calls": 6,
+        "PLL_tokens": 915,
+        "teacher_calls": 6
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 417,
+          "no_speech_probability": 0.5041945576667786
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 0.5041945576667786
+        },
+        {
+          "window": 0,
+          "temperature": 0.4,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 0.5041945576667786
+        },
+        {
+          "window": 0,
+          "temperature": 0.6,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 81,
+          "no_speech_probability": 0.5041945576667786
+        },
+        {
+          "window": 0,
+          "temperature": 0.8,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 48,
+          "no_speech_probability": 0.5041945576667786
+        },
+        {
+          "window": 0,
+          "temperature": 1.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 124,
+          "no_speech_probability": 0.5041945576667786
+        }
+      ],
+      "bank_sizes": [
+        [
+          5,
+          6
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "1cfc5ef2a7c54b79d5d158948539f67ca03a4683a035984a9e36ba751122acfb"
+    },
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 29817.468418041244,
+      "peak_allocated_bytes": 2949537280,
+      "peak_reserved_bytes": 3430940672,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 6,
+        "reused_first_search": 1,
+        "PLL_calls": 6,
+        "PLL_tokens": 915,
+        "teacher_calls": 6
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 417,
+          "no_speech_probability": 0.5041945576667786
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 0.5041945576667786
+        },
+        {
+          "window": 0,
+          "temperature": 0.4,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 0.5041945576667786
+        },
+        {
+          "window": 0,
+          "temperature": 0.6,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 81,
+          "no_speech_probability": 0.5041945576667786
+        },
+        {
+          "window": 0,
+          "temperature": 0.8,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 48,
+          "no_speech_probability": 0.5041945576667786
+        },
+        {
+          "window": 0,
+          "temperature": 1.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 124,
+          "no_speech_probability": 0.5041945576667786
+        }
+      ],
+      "bank_sizes": [
+        [
+          5,
+          6
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "1cfc5ef2a7c54b79d5d158948539f67ca03a4683a035984a9e36ba751122acfb"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false,
+  "worker_pid": 2553756,
+  "worker_run": "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/runs/four_card/gpu3_1792029757684549774",
+  "execution_addendum": "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/acceleration_v2/PROTOCOL_ADDENDUM.json"
+}

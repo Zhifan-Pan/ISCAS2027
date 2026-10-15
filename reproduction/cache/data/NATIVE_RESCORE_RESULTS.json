@@ -1,0 +1,47 @@
+{
+  "status": "COMPLETE",
+  "checkpoint": 101,
+  "scope": "Fixed shared beta_F attribution control, not independently DEV-refitted deployment baseline; no new latency measurement",
+  "datasets": {
+    "FLEURS": {
+      "macro_WER": {
+        "Native": 18.545023146418192,
+        "NativeRescore": 17.107222559040874,
+        "NoAcquisition": 17.294166326753302,
+        "SelectiveHF": 17.107222559040874
+      },
+      "CI95_NativeRescore_minus_Native_and_SelectiveHF_pp": [
+        [
+          -1.5886161086729422,
+          0.0
+        ],
+        [
+          -1.288482409240644,
+          0.0
+        ]
+      ],
+      "beam_cache_exact_count_parity": true,
+      "recordings": 3665
+    },
+    "CV27": {
+      "macro_WER": {
+        "Native": 33.78806720245048,
+        "NativeRescore": 32.127200223151995,
+        "NoAcquisition": 34.26240001275571,
+        "SelectiveHF": 32.127072143122966
+      },
+      "CI95_NativeRescore_minus_Native_and_SelectiveHF_pp": [
+        [
+          -2.0129484596655063,
+          -0.0006788392735762
+        ],
+        [
+          -1.2160205800203487,
+          0.0009258944871896439
+        ]
+      ],
+      "beam_cache_exact_count_parity": true,
+      "recordings": 58514
+    }
+  }
+}

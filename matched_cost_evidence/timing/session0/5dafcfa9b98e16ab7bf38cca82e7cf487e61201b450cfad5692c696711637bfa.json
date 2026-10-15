@@ -1,0 +1,123 @@
+{
+  "session": 0,
+  "index": 275,
+  "id": "5dafcfa9b98e16ab7bf38cca82e7cf487e61201b450cfad5692c696711637bfa",
+  "corpus": "CV27",
+  "language": "it",
+  "stratum": "CV27:it:0:behavior_census",
+  "inclusion_probability": 1.0,
+  "population_count": 6,
+  "sample_count": 6,
+  "outer_trigger": false,
+  "native_output_change": true,
+  "path_order": [
+    "SplusR",
+    "NplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 2,
+  "paired": [
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 424.2929760366678,
+      "peak_allocated_bytes": 2209259008,
+      "peak_reserved_bytes": 3831496704,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 4,
+        "PLL_tokens": 24,
+        "teacher_calls": 4
+      },
+      "native_events": [],
+      "bank_sizes": [
+        [
+          4,
+          4
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "e5f7d4c9fa8991a7660f7f2fcdd66a439188f9a7f6eb54fceae506ef6a6e2f0c"
+    },
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 1766.7555380612612,
+      "peak_allocated_bytes": 2269578752,
+      "peak_reserved_bytes": 3831496704,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 6,
+        "reused_first_search": 0,
+        "PLL_calls": 5,
+        "PLL_tokens": 33,
+        "teacher_calls": 5
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 11,
+          "no_speech_probability": 0.002667883411049843
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 13,
+          "no_speech_probability": 0.002667883411049843
+        },
+        {
+          "window": 0,
+          "temperature": 0.4,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 8,
+          "no_speech_probability": 0.002667883411049843
+        },
+        {
+          "window": 0,
+          "temperature": 0.6,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 7,
+          "no_speech_probability": 0.002667883411049843
+        },
+        {
+          "window": 0,
+          "temperature": 0.8,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 12,
+          "no_speech_probability": 0.002667883411049843
+        },
+        {
+          "window": 0,
+          "temperature": 1.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 12,
+          "no_speech_probability": 0.002667883411049843
+        }
+      ],
+      "bank_sizes": [
+        [
+          4,
+          5
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "e5f7d4c9fa8991a7660f7f2fcdd66a439188f9a7f6eb54fceae506ef6a6e2f0c"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false
+}

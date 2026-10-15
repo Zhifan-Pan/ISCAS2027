@@ -1,0 +1,17 @@
+{
+  "definition": "Fixed full-language word denominators; NplusR minus SplusR,pp; sum trigger/nontrigger",
+  "parts": {
+    "FLEURS_101_trigger": 0.0,
+    "FLEURS_101_nontrigger": 0.0,
+    "CV27_101_trigger": 0.0,
+    "CV27_101_nontrigger": 0.0001280800290225081,
+    "FLEURS_202_trigger": 0.0,
+    "FLEURS_202_nontrigger": 0.0,
+    "CV27_202_trigger": 0.0,
+    "CV27_202_nontrigger": 0.0006703446241712864,
+    "FLEURS_303_trigger": 0.0,
+    "FLEURS_303_nontrigger": 0.0,
+    "CV27_303_trigger": 0.0,
+    "CV27_303_nontrigger": -0.0002936110371043189
+  }
+}

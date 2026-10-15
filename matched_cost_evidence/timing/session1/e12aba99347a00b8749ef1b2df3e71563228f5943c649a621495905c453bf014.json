@@ -1,0 +1,86 @@
+{
+  "session": 1,
+  "index": 654,
+  "id": "e12aba99347a00b8749ef1b2df3e71563228f5943c649a621495905c453bf014",
+  "corpus": "TEST",
+  "language": "pl",
+  "stratum": "TEST:pl:2:ordinary_sample",
+  "inclusion_probability": 0.06578947368421052,
+  "population_count": 152,
+  "sample_count": 10,
+  "outer_trigger": false,
+  "native_output_change": false,
+  "path_order": [
+    "NplusR",
+    "SplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 2,
+  "paired": [
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 1573.9524690434337,
+      "peak_allocated_bytes": 2275004416,
+      "peak_reserved_bytes": 3902799872,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 5,
+        "PLL_tokens": 221,
+        "teacher_calls": 5
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 65,
+          "no_speech_probability": 7.338179557336844e-07
+        }
+      ],
+      "bank_sizes": [
+        [
+          5,
+          5
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "68fde4a8992ab8152ea9d68d2187187f4b60e14aff22b5ba880991448fc8b862"
+    },
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 1534.9823778960854,
+      "peak_allocated_bytes": 2275003904,
+      "peak_reserved_bytes": 3902799872,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 5,
+        "PLL_tokens": 221,
+        "teacher_calls": 5
+      },
+      "native_events": [],
+      "bank_sizes": [
+        [
+          5,
+          5
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "68fde4a8992ab8152ea9d68d2187187f4b60e14aff22b5ba880991448fc8b862"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false,
+  "worker_pid": 2425142,
+  "worker_run": "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/runs/four_card/gpu2_1792027261403728473",
+  "execution_addendum": "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/acceleration_v2/PROTOCOL_ADDENDUM.json"
+}

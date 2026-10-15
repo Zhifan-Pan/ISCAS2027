@@ -1,0 +1,1351 @@
+{
+  "status": "PASS",
+  "scope": "Retrospective complete frozen TEST; no new fits or predictions",
+  "count_columns": [
+    "substitutions",
+    "deletions",
+    "insertions",
+    "reference_words"
+  ],
+  "primary_definition": "H={E(N+R)<E(B)}; Lhelp=100 mean_checkpoint mean_language sum_H max(0,E(S+R)-E(N+R))/N_language",
+  "denominator": "Complete language TEST reference words, not triggered/reference subset",
+  "weighting": "Equal languages then equal fixed checkpoints; counts pool checkpoint-recording instances",
+  "retention_definition": "1 - macro_beneficial_loss_pp / macro_beneficial_gain_pp; not a generalization probability",
+  "provenance": {
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/difference_case_index.json": "a47265640c118ae620483f47c9e81d3b8f6de4e6db753f94b4d7e941ccbf4e61",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v146_matched_recovery/COUNTS_FLEURS_101.npz": "1568d0c25e9edc20e3c4ec1c062ef528e23072495628851fd4cda1caf7ef06b1",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v154_native_rescore/COUNTS_FLEURS_101.npz": "cae1d913ac5bf6f202632284c547b1531fcaf27be31941bc5cf37883c7c0c481",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v146_matched_recovery/COUNTS_FLEURS_202.npz": "78676aec064143dd0b1edebe499288a5dbd08361a446fb45ca59b7c4671ba79d",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v155_native_rescore_replication/COUNTS_FLEURS_202.npz": "76e9debc3e0421bafbadd5e2cb1d34681d25829f8e0d9d59b531e41922c1000b",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v146_matched_recovery/COUNTS_FLEURS_303.npz": "fbf5713414d43de49923ae8655560be7c6de597e45c7cc8396ce8e3c898c1401",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v155_native_rescore_replication/COUNTS_FLEURS_303.npz": "e43d180a1a60689936fa6a30ef753aa07fbc19edeac02c1bfb2cb1be731c73e1",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v146_matched_recovery/COUNTS_CV27_101.npz": "c8c997ebafba8c1406cfa182f44a2e410b0a88e4455bcfb6706ba824e8201582",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v154_native_rescore/COUNTS_CV27_101.npz": "f0741c0500bde1cca9c64f36f9bb2f51f8799c5213069e99978d4cc818b3f69a",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v146_matched_recovery/COUNTS_CV27_202.npz": "5089aff35cff130726b0e0ddb3837ac07939634f89848967a8a883c010908d5c",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v155_native_rescore_replication/COUNTS_CV27_202.npz": "0f560155977f9d5f5e61e386762224031c378eb754f6f94566934a04d93f6502",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v146_matched_recovery/COUNTS_CV27_303.npz": "0fc1a47db90152122ac38efb3de09f1405b93238cb10917e8f45baa84519f8f0",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v155_native_rescore_replication/COUNTS_CV27_303.npz": "fa90ab01f3cef2162e508863144cd19fbbe3e8e103b90bf4a2b7f6947579c511"
+  },
+  "invariants": [
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "records": 3665,
+      "id_reference_alignment": true,
+      "triggered_counts_equal": true,
+      "nontrigger_selective_equals_beam": true,
+      "changed_counts_in_frozen_transcript_difference_index": true
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "records": 3665,
+      "id_reference_alignment": true,
+      "triggered_counts_equal": true,
+      "nontrigger_selective_equals_beam": true,
+      "changed_counts_in_frozen_transcript_difference_index": true
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "records": 3665,
+      "id_reference_alignment": true,
+      "triggered_counts_equal": true,
+      "nontrigger_selective_equals_beam": true,
+      "changed_counts_in_frozen_transcript_difference_index": true
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "records": 58514,
+      "id_reference_alignment": true,
+      "triggered_counts_equal": true,
+      "nontrigger_selective_equals_beam": true,
+      "changed_counts_in_frozen_transcript_difference_index": true
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "records": 58514,
+      "id_reference_alignment": true,
+      "triggered_counts_equal": true,
+      "nontrigger_selective_equals_beam": true,
+      "changed_counts_in_frozen_transcript_difference_index": true
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "records": 58514,
+      "id_reference_alignment": true,
+      "triggered_counts_equal": true,
+      "nontrigger_selective_equals_beam": true,
+      "changed_counts_in_frozen_transcript_difference_index": true
+    }
+  ],
+  "summary": {
+    "FLEURS": {
+      "checkpoint_recording_instances": 10995,
+      "useful_event_instances": 10,
+      "useful_missed_instances": 0,
+      "beneficial_word_edits": 877,
+      "beneficial_word_edits_lost": 0,
+      "macro_beneficial_gain_pp": 0.36736599571233575,
+      "macro_beneficial_loss_pp": 0.0,
+      "macro_weighted_beneficial_edit_retention": 1.0,
+      "macro_NplusR_WER": 17.08672023619708,
+      "macro_SplusR_WER": 17.08672023619708,
+      "macro_NoAcquisition_WER": 17.454086231909418,
+      "macro_selective_minus_unconditional_pp": 0.0,
+      "normalized_output_difference_instances": 1,
+      "useful_output_difference_instances": 0,
+      "equal_edit_but_different_output_instances": 1,
+      "per_checkpoint": {
+        "101": {
+          "macro_beneficial_gain_pp": 0.1869437677124248,
+          "macro_beneficial_loss_pp": 0.0
+        },
+        "202": {
+          "macro_beneficial_gain_pp": 0.43307976350504873,
+          "macro_beneficial_loss_pp": 0.0
+        },
+        "303": {
+          "macro_beneficial_gain_pp": 0.4820744559195337,
+          "macro_beneficial_loss_pp": 0.0
+        }
+      }
+    },
+    "CV27": {
+      "checkpoint_recording_instances": 175542,
+      "useful_event_instances": 373,
+      "useful_missed_instances": 3,
+      "beneficial_word_edits": 25013,
+      "beneficial_word_edits_lost": 5,
+      "macro_beneficial_gain_pp": 2.302018912656153,
+      "macro_beneficial_loss_pp": 0.0004009802081769477,
+      "macro_weighted_beneficial_edit_retention": 0.9998258136777364,
+      "macro_NplusR_WER": 31.681123965763017,
+      "macro_SplusR_WER": 31.680955694557653,
+      "macro_NoAcquisition_WER": 33.979172403953186,
+      "macro_selective_minus_unconditional_pp": -0.00016827120536315856,
+      "normalized_output_difference_instances": 13,
+      "useful_output_difference_instances": 3,
+      "equal_edit_but_different_output_instances": 5,
+      "per_checkpoint": {
+        "101": {
+          "macro_beneficial_gain_pp": 2.137761278212169,
+          "macro_beneficial_loss_pp": 0.0002717095967829584
+        },
+        "202": {
+          "macro_beneficial_gain_pp": 1.4119356851021498,
+          "macro_beneficial_loss_pp": 0.0
+        },
+        "303": {
+          "macro_beneficial_gain_pp": 3.3563597746541434,
+          "macro_beneficial_loss_pp": 0.0009312310277478847
+        }
+      }
+    }
+  },
+  "per_language_checkpoint": [
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "language": "ar",
+      "recordings": 428,
+      "reference_words": 8007,
+      "triggers": 0,
+      "useful_events": 0,
+      "useful_triggered": 0,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 0,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.0,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 24.603471962033222,
+      "SplusR_WER": 24.603471962033222,
+      "NoAcquisition_WER": 24.603471962033222,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": null,
+      "B_SDI": [
+        1781,
+        123,
+        66
+      ],
+      "N_SDI": [
+        1781,
+        123,
+        66
+      ],
+      "S_SDI": [
+        1781,
+        123,
+        66
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "language": "fa",
+      "recordings": 871,
+      "reference_words": 20113,
+      "triggers": 2,
+      "useful_events": 2,
+      "useful_triggered": 2,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 188,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.934718838562124,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 29.7717893899468,
+      "SplusR_WER": 29.7717893899468,
+      "NoAcquisition_WER": 30.706508228508923,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        4758,
+        661,
+        757
+      ],
+      "N_SDI": [
+        4758,
+        663,
+        567
+      ],
+      "S_SDI": [
+        4758,
+        663,
+        567
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "language": "pl",
+      "recordings": 758,
+      "reference_words": 14380,
+      "triggers": 0,
+      "useful_events": 0,
+      "useful_triggered": 0,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 0,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.0,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 13.630041724617524,
+      "SplusR_WER": 13.630041724617524,
+      "NoAcquisition_WER": 13.630041724617524,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": null,
+      "B_SDI": [
+        1590,
+        185,
+        185
+      ],
+      "N_SDI": [
+        1590,
+        185,
+        185
+      ],
+      "S_SDI": [
+        1590,
+        185,
+        185
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "language": "tr",
+      "recordings": 743,
+      "reference_words": 12963,
+      "triggers": 0,
+      "useful_events": 0,
+      "useful_triggered": 0,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 0,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.0,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 11.424824500501428,
+      "SplusR_WER": 11.424824500501428,
+      "NoAcquisition_WER": 11.424824500501428,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": null,
+      "B_SDI": [
+        1236,
+        109,
+        136
+      ],
+      "N_SDI": [
+        1236,
+        109,
+        136
+      ],
+      "S_SDI": [
+        1236,
+        109,
+        136
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "language": "it",
+      "recordings": 865,
+      "reference_words": 20701,
+      "triggers": 0,
+      "useful_events": 0,
+      "useful_triggered": 0,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 0,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 1,
+      "equal_edit_but_different_output": 1,
+      "useful_gain_pp": 0.0,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 6.105985218105405,
+      "SplusR_WER": 6.105985218105405,
+      "NoAcquisition_WER": 6.105985218105405,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": null,
+      "B_SDI": [
+        946,
+        173,
+        145
+      ],
+      "N_SDI": [
+        946,
+        173,
+        145
+      ],
+      "S_SDI": [
+        946,
+        173,
+        145
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "language": "ar",
+      "recordings": 428,
+      "reference_words": 8007,
+      "triggers": 1,
+      "useful_events": 1,
+      "useful_triggered": 1,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 128,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 1.5986012239290621,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 24.203821656050955,
+      "SplusR_WER": 24.203821656050955,
+      "NoAcquisition_WER": 25.802422879980018,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        1742,
+        126,
+        198
+      ],
+      "N_SDI": [
+        1738,
+        126,
+        74
+      ],
+      "S_SDI": [
+        1738,
+        126,
+        74
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "language": "fa",
+      "recordings": 871,
+      "reference_words": 20113,
+      "triggers": 1,
+      "useful_events": 1,
+      "useful_triggered": 1,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 114,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.5667975935961815,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 29.79664893352558,
+      "SplusR_WER": 29.79664893352558,
+      "NoAcquisition_WER": 30.363446527121763,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        4773,
+        663,
+        671
+      ],
+      "N_SDI": [
+        4773,
+        663,
+        557
+      ],
+      "S_SDI": [
+        4773,
+        663,
+        557
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "language": "pl",
+      "recordings": 758,
+      "reference_words": 14380,
+      "triggers": 0,
+      "useful_events": 0,
+      "useful_triggered": 0,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 0,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.0,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 13.477051460361613,
+      "SplusR_WER": 13.477051460361613,
+      "NoAcquisition_WER": 13.477051460361613,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": null,
+      "B_SDI": [
+        1577,
+        189,
+        172
+      ],
+      "N_SDI": [
+        1577,
+        189,
+        172
+      ],
+      "S_SDI": [
+        1577,
+        189,
+        172
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "language": "tr",
+      "recordings": 743,
+      "reference_words": 12963,
+      "triggers": 0,
+      "useful_events": 0,
+      "useful_triggered": 0,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 0,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.0,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 11.764252102136851,
+      "SplusR_WER": 11.764252102136851,
+      "NoAcquisition_WER": 11.764252102136851,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": null,
+      "B_SDI": [
+        1260,
+        121,
+        144
+      ],
+      "N_SDI": [
+        1260,
+        121,
+        144
+      ],
+      "S_SDI": [
+        1260,
+        121,
+        144
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "language": "it",
+      "recordings": 865,
+      "reference_words": 20701,
+      "triggers": 0,
+      "useful_events": 0,
+      "useful_triggered": 0,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 0,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.0,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 6.0818317955654315,
+      "SplusR_WER": 6.0818317955654315,
+      "NoAcquisition_WER": 6.0818317955654315,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": null,
+      "B_SDI": [
+        962,
+        167,
+        130
+      ],
+      "N_SDI": [
+        962,
+        167,
+        130
+      ],
+      "S_SDI": [
+        962,
+        167,
+        130
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "language": "ar",
+      "recordings": 428,
+      "reference_words": 8007,
+      "triggers": 2,
+      "useful_events": 2,
+      "useful_triggered": 2,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 25,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.31222680154864496,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 23.791682278006743,
+      "SplusR_WER": 23.791682278006743,
+      "NoAcquisition_WER": 24.10390907955539,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        1710,
+        148,
+        72
+      ],
+      "N_SDI": [
+        1712,
+        121,
+        72
+      ],
+      "S_SDI": [
+        1712,
+        121,
+        72
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "language": "fa",
+      "recordings": 871,
+      "reference_words": 20113,
+      "triggers": 4,
+      "useful_events": 4,
+      "useful_triggered": 4,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 422,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 2.098145478049023,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 30.08004773032367,
+      "SplusR_WER": 30.08004773032367,
+      "NoAcquisition_WER": 32.1781932083727,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        4805,
+        689,
+        978
+      ],
+      "N_SDI": [
+        4797,
+        681,
+        572
+      ],
+      "S_SDI": [
+        4797,
+        681,
+        572
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "language": "pl",
+      "recordings": 758,
+      "reference_words": 14380,
+      "triggers": 0,
+      "useful_events": 0,
+      "useful_triggered": 0,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 0,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.0,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 13.616133518776078,
+      "SplusR_WER": 13.616133518776078,
+      "NoAcquisition_WER": 13.616133518776078,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": null,
+      "B_SDI": [
+        1592,
+        184,
+        182
+      ],
+      "N_SDI": [
+        1592,
+        184,
+        182
+      ],
+      "S_SDI": [
+        1592,
+        184,
+        182
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "language": "tr",
+      "recordings": 743,
+      "reference_words": 12963,
+      "triggers": 0,
+      "useful_events": 0,
+      "useful_triggered": 0,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 0,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.0,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 11.818251947851577,
+      "SplusR_WER": 11.818251947851577,
+      "NoAcquisition_WER": 11.818251947851577,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": null,
+      "B_SDI": [
+        1281,
+        125,
+        126
+      ],
+      "N_SDI": [
+        1281,
+        125,
+        126
+      ],
+      "S_SDI": [
+        1281,
+        125,
+        126
+      ]
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "language": "it",
+      "recordings": 865,
+      "reference_words": 20701,
+      "triggers": 0,
+      "useful_events": 0,
+      "useful_triggered": 0,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 0,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.0,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 6.134969325153374,
+      "SplusR_WER": 6.134969325153374,
+      "NoAcquisition_WER": 6.134969325153374,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": null,
+      "B_SDI": [
+        948,
+        178,
+        144
+      ],
+      "N_SDI": [
+        948,
+        178,
+        144
+      ],
+      "S_SDI": [
+        948,
+        178,
+        144
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "language": "ar",
+      "recordings": 10606,
+      "reference_words": 53778,
+      "triggers": 10,
+      "useful_events": 6,
+      "useful_triggered": 6,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 399,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.7419390828963517,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 50.52437799843802,
+      "SplusR_WER": 50.52437799843802,
+      "NoAcquisition_WER": 51.26631708133437,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        24613,
+        1779,
+        1178
+      ],
+      "N_SDI": [
+        24600,
+        1792,
+        779
+      ],
+      "S_SDI": [
+        24600,
+        1792,
+        779
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "language": "fa",
+      "recordings": 10755,
+      "reference_words": 73608,
+      "triggers": 141,
+      "useful_events": 89,
+      "useful_triggered": 88,
+      "useful_missed": 1,
+      "harmful_events": 6,
+      "harmful_avoided": 0,
+      "useful_edits": 5889,
+      "useful_edits_lost": 1,
+      "useful_output_differences": 1,
+      "normalized_output_differences": 1,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 8.00048907727421,
+      "useful_loss_pp": 0.001358547983914792,
+      "NplusR_WER": 62.248668622975764,
+      "SplusR_WER": 62.250027170959676,
+      "NoAcquisition_WER": 70.24100641234648,
+      "selective_minus_unconditional_pp": 0.001358547983914792,
+      "retained_beneficial_edit_fraction": 0.999830191883172,
+      "B_SDI": [
+        33666,
+        5970,
+        12067
+      ],
+      "N_SDI": [
+        33674,
+        5942,
+        6204
+      ],
+      "S_SDI": [
+        33674,
+        5942,
+        6205
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "language": "pl",
+      "recordings": 10096,
+      "reference_words": 75267,
+      "triggers": 10,
+      "useful_events": 8,
+      "useful_triggered": 8,
+      "useful_missed": 0,
+      "harmful_events": 2,
+      "harmful_avoided": 1,
+      "useful_edits": 396,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 1,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.5261269879229942,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 14.234657951027675,
+      "SplusR_WER": 14.233329347522819,
+      "NoAcquisition_WER": 14.7567991284361,
+      "selective_minus_unconditional_pp": -0.0013286035048560459,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        8480,
+        1149,
+        1478
+      ],
+      "N_SDI": [
+        8472,
+        1146,
+        1096
+      ],
+      "S_SDI": [
+        8472,
+        1146,
+        1095
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "language": "tr",
+      "recordings": 11874,
+      "reference_words": 67100,
+      "triggers": 5,
+      "useful_events": 5,
+      "useful_triggered": 5,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 814,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 1.2131147540983607,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 20.262295081967213,
+      "SplusR_WER": 20.262295081967213,
+      "NoAcquisition_WER": 21.475409836065573,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        10678,
+        2009,
+        1723
+      ],
+      "N_SDI": [
+        10679,
+        1996,
+        921
+      ],
+      "S_SDI": [
+        10679,
+        1996,
+        921
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "language": "it",
+      "recordings": 15183,
+      "reference_words": 149177,
+      "triggers": 3,
+      "useful_events": 3,
+      "useful_triggered": 3,
+      "useful_missed": 0,
+      "harmful_events": 1,
+      "harmful_avoided": 1,
+      "useful_edits": 309,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 2,
+      "equal_edit_but_different_output": 1,
+      "useful_gain_pp": 0.20713648886892752,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 13.366001461351281,
+      "SplusR_WER": 13.36533111672711,
+      "NoAcquisition_WER": 13.572467605596037,
+      "selective_minus_unconditional_pp": -0.0006703446241712865,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        15642,
+        1852,
+        2753
+      ],
+      "N_SDI": [
+        15634,
+        1860,
+        2445
+      ],
+      "S_SDI": [
+        15634,
+        1860,
+        2444
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "language": "ar",
+      "recordings": 10606,
+      "reference_words": 53778,
+      "triggers": 6,
+      "useful_events": 6,
+      "useful_triggered": 6,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 608,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 1.1305738406039645,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 50.775410018966866,
+      "SplusR_WER": 50.775410018966866,
+      "NoAcquisition_WER": 51.90598385957083,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        24762,
+        1721,
+        1431
+      ],
+      "N_SDI": [
+        24744,
+        1738,
+        824
+      ],
+      "S_SDI": [
+        24744,
+        1738,
+        824
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "language": "fa",
+      "recordings": 10755,
+      "reference_words": 73608,
+      "triggers": 71,
+      "useful_events": 52,
+      "useful_triggered": 52,
+      "useful_missed": 0,
+      "harmful_events": 6,
+      "harmful_avoided": 0,
+      "useful_edits": 4001,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 5.435550483643082,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 58.29529398978372,
+      "SplusR_WER": 58.29529398978372,
+      "NoAcquisition_WER": 63.72269318552331,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        33603,
+        5995,
+        7307
+      ],
+      "N_SDI": [
+        33597,
+        5974,
+        3339
+      ],
+      "S_SDI": [
+        33597,
+        5974,
+        3339
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "language": "pl",
+      "recordings": 10096,
+      "reference_words": 75267,
+      "triggers": 25,
+      "useful_events": 13,
+      "useful_triggered": 13,
+      "useful_missed": 0,
+      "harmful_events": 2,
+      "harmful_avoided": 0,
+      "useful_edits": 96,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 3,
+      "equal_edit_but_different_output": 3,
+      "useful_gain_pp": 0.1275459364661804,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 14.22270051948397,
+      "SplusR_WER": 14.22270051948397,
+      "NoAcquisition_WER": 14.347589248940439,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        8505,
+        1127,
+        1167
+      ],
+      "N_SDI": [
+        8507,
+        1104,
+        1094
+      ],
+      "S_SDI": [
+        8509,
+        1103,
+        1093
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "language": "tr",
+      "recordings": 11874,
+      "reference_words": 67100,
+      "triggers": 0,
+      "useful_events": 0,
+      "useful_triggered": 0,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 0,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.0,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 19.76751117734724,
+      "SplusR_WER": 19.76751117734724,
+      "NoAcquisition_WER": 19.76751117734724,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": null,
+      "B_SDI": [
+        10379,
+        1948,
+        937
+      ],
+      "N_SDI": [
+        10379,
+        1948,
+        937
+      ],
+      "S_SDI": [
+        10379,
+        1948,
+        937
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "language": "it",
+      "recordings": 15183,
+      "reference_words": 149177,
+      "triggers": 3,
+      "useful_events": 3,
+      "useful_triggered": 3,
+      "useful_missed": 0,
+      "harmful_events": 1,
+      "harmful_avoided": 1,
+      "useful_edits": 546,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 1,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.3660081647975224,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 13.383430421579734,
+      "SplusR_WER": 13.380078698458878,
+      "NoAcquisition_WER": 13.7460868632564,
+      "selective_minus_unconditional_pp": -0.003351723120856432,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        15644,
+        1891,
+        2971
+      ],
+      "N_SDI": [
+        15643,
+        1890,
+        2432
+      ],
+      "S_SDI": [
+        15642,
+        1891,
+        2427
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "language": "ar",
+      "recordings": 10606,
+      "reference_words": 53778,
+      "triggers": 18,
+      "useful_events": 16,
+      "useful_triggered": 16,
+      "useful_missed": 0,
+      "harmful_events": 2,
+      "harmful_avoided": 1,
+      "useful_edits": 1260,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 1,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 2.342965524935847,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 50.84049239465953,
+      "SplusR_WER": 50.838632898211166,
+      "NoAcquisition_WER": 53.17973892669865,
+      "selective_minus_unconditional_pp": -0.0018594964483617837,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        24730,
+        1796,
+        2073
+      ],
+      "N_SDI": [
+        24724,
+        1804,
+        813
+      ],
+      "S_SDI": [
+        24724,
+        1803,
+        813
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "language": "fa",
+      "recordings": 10755,
+      "reference_words": 73608,
+      "triggers": 160,
+      "useful_events": 133,
+      "useful_triggered": 133,
+      "useful_missed": 0,
+      "harmful_events": 6,
+      "harmful_avoided": 0,
+      "useful_edits": 10121,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 1,
+      "equal_edit_but_different_output": 1,
+      "useful_gain_pp": 13.749864145201608,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 59.37126399304424,
+      "SplusR_WER": 59.37126399304424,
+      "NoAcquisition_WER": 73.1075426584067,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        33910,
+        6084,
+        13819
+      ],
+      "N_SDI": [
+        33916,
+        6039,
+        3747
+      ],
+      "S_SDI": [
+        33916,
+        6039,
+        3747
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "language": "pl",
+      "recordings": 10096,
+      "reference_words": 75267,
+      "triggers": 64,
+      "useful_events": 34,
+      "useful_triggered": 33,
+      "useful_missed": 1,
+      "harmful_events": 5,
+      "harmful_avoided": 1,
+      "useful_edits": 208,
+      "useful_edits_lost": 3,
+      "useful_output_differences": 1,
+      "normalized_output_differences": 2,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.27634952901005755,
+      "useful_loss_pp": 0.0039858105145681375,
+      "NplusR_WER": 14.339617627911302,
+      "SplusR_WER": 14.342274834921014,
+      "NoAcquisition_WER": 14.601352518367943,
+      "selective_minus_unconditional_pp": 0.0026572070097120918,
+      "retained_beneficial_edit_fraction": 0.9855769230769231,
+      "B_SDI": [
+        8526,
+        1235,
+        1229
+      ],
+      "N_SDI": [
+        8531,
+        1168,
+        1094
+      ],
+      "S_SDI": [
+        8535,
+        1168,
+        1092
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "language": "tr",
+      "recordings": 11874,
+      "reference_words": 67100,
+      "triggers": 5,
+      "useful_events": 3,
+      "useful_triggered": 3,
+      "useful_missed": 0,
+      "harmful_events": 0,
+      "harmful_avoided": 0,
+      "useful_edits": 204,
+      "useful_edits_lost": 0,
+      "useful_output_differences": 0,
+      "normalized_output_differences": 0,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.30402384500745155,
+      "useful_loss_pp": 0.0,
+      "NplusR_WER": 20.019374068554395,
+      "SplusR_WER": 20.019374068554395,
+      "NoAcquisition_WER": 20.32339791356185,
+      "selective_minus_unconditional_pp": 0.0,
+      "retained_beneficial_edit_fraction": 1.0,
+      "B_SDI": [
+        10526,
+        1975,
+        1136
+      ],
+      "N_SDI": [
+        10532,
+        1968,
+        933
+      ],
+      "S_SDI": [
+        10532,
+        1968,
+        933
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "language": "it",
+      "recordings": 15183,
+      "reference_words": 149177,
+      "triggers": 4,
+      "useful_events": 2,
+      "useful_triggered": 1,
+      "useful_missed": 1,
+      "harmful_events": 1,
+      "harmful_avoided": 0,
+      "useful_edits": 162,
+      "useful_edits_lost": 1,
+      "useful_output_differences": 1,
+      "normalized_output_differences": 1,
+      "equal_edit_but_different_output": 0,
+      "useful_gain_pp": 0.1085958291157484,
+      "useful_loss_pp": 0.0006703446241712865,
+      "NplusR_WER": 13.565764159354323,
+      "SplusR_WER": 13.566434503978495,
+      "NoAcquisition_WER": 13.6736896438459,
+      "selective_minus_unconditional_pp": 0.0006703446241712865,
+      "retained_beneficial_edit_fraction": 0.9938271604938271,
+      "B_SDI": [
+        15862,
+        1969,
+        2567
+      ],
+      "N_SDI": [
+        15864,
+        1968,
+        2405
+      ],
+      "S_SDI": [
+        15864,
+        1968,
+        2406
+      ]
+    }
+  ]
+}

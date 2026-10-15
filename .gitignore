@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+*REPLAY_REPORT.json
+COMPLETED_NATIVE_REPLAY.json

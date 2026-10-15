@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-15T03:05:19.397385+00:00",
+  "accepted_pairs": 2181,
+  "path_calls": 4362,
+  "distinct_sample_records": 727,
+  "complete_population_sizes": {
+    "TEST": 3665,
+    "CV27": 58514
+  },
+  "preserved_pairs_hash_unchanged": 1022,
+  "all_frozen_output_hashes_match": true,
+  "deterministic_interleaved_order_verified": true,
+  "all_accepted_pair_exclusive_flags_verified": true,
+  "source_execution_hashes_verified": true,
+  "population_weighted_means_independently_recomputed": true,
+  "peak_allocated_memory_recomputed": true,
+  "device_pair_counts": {
+    "2": 1756,
+    "0": 203,
+    "3": 222
+  },
+  "actual_device_count": 3,
+  "not_full_population_timing": true,
+  "statistics_scope": "Three repeated rounds of same sampled records, conditional on frozen checkpoint and observed device allocation; paired stratified record bootstrap",
+  "summary_sha256": "60b3b0ec1387448cb79ae8d9e28d25129dc9b332fd5338c1a9f84c1472f724e4"
+}

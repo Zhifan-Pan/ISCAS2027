@@ -1,0 +1,48 @@
+{
+  "status": "FROZEN_BEFORE_TIMING",
+  "checkpoint": 101,
+  "policies": [
+    "NplusR",
+    "SplusR"
+  ],
+  "corpora": [
+    "TEST",
+    "CV27"
+  ],
+  "physical_gpu": 2,
+  "sessions": 3,
+  "same_selected_recordings_all_sessions": true,
+  "warmups_per_session": 3,
+  "waveform_to_selection_includes": [
+    "soundfile loading",
+    "mono/resampling",
+    "feature_extraction",
+    "H2D",
+    "encoder",
+    "decoder",
+    "normalization/dedup",
+    "teacher_forcing",
+    "PLL",
+    "finalselection"
+  ],
+  "excludes": [
+    "initialization",
+    "model load",
+    "warmup"
+  ],
+  "models_resident": "Whisper-small LoRA101 + XLM-R-base",
+  "precision": "existing frozen bfloat16 ASR and unchanged PLL dtype",
+  "batch": "one recording; PLL32 masked token batch",
+  "pair_order": "first32bit SHA256(V156_ORDER|session|anonid) mod2; both paths reset fixed V114 inference random stream",
+  "sharing": "Own encoder states and own firstbeam search; no crosspath neural reuse",
+  "sample_design": "Census outer-trigger or normalized-native-output-change union, random10 per language/duration-quintile ordinary stratum, without replacement",
+  "internal_events": "Log actual fallback/noSpeech events during sampled execution. Output-change census is NOT a census of all internal recovery events.",
+  "estimate": "Per session corpus mean=sum_h population_h/sample_h*sum sampled t / corpus_N. Average3session means; records weighted by population, not equal languages.",
+  "uncertainty": "Paired stratified record-bootstrap conditional on3observed sessions, census strata fixed, ordinary FPC; also report3session estimates/range separately. Do not treat repeated rows as independent records.",
+  "sample_or_session_expansion": "None beyond frozen3sessions and fixed samples; no stopping at significance",
+  "interference": "NVML100ms physical-GPU observer; discard entire affected pair, do not stop unrelated jobs; finite12h wall-clock ceiling",
+  "formal_parity": "Every final recording hash must equal immutable old NplusR/SplusR before accepted as cost evidence",
+  "claims": "One checkpoint/device/software profile; no blind/general efficiency guarantee",
+  "raw_timing_ready": false,
+  "pilot_parity": "30paired PASSED; allB5banks andoutputs match"
+}

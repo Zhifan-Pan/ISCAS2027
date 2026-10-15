@@ -1,0 +1,83 @@
+{
+  "session": 0,
+  "index": 709,
+  "id": "838ee2d97769254091f511e5516af2c6942cdb6118608f6963db2df4b7b34675",
+  "corpus": "TEST",
+  "language": "tr",
+  "stratum": "TEST:tr:3:ordinary_sample",
+  "inclusion_probability": 0.06756756756756757,
+  "population_count": 148,
+  "sample_count": 10,
+  "outer_trigger": false,
+  "native_output_change": false,
+  "path_order": [
+    "SplusR",
+    "NplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 2,
+  "paired": [
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 821.4488159865141,
+      "peak_allocated_bytes": 2209259008,
+      "peak_reserved_bytes": 3936354304,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 0,
+        "PLL_tokens": 0,
+        "teacher_calls": 0
+      },
+      "native_events": [],
+      "bank_sizes": [
+        [
+          1,
+          1
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "9e0eaf50a6dab3bc185ce43a947b1e2e91f6a25b4595f025833deb27a7ace587"
+    },
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 850.1825470011681,
+      "peak_allocated_bytes": 2214926848,
+      "peak_reserved_bytes": 3936354304,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 0,
+        "PLL_tokens": 0,
+        "teacher_calls": 0
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 37,
+          "no_speech_probability": 6.961187864362728e-06
+        }
+      ],
+      "bank_sizes": [
+        [
+          1,
+          1
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "9e0eaf50a6dab3bc185ce43a947b1e2e91f6a25b4595f025833deb27a7ace587"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false
+}

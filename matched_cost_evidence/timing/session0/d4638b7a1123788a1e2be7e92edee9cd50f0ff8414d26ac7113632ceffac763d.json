@@ -1,0 +1,101 @@
+{
+  "session": 0,
+  "index": 571,
+  "id": "d4638b7a1123788a1e2be7e92edee9cd50f0ff8414d26ac7113632ceffac763d",
+  "corpus": "TEST",
+  "language": "fa",
+  "stratum": "TEST:fa:4:ordinary_sample",
+  "inclusion_probability": 0.05813953488372093,
+  "population_count": 172,
+  "sample_count": 10,
+  "outer_trigger": false,
+  "native_output_change": false,
+  "path_order": [
+    "NplusR",
+    "SplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 2,
+  "paired": [
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 4698.434178950265,
+      "peak_allocated_bytes": 2735567872,
+      "peak_reserved_bytes": 3936354304,
+      "work": {
+        "encoder_calls": 2,
+        "base_generation_calls": 2,
+        "reused_first_search": 0,
+        "PLL_calls": 7,
+        "PLL_tokens": 333,
+        "teacher_calls": 7
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 111,
+          "no_speech_probability": 1.2093412351532606e-06
+        },
+        {
+          "window": 1,
+          "temperature": 0.0,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 99,
+          "no_speech_probability": 2.2522433482663473e-06
+        }
+      ],
+      "bank_sizes": [
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "selected_new": [
+        false,
+        false
+      ],
+      "output_sha256": "19c885f2b388407642b8c3f958968ca9848fc24c8e40f5c95ce5af4acc044f87"
+    },
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 4639.111715136096,
+      "peak_allocated_bytes": 2736657408,
+      "peak_reserved_bytes": 3936354304,
+      "work": {
+        "encoder_calls": 2,
+        "base_generation_calls": 2,
+        "reused_first_search": 0,
+        "PLL_calls": 7,
+        "PLL_tokens": 333,
+        "teacher_calls": 7
+      },
+      "native_events": [],
+      "bank_sizes": [
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "selected_new": [
+        false,
+        false
+      ],
+      "output_sha256": "19c885f2b388407642b8c3f958968ca9848fc24c8e40f5c95ce5af4acc044f87"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false
+}

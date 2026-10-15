@@ -1,0 +1,176 @@
+{
+  "status": "PASS",
+  "scope": "Complete retrospective same TEST on all3existingcheckpoints; synchronized component bootstrap conditional on frozen fits/models/source draws; no new latency",
+  "datasets": {
+    "FLEURS": {
+      "per_checkpoint": [
+        {
+          "seed": 101,
+          "macro_WER": {
+            "Native": 18.545023146418192,
+            "NoAcquisition": 17.294166326753302,
+            "GreedyFixed": 17.294166326753302,
+            "Temp02Fixed": 17.255385438770404,
+            "HFFallbackFixed": 17.107222559040874,
+            "HFFallbackDirect": 17.107222559040874
+          }
+        },
+        {
+          "seed": 202,
+          "macro_WER": {
+            "Native": 18.62408927222768,
+            "NoAcquisition": 17.497800953033135,
+            "GreedyFixed": 17.3844414343139,
+            "Temp02Fixed": 17.3844414343139,
+            "HFFallbackFixed": 17.064721189528086,
+            "HFFallbackDirect": 17.06770433475754
+          }
+        },
+        {
+          "seed": 303,
+          "macro_WER": {
+            "Native": 18.48871331658472,
+            "NoAcquisition": 17.570291415941824,
+            "GreedyFixed": 17.33931021022248,
+            "Temp02Fixed": 17.177225986088835,
+            "HFFallbackFixed": 17.08821696002229,
+            "HFFallbackDirect": 17.08821696002229
+          }
+        }
+      ],
+      "macro_WER_3checkpoint_mean": {
+        "Native": 18.552608578410197,
+        "NoAcquisition": 17.454086231909418,
+        "GreedyFixed": 17.339305990429892,
+        "Temp02Fixed": 17.272350953057714,
+        "HFFallbackFixed": 17.086720236197085,
+        "HFFallbackDirect": 17.087714617940236
+      },
+      "SCA_minus_Native_order": [
+        "NoAcquisition",
+        "GreedyFixed",
+        "Temp02Fixed",
+        "HFFallbackFixed",
+        "HFFallbackDirect"
+      ],
+      "CI95_SCA_minus_Native_pp": [
+        [
+          -1.3874367875064977,
+          -1.4592965289276019,
+          -1.4911739186182946,
+          -1.5740117196168004,
+          -1.5738133728516377
+        ],
+        [
+          -0.715211600142623,
+          -0.8808989329247593,
+          -0.9671952829357192,
+          -1.3634475098862777,
+          -1.3627733831554323
+        ]
+      ],
+      "trigger_nontrigger_decomposition": [
+        {
+          "seed": 101,
+          "SCA_HF_gain_vs_Native_trigger_pp": 0.0,
+          "SCA_HF_gain_vs_Native_nontrigger_pp": 1.4378005873773154
+        },
+        {
+          "seed": 202,
+          "SCA_HF_gain_vs_Native_trigger_pp": 0.0029831452294535868,
+          "SCA_HF_gain_vs_Native_nontrigger_pp": 1.5563849374701402
+        },
+        {
+          "seed": 303,
+          "SCA_HF_gain_vs_Native_trigger_pp": 0.0,
+          "SCA_HF_gain_vs_Native_nontrigger_pp": 1.4004963565624304
+        }
+      ]
+    },
+    "CV27": {
+      "per_checkpoint": [
+        {
+          "seed": 101,
+          "macro_WER": {
+            "Native": 33.78806720245048,
+            "NoAcquisition": 34.26240001275571,
+            "GreedyFixed": 32.81831531372112,
+            "Temp02Fixed": 32.618763757648225,
+            "HFFallbackFixed": 32.127072143122966,
+            "HFFallbackDirect": 31.44256270162827
+          }
+        },
+        {
+          "seed": 202,
+          "macro_WER": {
+            "Native": 33.6664980325735,
+            "NoAcquisition": 32.69797286692765,
+            "GreedyFixed": 32.25770616063032,
+            "Temp02Fixed": 32.0760796416974,
+            "HFFallbackFixed": 31.288198880808135,
+            "HFFallbackDirect": 31.28984111618045
+          }
+        },
+        {
+          "seed": 303,
+          "macro_WER": {
+            "Native": 33.947473689990474,
+            "NoAcquisition": 34.97714433217621,
+            "GreedyFixed": 33.491802924108214,
+            "Temp02Fixed": 33.319975617211426,
+            "HFFallbackFixed": 31.627596059741858,
+            "HFFallbackDirect": 31.6453829503448
+          }
+        }
+      ],
+      "macro_WER_3checkpoint_mean": {
+        "Native": 33.800679641671486,
+        "NoAcquisition": 33.97917240395319,
+        "GreedyFixed": 32.85594146615322,
+        "Temp02Fixed": 32.67160633885235,
+        "HFFallbackFixed": 31.680955694557653,
+        "HFFallbackDirect": 31.459262256051172
+      },
+      "SCA_minus_Native_order": [
+        "NoAcquisition",
+        "GreedyFixed",
+        "Temp02Fixed",
+        "HFFallbackFixed",
+        "HFFallbackDirect"
+      ],
+      "CI95_SCA_minus_Native_pp": [
+        [
+          -0.36303150789559213,
+          -1.3835360599620992,
+          -1.510906010982175,
+          -2.2607561172958426,
+          -2.4111280019024455
+        ],
+        [
+          0.7765564359038871,
+          -0.4335909873184832,
+          -0.698898465331228,
+          -1.9611675995670328,
+          -2.2759449141864967
+        ]
+      ],
+      "trigger_nontrigger_decomposition": [
+        {
+          "seed": 101,
+          "SCA_HF_gain_vs_Native_trigger_pp": -0.6845094414946942,
+          "SCA_HF_gain_vs_Native_nontrigger_pp": 2.3455045008222104
+        },
+        {
+          "seed": 202,
+          "SCA_HF_gain_vs_Native_trigger_pp": 0.0016422353723212486,
+          "SCA_HF_gain_vs_Native_nontrigger_pp": 2.376656916393051
+        },
+        {
+          "seed": 303,
+          "SCA_HF_gain_vs_Native_trigger_pp": 0.017786890602939028,
+          "SCA_HF_gain_vs_Native_nontrigger_pp": 2.3020907396456787
+        }
+      ]
+    }
+  }
+}

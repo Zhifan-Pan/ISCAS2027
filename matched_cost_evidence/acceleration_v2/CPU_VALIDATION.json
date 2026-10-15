@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "checks": [
+    "12 simultaneous kernel claims unique",
+    "Completed pair skipped",
+    "Released/crashed lock reclaimable",
+    "Mixed-device three-round analyzer",
+    "Known 40ms paired difference exact",
+    "All device allocation counts retained",
+    "Independent process cannot take a live held pair",
+    "Abruptly killed fixture process releases kernel lock; exact pair resumes"
+  ],
+  "production_pairs_written": 0
+}

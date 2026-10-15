@@ -1,0 +1,213 @@
+{
+  "status": "PASS",
+  "scope": "Exclusive per-card A40 on authorized idle cards, checkpoint101, complete audio; three measurement rounds with same-card path pairs. Dynamic device allocation frozen before execution.",
+  "sessions": 3,
+  "policies": [
+    "NplusR",
+    "SplusR"
+  ],
+  "uncertainty_scope": "Paired stratified record-bootstrap conditional on3observed measurement rounds and actual device allocation; census strata fixed; ordinary finite-population correction. Session variation reported separately, not a reliable population hardware CI from3rounds.",
+  "datasets": {
+    "TEST": {
+      "population_records": 3665,
+      "sample_records": 255,
+      "session_estimates": [
+        {
+          "session": 0,
+          "physical_gpus": [
+            2
+          ],
+          "NplusR_mean_ms": 1451.487894320103,
+          "SplusR_mean_ms": 1379.6675124913609,
+          "difference_ms": 71.82038182874203,
+          "relative_saving_pct": 4.948052416405702
+        },
+        {
+          "session": 1,
+          "physical_gpus": [
+            0,
+            2,
+            3
+          ],
+          "NplusR_mean_ms": 1389.5837132731647,
+          "SplusR_mean_ms": 1317.9126796337725,
+          "difference_ms": 71.67103363939214,
+          "relative_saving_pct": 5.1577341440316005
+        },
+        {
+          "session": 2,
+          "physical_gpus": [
+            0,
+            2,
+            3
+          ],
+          "NplusR_mean_ms": 1394.9868547095248,
+          "SplusR_mean_ms": 1322.9897131899556,
+          "difference_ms": 71.99714151956914,
+          "relative_saving_pct": 5.161134047715521
+        }
+      ],
+      "estimated_mean_ms": {
+        "NplusR": 1412.0194874342642,
+        "SplusR": 1340.189968438363
+      },
+      "NplusR_minus_SplusR_ms": 71.82951899590125,
+      "SplusR_relative_saving_pct": 5.087006208846335,
+      "CI95_mean_N_R_S_R_difference_ms_and_saving_fraction": [
+        [
+          1350.3435296257337,
+          1304.763454754362,
+          38.57161795246377,
+          0.027952982969513415
+        ],
+        [
+          1496.4633226869391,
+          1375.956992706474,
+          137.20998530848533,
+          0.0933024737166587
+        ]
+      ],
+      "observed_session_difference_range_ms": [
+        71.67103363939214,
+        71.99714151956914
+      ],
+      "peak_allocated_MiB": {
+        "NplusR": 2986.607421875,
+        "SplusR": 3189.39111328125
+      },
+      "census_records": 5,
+      "ordinary_sample_records": 250,
+      "device_allocation_descriptive": {
+        "0": {
+          "accepted_pairs": 78,
+          "unweighted_sample_mean_ms": [
+            1252.9143004540879,
+            1127.6770505773572
+          ],
+          "scope": "Selected allocation subset, not a population hardware comparison"
+        },
+        "2": {
+          "accepted_pairs": 687,
+          "unweighted_sample_mean_ms": [
+            1727.5393281194342,
+            1605.0212526035778
+          ],
+          "scope": "Selected allocation subset, not a population hardware comparison"
+        }
+      }
+    },
+    "CV27": {
+      "population_records": 58514,
+      "sample_records": 472,
+      "session_estimates": [
+        {
+          "session": 0,
+          "physical_gpus": [
+            2
+          ],
+          "NplusR_mean_ms": 659.9515882011445,
+          "SplusR_mean_ms": 631.6170944651204,
+          "difference_ms": 28.334493736024115,
+          "relative_saving_pct": 4.293420039075368
+        },
+        {
+          "session": 1,
+          "physical_gpus": [
+            0,
+            2,
+            3
+          ],
+          "NplusR_mean_ms": 635.8667022160621,
+          "SplusR_mean_ms": 607.0538089753404,
+          "difference_ms": 28.812893240721678,
+          "relative_saving_pct": 4.531278826254892
+        },
+        {
+          "session": 2,
+          "physical_gpus": [
+            0,
+            2,
+            3
+          ],
+          "NplusR_mean_ms": 635.2564645327698,
+          "SplusR_mean_ms": 607.3699493412813,
+          "difference_ms": 27.886515191488456,
+          "relative_saving_pct": 4.389804236309336
+        }
+      ],
+      "estimated_mean_ms": {
+        "NplusR": 643.6915849833255,
+        "SplusR": 615.3469509272473
+      },
+      "NplusR_minus_SplusR_ms": 28.34463405607812,
+      "SplusR_relative_saving_pct": 4.403449527278247,
+      "CI95_mean_N_R_S_R_difference_ms_and_saving_fraction": [
+        [
+          629.2390187095228,
+          600.9282218902172,
+          27.600993929382344,
+          0.04263563710215816
+        ],
+        [
+          657.1247435293227,
+          628.6331107897695,
+          29.071372870588394,
+          0.045435430991378215
+        ]
+      ],
+      "observed_session_difference_range_ms": [
+        27.886515191488456,
+        28.812893240721678
+      ],
+      "peak_allocated_MiB": {
+        "NplusR": 3134.03564453125,
+        "SplusR": 3134.03564453125
+      },
+      "census_records": 222,
+      "ordinary_sample_records": 250,
+      "device_allocation_descriptive": {
+        "0": {
+          "accepted_pairs": 125,
+          "unweighted_sample_mean_ms": [
+            6936.740755777806,
+            6740.229326594621
+          ],
+          "scope": "Selected allocation subset, not a population hardware comparison"
+        },
+        "2": {
+          "accepted_pairs": 1069,
+          "unweighted_sample_mean_ms": [
+            5998.518327933887,
+            5827.03098556235
+          ],
+          "scope": "Selected allocation subset, not a population hardware comparison"
+        },
+        "3": {
+          "accepted_pairs": 222,
+          "unweighted_sample_mean_ms": [
+            9120.568510548732,
+            8985.496679483493
+          ],
+          "scope": "Selected allocation subset, not a population hardware comparison"
+        }
+      }
+    }
+  },
+  "protocol_addendum": "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/acceleration_v2/PROTOCOL_ADDENDUM.json",
+  "protocol_addendum_sha256": "666c38b8222efb649867d9b662d8f1d39e651dbeabc1739c0a86a72c3e2663be",
+  "round_physical_gpus": {
+    "0": [
+      2
+    ],
+    "1": [
+      0,
+      2,
+      3
+    ],
+    "2": [
+      0,
+      2,
+      3
+    ]
+  }
+}

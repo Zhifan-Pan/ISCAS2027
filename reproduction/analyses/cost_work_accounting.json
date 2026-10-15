@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "scope": "Checkpoint101 only; fixed stratified sample and three observed rounds",
+  "p95_scope": "Descriptive inverse-inclusion-weighted P95 of per-record three-round average latency; no tail CI",
+  "stage_time_decomposition": "Unavailable: counters measure executed work, not per-stage milliseconds",
+  "exclusion": {
+    "accepted_pairs": 2181,
+    "logged_interference_rejections": 23,
+    "logged_rejection_fraction": 0.010435571687840291,
+    "reason_counts": {
+      "External activity during pair": 23
+    },
+    "rule": "NVML compute PIDs sampled every100ms plus boundary checks; any external PID or epoch change rejects entire pair. No observed-latency cutoff.",
+    "denominator_scope": "Completed accepted pairs plus logged interrupted pair attempts; unlogged interruption before a record was committed is not measured"
+  },
+  "results": {
+    "TEST": {
+      "population_records": 3665,
+      "outer_triggers": 2,
+      "native_final_changes_top_beam": 5,
+      "outer_triggered_native_changes": 2,
+      "normalized_NplusR_SplusR_differences_within_native_changes": 1,
+      "native_change_subset_output_agreement": 0.8,
+      "policies": {
+        "NplusR": {
+          "mean_ms": 1412.0194874342642,
+          "estimated_p95_record_average_ms": 2427.716839360073,
+          "population_weighted_mean_work": {
+            "encoder_calls": 1.0146248294679403,
+            "base_generation_calls": 1.042592087312415,
+            "reused_first_search": 0.0,
+            "PLL_calls": 3.5928240109140517,
+            "PLL_tokens": 123.24447476125513,
+            "teacher_calls": 3.5928240109140517,
+            "native_calls_per_record": 1.0146248294679403,
+            "native_positive_temperature_passes": 0.027967257844474756,
+            "native_all_temperature_passes_including_reused_first": 1.042592087312415
+          }
+        },
+        "SplusR": {
+          "mean_ms": 1340.189968438363,
+          "estimated_p95_record_average_ms": 2247.43108296146,
+          "population_weighted_mean_work": {
+            "encoder_calls": 1.0146248294679403,
+            "base_generation_calls": 1.0162619372442023,
+            "reused_first_search": 0.0010914051841746247,
+            "PLL_calls": 3.5920054570259206,
+            "PLL_tokens": 123.19754433833562,
+            "teacher_calls": 3.5920054570259206,
+            "native_calls_per_record": 0.0010914051841746247,
+            "native_positive_temperature_passes": 0.0016371077762619372,
+            "native_all_temperature_passes_including_reused_first": 0.002728512960436562
+          }
+        }
+      }
+    },
+    "CV27": {
+      "population_records": 58514,
+      "outer_triggers": 169,
+      "native_final_changes_top_beam": 222,
+      "outer_triggered_native_changes": 169,
+      "normalized_NplusR_SplusR_differences_within_native_changes": 4,
+      "native_change_subset_output_agreement": 0.9819819819819819,
+      "policies": {
+        "NplusR": {
+          "mean_ms": 643.6915849833255,
+          "estimated_p95_record_average_ms": 998.6019430216402,
+          "population_weighted_mean_work": {
+            "encoder_calls": 0.9999999999999997,
+            "base_generation_calls": 1.0096216290118603,
+            "reused_first_search": 0.0,
+            "PLL_calls": 3.8111528864887028,
+            "PLL_tokens": 50.53573674676146,
+            "teacher_calls": 3.8111528864887028,
+            "native_calls_per_record": 0.9999999999999997,
+            "native_positive_temperature_passes": 0.009621629011860408,
+            "native_all_temperature_passes_including_reused_first": 1.0096216290118603
+          }
+        },
+        "SplusR": {
+          "mean_ms": 615.3469509272476,
+          "estimated_p95_record_average_ms": 947.9823660415908,
+          "population_weighted_mean_work": {
+            "encoder_calls": 0.9999999999999997,
+            "base_generation_calls": 1.0074341183306559,
+            "reused_first_search": 0.0028881976962778135,
+            "PLL_calls": 3.810332569983251,
+            "PLL_tokens": 50.52514099189937,
+            "teacher_calls": 3.810332569983251,
+            "native_calls_per_record": 0.0028881976962778135,
+            "native_positive_temperature_passes": 0.007434118330655912,
+            "native_all_temperature_passes_including_reused_first": 0.010322316026933728
+          }
+        }
+      }
+    }
+  },
+  "provenance": {
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/timing_raw.jsonl": "70e3d04421e5af956fc514544a792f2efe994e67826be1fc44ebdc64d50b3fa8",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/TIMING_STRATA.json": "6b8c8250627afbfdd1444c4148a0ddcd0220d7e1c4ff3724d3c37642df4700f7",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/timing_summary.json": "60b3b0ec1387448cb79ae8d9e28d25129dc9b332fd5338c1a9f84c1472f724e4",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/difference_case_index.json": "a47265640c118ae620483f47c9e81d3b8f6de4e6db753f94b4d7e941ccbf4e61",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/activity_monitor.py": "8bae6e8a333cd3f2a3fa346274358774284b5b8eea06b0f80631cbd3db4ed894",
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/acceleration_v2/worker.py": "be548d68a85cf035a0edb86309b478c753df59e13c7a3a4a5aec24c27559b933"
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "scope": "Complete retrospective CV27; unchanged coefficients, fixed3checkpoints; component deletion is sensitivity, not refitting or new confirmation",
+  "oracle": [
+    {
+      "seed": 101,
+      "captured_oracle_pp": 1.6013550180134404,
+      "accepted_oracle_pp": 1.466587058009093,
+      "net_selection_pp": 1.4440846990345964,
+      "accepted_oracle_ratio_pct": 91.58412978456622,
+      "net_realization_pct": 90.1789223994848
+    },
+    {
+      "seed": 202,
+      "captured_oracle_pp": 0.5334303037591042,
+      "accepted_oracle_pp": 0.5029988289194128,
+      "net_selection_pp": 0.4402667062973208,
+      "accepted_oracle_ratio_pct": 94.29513572340387,
+      "net_realization_pct": 82.53500095415355
+    },
+    {
+      "seed": 303,
+      "captured_oracle_pp": 1.591602746795321,
+      "accepted_oracle_pp": 1.5437818577615205,
+      "net_selection_pp": 1.485341408067994,
+      "accepted_oracle_ratio_pct": 96.99542557776509,
+      "net_realization_pct": 93.32362683205446
+    }
+  ],
+  "acceptance_per_checkpoint": [
+    {
+      "seed": 101,
+      "source": "Greedy",
+      "direct_minus_fixed_pp": 0.5910293968445557,
+      "per_language_pp": [
+        0.15619770166238983,
+        2.753776763395283,
+        0.045172519165105555,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 101,
+      "source": "Temp02",
+      "direct_minus_fixed_pp": 0.5861963121632179,
+      "per_language_pp": [
+        0.09297482241808919,
+        2.838006738398,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 101,
+      "source": "HFFallback",
+      "direct_minus_fixed_pp": -0.6845094414946942,
+      "per_language_pp": [
+        -0.03161143962215032,
+        -3.3909357678513206,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 202,
+      "source": "Greedy",
+      "direct_minus_fixed_pp": 0.1592599460673463,
+      "per_language_pp": [
+        0.07623935438283314,
+        0.7213889794587545,
+        -0.0013286035048560459,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 202,
+      "source": "Temp02",
+      "direct_minus_fixed_pp": 0.18556624292861207,
+      "per_language_pp": [
+        0.24173453828703187,
+        0.6874252798608846,
+        -0.0013286035048560459,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 202,
+      "source": "HFFallback",
+      "direct_minus_fixed_pp": 0.0016422353723212486,
+      "per_language_pp": [
+        0.0,
+        0.010868383871318336,
+        -0.0026572070097120918,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 303,
+      "source": "Greedy",
+      "direct_minus_fixed_pp": 0.8456801238941468,
+      "per_language_pp": [
+        0.23615604894194653,
+        3.9085425497228563,
+        0.08370202080593088,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 303,
+      "source": "Temp02",
+      "direct_minus_fixed_pp": 0.5301024889459026,
+      "per_language_pp": [
+        0.42582468667484846,
+        2.2022062819258776,
+        -0.013286035048560458,
+        0.03576751117734724,
+        0.0
+      ]
+    },
+    {
+      "seed": 303,
+      "source": "HFFallback",
+      "direct_minus_fixed_pp": 0.017786890602939025,
+      "per_language_pp": [
+        0.0,
+        0.1168351266166721,
+        -0.027900673601976962,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "sparsity": [
+    {
+      "seed": 101,
+      "positive_recordings": 78,
+      "positive_components": 75,
+      "gain_pp": 1.4440846990345964,
+      "largest_component_positive_share_pct": 8.19917115487879,
+      "top10_component_positive_share_pct": 41.852196287016845,
+      "LOCO_gain_range_pp": [
+        1.322916569046378,
+        1.4678881623454347
+      ],
+      "LOCO_largest_loss_component": {
+        "lang": 3,
+        "reference_words": 79,
+        "edit_gain": 407.0
+      }
+    },
+    {
+      "seed": 202,
+      "positive_recordings": 38,
+      "positive_components": 37,
+      "gain_pp": 0.4402667062973208,
+      "largest_component_positive_share_pct": 14.528933203180417,
+      "top10_component_positive_share_pct": 69.86320204871829,
+      "LOCO_gain_range_pp": [
+        0.36666629060586065,
+        0.4993754497989006
+      ],
+      "LOCO_largest_loss_component": {
+        "lang": 0,
+        "reference_words": 23,
+        "edit_gain": 198.0
+      }
+    },
+    {
+      "seed": 303,
+      "positive_recordings": 114,
+      "positive_components": 111,
+      "gain_pp": 1.485341408067994,
+      "largest_component_positive_share_pct": 4.172463001215756,
+      "top10_component_positive_share_pct": 28.702404538246462,
+      "LOCO_gain_range_pp": [
+        1.4200039297335665,
+        1.5219308716214304
+      ],
+      "LOCO_largest_loss_component": {
+        "lang": 0,
+        "reference_words": 23,
+        "edit_gain": 176.0
+      }
+    }
+  ],
+  "empty_HF": [
+    {
+      "seed": 101,
+      "id": "dfb1fc9a1718d501e42973a3df9c7e9ca37520bca0ff51862ba319063b4e495d",
+      "language": "pl",
+      "reference_words": 14,
+      "selected_beam_S_D_I_N": [
+        13,
+        0,
+        95,
+        14
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        14,
+        0,
+        14
+      ],
+      "accepted": true,
+      "net_edit_reduction": 94,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 202,
+      "id": "da15c035aacecb6520404d4c4f448592ff6df8f3381af2f9c00451882098c633",
+      "language": "fa",
+      "reference_words": 4,
+      "selected_beam_S_D_I_N": [
+        4,
+        0,
+        85,
+        4
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "accepted": true,
+      "net_edit_reduction": 85,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 202,
+      "id": "725c1c854cb41051cba307bf59e88d24cebfd36c76871eb0d423120cf16caad4",
+      "language": "fa",
+      "reference_words": 9,
+      "selected_beam_S_D_I_N": [
+        9,
+        0,
+        103,
+        9
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        9,
+        0,
+        9
+      ],
+      "accepted": true,
+      "net_edit_reduction": 103,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 101,
+      "id": "6a170c3719f21340e9f0b24bc9d70a91916cc06b3306f25ddf9256867045ba8f",
+      "language": "fa",
+      "reference_words": 5,
+      "selected_beam_S_D_I_N": [
+        5,
+        0,
+        81,
+        5
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "accepted": true,
+      "net_edit_reduction": 81,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 101,
+      "id": "da15c035aacecb6520404d4c4f448592ff6df8f3381af2f9c00451882098c633",
+      "language": "fa",
+      "reference_words": 4,
+      "selected_beam_S_D_I_N": [
+        4,
+        0,
+        60,
+        4
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "accepted": true,
+      "net_edit_reduction": 60,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 101,
+      "id": "a7a09c9d719764a8c82f5cb5e9637a3245b6f27ac0836dc1c286709631864267",
+      "language": "ar",
+      "reference_words": 14,
+      "selected_beam_S_D_I_N": [
+        14,
+        0,
+        92,
+        14
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        14,
+        0,
+        14
+      ],
+      "accepted": true,
+      "net_edit_reduction": 92,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 303,
+      "id": "da15c035aacecb6520404d4c4f448592ff6df8f3381af2f9c00451882098c633",
+      "language": "fa",
+      "reference_words": 4,
+      "selected_beam_S_D_I_N": [
+        4,
+        0,
+        127,
+        4
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "accepted": true,
+      "net_edit_reduction": 127,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 202,
+      "id": "6a170c3719f21340e9f0b24bc9d70a91916cc06b3306f25ddf9256867045ba8f",
+      "language": "fa",
+      "reference_words": 5,
+      "selected_beam_S_D_I_N": [
+        5,
+        0,
+        123,
+        5
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "accepted": true,
+      "net_edit_reduction": 123,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 101,
+      "id": "cacb6e74ff8fa4cfe211f833af42b2237840955a4f845f3c8e480b3972a89400",
+      "language": "fa",
+      "reference_words": 5,
+      "selected_beam_S_D_I_N": [
+        4,
+        0,
+        139,
+        5
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "accepted": true,
+      "net_edit_reduction": 138,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 101,
+      "id": "4c916d85f36c9a83f2fa18fe5591ae03f0bcdb45a738a00d97b319bee76e339f",
+      "language": "fa",
+      "reference_words": 2,
+      "selected_beam_S_D_I_N": [
+        2,
+        0,
+        142,
+        2
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        2,
+        0,
+        2
+      ],
+      "accepted": true,
+      "net_edit_reduction": 142,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 202,
+      "id": "4d39d577d4694e5ffd39f22181aa383b5f125c049747df81c116de20a6312002",
+      "language": "fa",
+      "reference_words": 5,
+      "selected_beam_S_D_I_N": [
+        5,
+        0,
+        123,
+        5
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "accepted": true,
+      "net_edit_reduction": 123,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 303,
+      "id": "a7a09c9d719764a8c82f5cb5e9637a3245b6f27ac0836dc1c286709631864267",
+      "language": "ar",
+      "reference_words": 14,
+      "selected_beam_S_D_I_N": [
+        14,
+        0,
+        77,
+        14
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        14,
+        0,
+        14
+      ],
+      "accepted": true,
+      "net_edit_reduction": 77,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 202,
+      "id": "d628bc1a6b6b19737a305cfe6ac972d5f51722e97d63328a255c6659988a878f",
+      "language": "fa",
+      "reference_words": 4,
+      "selected_beam_S_D_I_N": [
+        4,
+        0,
+        124,
+        4
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "accepted": true,
+      "net_edit_reduction": 124,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 202,
+      "id": "a7a09c9d719764a8c82f5cb5e9637a3245b6f27ac0836dc1c286709631864267",
+      "language": "ar",
+      "reference_words": 14,
+      "selected_beam_S_D_I_N": [
+        14,
+        0,
+        114,
+        14
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        14,
+        0,
+        14
+      ],
+      "accepted": true,
+      "net_edit_reduction": 114,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 202,
+      "id": "cacb6e74ff8fa4cfe211f833af42b2237840955a4f845f3c8e480b3972a89400",
+      "language": "fa",
+      "reference_words": 5,
+      "selected_beam_S_D_I_N": [
+        5,
+        0,
+        107,
+        5
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "accepted": true,
+      "net_edit_reduction": 107,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 202,
+      "id": "ea003550efb43b4ff650e9d6d7a52209bfbde6492e2d6c83f36e5bdd05f7136d",
+      "language": "fa",
+      "reference_words": 7,
+      "selected_beam_S_D_I_N": [
+        7,
+        0,
+        121,
+        7
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        7,
+        0,
+        7
+      ],
+      "accepted": true,
+      "net_edit_reduction": 121,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 202,
+      "id": "4c916d85f36c9a83f2fa18fe5591ae03f0bcdb45a738a00d97b319bee76e339f",
+      "language": "fa",
+      "reference_words": 2,
+      "selected_beam_S_D_I_N": [
+        2,
+        0,
+        126,
+        2
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        2,
+        0,
+        2
+      ],
+      "accepted": true,
+      "net_edit_reduction": 126,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    },
+    {
+      "seed": 202,
+      "id": "b6f334934b253b230529c5b4e472b53b1838b819b44dbb0c58eb0c4119d9f776",
+      "language": "ar",
+      "reference_words": 3,
+      "selected_beam_S_D_I_N": [
+        3,
+        0,
+        156,
+        3
+      ],
+      "empty_HF_S_D_I_N": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "accepted": true,
+      "net_edit_reduction": 156,
+      "audio_listened": false,
+      "internal_no_speech_reason_recorded": false
+    }
+  ],
+  "oracle_net_mean_pct": 88.67918339523094,
+  "oracle_accepted_positive_mean_pct": 94.29156369524507,
+  "empty_HF_summary": {
+    "count": 18,
+    "nonempty_references": 18,
+    "total_reference_words": 120,
+    "interpretation": "Deletion replacing larger insertion-heavy edit error; not content recovery or verified no-speech decisions"
+  }
+}

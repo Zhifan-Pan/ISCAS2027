@@ -1,0 +1,123 @@
+{
+  "session": 0,
+  "index": 615,
+  "id": "0018fffe4bf891edb08e30af49e90c97b874f6057abc9f5051478dbdacb66765",
+  "corpus": "TEST",
+  "language": "it",
+  "stratum": "TEST:it:4:behavior_census",
+  "inclusion_probability": 1.0,
+  "population_count": 2,
+  "sample_count": 2,
+  "outer_trigger": false,
+  "native_output_change": true,
+  "path_order": [
+    "NplusR",
+    "SplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 2,
+  "paired": [
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 9205.127181019634,
+      "peak_allocated_bytes": 2355093504,
+      "peak_reserved_bytes": 3936354304,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 6,
+        "reused_first_search": 0,
+        "PLL_calls": 5,
+        "PLL_tokens": 255,
+        "teacher_calls": 5
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 79,
+          "no_speech_probability": 1.1477319276309572e-05
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 79,
+          "no_speech_probability": 1.1477319276309572e-05
+        },
+        {
+          "window": 0,
+          "temperature": 0.4,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 76,
+          "no_speech_probability": 1.1477319276309572e-05
+        },
+        {
+          "window": 0,
+          "temperature": 0.6,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 79,
+          "no_speech_probability": 1.1477319276309572e-05
+        },
+        {
+          "window": 0,
+          "temperature": 0.8,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 83,
+          "no_speech_probability": 1.1477319276309572e-05
+        },
+        {
+          "window": 0,
+          "temperature": 1.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 76,
+          "no_speech_probability": 1.1477319276309572e-05
+        }
+      ],
+      "bank_sizes": [
+        [
+          4,
+          5
+        ]
+      ],
+      "selected_new": [
+        true
+      ],
+      "output_sha256": "81269c10b232d4de066da273cbac1ee651f4b092f221df4022e44a85900a0338"
+    },
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 2101.9210680387914,
+      "peak_allocated_bytes": 2293729792,
+      "peak_reserved_bytes": 3936354304,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 4,
+        "PLL_tokens": 204,
+        "teacher_calls": 4
+      },
+      "native_events": [],
+      "bank_sizes": [
+        [
+          4,
+          4
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "1e7e87e64a4eddcc39960a06e6cc09d26c8ca614ab8b10216492145cf2ca2434"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false
+}

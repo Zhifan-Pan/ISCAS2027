@@ -1,0 +1,83 @@
+{
+  "session": 0,
+  "index": 17,
+  "id": "7b1ee34389cf9f4fe1f70dd73e87df2e95c7a3e2daf9af9b3e55935474101daa",
+  "corpus": "CV27",
+  "language": "ar",
+  "stratum": "CV27:ar:0:ordinary_sample",
+  "inclusion_probability": 0.004739336492890996,
+  "population_count": 2110,
+  "sample_count": 10,
+  "outer_trigger": false,
+  "native_output_change": false,
+  "path_order": [
+    "SplusR",
+    "NplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 2,
+  "paired": [
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 387.79741199687123,
+      "peak_allocated_bytes": 2209259008,
+      "peak_reserved_bytes": 3332374528,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 5,
+        "PLL_tokens": 27,
+        "teacher_calls": 5
+      },
+      "native_events": [],
+      "bank_sizes": [
+        [
+          5,
+          5
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "f35362364e845d86fb7778d80072d20cd74f6799f3360126891cfa3dfd4ab2ef"
+    },
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 413.177281152457,
+      "peak_allocated_bytes": 2214926848,
+      "peak_reserved_bytes": 3332374528,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 5,
+        "PLL_tokens": 27,
+        "teacher_calls": 5
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 9,
+          "no_speech_probability": 0.003915674518793821
+        }
+      ],
+      "bank_sizes": [
+        [
+          5,
+          5
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "f35362364e845d86fb7778d80072d20cd74f6799f3360126891cfa3dfd4ab2ef"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false
+}

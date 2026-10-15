@@ -1,0 +1,474 @@
+{
+  "status": "PASS",
+  "scope": {
+    "analysis": "One fixed score intervention after frozen-margin attribution",
+    "motivation": "All 33 rejected useful new HF candidates at checkpoint 101 have decoder mean log-probability as the largest negative margin component.",
+    "intervention": "For HF acceptance only, subtract the decoder contribution from the source-versus-existing-beam-winner margin. Keep that beam winner, every coefficient, bank, recording trigger, deduplication and tie rule fixed.",
+    "scope": "Existing complete CV27 TEST; retrospective scoring sensitivity, not independent confirmation or a proposed final policy.",
+    "selection_boundary": "One intervention; no threshold search, coefficient refit, new generation, or promotion based on its TEST WER. Keep the original DEV-selected primary method unchanged."
+  },
+  "per_checkpoint": [
+    {
+      "checkpoint": 101,
+      "Shared_WER": 32.127072143122966,
+      "Direct_WER": 31.44256270162827,
+      "diagnostic_WER": 31.43332457533765,
+      "changed_acceptance": 38,
+      "useful_rejections_reversed": 33,
+      "harmful_rejections_reversed": 3,
+      "switches": [
+        {
+          "id": "4d39d577d4694e5ffd39f22181aa383b5f125c049747df81c116de20a6312002",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 61,
+          "new_edits": 21
+        },
+        {
+          "id": "4a14abe90f1a9f79d828e99d02fa1f34e5dac4b16baa75ef658932197073c2f3",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 144,
+          "new_edits": 20
+        },
+        {
+          "id": "f48bc6acd03c68539c55d908cb8fb164c1b227cc0905ea50bf844ba41970aeaf",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 214,
+          "new_edits": 15
+        },
+        {
+          "id": "e789af95d2d0df97274793e023d3b5ceffbe422ce89d1479f1dd8e77b9172630",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 91,
+          "new_edits": 61
+        },
+        {
+          "id": "d628bc1a6b6b19737a305cfe6ac972d5f51722e97d63328a255c6659988a878f",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 143,
+          "new_edits": 13
+        },
+        {
+          "id": "478021d92dee8169e8b80cd08911ff5c177528385e8b08165517ad06e083ea44",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 83,
+          "new_edits": 39
+        },
+        {
+          "id": "18997377ec76aff660ba986f2ee749ee2b751024be074f8e11101b0b6b85f7f7",
+          "language": "ar",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 51,
+          "new_edits": 34
+        },
+        {
+          "id": "fc7977a913caedf75faec3738523a550fa2856679dd08f8e878a578eb3e3e0fe",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 143,
+          "new_edits": 21
+        },
+        {
+          "id": "4699c725aee4eb2955daaa72a756d485d62612bc454f5434b9526716decc253b",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 56,
+          "new_edits": 12
+        },
+        {
+          "id": "d462ad7bf688a1e778a1f46a0814dcd590f4f4f477a794e7536ed2bc8ee2d554",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 143,
+          "new_edits": 12
+        },
+        {
+          "id": "a74fb23f67d1f73dc3682ec621d951cbd44e2a68e2dd5fe2364873e7fadab0f2",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 44,
+          "new_edits": 5
+        },
+        {
+          "id": "a6c456eaba7b03d3fbdf88fff603bf1bdfeda67df420cd084aecf1fe98ccc15e",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 144,
+          "new_edits": 18
+        },
+        {
+          "id": "307ef12b801d1123ec9490b6bc5f4fc7924f646a20371adfd7fb1f05cf549529",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 62,
+          "new_edits": 48
+        },
+        {
+          "id": "5abe6817c7709396bde833f3a153f0532fb69ded2cf3d595454c871332055114",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 80,
+          "new_edits": 19
+        },
+        {
+          "id": "0c503d7a65b34a26856153dbb14260932b1470cc42c76cf5119c7d37ec54a676",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 65,
+          "new_edits": 13
+        },
+        {
+          "id": "b4bcae33e5572e2ec0f89ee2d91dfe23dd42fffaeb546f342fd5b6b2f92f2e1e",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 144,
+          "new_edits": 12
+        },
+        {
+          "id": "cc38c9baace737bb9649078b82c3c7687bb6652c617429dfa49009b40f52c389",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 81,
+          "new_edits": 37
+        },
+        {
+          "id": "843e49cc7e26fdc8ab2f98cc28ceadf0a6276da8a18bfc39ceb6be8e7060b2b6",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 118,
+          "new_edits": 51
+        },
+        {
+          "id": "8a1fd7c71a2f4bb1fae6bf1e24fa01a8af375252f750ac4757aca990bf02ec57",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 119,
+          "new_edits": 20
+        },
+        {
+          "id": "0bf0058b79ffcd71f9a65627e754c6e0546b59e7db0b623a02f4ea7065834db7",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 29,
+          "new_edits": 8
+        },
+        {
+          "id": "0634425c8d914b5c7019619e80e0c9e22f1044db416b49d97d94688518794b9c",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": false,
+          "source_harmful": true,
+          "old_edits": 1,
+          "new_edits": 2
+        },
+        {
+          "id": "9cc7943bb5c87852bee75063dbc515aef9171931d85f4feb5e650a1ea6ef6d41",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 144,
+          "new_edits": 20
+        },
+        {
+          "id": "2c3cedd66f5220141fa300ed276d30393f830207dd30f2a4977b012100900703",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 76,
+          "new_edits": 13
+        },
+        {
+          "id": "58654fc725ac2c8178dc718c280449975b5b2983bf1c5db3331708f225e641f3",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 96,
+          "new_edits": 31
+        },
+        {
+          "id": "4b0ffe2e4014dde4f47141a59b5873b110fab492c7bac4e344f1070cc8be343e",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 144,
+          "new_edits": 12
+        },
+        {
+          "id": "f55ae84e36affa828f04790bc7cbfd6c4f5273818bc69a4bb883e00463ec6486",
+          "language": "ar",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": false,
+          "source_harmful": false,
+          "old_edits": 7,
+          "new_edits": 7
+        },
+        {
+          "id": "2fa543c58e37af645fadcc4901c0e77d6aaf81f5c461c5e9e0bb94f386192b30",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": false,
+          "source_harmful": true,
+          "old_edits": 10,
+          "new_edits": 22
+        },
+        {
+          "id": "ea003550efb43b4ff650e9d6d7a52209bfbde6492e2d6c83f36e5bdd05f7136d",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 65,
+          "new_edits": 26
+        },
+        {
+          "id": "9bc31ca18771cced4dbc14dd6df79b77f098559e53d28c5b5a8d718bc429177a",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 76,
+          "new_edits": 16
+        },
+        {
+          "id": "dfc6090f5830fcfbef1173d51b108a11ef97a369b7a57ff1e282f5204d52f9c0",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 66,
+          "new_edits": 11
+        },
+        {
+          "id": "808a57332e2b40c76f0f589f56d01cde10d9f965c6e772717f2fe0b7a0ea3c62",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": false,
+          "source_harmful": false,
+          "old_edits": 3,
+          "new_edits": 3
+        },
+        {
+          "id": "94aa029acfde18cb1b4313a496313190509d190675bcdca7bcd2fbd0ec6029d7",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 144,
+          "new_edits": 7
+        },
+        {
+          "id": "87575c940ec4e0c6f3124c4f3c5226a23e517fa098019ea754ed4f4c08b81c98",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 144,
+          "new_edits": 34
+        },
+        {
+          "id": "54ca46717e4f60a81115aeee7344cc2d86387b7d78e6dd341a29a300dfeb9168",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": false,
+          "source_harmful": true,
+          "old_edits": 6,
+          "new_edits": 9
+        },
+        {
+          "id": "9aee16e16a5ddeb1252d2f83f9973cf0d4bc68ab06ea68cbc31c493edf84f173",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 71,
+          "new_edits": 18
+        },
+        {
+          "id": "c92e308d5b29ce28b6283bc5048570a2eea12007769d7538d90768ee66c84e51",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 74,
+          "new_edits": 34
+        },
+        {
+          "id": "725c1c854cb41051cba307bf59e88d24cebfd36c76871eb0d423120cf16caad4",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 144,
+          "new_edits": 17
+        },
+        {
+          "id": "265b49e29b65ebc7acd2cc65b70759abec828032714559ba687b86596ee98bae",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": true,
+          "source_harmful": false,
+          "old_edits": 63,
+          "new_edits": 41
+        }
+      ]
+    },
+    {
+      "checkpoint": 202,
+      "Shared_WER": 31.288198880808135,
+      "Direct_WER": 31.28984111618045,
+      "diagnostic_WER": 31.290372557582394,
+      "changed_acceptance": 1,
+      "useful_rejections_reversed": 0,
+      "harmful_rejections_reversed": 1,
+      "switches": [
+        {
+          "id": "7ebfd92dbe05da047916e75411078d0c30ba0286c6dc1e3650bcd28fb6cc6bc0",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": false,
+          "source_harmful": true,
+          "old_edits": 3,
+          "new_edits": 11
+        }
+      ]
+    },
+    {
+      "checkpoint": 303,
+      "Shared_WER": 31.627596059741858,
+      "Direct_WER": 31.6453829503448,
+      "diagnostic_WER": 31.650963085065193,
+      "changed_acceptance": 3,
+      "useful_rejections_reversed": 0,
+      "harmful_rejections_reversed": 3,
+      "switches": [
+        {
+          "id": "4699c725aee4eb2955daaa72a756d485d62612bc454f5434b9526716decc253b",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": false,
+          "source_harmful": true,
+          "old_edits": 11,
+          "new_edits": 64
+        },
+        {
+          "id": "9261af1914b52ca5cc60813fc20be8288185f85e1564b95e76986da4b6d31cbc",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": false,
+          "source_harmful": true,
+          "old_edits": 6,
+          "new_edits": 12
+        },
+        {
+          "id": "0e52dc91df12f92aa1b2e34eb982044efa9e24f4279f702edb5fe908d252eb63",
+          "language": "fa",
+          "was_accepted": false,
+          "now_accepted": true,
+          "source_useful": false,
+          "source_harmful": true,
+          "old_edits": 1,
+          "new_edits": 28
+        }
+      ]
+    }
+  ],
+  "mean": {
+    "Shared_WER": 31.680955694557653,
+    "Direct_WER": 31.459262256051172,
+    "diagnostic_WER": 31.458220072661746
+  },
+  "input_sha256": {
+    "DIAGNOSTIC_DECISION.json": "bd9566e62d5c64c4b0480b5d5ea60a3df259668b1cb1484c9cb9438dd4f5fb90",
+    "acceptance_feature_rows.jsonl": "0cbe2806f4f7b1524ff65133ead4a2a116f09139bdd66f856928362addf1396c"
+  }
+}

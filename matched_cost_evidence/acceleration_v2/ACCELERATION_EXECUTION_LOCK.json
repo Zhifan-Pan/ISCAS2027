@@ -1,0 +1,10 @@
+{
+  "worker.py": "be548d68a85cf035a0edb86309b478c753df59e13c7a3a4a5aec24c27559b933",
+  "pair_queue.py": "5c176d8eab33716ff3ee37efbac74dc6248ce764f2d9f55277ea8d859349642a",
+  "supervisor.py": "17253cb122f2eec5c72f677a9a4edbd4138e101d3260c09cff45cc824c204bad",
+  "summarize_timing.py": "aaf629ffd671583ad8e74ed298fce38a8c56258a215691f9cd352a0a9ff3deb0",
+  "PROTOCOL_ADDENDUM.json": "666c38b8222efb649867d9b662d8f1d39e651dbeabc1739c0a86a72c3e2663be",
+  "USER_GPU_AUTHORIZATION.json": "512471166bd076ec234240537aa8189401ab520fc794b9963555d274aaa51d38",
+  "ADMISSION.json": "836ce2a77b1d25e22daf9be49f402d9413c3c492c5f75ad83aa23dc3f9bd3419",
+  "../scripts/runner.py": "25d0ae2c417a926af9ece2ca30b3ea20084a0cb9f614cc3d9b291202a9c4e7be"
+}

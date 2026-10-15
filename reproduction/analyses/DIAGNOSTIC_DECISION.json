@@ -1,0 +1,7 @@
+{
+  "analysis": "One fixed score intervention after frozen-margin attribution",
+  "motivation": "All 33 rejected useful new HF candidates at checkpoint 101 have decoder mean log-probability as the largest negative margin component.",
+  "intervention": "For HF acceptance only, subtract the decoder contribution from the source-versus-existing-beam-winner margin. Keep that beam winner, every coefficient, bank, recording trigger, deduplication and tie rule fixed.",
+  "scope": "Existing complete CV27 TEST; retrospective scoring sensitivity, not independent confirmation or a proposed final policy.",
+  "selection_boundary": "One intervention; no threshold search, coefficient refit, new generation, or promotion based on its TEST WER. Keep the original DEV-selected primary method unchanged."
+}

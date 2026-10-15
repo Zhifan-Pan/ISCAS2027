@@ -1,0 +1,12 @@
+{
+  "FLEURS": {
+    "trigger_gain_pp": 0.0,
+    "nontrigger_gain_pp": 1.4378005873773154,
+    "total_gain_pp": 1.4378005873773154
+  },
+  "CV27": {
+    "trigger_gain_pp": -0.6845094414946942,
+    "nontrigger_gain_pp": 2.3455045008222104,
+    "total_gain_pp": 1.6609950593275167
+  }
+}

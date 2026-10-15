@@ -1,0 +1,91 @@
+{
+  "session": 0,
+  "index": 344,
+  "id": "6cb577883a16f790c660acc92a163fbc5f3f6f3866915838073e4be0a54e89cf",
+  "corpus": "CV27",
+  "language": "pl",
+  "stratum": "CV27:pl:0:behavior_census",
+  "inclusion_probability": 1.0,
+  "population_count": 6,
+  "sample_count": 6,
+  "outer_trigger": false,
+  "native_output_change": true,
+  "path_order": [
+    "NplusR",
+    "SplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 2,
+  "paired": [
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 771.4764280244708,
+      "peak_allocated_bytes": 2269097472,
+      "peak_reserved_bytes": 3831496704,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 2,
+        "reused_first_search": 0,
+        "PLL_calls": 6,
+        "PLL_tokens": 42,
+        "teacher_calls": 6
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 9,
+          "no_speech_probability": 0.00221747113391757
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 10,
+          "no_speech_probability": 0.00221747113391757
+        }
+      ],
+      "bank_sizes": [
+        [
+          5,
+          6
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "dfc48b565c44da3ed38da7665e140efbde4fd9c2c0a58ac993735d5fe9a7e6d7"
+    },
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 440.719849197194,
+      "peak_allocated_bytes": 2209259008,
+      "peak_reserved_bytes": 3831496704,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 5,
+        "PLL_tokens": 34,
+        "teacher_calls": 5
+      },
+      "native_events": [],
+      "bank_sizes": [
+        [
+          5,
+          5
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "dfc48b565c44da3ed38da7665e140efbde4fd9c2c0a58ac993735d5fe9a7e6d7"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false
+}

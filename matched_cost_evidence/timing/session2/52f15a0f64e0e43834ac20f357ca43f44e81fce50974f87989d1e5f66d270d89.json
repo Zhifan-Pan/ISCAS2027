@@ -1,0 +1,156 @@
+{
+  "session": 2,
+  "index": 128,
+  "id": "52f15a0f64e0e43834ac20f357ca43f44e81fce50974f87989d1e5f66d270d89",
+  "corpus": "CV27",
+  "language": "fa",
+  "stratum": "CV27:fa:0:behavior_census",
+  "inclusion_probability": 1.0,
+  "population_count": 62,
+  "sample_count": 62,
+  "outer_trigger": true,
+  "native_output_change": true,
+  "path_order": [
+    "SplusR",
+    "NplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 3,
+  "paired": [
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 24560.098288115114,
+      "peak_allocated_bytes": 2766304256,
+      "peak_reserved_bytes": 3818913792,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 5,
+        "reused_first_search": 1,
+        "PLL_calls": 6,
+        "PLL_tokens": 796,
+        "teacher_calls": 6
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 250,
+          "no_speech_probability": 5.03998592193966e-07
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 5.03998592193966e-07
+        },
+        {
+          "window": 0,
+          "temperature": 0.4,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 5.03998592193966e-07
+        },
+        {
+          "window": 0,
+          "temperature": 0.6,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 106,
+          "no_speech_probability": 5.03998592193966e-07
+        },
+        {
+          "window": 0,
+          "temperature": 0.8,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 13,
+          "no_speech_probability": 5.03998592193966e-07
+        }
+      ],
+      "bank_sizes": [
+        [
+          5,
+          6
+        ]
+      ],
+      "selected_new": [
+        true
+      ],
+      "output_sha256": "b9d113b6251574a7de7864e46c008a6c2e21a7bb0d748ae3b3a8ac62a2cbe5c7"
+    },
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 24486.090125050396,
+      "peak_allocated_bytes": 2766304256,
+      "peak_reserved_bytes": 3818913792,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 5,
+        "reused_first_search": 0,
+        "PLL_calls": 6,
+        "PLL_tokens": 796,
+        "teacher_calls": 6
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 250,
+          "no_speech_probability": 5.03998592193966e-07
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 5.03998592193966e-07
+        },
+        {
+          "window": 0,
+          "temperature": 0.4,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 5.03998592193966e-07
+        },
+        {
+          "window": 0,
+          "temperature": 0.6,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 106,
+          "no_speech_probability": 5.03998592193966e-07
+        },
+        {
+          "window": 0,
+          "temperature": 0.8,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 13,
+          "no_speech_probability": 5.03998592193966e-07
+        }
+      ],
+      "bank_sizes": [
+        [
+          5,
+          6
+        ]
+      ],
+      "selected_new": [
+        true
+      ],
+      "output_sha256": "b9d113b6251574a7de7864e46c008a6c2e21a7bb0d748ae3b3a8ac62a2cbe5c7"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false
+}

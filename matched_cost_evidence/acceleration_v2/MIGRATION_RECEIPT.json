@@ -1,0 +1,17 @@
+{
+  "status": "DEPLOYED",
+  "old_supervisor_pid": 830436,
+  "old_workers": [
+    828895,
+    862806
+  ],
+  "old_real_leases_released": true,
+  "preserved_pairs": 1022,
+  "new_supervisor_pid": 2147836,
+  "new_supervisor_identity": {
+    "pid": 2147836,
+    "boot_id": "4b7584ab-0b7e-400e-b2b2-9a389efa18dc",
+    "starttime_ticks": 149905906
+  },
+  "created_utc": "2026-10-14T23:56:21.093072+00:00"
+}

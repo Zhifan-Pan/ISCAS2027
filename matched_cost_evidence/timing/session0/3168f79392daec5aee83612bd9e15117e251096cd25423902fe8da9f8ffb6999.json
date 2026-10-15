@@ -1,0 +1,83 @@
+{
+  "session": 0,
+  "index": 725,
+  "id": "3168f79392daec5aee83612bd9e15117e251096cd25423902fe8da9f8ffb6999",
+  "corpus": "TEST",
+  "language": "tr",
+  "stratum": "TEST:tr:4:ordinary_sample",
+  "inclusion_probability": 0.06756756756756757,
+  "population_count": 148,
+  "sample_count": 10,
+  "outer_trigger": false,
+  "native_output_change": false,
+  "path_order": [
+    "NplusR",
+    "SplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 2,
+  "paired": [
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 1469.9956569820642,
+      "peak_allocated_bytes": 2271804416,
+      "peak_reserved_bytes": 3936354304,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 3,
+        "PLL_tokens": 118,
+        "teacher_calls": 3
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 60,
+          "no_speech_probability": 3.287985691713402e-06
+        }
+      ],
+      "bank_sizes": [
+        [
+          3,
+          3
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "5fa9d362c72ba50aee147da6fd42a5da084046db3fd9f996fd215d8dc0bb6292"
+    },
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 1450.8935769554228,
+      "peak_allocated_bytes": 2271803904,
+      "peak_reserved_bytes": 3936354304,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 3,
+        "PLL_tokens": 118,
+        "teacher_calls": 3
+      },
+      "native_events": [],
+      "bank_sizes": [
+        [
+          3,
+          3
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "5fa9d362c72ba50aee147da6fd42a5da084046db3fd9f996fd215d8dc0bb6292"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false
+}

@@ -1,0 +1,85 @@
+{
+  "created_utc": "2026-10-14T04:45:13.952380+00:00",
+  "decision": {
+    "Greedy": {
+      "DEV_macro_WER": {
+        "Direct": 31.24055793534171,
+        "Reselect": 30.81732180308022
+      },
+      "acceptance": "Reselect"
+    },
+    "Temp02": {
+      "DEV_macro_WER": {
+        "Direct": 31.215688217900876,
+        "Reselect": 30.791014669144683
+      },
+      "acceptance": "Reselect"
+    },
+    "HFFallback": {
+      "DEV_macro_WER": {
+        "Direct": 30.088382263843954,
+        "Reselect": 30.080045696697965
+      },
+      "acceptance": "Reselect"
+    }
+  },
+  "per_checkpoint": [
+    {
+      "seed": 101,
+      "source": "Greedy",
+      "Direct": 31.582207687460915,
+      "Reselect": 31.04766219278398
+    },
+    {
+      "seed": 101,
+      "source": "Temp02",
+      "Direct": 31.36121458200944,
+      "Reselect": 30.93018477492665
+    },
+    {
+      "seed": 101,
+      "source": "HFFallback",
+      "Direct": 30.14015792042938,
+      "Reselect": 30.12349285617274
+    },
+    {
+      "seed": 202,
+      "source": "Greedy",
+      "Direct": 30.17665979134846,
+      "Reselect": 30.165351330978943
+    },
+    {
+      "seed": 202,
+      "source": "Temp02",
+      "Direct": 30.093895024775037,
+      "Reselect": 30.093482952573332
+    },
+    {
+      "seed": 202,
+      "source": "HFFallback",
+      "Direct": 29.94780521933078,
+      "Reselect": 29.9492356298586
+    },
+    {
+      "seed": 303,
+      "source": "Greedy",
+      "Direct": 31.96280632721575,
+      "Reselect": 31.238951885477736
+    },
+    {
+      "seed": 303,
+      "source": "Temp02",
+      "Direct": 32.19195504691815,
+      "Reselect": 31.349376279934063
+    },
+    {
+      "seed": 303,
+      "source": "HFFallback",
+      "Direct": 30.177183651771692,
+      "Reselect": 30.16740860406255
+    }
+  ],
+  "addendum_sha256": "95a5db90d7bd24fcda7d43ac44f92fc748bb8b72cd9b47ee971e64f1c4ca7ada",
+  "test_read_after_this_lock": true,
+  "fitted_DEV_diagnostic_not_used_for_choice": true
+}

@@ -1,0 +1,156 @@
+{
+  "session": 0,
+  "index": 398,
+  "id": "1cf2b1b95520bab02d8b117ef640eceb63ba458962cfb07acd45a484dd948c07",
+  "corpus": "CV27",
+  "language": "pl",
+  "stratum": "CV27:pl:4:behavior_census",
+  "inclusion_probability": 1.0,
+  "population_count": 4,
+  "sample_count": 4,
+  "outer_trigger": true,
+  "native_output_change": true,
+  "path_order": [
+    "NplusR",
+    "SplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 2,
+  "paired": [
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 35660.15227185562,
+      "peak_allocated_bytes": 2950897152,
+      "peak_reserved_bytes": 3831496704,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 5,
+        "reused_first_search": 0,
+        "PLL_calls": 3,
+        "PLL_tokens": 467,
+        "teacher_calls": 3
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 8.480606629746035e-05
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 8.480606629746035e-05
+        },
+        {
+          "window": 0,
+          "temperature": 0.4,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 8.480606629746035e-05
+        },
+        {
+          "window": 0,
+          "temperature": 0.6,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 8.480606629746035e-05
+        },
+        {
+          "window": 0,
+          "temperature": 0.8,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 32,
+          "no_speech_probability": 8.480606629746035e-05
+        }
+      ],
+      "bank_sizes": [
+        [
+          2,
+          3
+        ]
+      ],
+      "selected_new": [
+        true
+      ],
+      "output_sha256": "806a238b94664818bba8816ec2fc76f3837a093d89d03a84d100b7f1bfc97a31"
+    },
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 35456.78390399553,
+      "peak_allocated_bytes": 2950897152,
+      "peak_reserved_bytes": 3831496704,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 5,
+        "reused_first_search": 1,
+        "PLL_calls": 3,
+        "PLL_tokens": 467,
+        "teacher_calls": 3
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 8.480606629746035e-05
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 8.480606629746035e-05
+        },
+        {
+          "window": 0,
+          "temperature": 0.4,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 8.480606629746035e-05
+        },
+        {
+          "window": 0,
+          "temperature": 0.6,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 444,
+          "no_speech_probability": 8.480606629746035e-05
+        },
+        {
+          "window": 0,
+          "temperature": 0.8,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 32,
+          "no_speech_probability": 8.480606629746035e-05
+        }
+      ],
+      "bank_sizes": [
+        [
+          2,
+          3
+        ]
+      ],
+      "selected_new": [
+        true
+      ],
+      "output_sha256": "806a238b94664818bba8816ec2fc76f3837a093d89d03a84d100b7f1bfc97a31"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false
+}

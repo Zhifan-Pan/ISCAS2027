@@ -1,0 +1,123 @@
+{
+  "session": 2,
+  "index": 5,
+  "id": "cf16135a914eba16abaf96164487f0d9f7d8bc97c7314f77d5e2b0062055ce3e",
+  "corpus": "CV27",
+  "language": "ar",
+  "stratum": "CV27:ar:0:behavior_census",
+  "inclusion_probability": 1.0,
+  "population_count": 12,
+  "sample_count": 12,
+  "outer_trigger": false,
+  "native_output_change": true,
+  "path_order": [
+    "NplusR",
+    "SplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 3,
+  "paired": [
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 2211.5013781003654,
+      "peak_allocated_bytes": 2274773504,
+      "peak_reserved_bytes": 2847932416,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 6,
+        "reused_first_search": 0,
+        "PLL_calls": 5,
+        "PLL_tokens": 44,
+        "teacher_calls": 5
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 15,
+          "no_speech_probability": 0.0253282617777586
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 14,
+          "no_speech_probability": 0.0253282617777586
+        },
+        {
+          "window": 0,
+          "temperature": 0.4,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 14,
+          "no_speech_probability": 0.0253282617777586
+        },
+        {
+          "window": 0,
+          "temperature": 0.6,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 16,
+          "no_speech_probability": 0.0253282617777586
+        },
+        {
+          "window": 0,
+          "temperature": 0.8,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 16,
+          "no_speech_probability": 0.0253282617777586
+        },
+        {
+          "window": 0,
+          "temperature": 1.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 18,
+          "no_speech_probability": 0.0253282617777586
+        }
+      ],
+      "bank_sizes": [
+        [
+          4,
+          5
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "4b6d87b0d6adb1bac8dcb312b3fa0d9d15a1b941ef76d3638821e9a720e64d74"
+    },
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 483.55135205201805,
+      "peak_allocated_bytes": 2209259008,
+      "peak_reserved_bytes": 2847932416,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 4,
+        "PLL_tokens": 33,
+        "teacher_calls": 4
+      },
+      "native_events": [],
+      "bank_sizes": [
+        [
+          4,
+          4
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "4b6d87b0d6adb1bac8dcb312b3fa0d9d15a1b941ef76d3638821e9a720e64d74"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false
+}

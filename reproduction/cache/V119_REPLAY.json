@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "Frozen numerical replay; no new predictions or TEST fitting.",
+  "retention": {
+    "FLEURS": {
+      "useful_events": 10,
+      "missed_events": 0,
+      "lost_edits": 0,
+      "macro_loss_pp": 0.0,
+      "macro_retention": 1.0,
+      "NplusR_WER": 17.086720236197085,
+      "SplusR_WER": 17.086720236197085,
+      "distinct_useful_recordings": 9
+    },
+    "CV27": {
+      "useful_events": 373,
+      "missed_events": 3,
+      "lost_edits": 5,
+      "macro_loss_pp": 0.00040098020817694774,
+      "macro_retention": 0.9998258136777364,
+      "NplusR_WER": 31.68112396576302,
+      "SplusR_WER": 31.680955694557653,
+      "distinct_useful_recordings": 278,
+      "distinct_useful_client_reference_components": 249
+    }
+  },
+  "diagnostic": [
+    {
+      "seed": 101,
+      "WER": 31.43332457533765
+    },
+    {
+      "seed": 202,
+      "WER": 31.290372557582394
+    },
+    {
+      "seed": 303,
+      "WER": 31.650963085065193
+    }
+  ]
+}

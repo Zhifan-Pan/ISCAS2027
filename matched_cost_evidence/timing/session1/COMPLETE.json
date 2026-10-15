@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE",
+  "session": 1,
+  "paired_records": 727,
+  "all_output_hashes_match": true,
+  "exclusive_observation": true,
+  "execution_addendum": "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261015_v156_v114_closest_system/acceleration_v2/PROTOCOL_ADDENDUM.json"
+}

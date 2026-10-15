@@ -1,0 +1,99 @@
+{
+  "session": 0,
+  "index": 48,
+  "id": "04b81dd3c7730c01650c0d904cbe5cee1c682cfbed0c6903cf685029c7c23ca4",
+  "corpus": "CV27",
+  "language": "ar",
+  "stratum": "CV27:ar:3:behavior_census",
+  "inclusion_probability": 1.0,
+  "population_count": 2,
+  "sample_count": 2,
+  "outer_trigger": false,
+  "native_output_change": true,
+  "path_order": [
+    "NplusR",
+    "SplusR"
+  ],
+  "attempt": 1,
+  "physical_gpu": 2,
+  "paired": [
+    {
+      "policy": "NplusR",
+      "end_to_end_ms": 1680.9753209818155,
+      "peak_allocated_bytes": 2287903232,
+      "peak_reserved_bytes": 3818913792,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 3,
+        "reused_first_search": 0,
+        "PLL_calls": 2,
+        "PLL_tokens": 35,
+        "teacher_calls": 2
+      },
+      "native_events": [
+        {
+          "window": 0,
+          "temperature": 0.0,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 25,
+          "no_speech_probability": 0.0006920965970493853
+        },
+        {
+          "window": 0,
+          "temperature": 0.2,
+          "needs_fallback": true,
+          "should_skip": false,
+          "tokens_with_EOS": 25,
+          "no_speech_probability": 0.0006920965970493853
+        },
+        {
+          "window": 0,
+          "temperature": 0.4,
+          "needs_fallback": false,
+          "should_skip": false,
+          "tokens_with_EOS": 26,
+          "no_speech_probability": 0.0006920965970493853
+        }
+      ],
+      "bank_sizes": [
+        [
+          2,
+          2
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "858983fe0785c073788c8220e39a648712043d0cc76fd19ef95407c8e88a6a32"
+    },
+    {
+      "policy": "SplusR",
+      "end_to_end_ms": 636.089671170339,
+      "peak_allocated_bytes": 2209259008,
+      "peak_reserved_bytes": 3818913792,
+      "work": {
+        "encoder_calls": 1,
+        "base_generation_calls": 1,
+        "reused_first_search": 0,
+        "PLL_calls": 2,
+        "PLL_tokens": 35,
+        "teacher_calls": 2
+      },
+      "native_events": [],
+      "bank_sizes": [
+        [
+          2,
+          2
+        ]
+      ],
+      "selected_new": [
+        false
+      ],
+      "output_sha256": "858983fe0785c073788c8220e39a648712043d0cc76fd19ef95407c8e88a6a32"
+    }
+  ],
+  "parity": true,
+  "external_activity": false,
+  "references_read": false
+}
