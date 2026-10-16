@@ -1,8 +1,8 @@
 # Selective Recovery for Multilingual ASR: Candidate Acquisition and Acceptance
 
-Reproduction code and anonymized numerical evidence for the submitted manuscript. The package reproduces the complete five-language evaluation and the paired N+R/S+R cost estimates reported in the paper.
+Reproduction code and anonymized numerical evidence for the manuscript *Selective Recovery for Multilingual ASR: Candidate Acquisition and Acceptance*. The package reproduces the complete five-language evaluation, the paired N+R/S+R cost estimates, and the frozen held-out confirmation panel reported in the paper.
 
-Reported accuracy: 17.087% and 31.681% macro WER on the complete five-language FLEURS and Common Voice v27 TEST splits over three checkpoints, matching the unconditional-recovery control to within 0.001 pp, preserving 370 of 373 beneficial Common Voice recoveries, at a 0.09-0.30% invocation rate pooled over recordings. Paired stratified measurements estimate 5.09% and 4.40% lower mean latency at one checkpoint.
+Reported accuracy: 17.087% and 31.681% macro WER on the complete five-language FLEURS and Common Voice v27 TEST splits over three checkpoints, matching the unconditional-recovery control to within 0.001 pp, preserving 370 of 373 beneficial Common Voice recoveries, at a 0.09-0.30% invocation rate pooled over recordings. Population-weighted paired stratified measurements with finite-population correction estimate 5.06% and 4.47% lower mean latency than the unconditional control at one checkpoint (4,000 draws, seed 15701; `reproduction/cache/replay_timing.py`). The headline accuracy and cost numbers are those of the current manuscript; both published latency estimators are kept in the evidence.
 
 The package contains no audio, model weights, raw reference transcripts or client names. The numerical inputs use anonymous recording IDs. Model and corpus access remains subject to the original providers' terms.
 
@@ -25,6 +25,14 @@ python matched_cost_evidence/reproduce_cost_summary.py
 - `reproduce_cost_summary.py`: reconstructs the two-path means, paired stratified intervals and observed memory peaks from 2,181 anonymous accepted pairs. It does not perform new timing.
 
 All five commands passed after copying the package to an isolated temporary directory and removing site-specific Python path/asset environment settings. This used the existing pinned environment, not a fresh dependency installation. See `REPRODUCTION_VALIDATION.json`.
+
+## Frozen confirmation panel (held-out CV27 training audio)
+
+The five-language TEST comparison is retrospective with respect to the frozen coefficients, so a separate confirmation panel was registered before any new reference was read. It draws 1,500 recordings per language by hash from the Common Voice v27 TRAIN recordings that share no recording identity, audio key or text key with the locked TEST split, the selector-fitted DEV split, the registered candidate pool or either calibration manifest. The draw, statistics, seed and stopping rule were frozen together, and all 22,500 predictions (5 languages x 1,500 recordings x 3 checkpoints) were written and hashed into a single lock before unsealing.
+
+Result: macro WER is 35.017% without acquisition, 32.755% with unconditional acquisition and 32.755% with selective recovery. Selective recovery minus no acquisition is -2.263 pp (one-sided 95% upper bound -1.323 pp) and selective recovery minus the unconditional control is 0.000 pp (upper bound 0.000 pp, inside the pre-registered 0.10 pp margin). The trigger fires on 61 of 22,500 checkpoint-recording pairs and changes the selected output on 51 (49 useful, 2 harmful), never against the unconditional control.
+
+Scope: TRAIN and DEV are speaker-disjoint from TEST, but the candidate pool and both calibration manifests were drawn from TRAIN, so panel recordings can share speakers with them. This is a **recording-level** generalisation test, not an unseen-speaker certificate. The study reports a gain over no acquisition and non-inferiority against the unconditional control; it does not claim superiority over unconditional acquisition.
 
 ## Raw-audio entry and remaining boundary
 
@@ -49,4 +57,4 @@ Accuracy covers complete five-language official TEST: 3,665 FLEURS and 58,514 CV
 
 Timing covers checkpoint 101 only: 255/472 stratified sampled recordings, three rounds, 2,181 same-card pairs. It is population-weighted estimation, not complete-population timing. The accepted historical measurements used three A40 devices (physical 0/2/3); the archive records their actual allocation. Current GPU policy is separate and must be followed for any new run. Models are resident; initialization/warmup is excluded. This comparison is N+R versus S+R, not Native-alone versus S+R or no-acquisition-alone versus S+R. Peak memory is not reduced.
 
-**Scope.** The five-language evaluation and the Czech/Slovak results are retrospective. Bulgarian and Croatian predictions were locked before reference access, but on those two corpora the trigger does not separate acquisition from no acquisition, so they bound the method's applicability rather than confirm it.
+**Scope.** The five-language evaluation and the Czech/Slovak results are retrospective; the held-out CV27-TRAIN panel is pre-registered and its predictions were locked before reference access (recording-level, see above). Bulgarian and Croatian predictions were locked before reference access, but on those two corpora the trigger does not separate acquisition from no acquisition, so they bound the method's applicability rather than confirm it.
