@@ -15,9 +15,10 @@ notice are included. Keep `cmap` before `fontenc`; `glyphtounicode` and
 The delivered PDF has four technical pages and a fifth page containing all 35
 references. Template font sizes and margins, authorship, affiliations, funding,
 Figure 1, models, parameters, folds and original primary results are retained.
-V160 clarifies the n-gram count and the original recording-level Direct branch,
-repairs float flow, restores the reranking-system cost framing, and adds three
-bounded CPU analyses of existing caches. It does not change the original policy.
+V160 presents the existing ablations with component checkmarks and adds a GitHub
+link to the abstract. It inherits V159's n-gram and Direct-branch clarifications,
+float repairs, cost framing and three bounded CPU cache analyses. No scientific
+analysis was rerun for V160, and the original policies remain unchanged.
 
 The additional Direct and Native WER values on the original confirmation panel
 are explicitly post-lock retrospective diagnostics. The original confirmation
@@ -37,8 +38,8 @@ triggers. Reported bootstrap intervals are conditional on the sampled recordings
 checkpoints and hardware sessions; they do not remove that tail-coverage limit.
 
 Memory is the observed peak allocated memory with Whisper and XLM-R resident,
-not a standalone deployment footprint or a confidence bound. The author return
-contains inherited per-path intervals, reserved-memory maxima, actual stage
+not a standalone deployment footprint or a confidence bound. The research archive
+contains per-path intervals, reserved-memory maxima, actual stage
 profiles on a separate fixed 50-recording subset, and the trigger-coverage audit.
 Policy-time subtraction does not identify an isolated PLL or fallback stage.
 Complete H4/H3 and trigger/uncertainty-selective PLL costs remain unmeasured.

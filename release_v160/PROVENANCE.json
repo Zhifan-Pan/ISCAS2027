@@ -953,8 +953,9 @@
     },
     {
       "public_path": "paper_source/BUILD.md",
-      "source_sha256": "58063fd15f1e06b6a61de1fba8baa83d076128e4317debd32ba6b9fbc9dfe46e",
-      "public_sha256": "58063fd15f1e06b6a61de1fba8baa83d076128e4317debd32ba6b9fbc9dfe46e"
+      "source_sha256": "0187307095eb689ea4dfe33111320aa315b0025b025d057051b2a1b08f66d7ad",
+      "public_sha256": "0187307095eb689ea4dfe33111320aa315b0025b025d057051b2a1b08f66d7ad",
+      "packaging_note": "V160 documentation distinguishes inherited V159 execution from this presentation update."
     },
     {
       "public_path": "paper_source/CMAP_README.txt",
