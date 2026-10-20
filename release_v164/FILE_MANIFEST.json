@@ -1,0 +1,160 @@
+{
+  "version": "v164",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2300,
+      "sha256": "89d4c94a6f9c701ba70ca80e23d9c37ff3b6c835cb37b381408203cf098928b2"
+    },
+    {
+      "path": "arithmetic_summary.json",
+      "bytes": 4774,
+      "sha256": "c75f3c0b3ca6017c9fcd9060016d271702048be86e44f4c12506b014dc45a8c7"
+    },
+    {
+      "path": "manuscript_v164.pdf",
+      "bytes": 513003,
+      "sha256": "d6c7ec818504eed1e6a016bac75fb66792c5e0c242ed285476b961868e74f714"
+    },
+    {
+      "path": "paper_source/BUILD.md",
+      "bytes": 2745,
+      "sha256": "3b9cde0982ebe0af4489978e2cdc0b2b3e3e9fbc70be01e8f4181648ddd98500"
+    },
+    {
+      "path": "paper_source/CMAP_README.txt",
+      "bytes": 4458,
+      "sha256": "898fbcab62a65d7dcceb9f46669d651be709006edf0df5e2dccd39bf8cfbd9db"
+    },
+    {
+      "path": "paper_source/IEEEtran.cls",
+      "bytes": 281957,
+      "sha256": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7"
+    },
+    {
+      "path": "paper_source/acceptors.tex",
+      "bytes": 1516,
+      "sha256": "e2c3a11dcf3b99030069420ce61f5c16b9c14c2bc3e32c35eebdee0e9bdec4ba"
+    },
+    {
+      "path": "paper_source/author_v105.tex",
+      "bytes": 725,
+      "sha256": "e06b1a81159e3215f66ad6a5217a20c5dbf8a208ca53b3261f237fcae18fe70a"
+    },
+    {
+      "path": "paper_source/cmap.sty",
+      "bytes": 3574,
+      "sha256": "67123f5846b014963904c7395605d3521e98e11493be933aacf45e2bb3c12327"
+    },
+    {
+      "path": "paper_source/cost.tex",
+      "bytes": 1626,
+      "sha256": "ac954f1561075096b6385b3c77ca288b0d5ea951a42b93d9703f5f638d02eb6b"
+    },
+    {
+      "path": "paper_source/figures/Figure1_Vector.pdf",
+      "bytes": 255198,
+      "sha256": "2ad9f6e9060a3e0e0e7573c3780e4b35c1bf35090d2eecb48e9f52f42972e0eb"
+    },
+    {
+      "path": "paper_source/figures/Figure1_Vector.svg",
+      "bytes": 703545,
+      "sha256": "63f0dce3c0aabe4bb56efa5e0bb80643d93562bcad3841e08675898dd04b650a"
+    },
+    {
+      "path": "paper_source/lae.cmap",
+      "bytes": 3293,
+      "sha256": "a17f0d93dcfa51f152358a45e4a16ca8f6dafe6fca70a59c0a6ef6d2c7a0dd6c"
+    },
+    {
+      "path": "paper_source/language_scope.tex",
+      "bytes": 740,
+      "sha256": "4625f31bf8703a1875f525f37caff68ae26735b2d8f1175088b487dcf8c9073f"
+    },
+    {
+      "path": "paper_source/lfe.cmap",
+      "bytes": 3609,
+      "sha256": "2527c655412808c5ce4d630275ab2cf58bbfc582c075432f643f1bd6df65cd4d"
+    },
+    {
+      "path": "paper_source/lgr.cmap",
+      "bytes": 3744,
+      "sha256": "2886fb828896346b914d9a9a28e69e84f1c510437de2af534336eb790aa3637d"
+    },
+    {
+      "path": "paper_source/main.tex",
+      "bytes": 12189,
+      "sha256": "37f71ec8af24bed14af4ae818226720881e4faa7883c539e48a4ecdd38a0fba1"
+    },
+    {
+      "path": "paper_source/ot1.cmap",
+      "bytes": 1290,
+      "sha256": "9618fbd7c9661288db133764b44f382782b3693e416b74b8c0043d65adcd08d2"
+    },
+    {
+      "path": "paper_source/ot1tt.cmap",
+      "bytes": 1042,
+      "sha256": "58b4f178ac815587ccf5165cd3cc13816000f1338b05706717bdbc8345d75af3"
+    },
+    {
+      "path": "paper_source/ot6.cmap",
+      "bytes": 1730,
+      "sha256": "d0de1bf81d787e85165c4e4a5b9faf92c0234201f3d3f31bfbdc378aa5343a75"
+    },
+    {
+      "path": "paper_source/primary.tex",
+      "bytes": 1516,
+      "sha256": "fd791689d9b4b182cb74347c996076e060c6f75d44e672173cd0237d926c30c9"
+    },
+    {
+      "path": "paper_source/references.tex",
+      "bytes": 11362,
+      "sha256": "925af15afbe0127e082f8fae9b169981bd5bd81ac340cf41e75ea9e47ab7fe7e"
+    },
+    {
+      "path": "paper_source/results.tex",
+      "bytes": 6543,
+      "sha256": "e705636cd0a9d76e7bae6b4155784d731242e69b3d02d98c27540054a885f75d"
+    },
+    {
+      "path": "paper_source/t1.cmap",
+      "bytes": 1938,
+      "sha256": "e43d20b203a25786d101e757d312b3660bc2505d57251db7701cd3f69e6d1f42"
+    },
+    {
+      "path": "paper_source/t2a.cmap",
+      "bytes": 1872,
+      "sha256": "81042f4e0394719e199e6254335af00d1b9d26e3cdd4663b66eb56a593b8b647"
+    },
+    {
+      "path": "paper_source/t2b.cmap",
+      "bytes": 1680,
+      "sha256": "99a3cea4c27a32894f4b268c0f37aa3aad4c6e063c15c57177a28d699fb2b177"
+    },
+    {
+      "path": "paper_source/t2c.cmap",
+      "bytes": 1752,
+      "sha256": "a7db0328dd625d835ca63224581b5c93147b731f49d333d014f9231f5fa419ad"
+    },
+    {
+      "path": "paper_source/t5.cmap",
+      "bytes": 2573,
+      "sha256": "d0454643c5bd08f941e127fad0c2748d0589ceaaf158b2984374424e479c5fd1"
+    },
+    {
+      "path": "source.diff",
+      "bytes": 1452270,
+      "sha256": "6b826862d392144d37e38e550bfa876162f44bb0a06eb620d7ac6e2b5c4b514e"
+    },
+    {
+      "path": "source_v164.zip",
+      "bytes": 591136,
+      "sha256": "6b26fa9350a435456b1e9209ae9c3908d38f7b2414293de07e95ddc30c3c6b7f"
+    },
+    {
+      "path": "verify_release.py",
+      "bytes": 517,
+      "sha256": "6db85663953ebbe270858a75a7203dcce3d1db2847917c03deaeb7a7f6f52383"
+    }
+  ]
+}
