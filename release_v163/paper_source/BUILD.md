@@ -15,7 +15,7 @@ rendered glyph is unchanged. The already-correct summation/brace mapping remains
 
 The PDF has four technical pages and one references-only page with all 35 entries.
 Font sizes, margins, author details, affiliations, grants and all numerical results are retained.
-Figure 1 uses the author's final-gi SVG update, included unchanged alongside its
+Figure 1 uses the author's arrow-aligned compact SVG update, included unchanged alongside its
 vector PDF. It is placed across both columns on page 2 at 0.80 textwidth, with the
 author's caption. Double-column float separation is set before `maketitle` so
 IEEEtran computes title spacing consistently. Redundant wording and table row

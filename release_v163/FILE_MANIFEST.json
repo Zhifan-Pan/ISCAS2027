@@ -23,13 +23,13 @@
     },
     {
       "path": "MANIFEST.json",
-      "bytes": 755,
-      "sha256": "2d7af01880959802292a40eb011c1d6d7acac589b8ee1b131c52753075219b87"
+      "bytes": 861,
+      "sha256": "064f53fd6a55a22bb81a0e8d957ee296c4c5b86dccb61438a398ede3668d94dc"
     },
     {
       "path": "README.md",
-      "bytes": 2443,
-      "sha256": "ecf1262cb13bbd746df69236f6a9727d2cb41d0e882737e7143a5ba9858beca6"
+      "bytes": 2456,
+      "sha256": "4d7b9b3533f873565ebe4c4bc6882127b72d3d357087b4c3392373818bc298e2"
     },
     {
       "path": "REPRODUCE.md",
@@ -63,8 +63,8 @@
     },
     {
       "path": "paper_source/BUILD.md",
-      "bytes": 5130,
-      "sha256": "f03d747f653b8b53c4445af880c2e1649069f1e74844d34b125a338444bf5425"
+      "bytes": 5143,
+      "sha256": "780fa7383e9589560e054b68907b6867762147961d8563f64dbd4302a0a3cfb2"
     },
     {
       "path": "paper_source/CMAP_README.txt",
@@ -98,13 +98,13 @@
     },
     {
       "path": "paper_source/figures/Figure1_Vector.pdf",
-      "bytes": 249576,
-      "sha256": "bc5c7ac86dd79ba106d92779659205f3d5c26c79f7803f9ba4265da7da89a3ad"
+      "bytes": 249258,
+      "sha256": "1d19fc34685164e42dc7ca951f00d6a2cb4c589707b5af50d61dd5d3e8d202d3"
     },
     {
       "path": "paper_source/figures/Figure1_Vector.svg",
-      "bytes": 717324,
-      "sha256": "e565875a98cca94d4a9ced412cf57ba483833ed601e9d57d8b763f11a29163db"
+      "bytes": 748005,
+      "sha256": "acc7bba79d0827cc530e2960b68f1d039630ecbf367db93368ce719a6796d825"
     },
     {
       "path": "paper_source/lae.cmap",
@@ -128,8 +128,8 @@
     },
     {
       "path": "paper_source/main.tex",
-      "bytes": 12342,
-      "sha256": "0800fd88d7abe48f976fd2428fca1e790b7d5545692bee955ecedaa0f919cd1d"
+      "bytes": 12378,
+      "sha256": "e336d1b9554029f904be9ce8335937f5f32e12d32ca92b4e0ca4725a0739193b"
     },
     {
       "path": "paper_source/ot1.cmap",

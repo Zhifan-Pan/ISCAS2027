@@ -95,7 +95,9 @@ Confirmation uses 7,500 CV27 TRAIN recordings, 1,500 per language, excluding pre
 Decoding uses known languages, bfloat16, five beams, length penalty one, native suppression and a 444-token cap in Transformers 4.57.6. At 16\,kHz, $N$ samples yield $J=\lceil N/480000\rceil$ windows bounded by $\lfloor jN/J\rfloor$, without previous-window text conditioning.
 Deduplication, WER and $r$ share NFC normalization, digit unification, punctuation-to-space, Persian mapping and Turkish casing~\cite{normalization}. Source RNG mappings stay fixed.
 
-WER aggregates within languages before averaging five languages and three seeds; calls pool seed--recordings. Seed diagnostics use consistent order. TEST intervals use 2,000 paired language-internal client/reference-component draws, synchronized across seeds and conditional on frozen fits and source draws. FLEURS controls are descriptive because component metadata are unverified.
+\begin{samepage}
+WER aggregates within languages before averaging five languages and three seeds; calls pool seed--recordings. Seed diagnostics use consistent order. TEST intervals use 2,000 paired language-internal client/reference-component draws, synchronized across seeds and conditional on frozen fits and source draws. FLEURS controls are descriptive because component metadata are unverified.\par
+\end{samepage}
 
 Costs sample 255 FLEURS and 472 CV27 recordings: all first-checkpoint triggers or Native-output changes plus ten ordinary recordings per language--duration-quintile cell, with inclusion-probability weighting. Later-checkpoint unsampled triggers number five on FLEURS and 207 on CV27, or 0.05\% and 0.12\% of seed--recordings. Triggered N+R and S+R acquire identical banks. Both studies use three randomized paired A40 rounds with both models resident, encoder/first-search reuse and 32-mask PLL batches. Synchronized waveform-to-output timing excludes loading, warmup and interfered blocks. Session-conditional intervals use 4,000 paired stratified bootstrap draws with finite-population correction and synchronized equal-checkpoint weights in A.
 

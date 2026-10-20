@@ -9,17 +9,19 @@
   ],
   "private_input_maps_included": false,
   "figure_update": {
-    "SVG_sha256": "e565875a98cca94d4a9ced412cf57ba483833ed601e9d57d8b763f11a29163db",
-    "PDF_sha256": "bc5c7ac86dd79ba106d92779659205f3d5c26c79f7803f9ba4265da7da89a3ad",
+    "SVG_sha256": "acc7bba79d0827cc530e2960b68f1d039630ecbf367db93368ce719a6796d825",
+    "PDF_sha256": "1d19fc34685164e42dc7ca951f00d6a2cb4c589707b5af50d61dd5d3e8d202d3",
     "artwork_modified": false,
     "page": 2,
     "two_column": true,
-    "new_scientific_runs": 0
+    "new_scientific_runs": 0,
+    "artwork_version": "Author-supplied arrow-aligned compact SVG"
   },
   "layout_update": {
     "page2_to_page3_continuity": true,
     "table_I_within_results": true,
     "scientific_text_unchanged": true,
-    "new_scientific_runs": 0
+    "new_scientific_runs": 0,
+    "WER_paragraph_kept_whole": true
   }
 }
