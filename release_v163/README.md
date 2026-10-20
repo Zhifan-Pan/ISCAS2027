@@ -8,6 +8,9 @@ and matching vector PDF included. This figure update runs no new analysis. This 
 the distinction between fixed-selector acquisition, matched-bank acceptance,
 and their measured cost scopes.
 
+The page-two continuation now precedes the result tables on page three.
+This layout correction changes no scientific text, equations or numerical results.
+
 The only new computation is a retrospective paired interval from existing
 confirmation-panel counts. Direct minus S+R is −0.05 pp, with a descriptive
 95% interval [−0.19, +0.04]. It does not inherit the original confirmation status.

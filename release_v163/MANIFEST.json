@@ -15,5 +15,11 @@
     "page": 2,
     "two_column": true,
     "new_scientific_runs": 0
+  },
+  "layout_update": {
+    "page2_to_page3_continuity": true,
+    "table_I_within_results": true,
+    "scientific_text_unchanged": true,
+    "new_scientific_runs": 0
   }
 }
