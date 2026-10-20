@@ -16,7 +16,7 @@ rendered glyph is unchanged. The already-correct summation/brace mapping remains
 The PDF has four technical pages and one references-only page with all 35 entries.
 Font sizes, margins, author details, affiliations, grants and Figure 1 are retained.
 At the author's request, Yingxiong Gao now precedes Yuhui Ming; all other author positions and markers are unchanged.
-The funding body's established acronym NSFC is used in the acknowledgment.
+The acknowledgment spells out National Natural Science Foundation of China in full, at the author's request.
 Checkmark component columns and the abstract GitHub link are retained.
 
 V163 connects the within-study strategy cost differences to the results prose,

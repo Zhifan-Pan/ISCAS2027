@@ -63,8 +63,8 @@
     },
     {
       "path": "paper_source/BUILD.md",
-      "bytes": 4486,
-      "sha256": "973f29f61852a27482572b52bab148de5f36cfc8fc920df4e668a205f323d345"
+      "bytes": 4520,
+      "sha256": "739809f4be6750ec10fa48457c01928edcf544e8dd9d10bcb6ab7671c4c9339e"
     },
     {
       "path": "paper_source/CMAP_README.txt",
@@ -123,8 +123,8 @@
     },
     {
       "path": "paper_source/main.tex",
-      "bytes": 12760,
-      "sha256": "c23d588bedd5bd1ecc4567a9554e381d0b2ad4b66edc46787e4feaf3883932d8"
+      "bytes": 12816,
+      "sha256": "5fabc80f6ce1ae1d74bddb98b647ea31d7e6d19ee21c077bf8c5290c589d1d10"
     },
     {
       "path": "paper_source/ot1.cmap",
