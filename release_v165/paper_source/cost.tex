@@ -1,0 +1,31 @@
+\begin{table}[!t]\centering\footnotesize
+\caption{Population-weighted ms and observed peak allocated MiB with both models resident. Each study uses three paired rounds.}\label{tab:cost}
+\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.00}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+ & \multicolumn{2}{c}{FLEURS} & \multicolumn{2}{c}{CV27}\\
+Path & ms & MiB & ms & MiB\\\midrule
+\multicolumn{5}{c}{A. Four paths, three checkpoints}\\
+Native HF & 1291.7 & 2980.8 & 517.4 & 2813.8\\
+B & 1352.7 & 3144.9 & 591.9 & 3133.1\\
+N+R & 1436.8 & 2988.3 & 639.2 & 3133.1\\
+S+R & 1362.8 & 3189.7 & 610.0 & 3133.1\\
+\midrule
+\multicolumn{5}{c}{B. Seven paths, one checkpoint}\\
+Native HF & 1304.8 & 2978.4 & 531.2 & 2811.8\\
+Raw top-1 & 1222.6 & 2946.6 & 479.9 & 2571.0\\
+B & 1364.0 & 3142.4 & 605.1 & 3131.1\\
+N+R & 1449.6 & 2986.3 & 657.9 & 3131.1\\
+S+R & 1374.5 & 3187.2 & 628.0 & 3131.1\\
+Direct & 1372.8 & 3187.2 & 625.8 & 2811.8\\
+H3Direct & 1314.0 & 3187.2 & 586.4 & 2811.8\\
+\midrule
+\multicolumn{5}{c}{S+R saving versus N+R in \% [pointwise 95\% CI]}\\
+A & \multicolumn{2}{c}{5.15 [2.84, 9.41]} & \multicolumn{2}{c}{4.57 [4.40, 4.73]}\\
+B & \multicolumn{2}{c}{5.18 [2.88, 9.39]} & \multicolumn{2}{c}{4.54 [4.44, 4.66]}\\
+\midrule
+\multicolumn{5}{c}{Within-study B strategy differences, not stage times}\\
+B $-$ Raw top-1, ms & \multicolumn{2}{c}{141.4} & \multicolumn{2}{c}{125.2}\\
+N+R $-$ B, ms & \multicolumn{2}{c}{85.6} & \multicolumn{2}{c}{52.8}\\
+S+R $-$ B, ms & \multicolumn{2}{c}{10.5} & \multicolumn{2}{c}{22.9}\\
+Increment saved & \multicolumn{2}{c}{87.7\%} & \multicolumn{2}{c}{56.6\%}\\
+\bottomrule\end{tabular}\end{table}
