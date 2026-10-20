@@ -7,6 +7,7 @@ remain in [`release_v160/`](release_v160/). Historical releases are unchanged.
 ## Current snapshot
 
 - [V163 LaTeX source](release_v163/paper_source/), four technical pages plus references.
+- Author-supplied final-gi Figure 1, preserved as SVG and PDF vectors across two columns.
 - One retrospective Direct-minus-S+R interval, with exact analysis code and anonymous numeric replay inputs.
 - Inherited [V162 H4+e fits](release_v162/), all 49-penalty CV records and three final models.
 - Separate inherited four-path/three-checkpoint and seven-path/one-checkpoint costs.

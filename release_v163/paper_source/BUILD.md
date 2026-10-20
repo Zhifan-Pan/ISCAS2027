@@ -14,7 +14,15 @@ math hat's text mapping from ASCII U+005E to modifier circumflex U+02C6; the
 rendered glyph is unchanged. The already-correct summation/brace mapping remains.
 
 The PDF has four technical pages and one references-only page with all 35 entries.
-Font sizes, margins, author details, affiliations, grants and Figure 1 are retained.
+Font sizes, margins, author details, affiliations, grants and all numerical results are retained.
+Figure 1 uses the author's final-gi SVG update, included unchanged alongside its
+vector PDF. It is placed across both columns on page 2 at 0.80 textwidth, with the
+author's caption. Double-column float separation is set before `maketitle` so
+IEEEtran computes title spacing consistently. Redundant wording and table row
+padding were reduced to keep four technical pages; no results or references
+were removed. The three method equations are unchanged. The figure locally
+preserves its existing PDF transparency group, avoiding a duplicate /Group
+dictionary injected by recent pdftex.def versions.
 At the author's request, Yingxiong Gao now precedes Yuhui Ming; all other author positions and markers are unchanged.
 The acknowledgment spells out National Natural Science Foundation of China in full, at the author's request.
 Checkmark component columns and the abstract GitHub link are retained.

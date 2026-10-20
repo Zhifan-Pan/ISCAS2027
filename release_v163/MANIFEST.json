@@ -7,5 +7,13 @@
     "release_v160",
     "release_v162"
   ],
-  "private_input_maps_included": false
+  "private_input_maps_included": false,
+  "figure_update": {
+    "SVG_sha256": "e565875a98cca94d4a9ced412cf57ba483833ed601e9d57d8b763f11a29163db",
+    "PDF_sha256": "bc5c7ac86dd79ba106d92779659205f3d5c26c79f7803f9ba4265da7da89a3ad",
+    "artwork_modified": false,
+    "page": 2,
+    "two_column": true,
+    "new_scientific_runs": 0
+  }
 }

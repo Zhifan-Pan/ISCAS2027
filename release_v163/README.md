@@ -2,7 +2,9 @@
 
 [Manuscript source](paper_source/BUILD.md) builds to four technical pages and
 one references-only page. Original mathematical definitions, 35 references,
-vector figure, authors and numerical results are retained. This release improves
+authors and numerical results are retained. Figure 1 now uses the author's
+final-gi vector artwork across both columns on page 2, with its original SVG
+and matching vector PDF included. This figure update runs no new analysis. This release improves
 the distinction between fixed-selector acquisition, matched-bank acceptance,
 and their measured cost scopes.
 
