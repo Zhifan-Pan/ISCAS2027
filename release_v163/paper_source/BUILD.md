@@ -14,7 +14,8 @@ math hat's text mapping from ASCII U+005E to modifier circumflex U+02C6; the
 rendered glyph is unchanged. The already-correct summation/brace mapping remains.
 
 The PDF has four technical pages and one references-only page with all 35 entries.
-Font sizes, margins, author order, affiliations, grants and Figure 1 are retained.
+Font sizes, margins, author details, affiliations, grants and Figure 1 are retained.
+At the author's request, Yingxiong Gao now precedes Yuhui Ming; all other author positions and markers are unchanged.
 The funding body's established acronym NSFC is used in the acknowledgment.
 Checkmark component columns and the abstract GitHub link are retained.
 
