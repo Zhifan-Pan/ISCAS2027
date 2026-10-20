@@ -1,13 +1,14 @@
 # Selective Recovery for Multilingual ASR: Candidate Acquisition and Acceptance
 
-Code and anonymous numerical exports for the current manuscript are in
+The current V161 manuscript source is in [`release_v161/`](release_v161/).
+Scientific code and anonymous numerical exports remain in
 [`release_v160/`](release_v160/). The paper separates candidate acquisition
 from acceptance and reports the original frozen-panel evaluation alongside
 retrospective source/acceptor comparisons.
 
 ## Current snapshot
 
-- Checkmark component ablations and matching [LaTeX source](release_v160/paper_source/).
+- Layout-corrected [V161 LaTeX source](release_v161/paper_source/), retaining the checkmark component ablations.
 - Complete same-HF candidate-acceptor code, frozen models and 49-penalty logs.
 - HF9/HF12, HWR4 and MBR code, original numerical inputs and inherited results.
 - Real-audio seven-policy runtime, including RawTop1 and H3Direct.
@@ -15,6 +16,7 @@ retrospective source/acceptor comparisons.
   paths at one checkpoint; measured uncertainty and remaining limitations.
 
 ```bash
+python release_v161/verify_release.py
 python release_v160/verify_release.py
 ```
 
