@@ -1,0 +1,11 @@
+{
+  "version": "v163",
+  "role": "Public source and anonymous numeric evidence",
+  "original_scientific_runs_repeated": false,
+  "complete_file_receipts": "FILE_MANIFEST.json",
+  "historical_releases": [
+    "release_v160",
+    "release_v162"
+  ],
+  "private_input_maps_included": false
+}

@@ -1,0 +1,38 @@
+{
+  "scope": "Post-lock retrospective Direct-minus-S+R diagnostic on the existing speaker-clustered panel. Original statistical families unchanged. Public replay with order-preserving anonymous identifiers.",
+  "comparison": "Direct_postlock minus SplusR",
+  "checkpoints": [
+    101,
+    202,
+    303
+  ],
+  "resamples": 10000,
+  "rng_seed": 31016,
+  "cluster": "Within-language speaker_key; identical cluster draws across checkpoints and policies",
+  "estimand": "Mean of language-wise aggregate error/reference ratios, equal weights for five languages and three checkpoints, percentage points",
+  "interval": "Two-sided percentile 95%; report either outcome; no p-value, parameter choice, or follow-on experiment",
+  "script_sha256": "56f8a323949773fb8a17532b6cf3397edc94b3f7f8fe4d6eb1eaf4291f6547a4",
+  "historical_protocol_sha256": "5ad1c8718aa5a699e18bbb55eea1bfaa6afbe26e9eb8b66cbe945c6d94724d05",
+  "historical_execution_script_sha256": "56f8a323949773fb8a17532b6cf3397edc94b3f7f8fe4d6eb1eaf4291f6547a4",
+  "replay_is_new_preregistration": false,
+  "inputs": [
+    {
+      "path": "inputs/counts_101.npz",
+      "sha256": "5da3a96409c6916a90d2694dbfa23f50ebdf3a03736c215dd84114b6d765ad25"
+    },
+    {
+      "path": "inputs/counts_202.npz",
+      "sha256": "8ff4cd4e6df9ae74184670ec728cc63e780cfedd30880455fc1ae240ecbeb837"
+    },
+    {
+      "path": "inputs/counts_303.npz",
+      "sha256": "c542871560323eba25d2e7c0d1bfe6571dabc2eaec855ceb6383ebd02bea79ec"
+    },
+    {
+      "path": "inputs/panel_scores_numeric.jsonl",
+      "sha256": "c57779e614664b75da6f5a9aaa4802210e2b360e67a56a8834e5d71a10de7fad"
+    }
+  ],
+  "scores": "inputs/panel_scores_numeric.jsonl",
+  "count_dir": "inputs"
+}

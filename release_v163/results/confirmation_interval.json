@@ -1,0 +1,86 @@
+{
+  "scope": "Post-lock retrospective Direct-minus-S+R diagnostic on the existing speaker-clustered panel; no new confirmation and no change to original statistical families.",
+  "comparison": "Direct_postlock minus SplusR",
+  "protocol_sha256": "5ad1c8718aa5a699e18bbb55eea1bfaa6afbe26e9eb8b66cbe945c6d94724d05",
+  "script_sha256": "56f8a323949773fb8a17532b6cf3397edc94b3f7f8fe4d6eb1eaf4291f6547a4",
+  "completed_utc": "2026-10-20T11:05:39.106031+00:00",
+  "validated_seed_recordings": 22500,
+  "original_policies_SDIN_reconstructed": true,
+  "frozen_N_S_exact_SDIN_equal": true,
+  "clusters_per_language": {
+    "ar": 24,
+    "fa": 108,
+    "it": 501,
+    "pl": 69,
+    "tr": 26
+  },
+  "macro_WER_percent": {
+    "B": 35.01745366238694,
+    "Native": 34.86827316737279,
+    "NplusR": 32.75476627936039,
+    "SplusR": 32.75476627936039,
+    "Direct_postlock": 32.70659529080486
+  },
+  "delta_pp": -0.04817098855552615,
+  "interval_95_pp": [
+    -0.19082463972430552,
+    0.040519223094157376
+  ],
+  "interval_contains_zero": true,
+  "resamples": 10000,
+  "rng_seed": 31016,
+  "per_checkpoint": [
+    {
+      "checkpoint": 101,
+      "triggers": 19,
+      "differences_outside_trigger": 0,
+      "direct_improves": 2,
+      "direct_worsens": 1,
+      "delta_pp": -0.14537902388369872
+    },
+    {
+      "checkpoint": 202,
+      "triggers": 4,
+      "differences_outside_trigger": 0,
+      "direct_improves": 0,
+      "direct_worsens": 0,
+      "delta_pp": 0.0
+    },
+    {
+      "checkpoint": 303,
+      "triggers": 38,
+      "differences_outside_trigger": 0,
+      "direct_improves": 1,
+      "direct_worsens": 1,
+      "delta_pp": 0.0008660582170989528
+    }
+  ],
+  "new_fits": false,
+  "new_model_forward": false,
+  "original_statistical_families_changed": false,
+  "interpretation": "Post-lock, two-sided descriptive paired interval conditional on the observed speaker-clustered panel and three checkpoints; no new confirmation or proof of equivalence.",
+  "historical_input_receipts": [
+    {
+      "name": "panel_scores_v2.jsonl",
+      "sha256": "2dc111755b3ceeed14c536f3b742013e51febb4d800f3b4f18c22f91bc6e20f2"
+    },
+    {
+      "name": "counts_101.npz",
+      "sha256": "5da3a96409c6916a90d2694dbfa23f50ebdf3a03736c215dd84114b6d765ad25"
+    },
+    {
+      "name": "counts_202.npz",
+      "sha256": "8ff4cd4e6df9ae74184670ec728cc63e780cfedd30880455fc1ae240ecbeb837"
+    },
+    {
+      "name": "counts_303.npz",
+      "sha256": "c542871560323eba25d2e7c0d1bfe6571dabc2eaec855ceb6383ebd02bea79ec"
+    },
+    {
+      "name": "analyze_v2.py",
+      "sha256": "15572f86ccdd1b88ff66245395c4410753229b380a971fc60492405ea69f132e"
+    }
+  ],
+  "release_note": "Aggregate result of original execution; anonymous replay inputs preserve all SDIN and ordered cluster memberships. No new bootstrap run was performed to prepare this release.",
+  "original_result_sha256": "4f87f238e9e748db5912b65736cc035be9db181e61a362033e6da35cf3190660"
+}

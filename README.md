@@ -1,27 +1,30 @@
 # Selective Recovery for Multilingual ASR: Candidate Acquisition and Acceptance
 
-The current manuscript source and bounded empty-indicator diagnostic are in
-[`release_v162/`](release_v162/). Original scientific code and anonymous inputs
+The current manuscript source and post-lock paired diagnostic are in
+[`release_v163/`](release_v163/). Original scientific code and anonymous inputs
 remain in [`release_v160/`](release_v160/). Historical releases are unchanged.
 
 ## Current snapshot
 
-- [V162 LaTeX source](release_v162/paper_source/), four technical pages plus references.
-- Exact H4+e fitting/evaluation code, all 49-penalty CV records and three final models.
-- Complete cached-policy checks, language-level SDIN and corrected evidence scopes.
+- [V163 LaTeX source](release_v163/paper_source/), four technical pages plus references.
+- One retrospective Direct-minus-S+R interval, with exact analysis code and anonymous numeric replay inputs.
+- Inherited [V162 H4+e fits](release_v162/), all 49-penalty CV records and three final models.
 - Separate inherited four-path/three-checkpoint and seven-path/one-checkpoint costs.
 - Original same-HF acceptors, HF9/HF12, HWR4/MBR, runtime and numeric inputs in V160.
 
 ```sh
+python release_v163/verify_release.py
 python release_v162/verify_release.py
 python release_v160/verify_release.py
 ```
 
-See [V162 instructions](release_v162/README.md) for what was actually executed
+See [V163 instructions](release_v163/README.md) for what was actually executed
 and how to prepare an optional CPU replay. The original confirmation does not
 confirm later refits or post-lock diagnostics. H4+e remains retrospective and
 does not eliminate the observed empty-output preference. No new GPU timing was
-performed for V162. Small call rates do not establish a latency bound.
+performed for V163. The paired interval is a post-lock descriptive result,
+not new confirmation or an equivalence test. Small call rates do not establish
+a latency bound, and matching feature architectures do not replace measured costs.
 
 `reproduction/` and `matched_cost_evidence/` retain historical measurements;
 their earlier scopes are not the current complete evidence. The historical
