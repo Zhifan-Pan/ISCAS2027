@@ -1,0 +1,225 @@
+{
+  "within_study_B": [
+    {
+      "corpus": "FLEURS",
+      "B_minus_Raw_ms": 141.3974672976035,
+      "N_minus_B_ms": 85.62794618245653,
+      "S_minus_B_ms": 10.524873091617337,
+      "incremental_overhead_saving_pct": 87.70860033336444
+    },
+    {
+      "corpus": "CV27",
+      "B_minus_Raw_ms": 125.2105510609228,
+      "N_minus_B_ms": 52.80011554440455,
+      "S_minus_B_ms": 22.902502826026762,
+      "incremental_overhead_saving_pct": 56.62414259914657
+    }
+  ],
+  "cost_source_sha256": "8b63d1434c9890320e1779dedb0372184aada3b756d8d9231695646798d28491",
+  "coverage_source_sha256": "f97cbcba2137f7e7fa45522f6e41effa060176335a09d11c986d0b5f4ddb88b0",
+  "profile_files": [
+    {
+      "path": "live_cost_v153_20261019/profile/round0/078f4b0388889959390202de48a4b4036821adb0030ed5a26eb1d15ec8cf9beb.json",
+      "sha256": "311033a84a4208d77c0eda5d4a252b4c25fa14ea1f1644d8ebd09a2625cc58b6"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/0909215d01cf9b05eb695668e48d0a9248f72e109a3d3383775ea0718291b41f.json",
+      "sha256": "4af0622394667f36605fa65d2101d95eb179e653e268609f90f1f5ab71b73177"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/156c34ccbd395f916562d1869e40a4584757254188728440a33bd3f668a7afeb.json",
+      "sha256": "41c8c584bf34520b3b26958a105f93b354b01e5811948d5df6d5acbf7a936668"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/1bc95fd3031ee149a949f0dffead77ee360c0a673fa72fd7ea394fc323086e19.json",
+      "sha256": "bf7148a1aa8d6f87cf69e227efe59e095cc7cc7e58d446acd4c60e61ab843dee"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/1d3cfdf8b399a8e97e102a86c161a910b480bcb98089e601f36717e471a582f7.json",
+      "sha256": "7da1120885bc6c8fe1ca9f0d3fbe8e0be0145f7c79951ea6b706bf491dcb53fa"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/212d00779ccd6a4cb39d044d29ef150c429e0e47dde83f4c4229a5bed93ca5ca.json",
+      "sha256": "14f900a29b7b2d34b15bde39816c85c6be386283b634b6c412a5e8399c387ecf"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/28a8ffed10f049c886ae34d3a72f2ed044d1d881a7fa411b710ad9c4da95ca4e.json",
+      "sha256": "8a664f3e6f87ae93e278376d2f48295d8e91d06f2141e9c1da0753041769895d"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/2a7691501e34530d2d4fa1841537c79f73b0d518e71c087238333f96956b7d75.json",
+      "sha256": "61b4e7a96b07982cf7db0b833fe71e2e64ca193ac738b830bd2ccdf2403721c3"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/2b41441abcffd5845e3334467a18ce22c9ed7f4155db6b47f28435e1faa10934.json",
+      "sha256": "70f65f1f823ba6b8ccb0b5c03ca59bc6b706db84232cc62f9c68d33bf4f4b732"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/2c2aadd352c6f76c183df6260c4a2ed53b50ad2b208ae41f50b3c4c0efbd7f20.json",
+      "sha256": "024656cb0197656cf571e3f5804bcfe62f10c0157dec0392d076f3c39daed34d"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/2dc344c2f66197f16ea9849dbae29c3319686f29547aab36d535781120b6c810.json",
+      "sha256": "98fd9f864b9039aefb25422c9ff6905c3881ce51e61cfd3d1faebb1bf168c38d"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/33739608be9238eb2b10301fa14650267d7f1b39396e6399fb0aea0c1074c21b.json",
+      "sha256": "de31b815e85b5b7d56a3109cc79d65f42a1ff0532c7de23ba66780ad6e6c0d68"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/35cf6c315a53b9ee57ff6cce4ca60d91f1085db7ca5d9c5ff78c2c7f3bfc51ac.json",
+      "sha256": "80c55e3cda82872cb82d87e7cf154697b331f49af1406c2541b3115420e5d839"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/38d3db9c482de1f5ea6dcbbbe0a0de5ae860cffaa41fc2e8d313d823183c2eff.json",
+      "sha256": "5f501614588a234a08eb8164fee4d8251d88c80a557cc15d614596b95ec4881d"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/3e88a881f072dafa5e7255e601b4680e6744f0dfe8a19c02b48f920c7050aa89.json",
+      "sha256": "6d3004976cdedc5557011b7107e54e80c11f0d1ce2e9028b92ff9003291f2b4b"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/4657e1f6d0007d122d4b5b8d9950269be67ed1f485a0aa70f478925866618c12.json",
+      "sha256": "61579179903faddc72a8afc323ed1a3bdac6265a361dc4d1bf1120dabfd04c57"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/4699c725aee4eb2955daaa72a756d485d62612bc454f5434b9526716decc253b.json",
+      "sha256": "d7f69664cf46666867ea28b2d45632e873743379cc76a9a1b36aa24129f68304"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/559c97fcb850cf171a212285b831e5435a1dcd63f8b42e70ece987a168c0a898.json",
+      "sha256": "a8ca5869101332eca6c93aff9422ed7ed9eb2e3b0b9d072beb5620b4e22ce9cd"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/587201d4aec4396964679a0d29555dff6caafe3411ea8a895c51bac25ec02dfe.json",
+      "sha256": "48b452424f25fd94739e084da73d90d0c2956c7d34510a2a8525849bd77267ea"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/5d6028a5661124983c5b4e46a18ddf8266bc2f314a00e788345fa926f8083246.json",
+      "sha256": "9c411c7f2d2f21a9f24b97be0667eb1ae956ceacc5d183f40c8a7d4465054d77"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/60dda9de63baa64d51c13ffa187e58973f2feae13f4411f52d547e1b9ebae52f.json",
+      "sha256": "03840db036c197bb044ecb1114075a9901cc92c29f2b9e6b3a424e400d275d1f"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/6ab6f49c2d6f88ee32d74cc321ad7f5ee501cd11b8f1b8364898c3a747a23a0f.json",
+      "sha256": "0fba1361d64a4906ee7a80ebeeae15726c794d3057637ba522172c80f28fea00"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/6e178a6460a2a83a7eb280d1f8821c6a7040975943dd03a5b7cf630313074d66.json",
+      "sha256": "ba4fd1c004bf4f5545831a3d1a825469469435ab3c2c5adeeefd21708942b56c"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/7a1e3b81e85a402a78c8ab3cb76968ae193c5128e601b3102c44528fbc73b534.json",
+      "sha256": "e34150cd4550293e4a33c84bf3fcfbdad5cc54fd5d4f966f51b65bb106227cdb"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/7b1ee34389cf9f4fe1f70dd73e87df2e95c7a3e2daf9af9b3e55935474101daa.json",
+      "sha256": "96d9a95ff2d9b7184b079858232d64d6066e24673a5e6110a5fd3b86bfc0048c"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/7cd48dd9733a3ecf44f772ddf74c3687c52255207936c03349ad5caec22b66c1.json",
+      "sha256": "22078f783f050b1ca696740ee43e6a915e36e5f6afaa4433e72858e4b20cc115"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/7d1d881069265b132e486c196ed6c1f71445c8cec625c533aef9e46dd0d97002.json",
+      "sha256": "5fa7b4ae0085eb050c104dc5a339f2ba9afce401244275eed6ac4a073f6b3d7c"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/7ebfd92dbe05da047916e75411078d0c30ba0286c6dc1e3650bcd28fb6cc6bc0.json",
+      "sha256": "6b9e24dd2ffa112de63229a436bee2adc9638e900b25fc46b062d7ab5afc11fd"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/808a57332e2b40c76f0f589f56d01cde10d9f965c6e772717f2fe0b7a0ea3c62.json",
+      "sha256": "662f87eefcf11fdb07549d433d55d3ad4b6a172512ef449d88d572e7e5288506"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/90b4572abcb6dc7fb675b584e9189dcc327ea679babcb4f6760e257e417d62a0.json",
+      "sha256": "288af99c502802e3ef8b3b467a5f0f342a2165038f99b35adf3d07c641740211"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/97571fa04d5d71c530e2095424b5d5cb1fec4f25e09203833a2914d07d602f1e.json",
+      "sha256": "a7501363cc0e5fad8e14854a27ecf3b14a49eadd28918eec21a8cc00af85bb20"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/9a02c7ac229cee45744a53d35a106af857bbfa33300a7269fa91dad147fb3e52.json",
+      "sha256": "967d4504e886ca584b8f162f4dc0794158b55d5c339942f51b38ad1150300a7b"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/9df0fa9f3c9d85c18840e30659fca34cf457f13866dade421b8730fac56f62a1.json",
+      "sha256": "0759ad2cfa16791b3d2e06ebbbf7f7ce4ec252398f9f7a46cd414252603b9e54"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/a018a33036c0f20f6f5ba95c43a442e9e2470842880d80c097aa3b6c3181edec.json",
+      "sha256": "a10619760e6470fef125faa05c459b5dceaad2c08f400d75e537aa702b80b309"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/a1b582d3181a2db82469775e9884a2ddc8dc492e0329688f0b6371b23b7d1b15.json",
+      "sha256": "f7f91efdb6b1bc355bd662e6158d80195de7dfd289615595584886029a904420"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/a59f6f2a18680c041acc252d88fc183c894c8416ed9794730e5097fe3d2b993b.json",
+      "sha256": "9f702bbd45548e036cd8c8b5a304b3be6d8c673a7ed50dde75a530399de81b1c"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/b0f4f53b89b98053c07bafad8d1005072f1e01de842f9ba3c13f6e66c5c383b6.json",
+      "sha256": "212a3327d0ed669befee9e90a2b6cea0cdb28329713f5db8eff5e646869e9c0e"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/b21b729f3e4ef22b42be617a800153409fb0e16a57b5562f23c7f0b5ac1991fe.json",
+      "sha256": "3990c30ea38ae6d2437012e64808c8025adb8054c8d7c40374d334c0077dd8ea"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/b4b920cb8de4ebad471527865cf643a0844a7380f14ebcdaaf67e1f05b134b7b.json",
+      "sha256": "527568aa4dac8c476477260046e0c58632202e267bd071bb2859900a016a0abf"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/c8908def2c2e1298916f221f53910fa7e62bdc9301180298d2f3140d07e970c5.json",
+      "sha256": "1f757b5b20987e3a84602b82d09ad900cbac0023dee07b3b23b4bf4327614f92"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/d155a583bcc4e33610857ace4ea0c730124a40b6809ac3663cf4fb9520b55b73.json",
+      "sha256": "0192efe9f2c1cdde53ed320fe2cbb25c0892ef8ec49e1c26f3c8b1b7a5b61126"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/d2543f9e32d1c1893b02abbad1e6e88e9258beff64a4f5b6fe582af985adb912.json",
+      "sha256": "3371d64015dde2e45850d78cf5db9ea83dde563871a913ed8ac10560039d3cec"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/d5748d96b0f117385726637d4057844aec34dc4340c48f45250f73f998470560.json",
+      "sha256": "016df8e84d79d6b85a34f9f36a66b287eaae6bdc426e582199e1187e26f59322"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/e4f21dfcca859528ac7f746f439f605e8a00f7ff3b2be5040a812f3e62d4d597.json",
+      "sha256": "af414de982cca3a00ef11d4b5e1641fede99c0f3c33a5fe462e5fca82ba4200c"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/e653ef51ced90fca63ca14194bc655daf3871ea9019ff66a34aea4a32569af21.json",
+      "sha256": "9129de44f0ed09cc24be4f73a2a4a7660f2c49209a2b1ffc4b4b14458d06c3a4"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/e66f7e429853025df251c24ca486b7637a83afe868dfdd14b10ef1a0212e5654.json",
+      "sha256": "245ab2fa4a5a4d266fe86e73a0032ac1e06c2242143a91eff0a15cd0b74d8de0"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/eb11e3131f45b9d01e0b7be61cbbb6bfcc4a94a8f0bcc248873196730fb1cda8.json",
+      "sha256": "66270c3f481219a720c107a71d28ecf1964be05a9ff24162ca52a82428b1b44f"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/f33d5e3817d990f807a7bf4ecf480c39d087308c2a90f5ba97cc197bbfb098ce.json",
+      "sha256": "57d286fb8ea552c7372e061ee05d3631022f4a29184fe346e9df049a2f346ed0"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/fcd983d7c85c51cbde5e1351f2f4ad49293e91041dc52c206cd7a915b667cd91.json",
+      "sha256": "8949516f3a4c8e1d4b9e4d871e5f600765eaa97cfec0876a8989a6d1f3c1b6a3"
+    },
+    {
+      "path": "live_cost_v153_20261019/profile/round0/ff49e7e0bf3315b39799d978eacab783f617624e3311d383454e7ee31000a7c9.json",
+      "sha256": "d5565abd1e2b21be5ea7133382826bdd31ca69b15f0b87c86f966c3324245fc4"
+    }
+  ],
+  "interpretation": "Population-weighted policy contrasts, not isolated stage times. The 25-recording profile is unweighted and not conditioned on multi-candidate banks.",
+  "millisecond_bound": "UNSUPPORTED: missing-event probability alone cannot bound unmeasured latency",
+  "new_GPU_measurements": false
+}

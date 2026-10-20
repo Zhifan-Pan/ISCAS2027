@@ -1,0 +1,8 @@
+{
+  "corpus": "FLEURS",
+  "seed": 101,
+  "public_input": "7ed8d255f6bc706110b1ff42166a147b10b6fb24dc772cb1b11b5460d2f18e6e",
+  "output_sha256": "c5378bca574ec2f159d6e3118eb00bcd50a721ca970a2f0f9beba7ef186a316b",
+  "candidate_identity_exact": true,
+  "original_CR_exact": true
+}

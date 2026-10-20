@@ -1,0 +1,920 @@
+{
+  "scope": "retrospective descriptive; no new intervals or confirmation",
+  "means": [
+    {
+      "corpus": "FLEURS",
+      "acceptor": "G4",
+      "policy": "B",
+      "WER": 17.454086231909418
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "G4",
+      "policy": "N",
+      "WER": 17.086720236197085
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "G4",
+      "policy": "S",
+      "WER": 17.086720236197085
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "G4",
+      "policy": "T",
+      "WER": 17.086720236197085
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "H4",
+      "policy": "B",
+      "WER": 17.45817496760168
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "H4",
+      "policy": "N",
+      "WER": 17.100081109116974
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "H4",
+      "policy": "S",
+      "WER": 17.09080897188934
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "H4",
+      "policy": "T",
+      "WER": 17.086720236197085
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "HR4",
+      "policy": "B",
+      "WER": 17.512099863913836
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "HR4",
+      "policy": "N",
+      "WER": 17.154006005429125
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "HR4",
+      "policy": "S",
+      "WER": 17.144733868201495
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "HR4",
+      "policy": "T",
+      "WER": 17.086720236197085
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "H3",
+      "policy": "B",
+      "WER": 19.047121405478958
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "H3",
+      "policy": "N",
+      "WER": 18.689690468156353
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "H3",
+      "policy": "S",
+      "WER": 18.68041833092872
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "H3",
+      "policy": "T",
+      "WER": 17.086720236197085
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "HWR4",
+      "policy": "B",
+      "WER": 17.46821620642727
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "HWR4",
+      "policy": "N",
+      "WER": 17.110122347942564
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "HWR4",
+      "policy": "S",
+      "WER": 17.100850210714935
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "HWR4",
+      "policy": "T",
+      "WER": 17.086720236197085
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "G4",
+      "policy": "B",
+      "WER": 33.97917240395319
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "G4",
+      "policy": "N",
+      "WER": 31.68112396576302
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "G4",
+      "policy": "S",
+      "WER": 31.680955694557653
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "G4",
+      "policy": "T",
+      "WER": 31.680955694557653
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "H4",
+      "policy": "B",
+      "WER": 33.97492208400863
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "H4",
+      "policy": "N",
+      "WER": 31.523771734343693
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "H4",
+      "policy": "S",
+      "WER": 31.523514889571334
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "H4",
+      "policy": "T",
+      "WER": 31.532384272661204
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "HR4",
+      "policy": "B",
+      "WER": 34.02350519190885
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "HR4",
+      "policy": "N",
+      "WER": 32.303722526635916
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "HR4",
+      "policy": "S",
+      "WER": 32.30454598686968
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "HR4",
+      "policy": "T",
+      "WER": 32.2535458825041
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "H3",
+      "policy": "B",
+      "WER": 36.15097229054063
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "H3",
+      "policy": "N",
+      "WER": 33.77019537911818
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "H3",
+      "policy": "S",
+      "WER": 33.77178158657589
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "H3",
+      "policy": "T",
+      "WER": 31.594549504351402
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "HWR4",
+      "policy": "B",
+      "WER": 33.967736116275056
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "HWR4",
+      "policy": "N",
+      "WER": 31.43961589707583
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "HWR4",
+      "policy": "S",
+      "WER": 31.43944762587046
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "HWR4",
+      "policy": "T",
+      "WER": 31.450712755310434
+    }
+  ],
+  "checks": [
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "acceptor": "G4",
+      "triggered_recordings": 2,
+      "triggered_windows": 4,
+      "hf_picks_on_acquired_windows": 4,
+      "B_WER": 17.294166326753302,
+      "S_WER": 17.107222559040874,
+      "gain_pp": 0.18694376771242815,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": 0.0
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "acceptor": "H4",
+      "triggered_recordings": 2,
+      "triggered_windows": 4,
+      "hf_picks_on_acquired_windows": 4,
+      "B_WER": 17.346236720633037,
+      "S_WER": 17.159292952920612,
+      "gain_pp": 0.1869437677124246,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": 0.05207039387973822
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "acceptor": "HR4",
+      "triggered_recordings": 2,
+      "triggered_windows": 4,
+      "hf_picks_on_acquired_windows": 4,
+      "B_WER": 17.35763960590184,
+      "S_WER": 17.170695838189413,
+      "gain_pp": 0.18694376771242815,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": 0.06347327914853906
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "acceptor": "H3",
+      "triggered_recordings": 2,
+      "triggered_windows": 4,
+      "hf_picks_on_acquired_windows": 4,
+      "B_WER": 18.888821637874393,
+      "S_WER": 18.70187787016197,
+      "gain_pp": 0.1869437677124246,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": 1.5946553111210946
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "acceptor": "HWR4",
+      "triggered_recordings": 2,
+      "triggered_windows": 4,
+      "hf_picks_on_acquired_windows": 4,
+      "B_WER": 17.373808410989287,
+      "S_WER": 17.186864643276863,
+      "gain_pp": 0.1869437677124246,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": 0.07964208423598862
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "acceptor": "G4",
+      "triggered_recordings": 2,
+      "triggered_windows": 3,
+      "hf_picks_on_acquired_windows": 2,
+      "B_WER": 17.497800953033135,
+      "S_WER": 17.064721189528086,
+      "gain_pp": 0.43307976350504873,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": -0.002983145229453754
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "acceptor": "H4",
+      "triggered_recordings": 2,
+      "triggered_windows": 3,
+      "hf_picks_on_acquired_windows": 2,
+      "B_WER": 17.48719778946728,
+      "S_WER": 17.054118025962232,
+      "gain_pp": 0.43307976350504873,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": -0.013586308795307644
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "acceptor": "HR4",
+      "triggered_recordings": 2,
+      "triggered_windows": 3,
+      "hf_picks_on_acquired_windows": 2,
+      "B_WER": 17.63263969006612,
+      "S_WER": 17.199559926561072,
+      "gain_pp": 0.43307976350504873,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": 0.13185559180353223
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "acceptor": "H3",
+      "triggered_recordings": 2,
+      "triggered_windows": 3,
+      "hf_picks_on_acquired_windows": 2,
+      "B_WER": 19.1175801089677,
+      "S_WER": 18.684500345462652,
+      "gain_pp": 0.43307976350504873,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 1,
+      "different_triggered_B_texts_vs_G4": 1,
+      "S_Direct_WER_difference": 1.6167960107051123
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "acceptor": "HWR4",
+      "triggered_recordings": 2,
+      "triggered_windows": 3,
+      "hf_picks_on_acquired_windows": 2,
+      "B_WER": 17.503789433044577,
+      "S_WER": 17.07070966953953,
+      "gain_pp": 0.43307976350504873,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": 0.003005334781988722
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "acceptor": "G4",
+      "triggered_recordings": 6,
+      "triggered_windows": 8,
+      "hf_picks_on_acquired_windows": 7,
+      "B_WER": 17.570291415941824,
+      "S_WER": 17.08821696002229,
+      "gain_pp": 0.482074455919534,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": 0.0
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "acceptor": "H4",
+      "triggered_recordings": 6,
+      "triggered_windows": 8,
+      "hf_picks_on_acquired_windows": 7,
+      "B_WER": 17.541090392704714,
+      "S_WER": 17.05901593678518,
+      "gain_pp": 0.482074455919534,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": -0.02920102323711049
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "acceptor": "HR4",
+      "triggered_recordings": 6,
+      "triggered_windows": 8,
+      "hf_picks_on_acquired_windows": 7,
+      "B_WER": 17.546020295773538,
+      "S_WER": 17.063945839854004,
+      "gain_pp": 0.482074455919534,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 1,
+      "S_Direct_WER_difference": -0.024271120168286586
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "acceptor": "H3",
+      "triggered_recordings": 6,
+      "triggered_windows": 8,
+      "hf_picks_on_acquired_windows": 8,
+      "B_WER": 19.134962469594775,
+      "S_WER": 18.654876777161544,
+      "gain_pp": 0.4800856924332315,
+      "different_gain_SDIs_vs_G4": 1,
+      "different_gain_edits_vs_G4": 1,
+      "different_triggered_S_texts_vs_G4": 1,
+      "different_triggered_B_texts_vs_G4": 3,
+      "S_Direct_WER_difference": 1.5666598171392536
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "acceptor": "HWR4",
+      "triggered_recordings": 6,
+      "triggered_windows": 8,
+      "hf_picks_on_acquired_windows": 7,
+      "B_WER": 17.527050775247947,
+      "S_WER": 17.044976319328413,
+      "gain_pp": 0.482074455919534,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": -0.04324064069387745
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "acceptor": "G4",
+      "triggered_recordings": 169,
+      "triggered_windows": 169,
+      "hf_picks_on_acquired_windows": 130,
+      "B_WER": 34.26240001275571,
+      "S_WER": 32.127072143122966,
+      "gain_pp": 2.1353278696327465,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": 0.6845094414946971
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "acceptor": "H4",
+      "triggered_recordings": 169,
+      "triggered_windows": 169,
+      "hf_picks_on_acquired_windows": 165,
+      "B_WER": 34.27102701810452,
+      "S_WER": 31.42238848971808,
+      "gain_pp": 2.848638528386438,
+      "different_gain_SDIs_vs_G4": 39,
+      "different_gain_edits_vs_G4": 38,
+      "different_triggered_S_texts_vs_G4": 35,
+      "different_triggered_B_texts_vs_G4": 14,
+      "S_Direct_WER_difference": -0.020174211910187978
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "acceptor": "HR4",
+      "triggered_recordings": 169,
+      "triggered_windows": 169,
+      "hf_picks_on_acquired_windows": 123,
+      "B_WER": 34.30948256369469,
+      "S_WER": 32.3885433878482,
+      "gain_pp": 1.9209391758464847,
+      "different_gain_SDIs_vs_G4": 10,
+      "different_gain_edits_vs_G4": 10,
+      "different_triggered_S_texts_vs_G4": 8,
+      "different_triggered_B_texts_vs_G4": 6,
+      "S_Direct_WER_difference": 0.9459806862199329
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "acceptor": "H3",
+      "triggered_recordings": 169,
+      "triggered_windows": 169,
+      "hf_picks_on_acquired_windows": 149,
+      "B_WER": 36.416145881999924,
+      "S_WER": 33.800984853344275,
+      "gain_pp": 2.615161028655649,
+      "different_gain_SDIs_vs_G4": 25,
+      "different_gain_edits_vs_G4": 24,
+      "different_triggered_S_texts_vs_G4": 20,
+      "different_triggered_B_texts_vs_G4": 18,
+      "S_Direct_WER_difference": 2.358422151716006
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "acceptor": "HWR4",
+      "triggered_recordings": 169,
+      "triggered_windows": 169,
+      "hf_picks_on_acquired_windows": 165,
+      "B_WER": 34.262811804109795,
+      "S_WER": 31.423683111610764,
+      "gain_pp": 2.839128692499031,
+      "different_gain_SDIs_vs_G4": 38,
+      "different_gain_edits_vs_G4": 37,
+      "different_triggered_S_texts_vs_G4": 35,
+      "different_triggered_B_texts_vs_G4": 8,
+      "S_Direct_WER_difference": -0.018879590017505166
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "acceptor": "G4",
+      "triggered_recordings": 105,
+      "triggered_windows": 105,
+      "hf_picks_on_acquired_windows": 103,
+      "B_WER": 32.69797286692765,
+      "S_WER": 31.288198880808135,
+      "gain_pp": 1.4097739861195144,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": -0.0016422353723157812
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "acceptor": "H4",
+      "triggered_recordings": 105,
+      "triggered_windows": 105,
+      "hf_picks_on_acquired_windows": 92,
+      "B_WER": 32.6996952283034,
+      "S_WER": 31.543932155409088,
+      "gain_pp": 1.1557630728943096,
+      "different_gain_SDIs_vs_G4": 12,
+      "different_gain_edits_vs_G4": 12,
+      "different_triggered_S_texts_vs_G4": 11,
+      "different_triggered_B_texts_vs_G4": 1,
+      "S_Direct_WER_difference": 0.2540910392286371
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "acceptor": "HR4",
+      "triggered_recordings": 105,
+      "triggered_windows": 105,
+      "hf_picks_on_acquired_windows": 89,
+      "B_WER": 32.790989279091704,
+      "S_WER": 31.715923956441934,
+      "gain_pp": 1.0750653226497704,
+      "different_gain_SDIs_vs_G4": 15,
+      "different_gain_edits_vs_G4": 15,
+      "different_triggered_S_texts_vs_G4": 14,
+      "different_triggered_B_texts_vs_G4": 2,
+      "S_Direct_WER_difference": 0.4260828402614827
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "acceptor": "H3",
+      "triggered_recordings": 105,
+      "triggered_windows": 105,
+      "hf_picks_on_acquired_windows": 93,
+      "B_WER": 34.922069045783516,
+      "S_WER": 33.73968442130029,
+      "gain_pp": 1.1823846244832268,
+      "different_gain_SDIs_vs_G4": 13,
+      "different_gain_edits_vs_G4": 12,
+      "different_triggered_S_texts_vs_G4": 11,
+      "different_triggered_B_texts_vs_G4": 11,
+      "S_Direct_WER_difference": 2.4498433051198383
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "acceptor": "HWR4",
+      "triggered_recordings": 105,
+      "triggered_windows": 105,
+      "hf_picks_on_acquired_windows": 103,
+      "B_WER": 32.68662201340068,
+      "S_WER": 31.276848027281158,
+      "gain_pp": 1.4097739861195215,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": -0.01299308889929307
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "acceptor": "G4",
+      "triggered_recordings": 251,
+      "triggered_windows": 251,
+      "hf_picks_on_acquired_windows": 242,
+      "B_WER": 34.97714433217621,
+      "S_WER": 31.627596059741858,
+      "gain_pp": 3.349548272434351,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": -0.017786890602941696
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "acceptor": "H4",
+      "triggered_recordings": 251,
+      "triggered_windows": 251,
+      "hf_picks_on_acquired_windows": 241,
+      "B_WER": 34.95404400561798,
+      "S_WER": 31.604224023586845,
+      "gain_pp": 3.3498199820311356,
+      "different_gain_SDIs_vs_G4": 2,
+      "different_gain_edits_vs_G4": 2,
+      "different_triggered_S_texts_vs_G4": 1,
+      "different_triggered_B_texts_vs_G4": 1,
+      "S_Direct_WER_difference": -0.04115892675795507
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "acceptor": "HR4",
+      "triggered_recordings": 251,
+      "triggered_windows": 251,
+      "hf_picks_on_acquired_windows": 198,
+      "B_WER": 34.97004373294017,
+      "S_WER": 32.809170616318895,
+      "gain_pp": 2.160873116621275,
+      "different_gain_SDIs_vs_G4": 54,
+      "different_gain_edits_vs_G4": 54,
+      "different_triggered_S_texts_vs_G4": 46,
+      "different_triggered_B_texts_vs_G4": 30,
+      "S_Direct_WER_difference": 1.1637876659740947
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "acceptor": "H3",
+      "triggered_recordings": 251,
+      "triggered_windows": 251,
+      "hf_picks_on_acquired_windows": 242,
+      "B_WER": 37.114701943838455,
+      "S_WER": 33.77467548508313,
+      "gain_pp": 3.3400264587553252,
+      "different_gain_SDIs_vs_G4": 11,
+      "different_gain_edits_vs_G4": 9,
+      "different_triggered_S_texts_vs_G4": 2,
+      "different_triggered_B_texts_vs_G4": 31,
+      "S_Direct_WER_difference": 2.1292925347383296
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "acceptor": "HWR4",
+      "triggered_recordings": 251,
+      "triggered_windows": 251,
+      "hf_picks_on_acquired_windows": 241,
+      "B_WER": 34.95377453131467,
+      "S_WER": 31.617811738719467,
+      "gain_pp": 3.335962792595204,
+      "different_gain_SDIs_vs_G4": 4,
+      "different_gain_edits_vs_G4": 4,
+      "different_triggered_S_texts_vs_G4": 3,
+      "different_triggered_B_texts_vs_G4": 3,
+      "S_Direct_WER_difference": -0.02757121162533238
+    }
+  ],
+  "empty": [
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "raw_empty_original_bank": 0,
+      "raw_empty_expanded_bank": 0,
+      "raw_empty_HF": 0,
+      "accepted_empty_instances": 0,
+      "accepted_empties_equal_hf": true,
+      "guard_revert_identical_picks": true,
+      "guard_revert_identical_texts": true,
+      "guard_revert_identical_SDIN": true,
+      "guard_WER": 17.107222559040874,
+      "removed_gain_pp": 0.0,
+      "remaining_gain_pp": 0.18694376771242815,
+      "acceptance_delta_SDIN": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "accepted_recording_ids": []
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "raw_empty_original_bank": 0,
+      "raw_empty_expanded_bank": 0,
+      "raw_empty_HF": 0,
+      "accepted_empty_instances": 0,
+      "accepted_empties_equal_hf": true,
+      "guard_revert_identical_picks": true,
+      "guard_revert_identical_texts": true,
+      "guard_revert_identical_SDIN": true,
+      "guard_WER": 17.064721189528086,
+      "removed_gain_pp": 0.0,
+      "remaining_gain_pp": 0.43307976350504873,
+      "acceptance_delta_SDIN": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "accepted_recording_ids": []
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "raw_empty_original_bank": 0,
+      "raw_empty_expanded_bank": 0,
+      "raw_empty_HF": 0,
+      "accepted_empty_instances": 0,
+      "accepted_empties_equal_hf": true,
+      "guard_revert_identical_picks": true,
+      "guard_revert_identical_texts": true,
+      "guard_revert_identical_SDIN": true,
+      "guard_WER": 17.08821696002229,
+      "removed_gain_pp": 0.0,
+      "remaining_gain_pp": 0.482074455919534,
+      "acceptance_delta_SDIN": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "accepted_recording_ids": []
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "raw_empty_original_bank": 0,
+      "raw_empty_expanded_bank": 6,
+      "raw_empty_HF": 6,
+      "accepted_empty_instances": 6,
+      "accepted_empties_equal_hf": true,
+      "guard_revert_identical_picks": true,
+      "guard_revert_identical_texts": true,
+      "guard_revert_identical_SDIN": true,
+      "guard_WER": 32.30065436390974,
+      "removed_gain_pp": 0.173582220786777,
+      "remaining_gain_pp": 1.9617456488459695,
+      "acceptance_delta_SDIN": [
+        -42,
+        44,
+        -609,
+        0
+      ],
+      "accepted_recording_ids": [
+        "CV005582",
+        "CV013115",
+        "CV016622",
+        "CV016635",
+        "CV016654",
+        "CV029386"
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "raw_empty_original_bank": 0,
+      "raw_empty_expanded_bank": 11,
+      "raw_empty_HF": 11,
+      "accepted_empty_instances": 10,
+      "accepted_empties_equal_hf": true,
+      "guard_revert_identical_picks": true,
+      "guard_revert_identical_texts": true,
+      "guard_revert_identical_SDIN": true,
+      "guard_WER": 31.636410841285727,
+      "removed_gain_pp": 0.34821196047759173,
+      "remaining_gain_pp": 1.0615620256419227,
+      "acceptance_delta_SDIN": [
+        -58,
+        58,
+        -1182,
+        0
+      ],
+      "accepted_recording_ids": [
+        "CV001927",
+        "CV005582",
+        "CV012990",
+        "CV013115",
+        "CV014248",
+        "CV015455",
+        "CV016622",
+        "CV016635",
+        "CV016653",
+        "CV016654"
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "raw_empty_original_bank": 0,
+      "raw_empty_expanded_bank": 2,
+      "raw_empty_HF": 2,
+      "accepted_empty_instances": 2,
+      "accepted_empties_equal_hf": true,
+      "guard_revert_identical_picks": true,
+      "guard_revert_identical_texts": true,
+      "guard_revert_identical_SDIN": true,
+      "guard_WER": 31.690739423838068,
+      "removed_gain_pp": 0.06314336409620935,
+      "remaining_gain_pp": 3.2864049083381417,
+      "acceptance_delta_SDIN": [
+        -18,
+        18,
+        -204,
+        0
+      ],
+      "accepted_recording_ids": [
+        "CV005582",
+        "CV016622"
+      ]
+    }
+  ],
+  "receipts": [
+    {
+      "corpus": "FLEURS",
+      "seed": 101,
+      "inputs_sha256": "7ed8d255f6bc706110b1ff42166a147b10b6fb24dc772cb1b11b5460d2f18e6e",
+      "diagnostics_sha256": "c5378bca574ec2f159d6e3118eb00bcd50a721ca970a2f0f9beba7ef186a316b"
+    },
+    {
+      "corpus": "FLEURS",
+      "seed": 202,
+      "inputs_sha256": "6bd848acde4694fa6892188e84e773c32651ee6df99034cc33b2f2df5928525f",
+      "diagnostics_sha256": "9fed177bce7637077c03047106b3bcfacf3ba72199454b23b9dac1e0532174a6"
+    },
+    {
+      "corpus": "FLEURS",
+      "seed": 303,
+      "inputs_sha256": "b007b4badc7e6ae7b5a6b254884d09a593596c70f531f3385ac202038f2af32d",
+      "diagnostics_sha256": "8ac6c764b4825d07e64b79e81992c3f281735e3c04104aff14860ec13465ce4e"
+    },
+    {
+      "corpus": "CV27",
+      "seed": 101,
+      "inputs_sha256": "c37f4d515db29bbb489aceb42d5acdfb52239078c2d20979f3b9eae8be77e082",
+      "diagnostics_sha256": "4796c018c8c6bb9cd86161de8db5275aa2141e01e4e5cda189f260b3da82d6ff"
+    },
+    {
+      "corpus": "CV27",
+      "seed": 202,
+      "inputs_sha256": "04866b6446da447c9a68d28de374d7a2eaef8d4c05a22ec6845ff54e62c923b8",
+      "diagnostics_sha256": "5b0ea69e30e39f1b9d7b83eee3cfd8d9ef23bd83887343331672ffce54c2e6c9"
+    },
+    {
+      "corpus": "CV27",
+      "seed": 303,
+      "inputs_sha256": "6bde618a7b7cd3300e343e7aa13bc923c29515c653e00d62d56c3bc3fecb83d5",
+      "diagnostics_sha256": "38ad20ff3a059e572de5a0e70a7dbf454a22e3b840141b0bc65947501a95a932"
+    }
+  ]
+}

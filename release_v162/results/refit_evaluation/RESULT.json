@@ -1,0 +1,190 @@
+{
+  "scope": "retrospective descriptive; no new intervals or confirmation",
+  "means": [
+    {
+      "corpus": "FLEURS",
+      "acceptor": "H4plusE",
+      "policy": "B",
+      "WER": 17.45817496760168
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "H4plusE",
+      "policy": "N",
+      "WER": 17.100081109116974
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "H4plusE",
+      "policy": "S",
+      "WER": 17.09080897188934
+    },
+    {
+      "corpus": "FLEURS",
+      "acceptor": "H4plusE",
+      "policy": "T",
+      "WER": 17.086720236197085
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "H4plusE",
+      "policy": "B",
+      "WER": 33.97492408030723
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "H4plusE",
+      "policy": "N",
+      "WER": 31.5237737306423
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "H4plusE",
+      "policy": "S",
+      "WER": 31.52351688586994
+    },
+    {
+      "corpus": "CV27",
+      "acceptor": "H4plusE",
+      "policy": "T",
+      "WER": 31.532384272661204
+    }
+  ],
+  "checks": [
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "acceptor": "H4plusE",
+      "triggered_recordings": 2,
+      "triggered_windows": 4,
+      "hf_picks_on_acquired_windows": 4,
+      "B_WER": 17.346236720633037,
+      "S_WER": 17.159292952920612,
+      "gain_pp": 0.1869437677124246,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": 0.05207039387973822
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "acceptor": "H4plusE",
+      "triggered_recordings": 2,
+      "triggered_windows": 3,
+      "hf_picks_on_acquired_windows": 2,
+      "B_WER": 17.48719778946728,
+      "S_WER": 17.054118025962232,
+      "gain_pp": 0.43307976350504873,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": -0.013586308795307644
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "acceptor": "H4plusE",
+      "triggered_recordings": 6,
+      "triggered_windows": 8,
+      "hf_picks_on_acquired_windows": 7,
+      "B_WER": 17.541090392704714,
+      "S_WER": 17.05901593678518,
+      "gain_pp": 0.482074455919534,
+      "different_gain_SDIs_vs_G4": 0,
+      "different_gain_edits_vs_G4": 0,
+      "different_triggered_S_texts_vs_G4": 0,
+      "different_triggered_B_texts_vs_G4": 0,
+      "S_Direct_WER_difference": -0.02920102323711049
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "acceptor": "H4plusE",
+      "triggered_recordings": 169,
+      "triggered_windows": 169,
+      "hf_picks_on_acquired_windows": 165,
+      "B_WER": 34.27102701810452,
+      "S_WER": 31.42238848971808,
+      "gain_pp": 2.848638528386438,
+      "different_gain_SDIs_vs_G4": 39,
+      "different_gain_edits_vs_G4": 38,
+      "different_triggered_S_texts_vs_G4": 35,
+      "different_triggered_B_texts_vs_G4": 14,
+      "S_Direct_WER_difference": -0.020174211910187978
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "acceptor": "H4plusE",
+      "triggered_recordings": 105,
+      "triggered_windows": 105,
+      "hf_picks_on_acquired_windows": 92,
+      "B_WER": 32.699701217199205,
+      "S_WER": 31.543938144304907,
+      "gain_pp": 1.155763072894299,
+      "different_gain_SDIs_vs_G4": 12,
+      "different_gain_edits_vs_G4": 12,
+      "different_triggered_S_texts_vs_G4": 11,
+      "different_triggered_B_texts_vs_G4": 1,
+      "S_Direct_WER_difference": 0.25409702812445545
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "acceptor": "H4plusE",
+      "triggered_recordings": 251,
+      "triggered_windows": 251,
+      "hf_picks_on_acquired_windows": 241,
+      "B_WER": 34.95404400561798,
+      "S_WER": 31.604224023586845,
+      "gain_pp": 3.3498199820311356,
+      "different_gain_SDIs_vs_G4": 2,
+      "different_gain_edits_vs_G4": 2,
+      "different_triggered_S_texts_vs_G4": 1,
+      "different_triggered_B_texts_vs_G4": 1,
+      "S_Direct_WER_difference": -0.04115892675795507
+    }
+  ],
+  "empty": [],
+  "receipts": [
+    {
+      "corpus": "FLEURS",
+      "seed": 101,
+      "inputs_sha256": "7ed8d255f6bc706110b1ff42166a147b10b6fb24dc772cb1b11b5460d2f18e6e",
+      "diagnostics_sha256": "c5378bca574ec2f159d6e3118eb00bcd50a721ca970a2f0f9beba7ef186a316b"
+    },
+    {
+      "corpus": "FLEURS",
+      "seed": 202,
+      "inputs_sha256": "6bd848acde4694fa6892188e84e773c32651ee6df99034cc33b2f2df5928525f",
+      "diagnostics_sha256": "9fed177bce7637077c03047106b3bcfacf3ba72199454b23b9dac1e0532174a6"
+    },
+    {
+      "corpus": "FLEURS",
+      "seed": 303,
+      "inputs_sha256": "b007b4badc7e6ae7b5a6b254884d09a593596c70f531f3385ac202038f2af32d",
+      "diagnostics_sha256": "8ac6c764b4825d07e64b79e81992c3f281735e3c04104aff14860ec13465ce4e"
+    },
+    {
+      "corpus": "CV27",
+      "seed": 101,
+      "inputs_sha256": "c37f4d515db29bbb489aceb42d5acdfb52239078c2d20979f3b9eae8be77e082",
+      "diagnostics_sha256": "4796c018c8c6bb9cd86161de8db5275aa2141e01e4e5cda189f260b3da82d6ff"
+    },
+    {
+      "corpus": "CV27",
+      "seed": 202,
+      "inputs_sha256": "04866b6446da447c9a68d28de374d7a2eaef8d4c05a22ec6845ff54e62c923b8",
+      "diagnostics_sha256": "5b0ea69e30e39f1b9d7b83eee3cfd8d9ef23bd83887343331672ffce54c2e6c9"
+    },
+    {
+      "corpus": "CV27",
+      "seed": 303,
+      "inputs_sha256": "6bde618a7b7cd3300e343e7aa13bc923c29515c653e00d62d56c3bc3fecb83d5",
+      "diagnostics_sha256": "38ad20ff3a059e572de5a0e70a7dbf454a22e3b840141b0bc65947501a95a932"
+    }
+  ]
+}
