@@ -1,0 +1,270 @@
+{
+  "decision_scope": "COMPLETE_CACHED for every nontrivial candidate bank and all output decisions",
+  "literal_raw_completeness": "MISSING_SINGLETON_ABSOLUTE_NEURAL_VALUES; explicitly preserved as NaN, mathematically unused, not replaced by zero",
+  "panels": [
+    {
+      "seed": 101,
+      "rows": 58171,
+      "windows": 58171,
+      "F_candidates": 217088,
+      "B_candidates": 216936,
+      "all_B_N_counts_reconstructed": true,
+      "fold_components_crossing": 0,
+      "raw_missing_in_multi_candidate_rows": [],
+      "stats": {
+        "duplicate_HF": 58019,
+        "unobserved_raw_F_singleton": 2192,
+        "novel_HF": 152,
+        "top_anchor_reused": 2
+      },
+      "max_raw_vs_frozen_relative_drift": 0.0,
+      "raw_unknown_policy": "NaN with observed mask. Stored frozen x is genuine top-relative data. Singleton x-x is not a claim that raw f=0. No fitting has occurred.",
+      "source_inventory_sha256": "b4b2d4b4948c7aa1d8dc43de20eb580f383f5636a30fe534dc5f6cd086a93b65",
+      "export_sha256": "22118e0bd73878d1f5a2b857dac86429a1508357fb5d45c04667544a64a1e560",
+      "elapsed_seconds": 71.94944016705267,
+      "new_model_forward": false
+    },
+    {
+      "seed": 202,
+      "rows": 58171,
+      "windows": 58171,
+      "F_candidates": 215872,
+      "B_candidates": 215791,
+      "all_B_N_counts_reconstructed": true,
+      "fold_components_crossing": 0,
+      "raw_missing_in_multi_candidate_rows": [],
+      "stats": {
+        "duplicate_HF": 58090,
+        "unobserved_raw_F_singleton": 2338,
+        "novel_HF": 81,
+        "top_anchor_reused": 3
+      },
+      "max_raw_vs_frozen_relative_drift": 0.0,
+      "raw_unknown_policy": "NaN with observed mask. Stored frozen x is genuine top-relative data. Singleton x-x is not a claim that raw f=0. No fitting has occurred.",
+      "source_inventory_sha256": "d334d28aaf8928202471aff8358f529a6c75f6022d37d1e7529a85600ffecb9f",
+      "export_sha256": "0e1ac776d62735e9ac7074f539f1960214948e0bca0de789ce80410147c34128",
+      "elapsed_seconds": 71.58209855412133,
+      "new_model_forward": false
+    },
+    {
+      "seed": 303,
+      "rows": 58171,
+      "windows": 58171,
+      "F_candidates": 216922,
+      "B_candidates": 216665,
+      "all_B_N_counts_reconstructed": true,
+      "fold_components_crossing": 0,
+      "raw_missing_in_multi_candidate_rows": [],
+      "stats": {
+        "duplicate_HF": 57914,
+        "unobserved_raw_F_singleton": 2187,
+        "novel_HF": 257,
+        "top_anchor_reused": 2
+      },
+      "max_raw_vs_frozen_relative_drift": 0.0,
+      "raw_unknown_policy": "NaN with observed mask. Stored frozen x is genuine top-relative data. Singleton x-x is not a claim that raw f=0. No fitting has occurred.",
+      "source_inventory_sha256": "1cce59b2be31778396f11ef09feec8c1d3198000f5ee73ea164ff6d7f4baffa3",
+      "export_sha256": "adb181f30210718a00a05d17455c8b06266dd01b89776c8f8d7eb27dc03219c9",
+      "elapsed_seconds": 72.53252831893042,
+      "new_model_forward": false
+    },
+    {
+      "corpus": "FLEURS",
+      "seed": 101,
+      "rows": 3665,
+      "windows": 3687,
+      "long_recordings": 22,
+      "full_recording_scoring": true,
+      "original_B_N_S_Direct_exact": true,
+      "F_candidates": 13594,
+      "B_candidates": 13589,
+      "raw_missing_in_multi_candidate_rows": [],
+      "max_raw_vs_frozen_relative_drift": 0.0,
+      "stats": {
+        "duplicate_HF": 3682,
+        "unobserved_raw_F_singleton": 130,
+        "novel_HF": 5
+      },
+      "input_feature": {
+        "path": "AUTHOR_LOCAL/TEST_101_features.jsonl",
+        "sha256": "08b80199e078f44e4cf5ba302d54e2146abb0ffddd8fd177b50913d370f27a4f",
+        "bytes": 59415327
+      },
+      "original_numeric_input": {
+        "path": "AUTHOR_LOCAL/TEST_101.npz",
+        "sha256": "26c876149ee7a72533c9d8cbf68960b152f179d5a0a6aa91c3fc288e9fe905ce"
+      },
+      "native_lock_sha256": "dd403b2951cb3ce8522d9e5e789f06763655f636da5a5d482a7de439560f476a",
+      "export_sha256": "f15face5f50ba4c6ef01fc258e751729ae43ecf8d0a03af7ab0a6de0f938a1b8",
+      "provenance_sha256": "3e85b50686c373b3d34428d86c004bc613da69711826b30c56a8f8678a2ab3ab",
+      "new_model_forward": false,
+      "elapsed_seconds": 31.328399622812867
+    },
+    {
+      "corpus": "FLEURS",
+      "seed": 202,
+      "rows": 3665,
+      "windows": 3687,
+      "long_recordings": 22,
+      "full_recording_scoring": true,
+      "original_B_N_S_Direct_exact": true,
+      "F_candidates": 13570,
+      "B_candidates": 13564,
+      "raw_missing_in_multi_candidate_rows": [],
+      "max_raw_vs_frozen_relative_drift": 0.0,
+      "stats": {
+        "duplicate_HF": 3681,
+        "novel_HF": 6,
+        "unobserved_raw_F_singleton": 121
+      },
+      "input_feature": {
+        "path": "AUTHOR_LOCAL/TEST_202_features.jsonl",
+        "sha256": "2d8d5e31591b3f65dced3666f6e9f5c4aada7e86e6a294fc0453d073f4442ae0",
+        "bytes": 59612536
+      },
+      "original_numeric_input": {
+        "path": "AUTHOR_LOCAL/TEST_202.npz",
+        "sha256": "099212e28e8936e80f1de4f980c500e8066430a54608396c04392f656144c766"
+      },
+      "native_lock_sha256": "14be28227b4205804042944d317428d323ba4ef1bf106f242455412895e0e22f",
+      "export_sha256": "019d28992dc803d75e92a6c665cb68c396be0e49aa3046721fd65f12a1ed85aa",
+      "provenance_sha256": "9401326e93521af5b084ab1df0a9a6397a6c6621179f9682eb2905d66499bdec",
+      "new_model_forward": false,
+      "elapsed_seconds": 32.00596510618925
+    },
+    {
+      "corpus": "FLEURS",
+      "seed": 303,
+      "rows": 3665,
+      "windows": 3687,
+      "long_recordings": 22,
+      "full_recording_scoring": true,
+      "original_B_N_S_Direct_exact": true,
+      "F_candidates": 13705,
+      "B_candidates": 13696,
+      "raw_missing_in_multi_candidate_rows": [],
+      "max_raw_vs_frozen_relative_drift": 0.0,
+      "stats": {
+        "duplicate_HF": 3678,
+        "novel_HF": 9,
+        "unobserved_raw_F_singleton": 121
+      },
+      "input_feature": {
+        "path": "AUTHOR_LOCAL/TEST_303_features.jsonl",
+        "sha256": "989a693ec8168f3a4833f9e2319eb1db2f0713d14e8a8e0da228b9c08c1a6382",
+        "bytes": 60413498
+      },
+      "original_numeric_input": {
+        "path": "AUTHOR_LOCAL/TEST_303.npz",
+        "sha256": "e3d86646d20b7b18de23c4332662fde4f1848f284e850505d43b79aacdb28d0c"
+      },
+      "native_lock_sha256": "ed0c5dbba0b14497a799f746a8e18db7c0d4fb04e3c3fba44b8d9bfd22b132e0",
+      "export_sha256": "830df9d78a8cc5d13d9898120b0a630d2f19808708a20f06e06473b1330ccc25",
+      "provenance_sha256": "678a99e26ac4950564a6ccf979223f57bb51dab030bfd276612b578a25f41591",
+      "new_model_forward": false,
+      "elapsed_seconds": 32.04948904598132
+    },
+    {
+      "corpus": "CV27",
+      "seed": 101,
+      "rows": 58514,
+      "windows": 58514,
+      "long_recordings": 0,
+      "full_recording_scoring": true,
+      "original_B_N_S_Direct_exact": true,
+      "F_candidates": 223373,
+      "B_candidates": 223157,
+      "raw_missing_in_multi_candidate_rows": [],
+      "max_raw_vs_frozen_relative_drift": 0.0,
+      "stats": {
+        "duplicate_HF": 58298,
+        "unobserved_raw_F_singleton": 1979,
+        "novel_HF": 216,
+        "top_anchor_reused": 1
+      },
+      "input_feature": {
+        "path": "AUTHOR_LOCAL/CV27_101_features.jsonl",
+        "sha256": "be6e6f4545f6717bdf78c67e0141b881214e2f72d1d2ff3f5ef6e9b3227d27f9",
+        "bytes": 446690092
+      },
+      "original_numeric_input": {
+        "path": "AUTHOR_LOCAL/CV27_101.npz",
+        "sha256": "10978c8c40e2a3ef0128dead41a7794f15a07088e1eb2f96e643f9de32aaa063"
+      },
+      "native_lock_sha256": "dd403b2951cb3ce8522d9e5e789f06763655f636da5a5d482a7de439560f476a",
+      "export_sha256": "bde1436d16edbc680cd8634deb52b923ccf02493e15da5a7d1ee7f6cb0d80bbd",
+      "provenance_sha256": "2338bc1aa6454e1b0f4aad8694af4fdf449d689fc2fb810eed5730f176ef0ea4",
+      "new_model_forward": false,
+      "elapsed_seconds": 162.4421476908028
+    },
+    {
+      "corpus": "CV27",
+      "seed": 202,
+      "rows": 58514,
+      "windows": 58514,
+      "long_recordings": 0,
+      "full_recording_scoring": true,
+      "original_B_N_S_Direct_exact": true,
+      "F_candidates": 222443,
+      "B_candidates": 222298,
+      "raw_missing_in_multi_candidate_rows": [],
+      "max_raw_vs_frozen_relative_drift": 0.0,
+      "stats": {
+        "duplicate_HF": 58369,
+        "unobserved_raw_F_singleton": 2068,
+        "novel_HF": 145,
+        "top_anchor_reused": 2
+      },
+      "input_feature": {
+        "path": "AUTHOR_LOCAL/CV27_202_features.jsonl",
+        "sha256": "07b00ad551aec60adf39fa166a98b3c975697dc1c424cb1e1132e78a6ad9753e",
+        "bytes": 434896285
+      },
+      "original_numeric_input": {
+        "path": "AUTHOR_LOCAL/CV27_202.npz",
+        "sha256": "e09232d2882f4f2e7184c8b7b16f004abc511f096bd641112923c76994a7c05f"
+      },
+      "native_lock_sha256": "14be28227b4205804042944d317428d323ba4ef1bf106f242455412895e0e22f",
+      "export_sha256": "fe1b1c771056fb17af348c1a8232331bff7bde6ccc1281fd2a133c379e399bb5",
+      "provenance_sha256": "ea432d6f333878df088c5d89bcf9d98eb4da32dda2d45d388470368d2a491737",
+      "new_model_forward": false,
+      "elapsed_seconds": 159.91861079703085
+    },
+    {
+      "corpus": "CV27",
+      "seed": 303,
+      "rows": 58514,
+      "windows": 58514,
+      "long_recordings": 0,
+      "full_recording_scoring": true,
+      "original_B_N_S_Direct_exact": true,
+      "F_candidates": 223251,
+      "B_candidates": 222975,
+      "raw_missing_in_multi_candidate_rows": [],
+      "max_raw_vs_frozen_relative_drift": 0.0,
+      "stats": {
+        "duplicate_HF": 58238,
+        "unobserved_raw_F_singleton": 2008,
+        "novel_HF": 276,
+        "top_anchor_reused": 4
+      },
+      "input_feature": {
+        "path": "AUTHOR_LOCAL/CV27_303_features.jsonl",
+        "sha256": "e7e12bec9982965c2afb646113ffd971facfd6f9a792d1e4cc7b094b0d4ec4e1",
+        "bytes": 451791485
+      },
+      "original_numeric_input": {
+        "path": "AUTHOR_LOCAL/CV27_303.npz",
+        "sha256": "62eec49d56b35b42c9ef74d44881bc48803c810c55749c539d1dd15f3a65bff8"
+      },
+      "native_lock_sha256": "ed0c5dbba0b14497a799f746a8e18db7c0d4fb04e3c3fba44b8d9bfd22b132e0",
+      "export_sha256": "fc01d90e3f0c7eb5ccde6ffb06ac1e7785581cabf845f565da385439ffa64087",
+      "provenance_sha256": "1d1bd2a0c2c08444e98c9115ac5f41d988492ec19c83040cb40fd29557f3715b",
+      "new_model_forward": false,
+      "elapsed_seconds": 161.11903502698988
+    }
+  ],
+  "original_B_N_S_Direct_reconstructed": "all six TEST corpus/checkpoint panels",
+  "new_GPU_needed_for_accuracy": false,
+  "timing": "NOT_MEASURED"
+}

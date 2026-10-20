@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-10-18T01:29:54.522370+00:00",
+  "finished_utc": "2026-10-18T01:30:06.766937+00:00",
+  "cells": 96,
+  "per_language_rows": 480,
+  "full_corpora": true,
+  "G4_B_N_S_Direct_exact_all_six_panels": true,
+  "multiwindow_scoring": "private complete-reference lookup after selected text concatenation, not window-edit addition",
+  "plan_sha256": "25d19f6a693a9f18ba52de713d4861422df6c65d61b4ee5bf06ababc5dda07ef",
+  "model_lock_sha256": "f62e988756e3c95bcea16fb7bcaa3147bb4d0a3704a3209646439c09f6d495f6",
+  "inputs": {
+    "FLEURS_101.npz": "f15face5f50ba4c6ef01fc258e751729ae43ecf8d0a03af7ab0a6de0f938a1b8",
+    "FLEURS_202.npz": "019d28992dc803d75e92a6c665cb68c396be0e49aa3046721fd65f12a1ed85aa",
+    "FLEURS_303.npz": "830df9d78a8cc5d13d9898120b0a630d2f19808708a20f06e06473b1330ccc25",
+    "CV27_101.npz": "bde1436d16edbc680cd8634deb52b923ccf02493e15da5a7d1ee7f6cb0d80bbd",
+    "CV27_202.npz": "fe1b1c771056fb17af348c1a8232331bff7bde6ccc1281fd2a133c379e399bb5",
+    "CV27_303.npz": "fc01d90e3f0c7eb5ccde6ffb06ac1e7785581cabf845f565da385439ffa64087"
+  },
+  "pick_files": {
+    "PICKS_FLEURS_101.npz": "4daee5ba3a9e6d50b831047373d9c0055a7f12b5325661c2f0efd6399491b70a",
+    "PICKS_FLEURS_202.npz": "fd0847ee7f85fd08ee028ef3bb1eb74ea49028300c80c32e124898cff004eb46",
+    "PICKS_FLEURS_303.npz": "f932f8f504da5d7a625518dbb664f33fa463352b6c0949e855b5eb62ab37dc74",
+    "PICKS_CV27_101.npz": "bc0c5282459d322e9339d4614ee5040b2d0b6929c1b527642874d2313582b268",
+    "PICKS_CV27_202.npz": "fb901b40221b7b359d1d035a26e3526bacb2c830caec13d79b1c7301579eff82",
+    "PICKS_CV27_303.npz": "8a5093f47bcf2181d8ad35e91922f5eccdcac9916df35d8705b616878e3354c5"
+  },
+  "new_inference": false,
+  "new_confirmation": false
+}

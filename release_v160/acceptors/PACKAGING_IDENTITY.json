@@ -1,0 +1,197 @@
+{
+  "created_utc": "2026-10-18T01:47:11.154378+00:00",
+  "historical_plan_sha256": "25d19f6a693a9f18ba52de713d4861422df6c65d61b4ee5bf06ababc5dda07ef",
+  "inherited_artifact_manifest_sha256": "fd5a9265d834a48eeff517dc499a354c25b8f8c4b65f6b62edec7f9091ad6a3b",
+  "numeric_inputs": {
+    "CV27_101.npz": {
+      "author_input_sha256": "bde1436d16edbc680cd8634deb52b923ccf02493e15da5a7d1ee7f6cb0d80bbd",
+      "released_sha256": "c37f4d515db29bbb489aceb42d5acdfb52239078c2d20979f3b9eae8be77e082",
+      "alias_fields": [
+        "ids",
+        "candidate_ids"
+      ],
+      "removed_fields": [
+        "multi_output_hashes"
+      ],
+      "all_other_arrays_exact": true
+    },
+    "CV27_202.npz": {
+      "author_input_sha256": "fe1b1c771056fb17af348c1a8232331bff7bde6ccc1281fd2a133c379e399bb5",
+      "released_sha256": "04866b6446da447c9a68d28de374d7a2eaef8d4c05a22ec6845ff54e62c923b8",
+      "alias_fields": [
+        "ids",
+        "candidate_ids"
+      ],
+      "removed_fields": [
+        "multi_output_hashes"
+      ],
+      "all_other_arrays_exact": true
+    },
+    "CV27_303.npz": {
+      "author_input_sha256": "fc01d90e3f0c7eb5ccde6ffb06ac1e7785581cabf845f565da385439ffa64087",
+      "released_sha256": "6bde618a7b7cd3300e343e7aa13bc923c29515c653e00d62d56c3bc3fecb83d5",
+      "alias_fields": [
+        "ids",
+        "candidate_ids"
+      ],
+      "removed_fields": [
+        "multi_output_hashes"
+      ],
+      "all_other_arrays_exact": true
+    },
+    "CV27_COMPONENTS.npz": {
+      "author_input_sha256": "16003b8e24bfc014b2ac2ad2e59f4ac3fc954497560d6efcd315107990ec9a04",
+      "released_sha256": "4d1b9006f3df82c4e864231ffd00b95804f2ad16a9d28f465fabc613b9279d65",
+      "alias_fields": [
+        "ids"
+      ],
+      "removed_fields": [],
+      "all_other_arrays_exact": true
+    },
+    "DEV_101.npz": {
+      "author_input_sha256": "22118e0bd73878d1f5a2b857dac86429a1508357fb5d45c04667544a64a1e560",
+      "released_sha256": "742a9fd4aa2113b8de78c830d1b49f03a106c2336c64effd2c91e8f284d68c6f",
+      "alias_fields": [
+        "ids",
+        "candidate_ids",
+        "components"
+      ],
+      "removed_fields": [],
+      "all_other_arrays_exact": true
+    },
+    "DEV_202.npz": {
+      "author_input_sha256": "0e1ac776d62735e9ac7074f539f1960214948e0bca0de789ce80410147c34128",
+      "released_sha256": "1681d169b71e61206721188b273f1ba2fc8f72a4b027a71322feee4f30a96535",
+      "alias_fields": [
+        "ids",
+        "candidate_ids",
+        "components"
+      ],
+      "removed_fields": [],
+      "all_other_arrays_exact": true
+    },
+    "DEV_303.npz": {
+      "author_input_sha256": "adb181f30210718a00a05d17455c8b06266dd01b89776c8f8d7eb27dc03219c9",
+      "released_sha256": "51b051d4f24f275700032b1547b00ad5487f029f9d1b046f8694ad40a3a0f4f7",
+      "alias_fields": [
+        "ids",
+        "candidate_ids",
+        "components"
+      ],
+      "removed_fields": [],
+      "all_other_arrays_exact": true
+    },
+    "FLEURS_101.npz": {
+      "author_input_sha256": "f15face5f50ba4c6ef01fc258e751729ae43ecf8d0a03af7ab0a6de0f938a1b8",
+      "released_sha256": "7ed8d255f6bc706110b1ff42166a147b10b6fb24dc772cb1b11b5460d2f18e6e",
+      "alias_fields": [
+        "ids",
+        "candidate_ids"
+      ],
+      "removed_fields": [
+        "multi_output_hashes"
+      ],
+      "all_other_arrays_exact": true
+    },
+    "FLEURS_202.npz": {
+      "author_input_sha256": "019d28992dc803d75e92a6c665cb68c396be0e49aa3046721fd65f12a1ed85aa",
+      "released_sha256": "6bd848acde4694fa6892188e84e773c32651ee6df99034cc33b2f2df5928525f",
+      "alias_fields": [
+        "ids",
+        "candidate_ids"
+      ],
+      "removed_fields": [
+        "multi_output_hashes"
+      ],
+      "all_other_arrays_exact": true
+    },
+    "FLEURS_303.npz": {
+      "author_input_sha256": "830df9d78a8cc5d13d9898120b0a630d2f19808708a20f06e06473b1330ccc25",
+      "released_sha256": "b007b4badc7e6ae7b5a6b254884d09a593596c70f531f3385ac202038f2af32d",
+      "alias_fields": [
+        "ids",
+        "candidate_ids"
+      ],
+      "removed_fields": [
+        "multi_output_hashes"
+      ],
+      "all_other_arrays_exact": true
+    },
+    "G4_LOCK.json": {
+      "author_input_sha256": "805c836bdbedf49fb578a5971a40775fc805ea91b2943585349dfec249192ce1",
+      "released_sha256": "805c836bdbedf49fb578a5971a40775fc805ea91b2943585349dfec249192ce1",
+      "all_other_arrays_exact": true
+    }
+  },
+  "count_aliases": {
+    "PICKS_FLEURS_303.npz": {
+      "original_sha256": "f932f8f504da5d7a625518dbb664f33fa463352b6c0949e855b5eb62ab37dc74",
+      "released_sha256": "f932f8f504da5d7a625518dbb664f33fa463352b6c0949e855b5eb62ab37dc74",
+      "numeric_arrays_unchanged": true
+    },
+    "CV27_101.npz": {
+      "original_sha256": "faa0b418b026a51e501426f4b461a344a4f84cd65c3f2737c0e318150dcd5a93",
+      "released_sha256": "b6ffb1bac69cf6f7fd0cce33a58958716b9631b10a900ec8d4dd1652db3276de",
+      "numeric_arrays_unchanged": true
+    },
+    "PICKS_FLEURS_202.npz": {
+      "original_sha256": "fd0847ee7f85fd08ee028ef3bb1eb74ea49028300c80c32e124898cff004eb46",
+      "released_sha256": "fd0847ee7f85fd08ee028ef3bb1eb74ea49028300c80c32e124898cff004eb46",
+      "numeric_arrays_unchanged": true
+    },
+    "PICKS_CV27_101.npz": {
+      "original_sha256": "bc0c5282459d322e9339d4614ee5040b2d0b6929c1b527642874d2313582b268",
+      "released_sha256": "bc0c5282459d322e9339d4614ee5040b2d0b6929c1b527642874d2313582b268",
+      "numeric_arrays_unchanged": true
+    },
+    "PICKS_FLEURS_101.npz": {
+      "original_sha256": "4daee5ba3a9e6d50b831047373d9c0055a7f12b5325661c2f0efd6399491b70a",
+      "released_sha256": "4daee5ba3a9e6d50b831047373d9c0055a7f12b5325661c2f0efd6399491b70a",
+      "numeric_arrays_unchanged": true
+    },
+    "CV27_202.npz": {
+      "original_sha256": "b3df03265ea54b45a7203abc8ddef13b16ea60fa52b3d25cf05b2e76e60c5d55",
+      "released_sha256": "a59fe5cd242113b29300558c2659235b1eea8d32fd2037809ce205abdd4b80ac",
+      "numeric_arrays_unchanged": true
+    },
+    "PICKS_CV27_303.npz": {
+      "original_sha256": "8a5093f47bcf2181d8ad35e91922f5eccdcac9916df35d8705b616878e3354c5",
+      "released_sha256": "8a5093f47bcf2181d8ad35e91922f5eccdcac9916df35d8705b616878e3354c5",
+      "numeric_arrays_unchanged": true
+    },
+    "FLEURS_303.npz": {
+      "original_sha256": "03951e6b187bfa3eb61cf1536685c520594d03f607e7fd0a88d83c712cc1db86",
+      "released_sha256": "b13209b6dac06391ac33a3e1e5143fa32b787ee85cae80c988d36c86d4fe9514",
+      "numeric_arrays_unchanged": true
+    },
+    "PICKS_CV27_202.npz": {
+      "original_sha256": "fb901b40221b7b359d1d035a26e3526bacb2c830caec13d79b1c7301579eff82",
+      "released_sha256": "fb901b40221b7b359d1d035a26e3526bacb2c830caec13d79b1c7301579eff82",
+      "numeric_arrays_unchanged": true
+    },
+    "FLEURS_101.npz": {
+      "original_sha256": "ef92e1f36e75d244eed2f5a22c5ad65882352c85ffc480f601f4abf4aa795ab5",
+      "released_sha256": "2f43ad792951577cdb261708eec45bbf8c9dc2d0668ddb1475161c99eee63fe8",
+      "numeric_arrays_unchanged": true
+    },
+    "CV27_303.npz": {
+      "original_sha256": "8c9b295dd3b81de94a5cf9b5a8bfba22e9248ec863fc46ee1db52b8a92f2c964",
+      "released_sha256": "e5a09826842c41ab1fe28afa9682b9672a624b1befb377c8d640c3699eefb9be",
+      "numeric_arrays_unchanged": true
+    },
+    "FLEURS_202.npz": {
+      "original_sha256": "1eae7d3c03d141fbb2e49a6bd2674e790d5a48124dfe56e38cc680aeffac2a00",
+      "released_sha256": "545d518479fb1d6f52f549534801a0ce78de0c4c74fcc51c068d2b89f3cea3fa",
+      "numeric_arrays_unchanged": true
+    }
+  },
+  "scope": "Packaging identity changes only. Numeric features/counts/folds/flags and candidate order are exact; no new scientific registration.",
+  "removed": [
+    "candidate text-derived hashes",
+    "multi_output_hashes",
+    "private source inventories",
+    "original recording/client/reference identifiers"
+  ],
+  "aliasing": "Recording aliases preserve row order across checkpoints; candidate aliases identify corpus/checkpoint/window/ordered position. Component relabeling preserves the partition.",
+  "released_plan_sha256": "ff1efffd0593e5d80ea8e455a1483a6ea8a59e6a81d5a9442ead0725f918facc"
+}

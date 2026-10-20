@@ -1,0 +1,499 @@
+{
+  "status": "COMPLETE_MEASURED",
+  "study": "V153_LIVE_SEVEN_PATH_VALIDATION_AND_COST",
+  "checkpoint": 101,
+  "rounds": 3,
+  "recordings": 727,
+  "paired_blocks": 2181,
+  "policy_recording_runs": 15267,
+  "physical_gpu_blocks": {
+    "2": 1189,
+    "3": 992
+  },
+  "datasets": {
+    "FLEURS": {
+      "recordings": 255,
+      "population": 3665,
+      "policies": {
+        "Native": {
+          "weighted_mean_ms": 1304.8331013725851,
+          "CI95_ms": [
+            1244.5218029122166,
+            1389.3126904244223
+          ],
+          "round_weighted_means_ms": [
+            1295.161366793975,
+            1308.0614414956297,
+            1311.2764958281512
+          ],
+          "peak_allocated_MiB": 2978.373046875,
+          "peak_reserved_MiB": 3726.0
+        },
+        "RawTop1": {
+          "weighted_mean_ms": 1222.5649525027463,
+          "CI95_ms": [
+            1190.6510965605785,
+            1256.421064771615
+          ],
+          "round_weighted_means_ms": [
+            1214.454885172285,
+            1223.8252606736191,
+            1229.4147116623342
+          ],
+          "peak_allocated_MiB": 2946.61669921875,
+          "peak_reserved_MiB": 3726.0
+        },
+        "B": {
+          "weighted_mean_ms": 1363.9624198003498,
+          "CI95_ms": [
+            1329.8625382332164,
+            1400.148433753286
+          ],
+          "round_weighted_means_ms": [
+            1356.0988869027353,
+            1365.3055293900297,
+            1370.482843108285
+          ],
+          "peak_allocated_MiB": 3142.41259765625,
+          "peak_reserved_MiB": 3726.0
+        },
+        "NplusR": {
+          "weighted_mean_ms": 1449.5903659828064,
+          "CI95_ms": [
+            1386.7987431872484,
+            1535.162793056872
+          ],
+          "round_weighted_means_ms": [
+            1440.6660541282752,
+            1450.9943069150354,
+            1457.1107369051085
+          ],
+          "peak_allocated_MiB": 2986.3076171875,
+          "peak_reserved_MiB": 3726.0
+        },
+        "SplusR": {
+          "weighted_mean_ms": 1374.4872928919672,
+          "CI95_ms": [
+            1340.539392385049,
+            1410.5333313000513
+          ],
+          "round_weighted_means_ms": [
+            1364.656175956121,
+            1376.6767396710657,
+            1382.1289630487147
+          ],
+          "peak_allocated_MiB": 3187.15380859375,
+          "peak_reserved_MiB": 3726.0
+        },
+        "SDirect": {
+          "weighted_mean_ms": 1372.8256835757188,
+          "CI95_ms": [
+            1338.1956733177788,
+            1409.3793141700398
+          ],
+          "round_weighted_means_ms": [
+            1363.3578230536864,
+            1373.8625173800972,
+            1381.256710293374
+          ],
+          "peak_allocated_MiB": 3187.15380859375,
+          "peak_reserved_MiB": 3726.0
+        },
+        "H3Direct": {
+          "weighted_mean_ms": 1313.964966340856,
+          "CI95_ms": [
+            1280.8961191115,
+            1348.7358483738865
+          ],
+          "round_weighted_means_ms": [
+            1304.3761773202705,
+            1316.5833182375634,
+            1320.9354034647356
+          ],
+          "peak_allocated_MiB": 3187.15380859375,
+          "peak_reserved_MiB": 3726.0
+        }
+      },
+      "comparisons": {
+        "SplusR_vs_NplusR": {
+          "delta_ms": -75.10307309083919,
+          "CI95_delta_ms": [
+            -142.17470723127744,
+            -40.60044090756398
+          ],
+          "saving_pct": 5.180985942874983,
+          "CI95_saving_pct": [
+            2.8768827598078652,
+            9.385833071339501
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "SplusR_vs_Native": {
+          "delta_ms": 69.65419151938204,
+          "CI95_delta_ms": [
+            2.3266190207504738,
+            106.4777953900688
+          ],
+          "saving_pct": -5.338168647477692,
+          "CI95_saving_pct": [
+            -8.380773466716379,
+            -0.17202376023688312
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "SplusR_vs_B": {
+          "delta_ms": 10.524873091617337,
+          "CI95_delta_ms": [
+            8.786248214817931,
+            12.272839828736238
+          ],
+          "saving_pct": -0.7716395216488481,
+          "CI95_saving_pct": [
+            -0.9048602709174025,
+            -0.6422958533993584
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "SDirect_vs_SplusR": {
+          "delta_ms": -1.6616093162483594,
+          "CI95_delta_ms": [
+            -3.4455495412428148,
+            0.03807767818377136
+          ],
+          "saving_pct": 0.1208893908907882,
+          "CI95_saving_pct": [
+            -0.002782352063543934,
+            0.25127825697663064
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "H3Direct_vs_SDirect": {
+          "delta_ms": -58.860717234862705,
+          "CI95_delta_ms": [
+            -62.02948468130693,
+            -55.60811376084414
+          ],
+          "saving_pct": 4.287559443202693,
+          "CI95_saving_pct": [
+            4.090599422283008,
+            4.472843973724989
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "H3Direct_vs_SplusR": {
+          "delta_ms": -60.522326551111064,
+          "CI95_delta_ms": [
+            -63.858381501563635,
+            -57.12963855439178
+          ],
+          "saving_pct": 4.403265629598518,
+          "CI95_saving_pct": [
+            4.185858390579415,
+            4.62309890746131
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "H3Direct_vs_Native": {
+          "delta_ms": 9.131864968270975,
+          "CI95_delta_ms": [
+            -57.785261959867924,
+            44.354843513102004
+          ],
+          "saving_pct": -0.6998492725747818,
+          "CI95_saving_pct": [
+            -3.500943294707512,
+            4.2195178698436475
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "RawTop1_vs_Native": {
+          "delta_ms": -82.2681488698388,
+          "CI95_delta_ms": [
+            -148.98492651485196,
+            -48.11659495355654
+          ],
+          "saving_pct": 6.304879051834211,
+          "CI95_saving_pct": [
+            3.7926054471791493,
+            10.89354485440859
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "RawTop1_vs_B": {
+          "delta_ms": -141.3974672976035,
+          "CI95_delta_ms": [
+            -147.39682761758328,
+            -135.20234130730498
+          ],
+          "saving_pct": 10.366668849886684,
+          "CI95_saving_pct": [
+            9.95886767271975,
+            10.757421383858299
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        }
+      }
+    },
+    "CV27": {
+      "recordings": 472,
+      "population": 58514,
+      "policies": {
+        "Native": {
+          "weighted_mean_ms": 531.174915377364,
+          "CI95_ms": [
+            518.2609359681602,
+            543.4429607829893
+          ],
+          "round_weighted_means_ms": [
+            529.7100731947589,
+            530.3938864447329,
+            533.4207864926007
+          ],
+          "peak_allocated_MiB": 2811.80224609375,
+          "peak_reserved_MiB": 3726.0
+        },
+        "RawTop1": {
+          "weighted_mean_ms": 479.9315816549865,
+          "CI95_ms": [
+            467.059710085394,
+            492.18323900499837
+          ],
+          "round_weighted_means_ms": [
+            478.64240011084894,
+            478.7476544554938,
+            482.404690398617
+          ],
+          "peak_allocated_MiB": 2570.955078125,
+          "peak_reserved_MiB": 3726.0
+        },
+        "B": {
+          "weighted_mean_ms": 605.1421327159093,
+          "CI95_ms": [
+            590.7874961136083,
+            618.5626133700487
+          ],
+          "round_weighted_means_ms": [
+            603.9382491329643,
+            603.5654982741669,
+            607.9226507405965
+          ],
+          "peak_allocated_MiB": 3131.1123046875,
+          "peak_reserved_MiB": 3726.0
+        },
+        "NplusR": {
+          "weighted_mean_ms": 657.9422482603138,
+          "CI95_ms": [
+            643.6371008324775,
+            671.4889447978867
+          ],
+          "round_weighted_means_ms": [
+            656.3953875553289,
+            656.4910616964901,
+            660.9402955291229
+          ],
+          "peak_allocated_MiB": 3131.11279296875,
+          "peak_reserved_MiB": 3726.0
+        },
+        "SplusR": {
+          "weighted_mean_ms": 628.044635541936,
+          "CI95_ms": [
+            613.7520944180834,
+            641.3564748339445
+          ],
+          "round_weighted_means_ms": [
+            626.6949620921827,
+            626.3984313361249,
+            631.0405131975001
+          ],
+          "peak_allocated_MiB": 3131.11279296875,
+          "peak_reserved_MiB": 3726.0
+        },
+        "SDirect": {
+          "weighted_mean_ms": 625.7519826744092,
+          "CI95_ms": [
+            611.660388886297,
+            639.1723388264578
+          ],
+          "round_weighted_means_ms": [
+            623.6698265312023,
+            624.1299572518642,
+            629.4561642401615
+          ],
+          "peak_allocated_MiB": 2811.80224609375,
+          "peak_reserved_MiB": 3726.0
+        },
+        "H3Direct": {
+          "weighted_mean_ms": 586.4200952074611,
+          "CI95_ms": [
+            572.8000898499168,
+            599.4172199075168
+          ],
+          "round_weighted_means_ms": [
+            585.2188650963694,
+            584.9864035073524,
+            589.0550170186614
+          ],
+          "peak_allocated_MiB": 2811.80224609375,
+          "peak_reserved_MiB": 3726.0
+        }
+      },
+      "comparisons": {
+        "SplusR_vs_NplusR": {
+          "delta_ms": -29.897612718377786,
+          "CI95_delta_ms": [
+            -30.482817989368613,
+            -29.349922118948975
+          ],
+          "saving_pct": 4.544108969659721,
+          "CI95_saving_pct": [
+            4.4380609928849415,
+            4.662449662958508
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "SplusR_vs_Native": {
+          "delta_ms": 96.86972016457207,
+          "CI95_delta_ms": [
+            92.57235787790405,
+            101.05209331794062
+          ],
+          "saving_pct": -18.23687778925944,
+          "CI95_saving_pct": [
+            -19.098245061935273,
+            -17.39663183064892
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "SplusR_vs_B": {
+          "delta_ms": 22.902502826026762,
+          "CI95_delta_ms": [
+            22.277013279859553,
+            23.49693513346171
+          ],
+          "saving_pct": -3.784648529303203,
+          "CI95_saving_pct": [
+            -3.9239516528094764,
+            -3.651108763141287
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "SDirect_vs_SplusR": {
+          "delta_ms": -2.29265286752684,
+          "CI95_delta_ms": [
+            -2.9763906647470946,
+            -1.5872168030573135
+          ],
+          "saving_pct": 0.36504616675031576,
+          "CI95_saving_pct": [
+            0.25290046699619984,
+            0.47280228165041904
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "H3Direct_vs_SDirect": {
+          "delta_ms": -39.33188746694805,
+          "CI95_delta_ms": [
+            -40.85349618021472,
+            -37.76816324058448
+          ],
+          "saving_pct": 6.285539407937146,
+          "CI95_saving_pct": [
+            6.060624772868962,
+            6.509775214865883
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "H3Direct_vs_SplusR": {
+          "delta_ms": -41.62454033447489,
+          "CI95_delta_ms": [
+            -43.05219835291607,
+            -40.13488488183381
+          ],
+          "saving_pct": 6.627640454019213,
+          "CI95_saving_pct": [
+            6.421529101269042,
+            6.831460475063291
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "H3Direct_vs_Native": {
+          "delta_ms": 55.245179830097186,
+          "CI95_delta_ms": [
+            52.30824577993141,
+            58.170335338110206
+          ],
+          "saving_pct": -10.400562645329225,
+          "CI95_saving_pct": [
+            -10.991411604709462,
+            -9.836911288362082
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "RawTop1_vs_Native": {
+          "delta_ms": -51.243333722377486,
+          "CI95_delta_ms": [
+            -51.786370830627604,
+            -50.69916954894923
+          ],
+          "saving_pct": 9.647167484551211,
+          "CI95_saving_pct": [
+            9.420279732190247,
+            9.895823595623657
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        },
+        "RawTop1_vs_B": {
+          "delta_ms": -125.2105510609228,
+          "CI95_delta_ms": [
+            -129.47540516006146,
+            -120.90524308238504
+          ],
+          "saving_pct": 20.691097891163412,
+          "CI95_saving_pct": [
+            20.048707527369142,
+            21.3494158650887
+          ],
+          "interpretation": "positive saving means lhs faster than rhs; pointwise descriptive interval"
+        }
+      }
+    }
+  },
+  "bootstrap": {
+    "draws": 4000,
+    "seed": 15301,
+    "paired": true,
+    "unit": "recording within original stratum; three fixed round measurements averaged before resampling",
+    "fpc": "sqrt((M-n)/(M-1)); census strata fixed",
+    "quantiles": [
+      0.025,
+      0.975
+    ],
+    "scope": "Pointwise descriptive 95% intervals conditional on this hardware/session, fixed rounds and frozen panel design; no p-values"
+  },
+  "residency": "Peak allocated and reserved from real allocator after reset per path; common model residency and allocator caching, not isolated deployment footprint",
+  "scope": "New same-card paired measurements; separate from old two-, four- and five-path records",
+  "independence": "Fixed session/round inference, not new accuracy confirmation",
+  "excluded_blocks": 2,
+  "protocol": {
+    "path": "source-artifact://measurement_plan.json",
+    "bytes": 22204,
+    "sha256": "1b4536e2967cf9f56021df870c5d53b9db5340474ad59bbc406d1e5a20432a69"
+  },
+  "utc": "2026-10-20T01:02:06.810210+00:00",
+  "closeout_amendment": {
+    "path": "source-artifact://AMENDMENT.json",
+    "bytes": 2148,
+    "sha256": "f945023083f652ad048a77fbbca54b8179334d06755e8f78c1a67e3e9d431856"
+  },
+  "closeout_execution_lock": {
+    "path": "source-artifact://CLOSEOUT_EXECUTION_LOCK.json",
+    "bytes": 13423,
+    "sha256": "a0b857b16657592ade63db64edd824af2742c22a81a667c947cc1a7c570d0701"
+  },
+  "amended_replacement_blocks": [
+    {
+      "round": 0,
+      "id": "b6f334934b253b230529c5b4e472b53b1838b819b44dbb0c58eb0c4119d9f776"
+    }
+  ]
+}

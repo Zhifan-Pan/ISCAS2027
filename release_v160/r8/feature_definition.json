@@ -1,0 +1,54 @@
+{
+  "status": "FROZEN_ACTUAL_EXPORT_DEFINITION",
+  "created_utc": "2026-10-17T00:48:39.550246+00:00",
+  "features_0_based": [
+    "log1p(window duration seconds)",
+    "log1p(unique B5 candidate count)",
+    "largest minus second-largest mean body-token decoder log probability (gap)",
+    "entropy of softmax over mean decoder log probabilities on unique B5 candidates",
+    "population SD of top-beam-relative mean decoder log probabilities over unique B5",
+    "range of mean decoder log probability over unique B5",
+    "range of log1p(body-token count) over unique B5",
+    "range of repeated-4gram fraction over unique B5",
+    "mean absolute top-beam-relative mean decoder log probability over unique B5",
+    "raw top-beam UTF-8 byte count / zlib-compressed byte count; zero for empty bytes",
+    "raw top-beam repeated-4gram fraction",
+    "maximum raw repeated-4gram fraction over unique B5"
+  ],
+  "repetition": "Fraction of all normalized 4gram positions whose 4gram occurs at least three times; denominator max(1, number of positions)",
+  "gates": {
+    "HF12": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "HF9": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "feature_export": "Original numeric fields; all 174513 DEV candidate banks audited, all 132 long TEST window banks reconstructed",
+  "eligibility": "More than one unique B5 candidate per window; any eligible window per recording",
+  "score": "negative ridge prediction of fixed-betaF HF edit benefit; min over eligible windows",
+  "calibration": "eligible DEV scores, pooled unweighted numpy linear quantile; strict <; q=1 all eligible",
+  "inputs_include_no_HF_output_or_reference": true,
+  "inherited_G12_scope": "Greedy-trained coefficients, HF-executed count contrast; no relabeling as HF training",
+  "inherited_gap_scope": "DEV quantiles; no HF benefit labels needed",
+  "FLEURS_components": "Unavailable in the audited numeric cache; no component uncertainty interval"
+}

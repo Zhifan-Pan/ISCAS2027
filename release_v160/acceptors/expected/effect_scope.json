@@ -1,0 +1,458 @@
+{
+  "scope": "Read-only descriptive audit of submitted counts and frozen flags. No new fit, timing, inference, bootstrap, reference access audit or acceptance guarantee.",
+  "environment": {
+    "python": "3.10.12",
+    "numpy": "2.2.6"
+  },
+  "confirmation": {
+    "instances": 22500,
+    "recordings": 7500,
+    "per_checkpoint": [
+      {
+        "checkpoint": 101,
+        "recordings": 7500,
+        "WER_percent": {
+          "B": 34.9483370543489,
+          "Native": 34.85052390116563,
+          "NplusR": 32.90526969333645,
+          "SplusR": 32.90526969333645
+        },
+        "gain_B_minus_S_pp": 2.0430673610124472,
+        "net_raw_edits_reduced": 1003,
+        "triggered_instances": 19,
+        "beneficial_instances": 14,
+        "harmful_instances": 1,
+        "share_of_net_raw_edits_percent": 32.649739583333336,
+        "share_of_summed_macro_gains_percent": 30.097947192328753
+      },
+      {
+        "checkpoint": 202,
+        "recordings": 7500,
+        "WER_percent": {
+          "B": 32.6214861845727,
+          "Native": 34.726176415777914,
+          "NplusR": 32.41813215582439,
+          "SplusR": 32.41813215582439
+        },
+        "gain_B_minus_S_pp": 0.20335402874831487,
+        "net_raw_edits_reduced": 90,
+        "triggered_instances": 4,
+        "beneficial_instances": 2,
+        "harmful_instances": 0,
+        "share_of_net_raw_edits_percent": 2.9296875,
+        "share_of_summed_macro_gains_percent": 2.9957596775375217
+      },
+      {
+        "checkpoint": 303,
+        "recordings": 7500,
+        "WER_percent": {
+          "B": 37.48253774823921,
+          "Native": 35.02811918517483,
+          "NplusR": 32.94089698892033,
+          "SplusR": 32.94089698892033
+        },
+        "gain_B_minus_S_pp": 4.541640759318881,
+        "net_raw_edits_reduced": 1979,
+        "triggered_instances": 38,
+        "beneficial_instances": 33,
+        "harmful_instances": 1,
+        "share_of_net_raw_edits_percent": 64.42057291666667,
+        "share_of_summed_macro_gains_percent": 66.90629313013372
+      }
+    ],
+    "positive_instances": 49,
+    "positive_distinct_recordings": 44,
+    "positive_speaker_groups": 31,
+    "B_minus_S_macro_gain_pp": 2.2626873830265475,
+    "NplusR_SplusR_equal_vectors": true,
+    "scope": "Descriptive reuse of original panel, not a new confirmation or interval.",
+    "per_language_gain": [
+      {
+        "language": "ar",
+        "per_checkpoint_gain_pp": {
+          "101": 0.8302479524290334,
+          "202": 0.0,
+          "303": 2.142937282620892
+        },
+        "mean_gain_pp": 0.9910617450166418,
+        "share_of_five_language_macro_gain_percent": 8.760041289407004
+      },
+      {
+        "language": "fa",
+        "per_checkpoint_gain_pp": {
+          "101": 7.165109034267914,
+          "202": 0.9807315103265282,
+          "303": 20.38767739702319
+        },
+        "mean_gain_pp": 9.511172647205877,
+        "share_of_five_language_macro_gain_percent": 84.06970152884159
+      },
+      {
+        "language": "it",
+        "per_checkpoint_gain_pp": {
+          "101": 0.0,
+          "202": 0.0,
+          "303": 0.04706831629908592
+        },
+        "mean_gain_pp": 0.015689438766361974,
+        "share_of_five_language_macro_gain_percent": 0.13867968579358886
+      },
+      {
+        "language": "pl",
+        "per_checkpoint_gain_pp": {
+          "101": 2.219979818365289,
+          "202": 0.03603863341502134,
+          "303": 0.06486954014703805
+        },
+        "mean_gain_pp": 0.7736293306424494,
+        "share_of_five_language_macro_gain_percent": 6.838145971430226
+      },
+      {
+        "language": "tr",
+        "per_checkpoint_gain_pp": {
+          "101": 0.0,
+          "202": 0.0,
+          "303": 0.06565126050420034
+        },
+        "mean_gain_pp": 0.02188375350140011,
+        "share_of_five_language_macro_gain_percent": 0.19343152452751672
+      }
+    ]
+  },
+  "HF_DEV_label_information": [
+    {
+      "checkpoint": 101,
+      "recordings": 58171,
+      "components": 3291,
+      "positive_labels": 103,
+      "negative_labels": 2,
+      "zero_labels": 58066,
+      "eligible_positive_labels": 96
+    },
+    {
+      "checkpoint": 202,
+      "recordings": 58171,
+      "components": 3291,
+      "positive_labels": 39,
+      "negative_labels": 8,
+      "zero_labels": 58124,
+      "eligible_positive_labels": 32
+    },
+    {
+      "checkpoint": 303,
+      "recordings": 58171,
+      "components": 3291,
+      "positive_labels": 184,
+      "negative_labels": 14,
+      "zero_labels": 57973,
+      "eligible_positive_labels": 154
+    }
+  ],
+  "HF12_fixed_q_calls": [
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "q": 0.003,
+      "recordings": 3665,
+      "HF12_calls": 178,
+      "CR_original_calls": 2,
+      "CR_matched_calls": 2,
+      "HF12_calls_percent": 4.85675306957708
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "q": 0.003,
+      "recordings": 58514,
+      "HF12_calls": 206,
+      "CR_original_calls": 169,
+      "CR_matched_calls": 160,
+      "HF12_calls_percent": 0.3520525002563489
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "q": 0.003,
+      "recordings": 3665,
+      "HF12_calls": 2,
+      "CR_original_calls": 2,
+      "CR_matched_calls": 2,
+      "HF12_calls_percent": 0.054570259208731244
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "q": 0.003,
+      "recordings": 58514,
+      "HF12_calls": 129,
+      "CR_original_calls": 105,
+      "CR_matched_calls": 90,
+      "HF12_calls_percent": 0.22046006084014083
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "q": 0.003,
+      "recordings": 3665,
+      "HF12_calls": 5,
+      "CR_original_calls": 6,
+      "CR_matched_calls": 6,
+      "HF12_calls_percent": 0.1364256480218281
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "q": 0.003,
+      "recordings": 58514,
+      "HF12_calls": 178,
+      "CR_original_calls": 251,
+      "CR_matched_calls": 208,
+      "HF12_calls_percent": 0.3042007041050005
+    }
+  ],
+  "FLEURS_HF12_101_fraction_of_calls_percent": 96.21621621621621,
+  "candidate_cache_schema": [
+    {
+      "path": "r8/inputs/dev/DEV_101.npz",
+      "fields": {
+        "ids": {
+          "shape": [
+            58171
+          ],
+          "dtype": "<U64"
+        },
+        "lang": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        },
+        "fold": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        },
+        "eligible": {
+          "shape": [
+            58171
+          ],
+          "dtype": "bool"
+        },
+        "window_index": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        },
+        "window_count": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        },
+        "features": {
+          "shape": [
+            58171,
+            12
+          ],
+          "dtype": "float64"
+        },
+        "components": {
+          "shape": [
+            58171
+          ],
+          "dtype": "<U64"
+        },
+        "B": {
+          "shape": [
+            58171,
+            4
+          ],
+          "dtype": "int64"
+        },
+        "NplusR": {
+          "shape": [
+            58171,
+            4
+          ],
+          "dtype": "int64"
+        },
+        "y": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        }
+      },
+      "candidate_level_acceptor_features_present": false,
+      "reason": "features is recording/window x 12 acquisition features; no per-candidate (a,p,t,r) array, bank offsets or complete candidate scores."
+    },
+    {
+      "path": "r8/inputs/dev/DEV_202.npz",
+      "fields": {
+        "ids": {
+          "shape": [
+            58171
+          ],
+          "dtype": "<U64"
+        },
+        "lang": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        },
+        "fold": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        },
+        "eligible": {
+          "shape": [
+            58171
+          ],
+          "dtype": "bool"
+        },
+        "window_index": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        },
+        "window_count": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        },
+        "features": {
+          "shape": [
+            58171,
+            12
+          ],
+          "dtype": "float64"
+        },
+        "components": {
+          "shape": [
+            58171
+          ],
+          "dtype": "<U64"
+        },
+        "B": {
+          "shape": [
+            58171,
+            4
+          ],
+          "dtype": "int64"
+        },
+        "NplusR": {
+          "shape": [
+            58171,
+            4
+          ],
+          "dtype": "int64"
+        },
+        "y": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        }
+      },
+      "candidate_level_acceptor_features_present": false,
+      "reason": "features is recording/window x 12 acquisition features; no per-candidate (a,p,t,r) array, bank offsets or complete candidate scores."
+    },
+    {
+      "path": "r8/inputs/dev/DEV_303.npz",
+      "fields": {
+        "ids": {
+          "shape": [
+            58171
+          ],
+          "dtype": "<U64"
+        },
+        "lang": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        },
+        "fold": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        },
+        "eligible": {
+          "shape": [
+            58171
+          ],
+          "dtype": "bool"
+        },
+        "window_index": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        },
+        "window_count": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        },
+        "features": {
+          "shape": [
+            58171,
+            12
+          ],
+          "dtype": "float64"
+        },
+        "components": {
+          "shape": [
+            58171
+          ],
+          "dtype": "<U64"
+        },
+        "B": {
+          "shape": [
+            58171,
+            4
+          ],
+          "dtype": "int64"
+        },
+        "NplusR": {
+          "shape": [
+            58171,
+            4
+          ],
+          "dtype": "int64"
+        },
+        "y": {
+          "shape": [
+            58171
+          ],
+          "dtype": "int64"
+        }
+      },
+      "candidate_level_acceptor_features_present": false,
+      "reason": "features is recording/window x 12 acquisition features; no per-candidate (a,p,t,r) array, bank offsets or complete candidate scores."
+    }
+  ],
+  "not_established": "This audit does not establish whether the author workspace contains complete candidate-level exports.",
+  "input_sha256": {
+    "confirmation/panel_scores_v2.jsonl": "2dc111755b3ceeed14c536f3b742013e51febb4d800f3b4f18c22f91bc6e20f2",
+    "r8/inputs/dev/DEV_101.npz": "5b0549c4b32b2046972aecb72b1d06be312eacc7f93406812e9ad4bb9f4b5d6a",
+    "r8/inputs/test/SCORES_FLEURS_101.npz": "4940ba6009061f8371278b488cbb64f7f821d2b68abaf777879765bca4c87b6a",
+    "r8/inputs/test/SCORES_CV27_101.npz": "942c92c23de327a5e87aeeb6dce97e7e10f75e1dd9fdeaa13618086689c91fc5",
+    "r8/inputs/dev/DEV_202.npz": "3e51e9f433ae3df83f3f783c8915ff998fdb6c651faadc7412a9267474f8b7a5",
+    "r8/inputs/test/SCORES_FLEURS_202.npz": "51c9196a6f4e12496c43475749278751a0f1d82b86a637bd9dc230c09e0aab3f",
+    "r8/inputs/test/SCORES_CV27_202.npz": "60c115e66eb9ae9673e65790772fa725ddf3be7513f1cd730d85ccc8e1dfc8a3",
+    "r8/inputs/dev/DEV_303.npz": "6fdbaf2c21138a3616cfd7836572010abded1443dcf1c9a0fec7f7cdd5d9d2f5",
+    "r8/inputs/test/SCORES_FLEURS_303.npz": "d23d8b2102c148a47b32b23b4decf514d58773d965c9ffc869770c3eeada92ce",
+    "r8/inputs/test/SCORES_CV27_303.npz": "bd7041e9bcd0870aeea20264ecaadfbfb2a7c023f3d6c9dc35dd37017ded83f7",
+    "r8/expected/frozen_models.json": "3d75f870dfc47eb16ab165d26e3c2c9b228c779db73a7fcd42ae999ef3828825"
+  }
+}

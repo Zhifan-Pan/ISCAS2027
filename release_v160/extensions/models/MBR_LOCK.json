@@ -1,0 +1,28 @@
+{
+  "frozen_utc": "2026-10-18T17:11:47.137788+00:00",
+  "models": {
+    "101": {
+      "temperature": 0.3,
+      "DEV_WER": 32.36872390419662,
+      "uniform_DEV_WER": 35.253212303574486,
+      "input_sha256": "742a9fd4aa2113b8de78c830d1b49f03a106c2336c64effd2c91e8f284d68c6f",
+      "diagnostics_sha256": "3f153bec2be64beaf1b0eea64c2edceab43f31c93b09ed97c6dc341eac687f47"
+    },
+    "202": {
+      "temperature": 0.3,
+      "DEV_WER": 32.17883272903794,
+      "uniform_DEV_WER": 33.43558054231696,
+      "input_sha256": "1681d169b71e61206721188b273f1ba2fc8f72a4b027a71322feee4f30a96535",
+      "diagnostics_sha256": "c77b3626393ddc52cd795cc437e1b76359ea69c04bc87271dcfd75a68e09aa8a"
+    },
+    "303": {
+      "temperature": 0.1,
+      "DEV_WER": 32.341736894539274,
+      "uniform_DEV_WER": 36.09731144847595,
+      "input_sha256": "51b051d4f24f275700032b1547b00ad5487f029f9d1b046f8694ad40a3a0f4f7",
+      "diagnostics_sha256": "ab6455944bb653b87ea09bfc628a5ae0a090e88f37b3a9363f09d148538db909"
+    }
+  },
+  "plan_sha256": "ca4819f97657c5213d7e30599fe2fa6cd7cdc92b1baf1e5e3ccb8c53463d0c8b",
+  "scope": "DEV-only temperature selection; primary uniform; all candidates retained"
+}

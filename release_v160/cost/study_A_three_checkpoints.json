@@ -1,0 +1,419 @@
+{
+  "status": "COMPLETE_RAW_VALIDATED",
+  "checkpoints": [
+    101,
+    202,
+    303
+  ],
+  "paired_blocks": 6543,
+  "recordings": 727,
+  "datasets": {
+    "FLEURS": {
+      "recordings": 255,
+      "population": 3665,
+      "policies": {
+        "Native": {
+          "mean_ms": 1291.705348809289,
+          "CI95_ms": [
+            1219.331208619074,
+            1384.7164124305145
+          ],
+          "peak_allocated_MiB": 2980.75146484375,
+          "peak_reserved_MiB": 3770.0
+        },
+        "B": {
+          "mean_ms": 1352.6588720849606,
+          "CI95_ms": [
+            1304.8160621958816,
+            1405.98293464075
+          ],
+          "peak_allocated_MiB": 3144.92236328125,
+          "peak_reserved_MiB": 3770.0
+        },
+        "NplusR": {
+          "mean_ms": 1436.7905583633162,
+          "CI95_ms": [
+            1361.0632430862292,
+            1532.9133202808634
+          ],
+          "peak_allocated_MiB": 2988.2802734375,
+          "peak_reserved_MiB": 3770.0
+        },
+        "SplusR": {
+          "mean_ms": 1362.8124256717822,
+          "CI95_ms": [
+            1310.1619245534655,
+            1422.8011015758739
+          ],
+          "peak_allocated_MiB": 3189.66357421875,
+          "peak_reserved_MiB": 3770.0
+        }
+      },
+      "comparisons": {
+        "SplusR_vs_NplusR": {
+          "delta_ms": -73.97813269153403,
+          "CI95_delta_ms": [
+            -140.37454764373203,
+            -40.23299435262238
+          ],
+          "saving_pct": 5.148845965121341,
+          "CI95_saving_pct": [
+            2.842932014698459,
+            9.408170698888117
+          ]
+        },
+        "SplusR_vs_Native": {
+          "delta_ms": 71.10707686249316,
+          "CI95_delta_ms": [
+            4.4245063029905625,
+            107.5350558555363
+          ],
+          "saving_pct": -5.504899157384502,
+          "CI95_saving_pct": [
+            -8.49798722107031,
+            -0.32865167312938337
+          ]
+        },
+        "SplusR_vs_B": {
+          "delta_ms": 10.153553586821545,
+          "CI95_delta_ms": [
+            4.164952611760998,
+            18.72887262605575
+          ],
+          "saving_pct": -0.7506366753925908,
+          "CI95_saving_pct": [
+            -1.3457821749475685,
+            -0.31443657482810417
+          ]
+        }
+      },
+      "per_checkpoint": {
+        "101": {
+          "Native": {
+            "mean_ms": 1278.9144275893327,
+            "CI95_ms": [
+              1219.7763081945875,
+              1360.5937514695452
+            ],
+            "peak_allocated_MiB": 2979.0185546875,
+            "peak_reserved_MiB": 3770.0
+          },
+          "B": {
+            "mean_ms": 1337.0728839466053,
+            "CI95_ms": [
+              1300.7426559968644,
+              1373.5277026808203
+            ],
+            "peak_allocated_MiB": 3144.92236328125,
+            "peak_reserved_MiB": 3770.0
+          },
+          "NplusR": {
+            "mean_ms": 1419.7822061291286,
+            "CI95_ms": [
+              1358.7882950948056,
+              1502.5621574782137
+            ],
+            "peak_allocated_MiB": 2986.4169921875,
+            "peak_reserved_MiB": 3770.0
+          },
+          "SplusR": {
+            "mean_ms": 1347.9163448269262,
+            "CI95_ms": [
+              1311.1439677879991,
+              1384.9193438153084
+            ],
+            "peak_allocated_MiB": 3189.66357421875,
+            "peak_reserved_MiB": 3770.0
+          }
+        },
+        "202": {
+          "Native": {
+            "mean_ms": 1263.928244035359,
+            "CI95_ms": [
+              1203.819594333488,
+              1348.6736542898584
+            ],
+            "peak_allocated_MiB": 2980.75146484375,
+            "peak_reserved_MiB": 3472.0
+          },
+          "B": {
+            "mean_ms": 1333.777680602073,
+            "CI95_ms": [
+              1295.9511856569934,
+              1372.2110080872576
+            ],
+            "peak_allocated_MiB": 3144.08544921875,
+            "peak_reserved_MiB": 3472.0
+          },
+          "NplusR": {
+            "mean_ms": 1410.8727861285504,
+            "CI95_ms": [
+              1347.4184710464276,
+              1498.568176126077
+            ],
+            "peak_allocated_MiB": 2988.2802734375,
+            "peak_reserved_MiB": 3472.0
+          },
+          "SplusR": {
+            "mean_ms": 1335.4770331554307,
+            "CI95_ms": [
+              1298.0104281055822,
+              1373.6989881748032
+            ],
+            "peak_allocated_MiB": 3188.26318359375,
+            "peak_reserved_MiB": 3472.0
+          }
+        },
+        "303": {
+          "Native": {
+            "mean_ms": 1332.273374803175,
+            "CI95_ms": [
+              1213.5514766572517,
+              1477.387117799704
+            ],
+            "peak_allocated_MiB": 2969.28173828125,
+            "peak_reserved_MiB": 3384.0
+          },
+          "B": {
+            "mean_ms": 1387.1260517062035,
+            "CI95_ms": [
+              1298.5809415500444,
+              1502.6454787028415
+            ],
+            "peak_allocated_MiB": 3136.8720703125,
+            "peak_reserved_MiB": 3384.0
+          },
+          "NplusR": {
+            "mean_ms": 1479.71668283227,
+            "CI95_ms": [
+              1354.405946490427,
+              1631.1706321008187
+            ],
+            "peak_allocated_MiB": 2980.59521484375,
+            "peak_reserved_MiB": 3384.0
+          },
+          "SplusR": {
+            "mean_ms": 1405.0438990329897,
+            "CI95_ms": [
+              1299.5202370970007,
+              1545.4833463956732
+            ],
+            "peak_allocated_MiB": 3181.1533203125,
+            "peak_reserved_MiB": 3384.0
+          }
+        }
+      }
+    },
+    "CV27": {
+      "recordings": 472,
+      "population": 58514,
+      "policies": {
+        "Native": {
+          "mean_ms": 517.3865035622413,
+          "CI95_ms": [
+            499.7609613826861,
+            541.0623370535841
+          ],
+          "peak_allocated_MiB": 2813.7822265625,
+          "peak_reserved_MiB": 3770.0
+        },
+        "B": {
+          "mean_ms": 591.9039507490106,
+          "CI95_ms": [
+            572.969094949582,
+            616.1840559792502
+          ],
+          "peak_allocated_MiB": 3133.1162109375,
+          "peak_reserved_MiB": 3770.0
+        },
+        "NplusR": {
+          "mean_ms": 639.1946427010877,
+          "CI95_ms": [
+            620.0274725796679,
+            663.8497842070839
+          ],
+          "peak_allocated_MiB": 3133.0927734375,
+          "peak_reserved_MiB": 3770.0
+        },
+        "SplusR": {
+          "mean_ms": 610.0072943159929,
+          "CI95_ms": [
+            591.1870716518968,
+            634.4954271032866
+          ],
+          "peak_allocated_MiB": 3133.0927734375,
+          "peak_reserved_MiB": 3770.0
+        }
+      },
+      "comparisons": {
+        "SplusR_vs_NplusR": {
+          "delta_ms": -29.187348385094765,
+          "CI95_delta_ms": [
+            -29.9627941535286,
+            -28.57016736417041
+          ],
+          "saving_pct": 4.566269244960475,
+          "CI95_saving_pct": [
+            4.400151467557045,
+            4.730162017988785
+          ]
+        },
+        "SplusR_vs_Native": {
+          "delta_ms": 92.62079075375163,
+          "CI95_delta_ms": [
+            88.87423337738117,
+            96.38401105824916
+          ],
+          "saving_pct": -17.90166347905313,
+          "CI95_saving_pct": [
+            -18.8189997560224,
+            -16.915777382886922
+          ]
+        },
+        "SplusR_vs_B": {
+          "delta_ms": 18.10334356698229,
+          "CI95_delta_ms": [
+            17.650345314526103,
+            18.520231108579015
+          ],
+          "saving_pct": -3.058493450512345,
+          "CI95_saving_pct": [
+            -3.1858299270301864,
+            -2.9164652294308206
+          ]
+        }
+      },
+      "per_checkpoint": {
+        "101": {
+          "Native": {
+            "mean_ms": 523.3375184034722,
+            "CI95_ms": [
+              511.1529554922214,
+              535.9762309400875
+            ],
+            "peak_allocated_MiB": 2813.7822265625,
+            "peak_reserved_MiB": 3770.0
+          },
+          "B": {
+            "mean_ms": 596.7932985381731,
+            "CI95_ms": [
+              583.7699045424046,
+              610.393393568167
+            ],
+            "peak_allocated_MiB": 3133.1162109375,
+            "peak_reserved_MiB": 3770.0
+          },
+          "NplusR": {
+            "mean_ms": 648.1405712642547,
+            "CI95_ms": [
+              634.8744692929123,
+              661.8691747082689
+            ],
+            "peak_allocated_MiB": 3133.0927734375,
+            "peak_reserved_MiB": 3770.0
+          },
+          "SplusR": {
+            "mean_ms": 619.1402567123954,
+            "CI95_ms": [
+              606.0520991087287,
+              632.7648835311946
+            ],
+            "peak_allocated_MiB": 3133.0927734375,
+            "peak_reserved_MiB": 3770.0
+          }
+        },
+        "202": {
+          "Native": {
+            "mean_ms": 525.0730533763975,
+            "CI95_ms": [
+              487.54648556700425,
+              588.2943822427646
+            ],
+            "peak_allocated_MiB": 2813.69677734375,
+            "peak_reserved_MiB": 3472.0
+          },
+          "B": {
+            "mean_ms": 606.3204430002778,
+            "CI95_ms": [
+              566.8941554720255,
+              671.2459420869017
+            ],
+            "peak_allocated_MiB": 2886.96826171875,
+            "peak_reserved_MiB": 3472.0
+          },
+          "NplusR": {
+            "mean_ms": 646.2603088358175,
+            "CI95_ms": [
+              606.4557704939583,
+              711.4737263029441
+            ],
+            "peak_allocated_MiB": 2886.96875,
+            "peak_reserved_MiB": 3472.0
+          },
+          "SplusR": {
+            "mean_ms": 617.4963532868237,
+            "CI95_ms": [
+              578.1607774548735,
+              682.1137694789379
+            ],
+            "peak_allocated_MiB": 2887.08447265625,
+            "peak_reserved_MiB": 3472.0
+          }
+        },
+        "303": {
+          "Native": {
+            "mean_ms": 503.7489389068542,
+            "CI95_ms": [
+              492.2232498125945,
+              515.5469108636654
+            ],
+            "peak_allocated_MiB": 2812.0693359375,
+            "peak_reserved_MiB": 3384.0
+          },
+          "B": {
+            "mean_ms": 572.5981107085807,
+            "CI95_ms": [
+              559.9997054827214,
+              585.4432466012265
+            ],
+            "peak_allocated_MiB": 2839.958984375,
+            "peak_reserved_MiB": 3384.0
+          },
+          "NplusR": {
+            "mean_ms": 623.1830480031908,
+            "CI95_ms": [
+              610.4672996792459,
+              636.0851992545967
+            ],
+            "peak_allocated_MiB": 2839.95947265625,
+            "peak_reserved_MiB": 3384.0
+          },
+          "SplusR": {
+            "mean_ms": 593.3852729487593,
+            "CI95_ms": [
+              580.6629842123308,
+              606.256323699113
+            ],
+            "peak_allocated_MiB": 2839.95947265625,
+            "peak_reserved_MiB": 3384.0
+          }
+        }
+      }
+    }
+  },
+  "physical_gpu_blocks": {
+    "101:3": 1658,
+    "101:2": 523,
+    "202:3": 754,
+    "202:2": 1160,
+    "202:0": 135,
+    "202:1": 132,
+    "303:3": 1322,
+    "303:1": 57,
+    "303:2": 747,
+    "303:0": 55
+  },
+  "estimator": "Equal checkpoint weights after original population-stratum weighting; 4000 synchronized paired within-stratum recording draws, FPC, seed15701.",
+  "uncertainty_scope": "Pointwise descriptive intervals conditional on sampled devices/sessions, three fixed checkpoints and rounds; no new p-values.",
+  "memory_scope": "Observed allocator maxima across fixed recordings/checkpoints/rounds with both models resident; not population bounds or standalone deployment memory."
+}

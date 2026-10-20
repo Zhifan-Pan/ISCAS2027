@@ -1,0 +1,117 @@
+{
+  "locked_utc": "2026-10-18T16:45:34.203964+00:00",
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "E02": {
+    "primary": "uniform MBR",
+    "secondary": "body-score MBR: s=T*a, teacher-forced body sum, excludes EOS/prefix/padding; not sequence posterior",
+    "loss": "normalized-word Levenshtein edit COUNT, symmetric",
+    "temperatures": [
+      0.1,
+      0.3,
+      1,
+      3,
+      10
+    ],
+    "temperature_selection": "per-checkpoint full unconditional HF DEV hard macro WER; exact ties use largest temperature",
+    "ties": "original bank order",
+    "missing_singleton_scores": "sole output deterministic, no score imputation; mass=1 only by singleton normalization"
+  },
+  "E03": {
+    "family": "HWR4",
+    "pair_weight": "original 1/(5*N_lang*pair_count) times abs(edit_gap)/c_train",
+    "c_train": "sum(original_pair_weight*edit_gap)/sum(original_pair_weight) on training fold only",
+    "lambdas": [
+      0.0001,
+      0.00012115276586285888,
+      0.0001467799267622069,
+      0.00017782794100389227,
+      0.00021544346900318845,
+      0.0002610157215682536,
+      0.00031622776601683794,
+      0.0003831186849557289,
+      0.00046415888336127773,
+      0.0005623413251903491,
+      0.0006812920690579615,
+      0.0008254041852680181,
+      0.001,
+      0.0012115276586285877,
+      0.0014677992676220704,
+      0.0017782794100389228,
+      0.002154434690031882,
+      0.0026101572156825388,
+      0.0031622776601683794,
+      0.003831186849557285,
+      0.004641588833612782,
+      0.005623413251903491,
+      0.006812920690579608,
+      0.00825404185268019,
+      0.01,
+      0.012115276586285889,
+      0.01467799267622069,
+      0.01778279410038923,
+      0.021544346900318846,
+      0.026101572156825358,
+      0.03162277660168379,
+      0.03831186849557289,
+      0.046415888336127774,
+      0.05623413251903491,
+      0.06812920690579616,
+      0.08254041852680181,
+      0.1,
+      0.12115276586285889,
+      0.1467799267622069,
+      0.1778279410038923,
+      0.21544346900318845,
+      0.2610157215682536,
+      0.31622776601683794,
+      0.3831186849557289,
+      0.46415888336127775,
+      0.5623413251903491,
+      0.6812920690579615,
+      0.8254041852680182,
+      1.0
+    ],
+    "optimizer": {
+      "method": "L-BFGS-B",
+      "options": {
+        "maxiter": 200,
+        "ftol": 1e-09,
+        "gtol": 1e-06,
+        "maxls": 30
+      },
+      "identity": {
+        "source": "AUTHOR_LOCAL/REPETITION_CONTROLS.json",
+        "sha256": "2fc422e4119f7bdd0fe21be65323e20d07c71844866e343f7f6579b32724d4ba"
+      },
+      "failure": "Preserve failure and stop. Diagnose implementation/numerical errors before any technical recovery; no grid/model change."
+    },
+    "folds": "original five component folds; training-fold RMS; all 49 penalties; stronger regularization on exact tie",
+    "final_models": 3
+  },
+  "statistics": {
+    "corpus": "CV27",
+    "contrasts": [
+      "T_MBR_uniform - T_H4",
+      "T_HWR4 - T_H4"
+    ],
+    "draws": 10000,
+    "rng_seed": 20261018,
+    "resampling": "paired language-internal client/reference components, synchronized checkpoints",
+    "individual_interval": [
+      0.0125,
+      0.9875
+    ],
+    "family_confidence": 0.95,
+    "FLEURS": "descriptive only"
+  },
+  "DEV_inputs": {
+    "101": "742a9fd4aa2113b8de78c830d1b49f03a106c2336c64effd2c91e8f284d68c6f",
+    "202": "1681d169b71e61206721188b273f1ba2fc8f72a4b027a71322feee4f30a96535",
+    "303": "51b051d4f24f275700032b1547b00ad5487f029f9d1b046f8694ad40a3a0f4f7"
+  },
+  "transport_note": "Scientific projection of the original locked plan; the original plan SHA256 remains in inherited model/CV records. This export is not a new preregistration."
+}

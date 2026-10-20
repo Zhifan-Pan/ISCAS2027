@@ -1,0 +1,164 @@
+{
+  "scope": "New retrospective fixed-candidate diagnostic; no refit or validation identity; all full-language denominators retained",
+  "means": [
+    {
+      "corpus": "FLEURS",
+      "policy": "G4_guard_B",
+      "WER": 17.454086231909418,
+      "delta_vs_original_pp": 0.0
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "G4_guard_N",
+      "WER": 17.086720236197085,
+      "delta_vs_original_pp": 0.0
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "G4_guard_S",
+      "WER": 17.086720236197085,
+      "delta_vs_original_pp": 0.0
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "Direct_window_cached",
+      "WER": 17.086720236197085,
+      "delta_vs_original_pp": -0.0009943817431512514
+    },
+    {
+      "corpus": "CV27",
+      "policy": "G4_guard_B",
+      "WER": 33.97917240395319,
+      "delta_vs_original_pp": 0.0
+    },
+    {
+      "corpus": "CV27",
+      "policy": "G4_guard_N",
+      "WER": 31.87610314754988,
+      "delta_vs_original_pp": 0.19497918178685936
+    },
+    {
+      "corpus": "CV27",
+      "policy": "G4_guard_S",
+      "WER": 31.875934876344513,
+      "delta_vs_original_pp": 0.19497918178685936
+    },
+    {
+      "corpus": "CV27",
+      "policy": "Direct_window_cached",
+      "WER": 31.459262256051172,
+      "delta_vs_original_pp": 0.0
+    }
+  ],
+  "checks": [
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "reconstructed_original_strategies": 4,
+      "genuine_zero_empty_candidates": 0,
+      "centered_pairwise_checks": 0,
+      "requests_recording": 4,
+      "requests_window": 2,
+      "singleton_active_S_windows": 142,
+      "total_windows": 3687
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "reconstructed_original_strategies": 4,
+      "genuine_zero_empty_candidates": 0,
+      "centered_pairwise_checks": 0,
+      "requests_recording": 3,
+      "requests_window": 2,
+      "singleton_active_S_windows": 129,
+      "total_windows": 3687
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "reconstructed_original_strategies": 4,
+      "genuine_zero_empty_candidates": 0,
+      "centered_pairwise_checks": 0,
+      "requests_recording": 8,
+      "requests_window": 6,
+      "singleton_active_S_windows": 132,
+      "total_windows": 3687
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "reconstructed_original_strategies": 4,
+      "genuine_zero_empty_candidates": 6,
+      "centered_pairwise_checks": 36,
+      "requests_recording": 169,
+      "requests_window": 169,
+      "singleton_active_S_windows": 2020,
+      "total_windows": 58514
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "reconstructed_original_strategies": 4,
+      "genuine_zero_empty_candidates": 11,
+      "centered_pairwise_checks": 66,
+      "requests_recording": 105,
+      "requests_window": 105,
+      "singleton_active_S_windows": 2116,
+      "total_windows": 58514
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "reconstructed_original_strategies": 4,
+      "genuine_zero_empty_candidates": 2,
+      "centered_pairwise_checks": 12,
+      "requests_recording": 251,
+      "requests_window": 251,
+      "singleton_active_S_windows": 2046,
+      "total_windows": 58514
+    }
+  ],
+  "inputs": [
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "input_sha256": "7ed8d255f6bc706110b1ff42166a147b10b6fb24dc772cb1b11b5460d2f18e6e",
+      "diagnostics_sha256": "c5378bca574ec2f159d6e3118eb00bcd50a721ca970a2f0f9beba7ef186a316b"
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "input_sha256": "6bd848acde4694fa6892188e84e773c32651ee6df99034cc33b2f2df5928525f",
+      "diagnostics_sha256": "9fed177bce7637077c03047106b3bcfacf3ba72199454b23b9dac1e0532174a6"
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "input_sha256": "b007b4badc7e6ae7b5a6b254884d09a593596c70f531f3385ac202038f2af32d",
+      "diagnostics_sha256": "8ac6c764b4825d07e64b79e81992c3f281735e3c04104aff14860ec13465ce4e"
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "input_sha256": "c37f4d515db29bbb489aceb42d5acdfb52239078c2d20979f3b9eae8be77e082",
+      "diagnostics_sha256": "4796c018c8c6bb9cd86161de8db5275aa2141e01e4e5cda189f260b3da82d6ff"
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "input_sha256": "04866b6446da447c9a68d28de374d7a2eaef8d4c05a22ec6845ff54e62c923b8",
+      "diagnostics_sha256": "5b0ea69e30e39f1b9d7b83eee3cfd8d9ef23bd83887343331672ffce54c2e6c9"
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "input_sha256": "6bde618a7b7cd3300e343e7aa13bc923c29515c653e00d62d56c3bc3fecb83d5",
+      "diagnostics_sha256": "38ad20ff3a059e572de5a0e70a7dbf454a22e3b840141b0bc65947501a95a932"
+    }
+  ],
+  "guard": "Exclude exact raw empty text iff the active bank contains a nonempty candidate; otherwise retain original bank-order rule. Same original G4 beta, no fifth feature.",
+  "window_Direct": "Window-local flags select cached final HF for triggered windows, G4 B otherwise; full concatenation joint counts. Not a live RNG-skipping execution or a measured latency.",
+  "singleton_PLL": "The original measured runtime already skips teacher/PLL scoring when active bank size is one; this is not a new speedup.",
+  "new_model_forward": false,
+  "new_p_values": false
+}

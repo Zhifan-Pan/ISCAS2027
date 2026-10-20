@@ -1,0 +1,54 @@
+{
+  "family": "HR4",
+  "seed": 303,
+  "columns": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "objective": "rank",
+  "theta": [
+    0.9541133431569059,
+    0.8371563915538303,
+    -0.5568680926586163,
+    -0.12952172726920813
+  ],
+  "scale": [
+    0.18329640892114468,
+    1.484719541363108,
+    0.15878354964234961,
+    0.027720139907194498
+  ],
+  "raw_beta": [
+    5.2053029776888415,
+    0.5638481667623532,
+    -3.5070893295491135,
+    -4.672477401010231
+  ],
+  "lambda_index": 15,
+  "lambda": 0.0017782794100389228,
+  "plan_sha256": "25d19f6a693a9f18ba52de713d4861422df6c65d61b4ee5bf06ababc5dda07ef",
+  "input_sha256": "adb181f30210718a00a05d17455c8b06266dd01b89776c8f8d7eb27dc03219c9",
+  "selected_OOF_macro_WER": 30.266369991416603,
+  "final_fit": {
+    "fold": "ALL_DEV",
+    "lambda_index": 15,
+    "lambda": 0.0017782794100389228,
+    "success": true,
+    "status": 0,
+    "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+    "iterations": 9,
+    "evaluations": 10,
+    "objective": 0.06437192811075662,
+    "gradient_max": 1.6321569576297282e-07,
+    "theta": [
+      0.9541133431569059,
+      0.8371563915538303,
+      -0.5568680926586163,
+      -0.12952172726920813
+    ]
+  },
+  "scope": "retrospective full-HF-expanded DEV fit; no new confirmation",
+  "locked_utc": "2026-10-18T01:28:29.403981+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "family": "H3",
+  "seed": 303,
+  "columns": [
+    0,
+    2,
+    3
+  ],
+  "objective": "risk",
+  "theta": [
+    0.3153955492810476,
+    -0.19799811689871818,
+    -0.15028128761942172
+  ],
+  "scale": [
+    0.18329640892114468,
+    0.15878354964234961,
+    0.027720139907194498
+  ],
+  "raw_beta": [
+    1.7206859159839452,
+    -1.2469687026439265,
+    -5.4213755097396765
+  ],
+  "lambda_index": 28,
+  "lambda": 0.021544346900318846,
+  "plan_sha256": "25d19f6a693a9f18ba52de713d4861422df6c65d61b4ee5bf06ababc5dda07ef",
+  "input_sha256": "adb181f30210718a00a05d17455c8b06266dd01b89776c8f8d7eb27dc03219c9",
+  "selected_OOF_macro_WER": 32.29350326180737,
+  "final_fit": {
+    "fold": "ALL_DEV",
+    "lambda_index": 28,
+    "lambda": 0.021544346900318846,
+    "success": true,
+    "status": 0,
+    "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+    "iterations": 10,
+    "evaluations": 14,
+    "objective": 0.36488160958997007,
+    "gradient_max": 3.967509597767316e-08,
+    "theta": [
+      0.3153955492810476,
+      -0.19799811689871818,
+      -0.15028128761942172
+    ]
+  },
+  "scope": "retrospective full-HF-expanded DEV fit; no new confirmation",
+  "locked_utc": "2026-10-18T01:29:07.317625+00:00"
+}

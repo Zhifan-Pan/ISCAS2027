@@ -1,0 +1,15 @@
+{
+  "status": "NINE_DEV_MODELS_LOCKED_BEFORE_NEW_TEST_EVALUATION",
+  "locked_utc": "2026-10-18T01:29:11.431367+00:00",
+  "models": {
+    "H3_101.json": "698909d7b93ab8146debe6282ee91eaa862759b35b82360510959787826ce347",
+    "H3_202.json": "b1675033a536e1191aacaae05a2cb7182d55c0902feb97761ac82cad59b225e1",
+    "H3_303.json": "5fc4a980994e773f215f4bab365abd385f23c8abb473eca37f00317ce0108b29",
+    "H4_101.json": "eb8fac9fab1eaf4a3827aa4bebc97f8d15a80da23d6934a0ab225b2caf8f8e5e",
+    "H4_202.json": "3aa61638acc061e07f29b39147603378cc10e3803fd3028fa8894c7d91ff6945",
+    "H4_303.json": "0ab6fd4eb3350519fe5f7e3f99e2088bd3f4685de225c98437c2c524003d0d08",
+    "HR4_101.json": "9343bcd3d6b82ca8fe88d846fbabddfdbf1a08aaefe51206f79586390e233f29",
+    "HR4_202.json": "f6d3f5fbbd12b7802d72f3a310f0d3bce0a8b7ebe5985b341767967055cf52bf",
+    "HR4_303.json": "dd5e1557acee5f8821372dd34ac918c1f1c949c7db8120d94a21cd5185fa3151"
+  }
+}

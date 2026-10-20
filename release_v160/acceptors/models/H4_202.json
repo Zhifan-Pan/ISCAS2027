@@ -1,0 +1,54 @@
+{
+  "family": "H4",
+  "seed": 202,
+  "columns": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "objective": "risk",
+  "theta": [
+    2.2408175224627223,
+    3.1712667775500827,
+    -1.2868328344787716,
+    -0.4036420631979092
+  ],
+  "scale": [
+    0.1754694172309499,
+    1.439119423043181,
+    0.10509679958739071,
+    0.013372621179284172
+  ],
+  "raw_beta": [
+    12.77041639406254,
+    2.2036161327348913,
+    -12.244262808485779,
+    -30.184214282776527
+  ],
+  "lambda_index": 8,
+  "lambda": 0.00046415888336127773,
+  "plan_sha256": "25d19f6a693a9f18ba52de713d4861422df6c65d61b4ee5bf06ababc5dda07ef",
+  "input_sha256": "0e1ac776d62735e9ac7074f539f1960214948e0bca0de789ce80410147c34128",
+  "selected_OOF_macro_WER": 29.933018959675046,
+  "final_fit": {
+    "fold": "ALL_DEV",
+    "lambda_index": 8,
+    "lambda": 0.00046415888336127773,
+    "success": true,
+    "status": 0,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 17,
+    "evaluations": 28,
+    "objective": 0.320140059747372,
+    "gradient_max": 1.9958458884377153e-06,
+    "theta": [
+      2.2408175224627223,
+      3.1712667775500827,
+      -1.2868328344787716,
+      -0.4036420631979092
+    ]
+  },
+  "scope": "retrospective full-HF-expanded DEV fit; no new confirmation",
+  "locked_utc": "2026-10-18T01:27:58.002120+00:00"
+}

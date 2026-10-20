@@ -1,0 +1,255 @@
+{
+  "means": [
+    {
+      "corpus": "FLEURS",
+      "policy": "B_MBR_uniform",
+      "WER": 19.14195130809298
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "N_MBR_uniform",
+      "WER": 19.142898615100215
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "S_MBR_uniform",
+      "WER": 19.141288386930885
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "T_MBR_uniform",
+      "WER": 17.45474915307152
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "B_MBR_body",
+      "WER": 18.919247056780026
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "N_MBR_body",
+      "WER": 18.749985036584253
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "S_MBR_body",
+      "WER": 18.749985036584253
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "T_MBR_body",
+      "WER": 17.283991606909513
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "B_HWR4",
+      "WER": 17.46821620642727
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "N_HWR4",
+      "WER": 17.110122347942564
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "S_HWR4",
+      "WER": 17.100850210714935
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "T_HWR4",
+      "WER": 17.086720236197085
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "H3Direct",
+      "WER": 18.681412712671875
+    },
+    {
+      "corpus": "FLEURS",
+      "policy": "G4_window_CR",
+      "WER": 17.086720236197085
+    },
+    {
+      "corpus": "CV27",
+      "policy": "B_MBR_uniform",
+      "WER": 36.90672716706352
+    },
+    {
+      "corpus": "CV27",
+      "policy": "N_MBR_uniform",
+      "WER": 36.87808433949344
+    },
+    {
+      "corpus": "CV27",
+      "policy": "S_MBR_uniform",
+      "WER": 36.878550764888445
+    },
+    {
+      "corpus": "CV27",
+      "policy": "T_MBR_uniform",
+      "WER": 34.03860575431151
+    },
+    {
+      "corpus": "CV27",
+      "policy": "B_MBR_body",
+      "WER": 36.0865095940898
+    },
+    {
+      "corpus": "CV27",
+      "policy": "N_MBR_body",
+      "WER": 34.48024515985599
+    },
+    {
+      "corpus": "CV27",
+      "policy": "S_MBR_body",
+      "WER": 34.48293410074155
+    },
+    {
+      "corpus": "CV27",
+      "policy": "T_MBR_body",
+      "WER": 32.36938167642392
+    },
+    {
+      "corpus": "CV27",
+      "policy": "B_HWR4",
+      "WER": 33.967736116275056
+    },
+    {
+      "corpus": "CV27",
+      "policy": "N_HWR4",
+      "WER": 31.43961589707583
+    },
+    {
+      "corpus": "CV27",
+      "policy": "S_HWR4",
+      "WER": 31.43944762587046
+    },
+    {
+      "corpus": "CV27",
+      "policy": "T_HWR4",
+      "WER": 31.450712755310434
+    },
+    {
+      "corpus": "CV27",
+      "policy": "H3Direct",
+      "WER": 33.636494338275675
+    },
+    {
+      "corpus": "CV27",
+      "policy": "G4_window_CR",
+      "WER": 31.680955694557653
+    }
+  ],
+  "reconstruction_checks": [
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "acceptor": "MBR_uniform",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "acceptor": "MBR_body",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "acceptor": "HWR4",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "acceptor": "MBR_uniform",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "acceptor": "MBR_body",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "acceptor": "HWR4",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "acceptor": "MBR_uniform",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "acceptor": "MBR_body",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "acceptor": "HWR4",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "acceptor": "MBR_uniform",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "acceptor": "MBR_body",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "acceptor": "HWR4",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "acceptor": "MBR_uniform",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "acceptor": "MBR_body",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "acceptor": "HWR4",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "acceptor": "MBR_uniform",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "acceptor": "MBR_body",
+      "S_T_reconstruction": true
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "acceptor": "HWR4",
+      "S_T_reconstruction": true
+    }
+  ],
+  "scope": "retrospective complete TEST, original full-reference joint two-window counts; no new confirmation or runtime"
+}

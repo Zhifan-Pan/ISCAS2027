@@ -1,0 +1,70 @@
+{
+  "comparisons": [
+    {
+      "id": "C1",
+      "corpus": "CV27",
+      "difference": "T_HR4 - T_H4",
+      "mean_pp": 0.7211616098428912,
+      "checkpoint_pp": [
+        0.9122119055233213,
+        0.08069775024453563,
+        1.1705751737608168
+      ],
+      "marginal_95_percent": [
+        0.43094872187098293,
+        1.0937268224357295
+      ],
+      "Bonferroni_individual_97_5_percent_for_two_comparison_family_95": [
+        0.4006592450287126,
+        1.1639199987891884
+      ],
+      "negative_favors": "T_HR4"
+    },
+    {
+      "id": "C2",
+      "corpus": "CV27",
+      "difference": "S_H3 - S_H4",
+      "mean_pp": 2.24826669700456,
+      "checkpoint_pp": [
+        2.378596363626194,
+        2.195752265891201,
+        2.1704514614962847
+      ],
+      "marginal_95_percent": [
+        2.166960393634527,
+        2.326303994907072
+      ],
+      "Bonferroni_individual_97_5_percent_for_two_comparison_family_95": [
+        2.1567229383003035,
+        2.338273934002722
+      ],
+      "negative_favors": "S_H3"
+    }
+  ],
+  "method": {
+    "estimand": "Five-language macro WER averaged over the three fixed checkpoints; difference in pp, negative favors first policy",
+    "resampling_unit": "language-specific client/reference connected components; paired across policies and synchronous across checkpoints",
+    "draws": 2000,
+    "rng_seed": 20261018,
+    "intervals": {
+      "marginal_95_percent": [
+        0.025,
+        0.975
+      ],
+      "Bonferroni_individual_97_5_percent_for_two_comparison_family_95": [
+        0.0125,
+        0.9875
+      ]
+    },
+    "no_equivalence_margin": true,
+    "TEST_or_confirmation_used_for_selection": false
+  },
+  "components_by_language": {
+    "ar": 1027,
+    "fa": 2850,
+    "pl": 2514,
+    "tr": 1500,
+    "it": 3865
+  },
+  "environment_scope": "Conditional on fixed fits and original source draws; no new confirmation."
+}

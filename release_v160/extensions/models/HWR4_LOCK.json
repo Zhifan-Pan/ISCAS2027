@@ -1,0 +1,9 @@
+{
+  "locked_utc": "2026-10-18T17:11:16.382875+00:00",
+  "models": {
+    "HWR4_101.json": "e8e71b11f4f5822c953a74edff2f2a151a3bd282b032d0f700b2b55ca69f2c67",
+    "HWR4_202.json": "4cbbdb078093f2754492d189f224d437ef391de50b0152c08094044b1e15e03c",
+    "HWR4_303.json": "9f7df5a7ab243d313680a5abe2477765913bc55b9f61ce773d8109a1b697097a"
+  },
+  "scope": "DEV-only selection before TEST evaluation"
+}

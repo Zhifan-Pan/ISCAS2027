@@ -1,0 +1,7 @@
+corpus,checkpoint,two_window_recordings,changed_recordings,window_minus_recording_CR_pp,recording_CR_acquired_windows,window_CR_acquired_windows,latency
+FLEURS,101,22,0,0.0,4,2,NOT_MEASURED
+FLEURS,202,22,0,0.0,3,2,NOT_MEASURED
+FLEURS,303,22,0,0.0,8,6,NOT_MEASURED
+CV27,101,0,0,0.0,169,169,NOT_MEASURED
+CV27,202,0,0,0.0,105,105,NOT_MEASURED
+CV27,303,0,0,0.0,251,251,NOT_MEASURED

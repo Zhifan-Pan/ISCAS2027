@@ -1,0 +1,1402 @@
+{
+  "schema_version": 1,
+  "unit": "DEV is single-window recording; TEST distinguishes recording and window axes.",
+  "language_order": [
+    "ar",
+    "fa",
+    "pl",
+    "tr",
+    "it"
+  ],
+  "feature_order": [
+    "a: body-token mean decoder log-probability",
+    "p: original-string masked-token PLL mean",
+    "t: log(1 + decoder body-token count)",
+    "r: normalized repetition r_4,3"
+  ],
+  "count_order": [
+    "S",
+    "D",
+    "I",
+    "N"
+  ],
+  "fields": {
+    "ids": "Opaque recording aliases, same order across checkpoints. No reference or speaker identity.",
+    "lang": "Integer index into language_order.",
+    "fold": "Original five DEV folds, values 0..4; no component crosses folds within a language.",
+    "components": "Partition-preserving alias of original client/reference connected component.",
+    "k": "Valid HF-expanded candidate count, at most 6. Padding is not a candidate.",
+    "k_beam": "B membership is positions 0 through k_beam-1, preserving frozen deduplicated order.",
+    "hf_index": "Position of final HF output: appended when novel, existing position when duplicate.",
+    "candidate_ids": "Opaque corpus/checkpoint/window/position aliases; ordered ID only, not text hash.",
+    "x": "Genuine frozen raw-minus-top four-feature vector. Top x is zero by subtraction.",
+    "raw_features": "Observed absolute features; unknown singleton neural values and padding are NaN.",
+    "raw_observed": "Elementwise observation mask. No unavailable score is zero-imputed.",
+    "body_tokens": "Observed body token count; -1 denotes unavailable metadata.",
+    "pll_tokens": "Observed PLL token count; -1 denotes unavailable metadata.",
+    "flags": "Original strict CRtext > 2.4 recording trigger; any window expands all recording windows.",
+    "counts": "DEV candidate S/D/I/N against full single-window recording reference.",
+    "window_owner": "Recording row owning each TEST window.",
+    "window_index": "Zero-based index within recording, complete and ordered.",
+    "offsets": "Contiguous window offsets for each TEST recording.",
+    "single_counts": "Candidate-level window counts. Used for single-window recordings only.",
+    "multi_rows": "Indices of double-window FLEURS recordings.",
+    "multi_counts": "Full-reference S/D/I/N for each ordered candidate pair AFTER concatenating text; never sums window edits.",
+    "B_pick": "Original G4 beam-bank winning candidate per window.",
+    "N_pick": "Original G4 unconditional HF-bank winning candidate per window.",
+    "B/N/S/Direct": "Original complete-recording S/D/I/N controls; reconstructed exactly before new evaluation."
+  },
+  "singleton_exception": "Some final k=1 banks lack absolute neural scores. Relative x=0, sole output and actual reference counts are known. Keep them in risk denominators and hard evaluation; zero gradient, no ranking pairs. All k>1 banks have complete measured raw features.",
+  "source_identity": "HF cache/source/RNG checked against immutable R8 inventory and frozen source locks. Released aliases do not independently authenticate source audio or reference history.",
+  "files": {
+    "CV27_101.npz": {
+      "ids": {
+        "dtype": "<U8",
+        "shape": [
+          58514
+        ]
+      },
+      "lang": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "window_owner": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "window_index": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "offsets": {
+        "dtype": "int64",
+        "shape": [
+          58515
+        ]
+      },
+      "k": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "k_beam": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "x": {
+        "dtype": "float64",
+        "shape": [
+          58514,
+          6,
+          4
+        ]
+      },
+      "raw_features": {
+        "dtype": "float64",
+        "shape": [
+          58514,
+          6,
+          4
+        ]
+      },
+      "raw_observed": {
+        "dtype": "bool",
+        "shape": [
+          58514,
+          6,
+          4
+        ]
+      },
+      "single_counts": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          6,
+          4
+        ]
+      },
+      "candidate_ids": {
+        "dtype": "<U14",
+        "shape": [
+          58514,
+          6
+        ]
+      },
+      "body_tokens": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          6
+        ]
+      },
+      "pll_tokens": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          6
+        ]
+      },
+      "hf_index": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "flags": {
+        "dtype": "bool",
+        "shape": [
+          58514
+        ]
+      },
+      "B_pick": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "N_pick": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "B": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          4
+        ]
+      },
+      "N": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          4
+        ]
+      },
+      "S": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          4
+        ]
+      },
+      "Direct": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          4
+        ]
+      },
+      "multi_rows": {
+        "dtype": "int64",
+        "shape": [
+          0
+        ]
+      },
+      "multi_counts": {
+        "dtype": "int64",
+        "shape": [
+          0,
+          6,
+          6,
+          4
+        ]
+      }
+    },
+    "CV27_202.npz": {
+      "ids": {
+        "dtype": "<U8",
+        "shape": [
+          58514
+        ]
+      },
+      "lang": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "window_owner": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "window_index": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "offsets": {
+        "dtype": "int64",
+        "shape": [
+          58515
+        ]
+      },
+      "k": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "k_beam": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "x": {
+        "dtype": "float64",
+        "shape": [
+          58514,
+          6,
+          4
+        ]
+      },
+      "raw_features": {
+        "dtype": "float64",
+        "shape": [
+          58514,
+          6,
+          4
+        ]
+      },
+      "raw_observed": {
+        "dtype": "bool",
+        "shape": [
+          58514,
+          6,
+          4
+        ]
+      },
+      "single_counts": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          6,
+          4
+        ]
+      },
+      "candidate_ids": {
+        "dtype": "<U14",
+        "shape": [
+          58514,
+          6
+        ]
+      },
+      "body_tokens": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          6
+        ]
+      },
+      "pll_tokens": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          6
+        ]
+      },
+      "hf_index": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "flags": {
+        "dtype": "bool",
+        "shape": [
+          58514
+        ]
+      },
+      "B_pick": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "N_pick": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "B": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          4
+        ]
+      },
+      "N": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          4
+        ]
+      },
+      "S": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          4
+        ]
+      },
+      "Direct": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          4
+        ]
+      },
+      "multi_rows": {
+        "dtype": "int64",
+        "shape": [
+          0
+        ]
+      },
+      "multi_counts": {
+        "dtype": "int64",
+        "shape": [
+          0,
+          6,
+          6,
+          4
+        ]
+      }
+    },
+    "CV27_303.npz": {
+      "ids": {
+        "dtype": "<U8",
+        "shape": [
+          58514
+        ]
+      },
+      "lang": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "window_owner": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "window_index": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "offsets": {
+        "dtype": "int64",
+        "shape": [
+          58515
+        ]
+      },
+      "k": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "k_beam": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "x": {
+        "dtype": "float64",
+        "shape": [
+          58514,
+          6,
+          4
+        ]
+      },
+      "raw_features": {
+        "dtype": "float64",
+        "shape": [
+          58514,
+          6,
+          4
+        ]
+      },
+      "raw_observed": {
+        "dtype": "bool",
+        "shape": [
+          58514,
+          6,
+          4
+        ]
+      },
+      "single_counts": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          6,
+          4
+        ]
+      },
+      "candidate_ids": {
+        "dtype": "<U14",
+        "shape": [
+          58514,
+          6
+        ]
+      },
+      "body_tokens": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          6
+        ]
+      },
+      "pll_tokens": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          6
+        ]
+      },
+      "hf_index": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "flags": {
+        "dtype": "bool",
+        "shape": [
+          58514
+        ]
+      },
+      "B_pick": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "N_pick": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "B": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          4
+        ]
+      },
+      "N": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          4
+        ]
+      },
+      "S": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          4
+        ]
+      },
+      "Direct": {
+        "dtype": "int64",
+        "shape": [
+          58514,
+          4
+        ]
+      },
+      "multi_rows": {
+        "dtype": "int64",
+        "shape": [
+          0
+        ]
+      },
+      "multi_counts": {
+        "dtype": "int64",
+        "shape": [
+          0,
+          6,
+          6,
+          4
+        ]
+      }
+    },
+    "CV27_COMPONENTS.npz": {
+      "ids": {
+        "dtype": "<U8",
+        "shape": [
+          58514
+        ]
+      },
+      "lang": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      },
+      "components": {
+        "dtype": "int64",
+        "shape": [
+          58514
+        ]
+      }
+    },
+    "DEV_101.npz": {
+      "ids": {
+        "dtype": "<U8",
+        "shape": [
+          58171
+        ]
+      },
+      "lang": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "fold": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "components": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "k": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "k_beam": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "x": {
+        "dtype": "float64",
+        "shape": [
+          58171,
+          6,
+          4
+        ]
+      },
+      "raw_features": {
+        "dtype": "float64",
+        "shape": [
+          58171,
+          6,
+          4
+        ]
+      },
+      "raw_observed": {
+        "dtype": "bool",
+        "shape": [
+          58171,
+          6,
+          4
+        ]
+      },
+      "counts": {
+        "dtype": "int64",
+        "shape": [
+          58171,
+          6,
+          4
+        ]
+      },
+      "candidate_ids": {
+        "dtype": "<U14",
+        "shape": [
+          58171,
+          6
+        ]
+      },
+      "body_tokens": {
+        "dtype": "int64",
+        "shape": [
+          58171,
+          6
+        ]
+      },
+      "pll_tokens": {
+        "dtype": "int64",
+        "shape": [
+          58171,
+          6
+        ]
+      },
+      "hf_index": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "flags": {
+        "dtype": "bool",
+        "shape": [
+          58171
+        ]
+      },
+      "B_pick": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "N_pick": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      }
+    },
+    "DEV_202.npz": {
+      "ids": {
+        "dtype": "<U8",
+        "shape": [
+          58171
+        ]
+      },
+      "lang": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "fold": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "components": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "k": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "k_beam": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "x": {
+        "dtype": "float64",
+        "shape": [
+          58171,
+          6,
+          4
+        ]
+      },
+      "raw_features": {
+        "dtype": "float64",
+        "shape": [
+          58171,
+          6,
+          4
+        ]
+      },
+      "raw_observed": {
+        "dtype": "bool",
+        "shape": [
+          58171,
+          6,
+          4
+        ]
+      },
+      "counts": {
+        "dtype": "int64",
+        "shape": [
+          58171,
+          6,
+          4
+        ]
+      },
+      "candidate_ids": {
+        "dtype": "<U14",
+        "shape": [
+          58171,
+          6
+        ]
+      },
+      "body_tokens": {
+        "dtype": "int64",
+        "shape": [
+          58171,
+          6
+        ]
+      },
+      "pll_tokens": {
+        "dtype": "int64",
+        "shape": [
+          58171,
+          6
+        ]
+      },
+      "hf_index": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "flags": {
+        "dtype": "bool",
+        "shape": [
+          58171
+        ]
+      },
+      "B_pick": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "N_pick": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      }
+    },
+    "DEV_303.npz": {
+      "ids": {
+        "dtype": "<U8",
+        "shape": [
+          58171
+        ]
+      },
+      "lang": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "fold": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "components": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "k": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "k_beam": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "x": {
+        "dtype": "float64",
+        "shape": [
+          58171,
+          6,
+          4
+        ]
+      },
+      "raw_features": {
+        "dtype": "float64",
+        "shape": [
+          58171,
+          6,
+          4
+        ]
+      },
+      "raw_observed": {
+        "dtype": "bool",
+        "shape": [
+          58171,
+          6,
+          4
+        ]
+      },
+      "counts": {
+        "dtype": "int64",
+        "shape": [
+          58171,
+          6,
+          4
+        ]
+      },
+      "candidate_ids": {
+        "dtype": "<U14",
+        "shape": [
+          58171,
+          6
+        ]
+      },
+      "body_tokens": {
+        "dtype": "int64",
+        "shape": [
+          58171,
+          6
+        ]
+      },
+      "pll_tokens": {
+        "dtype": "int64",
+        "shape": [
+          58171,
+          6
+        ]
+      },
+      "hf_index": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "flags": {
+        "dtype": "bool",
+        "shape": [
+          58171
+        ]
+      },
+      "B_pick": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      },
+      "N_pick": {
+        "dtype": "int64",
+        "shape": [
+          58171
+        ]
+      }
+    },
+    "FLEURS_101.npz": {
+      "ids": {
+        "dtype": "<U8",
+        "shape": [
+          3665
+        ]
+      },
+      "lang": {
+        "dtype": "int64",
+        "shape": [
+          3665
+        ]
+      },
+      "window_owner": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "window_index": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "offsets": {
+        "dtype": "int64",
+        "shape": [
+          3666
+        ]
+      },
+      "k": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "k_beam": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "x": {
+        "dtype": "float64",
+        "shape": [
+          3687,
+          6,
+          4
+        ]
+      },
+      "raw_features": {
+        "dtype": "float64",
+        "shape": [
+          3687,
+          6,
+          4
+        ]
+      },
+      "raw_observed": {
+        "dtype": "bool",
+        "shape": [
+          3687,
+          6,
+          4
+        ]
+      },
+      "single_counts": {
+        "dtype": "int64",
+        "shape": [
+          3687,
+          6,
+          4
+        ]
+      },
+      "candidate_ids": {
+        "dtype": "<U14",
+        "shape": [
+          3687,
+          6
+        ]
+      },
+      "body_tokens": {
+        "dtype": "int64",
+        "shape": [
+          3687,
+          6
+        ]
+      },
+      "pll_tokens": {
+        "dtype": "int64",
+        "shape": [
+          3687,
+          6
+        ]
+      },
+      "hf_index": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "flags": {
+        "dtype": "bool",
+        "shape": [
+          3665
+        ]
+      },
+      "B_pick": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "N_pick": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "B": {
+        "dtype": "int64",
+        "shape": [
+          3665,
+          4
+        ]
+      },
+      "N": {
+        "dtype": "int64",
+        "shape": [
+          3665,
+          4
+        ]
+      },
+      "S": {
+        "dtype": "int64",
+        "shape": [
+          3665,
+          4
+        ]
+      },
+      "Direct": {
+        "dtype": "int64",
+        "shape": [
+          3665,
+          4
+        ]
+      },
+      "multi_rows": {
+        "dtype": "int64",
+        "shape": [
+          22
+        ]
+      },
+      "multi_counts": {
+        "dtype": "int64",
+        "shape": [
+          22,
+          6,
+          6,
+          4
+        ]
+      }
+    },
+    "FLEURS_202.npz": {
+      "ids": {
+        "dtype": "<U8",
+        "shape": [
+          3665
+        ]
+      },
+      "lang": {
+        "dtype": "int64",
+        "shape": [
+          3665
+        ]
+      },
+      "window_owner": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "window_index": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "offsets": {
+        "dtype": "int64",
+        "shape": [
+          3666
+        ]
+      },
+      "k": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "k_beam": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "x": {
+        "dtype": "float64",
+        "shape": [
+          3687,
+          6,
+          4
+        ]
+      },
+      "raw_features": {
+        "dtype": "float64",
+        "shape": [
+          3687,
+          6,
+          4
+        ]
+      },
+      "raw_observed": {
+        "dtype": "bool",
+        "shape": [
+          3687,
+          6,
+          4
+        ]
+      },
+      "single_counts": {
+        "dtype": "int64",
+        "shape": [
+          3687,
+          6,
+          4
+        ]
+      },
+      "candidate_ids": {
+        "dtype": "<U14",
+        "shape": [
+          3687,
+          6
+        ]
+      },
+      "body_tokens": {
+        "dtype": "int64",
+        "shape": [
+          3687,
+          6
+        ]
+      },
+      "pll_tokens": {
+        "dtype": "int64",
+        "shape": [
+          3687,
+          6
+        ]
+      },
+      "hf_index": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "flags": {
+        "dtype": "bool",
+        "shape": [
+          3665
+        ]
+      },
+      "B_pick": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "N_pick": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "B": {
+        "dtype": "int64",
+        "shape": [
+          3665,
+          4
+        ]
+      },
+      "N": {
+        "dtype": "int64",
+        "shape": [
+          3665,
+          4
+        ]
+      },
+      "S": {
+        "dtype": "int64",
+        "shape": [
+          3665,
+          4
+        ]
+      },
+      "Direct": {
+        "dtype": "int64",
+        "shape": [
+          3665,
+          4
+        ]
+      },
+      "multi_rows": {
+        "dtype": "int64",
+        "shape": [
+          22
+        ]
+      },
+      "multi_counts": {
+        "dtype": "int64",
+        "shape": [
+          22,
+          6,
+          6,
+          4
+        ]
+      }
+    },
+    "FLEURS_303.npz": {
+      "ids": {
+        "dtype": "<U8",
+        "shape": [
+          3665
+        ]
+      },
+      "lang": {
+        "dtype": "int64",
+        "shape": [
+          3665
+        ]
+      },
+      "window_owner": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "window_index": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "offsets": {
+        "dtype": "int64",
+        "shape": [
+          3666
+        ]
+      },
+      "k": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "k_beam": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "x": {
+        "dtype": "float64",
+        "shape": [
+          3687,
+          6,
+          4
+        ]
+      },
+      "raw_features": {
+        "dtype": "float64",
+        "shape": [
+          3687,
+          6,
+          4
+        ]
+      },
+      "raw_observed": {
+        "dtype": "bool",
+        "shape": [
+          3687,
+          6,
+          4
+        ]
+      },
+      "single_counts": {
+        "dtype": "int64",
+        "shape": [
+          3687,
+          6,
+          4
+        ]
+      },
+      "candidate_ids": {
+        "dtype": "<U14",
+        "shape": [
+          3687,
+          6
+        ]
+      },
+      "body_tokens": {
+        "dtype": "int64",
+        "shape": [
+          3687,
+          6
+        ]
+      },
+      "pll_tokens": {
+        "dtype": "int64",
+        "shape": [
+          3687,
+          6
+        ]
+      },
+      "hf_index": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "flags": {
+        "dtype": "bool",
+        "shape": [
+          3665
+        ]
+      },
+      "B_pick": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "N_pick": {
+        "dtype": "int64",
+        "shape": [
+          3687
+        ]
+      },
+      "B": {
+        "dtype": "int64",
+        "shape": [
+          3665,
+          4
+        ]
+      },
+      "N": {
+        "dtype": "int64",
+        "shape": [
+          3665,
+          4
+        ]
+      },
+      "S": {
+        "dtype": "int64",
+        "shape": [
+          3665,
+          4
+        ]
+      },
+      "Direct": {
+        "dtype": "int64",
+        "shape": [
+          3665,
+          4
+        ]
+      },
+      "multi_rows": {
+        "dtype": "int64",
+        "shape": [
+          22
+        ]
+      },
+      "multi_counts": {
+        "dtype": "int64",
+        "shape": [
+          22,
+          6,
+          6,
+          4
+        ]
+      }
+    }
+  }
+}

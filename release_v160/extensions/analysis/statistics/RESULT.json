@@ -1,0 +1,56 @@
+{
+  "contrasts": [
+    {
+      "contrast": "T_MBR_uniform - T_H4",
+      "corpus": "CV27",
+      "difference_pp": 2.5062214816503037,
+      "CI_97_5_pp": [
+        1.9295001641988445,
+        3.1793002508726147
+      ],
+      "checkpoint_differences_pp": [
+        2.9054538227428166,
+        1.173132226655656,
+        3.440078395552438
+      ]
+    },
+    {
+      "contrast": "T_HWR4 - T_H4",
+      "corpus": "CV27",
+      "difference_pp": -0.08167151735076812,
+      "CI_97_5_pp": [
+        -0.1466514180804838,
+        -0.02683106173682376
+      ],
+      "checkpoint_differences_pp": [
+        0.0,
+        -0.2534674940316348,
+        0.008452941979330456
+      ]
+    }
+  ],
+  "configuration": {
+    "corpus": "CV27",
+    "contrasts": [
+      "T_MBR_uniform - T_H4",
+      "T_HWR4 - T_H4"
+    ],
+    "draws": 10000,
+    "rng_seed": 20261018,
+    "resampling": "paired language-internal client/reference components, synchronized checkpoints",
+    "individual_interval": [
+      0.0125,
+      0.9875
+    ],
+    "family_confidence": 0.95,
+    "FLEURS": "descriptive only"
+  },
+  "components_per_language": [
+    1027,
+    2850,
+    2514,
+    1500,
+    3865
+  ],
+  "scope": "two prespecified contrasts, Bonferroni family 95%; synchronized checkpoints; conditional on frozen fits"
+}

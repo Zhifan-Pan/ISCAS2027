@@ -1,0 +1,57 @@
+{
+  "scope": "Post-lock retrospective descriptive diagnostic on previously unsealed confirmation panel; not an additional preregistered confirmation",
+  "means": [
+    {
+      "policy": "B",
+      "WER": 35.017453662386934
+    },
+    {
+      "policy": "Native",
+      "WER": 34.86827316737279
+    },
+    {
+      "policy": "NplusR",
+      "WER": 32.75476627936039
+    },
+    {
+      "policy": "SplusR",
+      "WER": 32.75476627936039
+    },
+    {
+      "policy": "Direct_postlock",
+      "WER": 32.706595290804856
+    }
+  ],
+  "source_sha256": "2dc111755b3ceeed14c536f3b742013e51febb4d800f3b4f18c22f91bc6e20f2",
+  "original_scores_sha256": "c7060dde7a6cddfe3308d902f3ca2701ebcb67a7e634e7c9290b0b26945afb2c",
+  "original_export_identity": "Recording aliases are global; speaker aliases are namespaced by language. Both are bijective; all other fields exactly identical across all 22,500 corresponding rows.",
+  "prediction_lock_sha256": "a859c65c550f47037013360a71826ab8a3472d1bfd1eaaef098b0161e7f6e75e",
+  "original_predictions_rehashed": 22500,
+  "original_parity_checks_revalidated": 60,
+  "source_runtime_sha256": "cc27c404af7b24324c4606fd0f15e81012b6aba87dd33444acd5cdb34fc2742a",
+  "parity_sha256": "25e39c93e9bf2fa822b89a06535f9dc91842483b5381307746f0726011310884",
+  "derivation": "Single-window Direct = Native final-HF output on original trigger, otherwise original B; source and recording-level RNG are shared by original bundle.",
+  "HWR4": "BLOCKED_MISSING_CANDIDATE_FEATURES: original prediction writer persists selected texts, bank sizes, hashes, not candidate texts/order/raw features; TEST/DEV exports do not include TRAIN confirmation panel.",
+  "persisted_prediction_fields": {
+    "id": 22500,
+    "lang": 22500,
+    "seed": 22500,
+    "split": 22500,
+    "duration_s": 22500,
+    "audio_sha256": 22500,
+    "predictions": 22500,
+    "outer_trigger": 22500,
+    "output_hashes": 22500,
+    "window_count": 22500,
+    "bank_sizes": 22500,
+    "selected_new_NplusR": 22500,
+    "reference_accessed": 22500,
+    "timing_evidence": 22500,
+    "runtime": 22500,
+    "gpu": 22500,
+    "slot": 22500,
+    "created_utc": 22500
+  },
+  "new_model_forward": false,
+  "new_bootstrap": false
+}

@@ -1,0 +1,809 @@
+{
+  "scope": "Read-only audit and descriptive repartition of existing V147 data. No refitting, new confirmation, profiling, or new significance test.",
+  "environment": {
+    "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+    "numpy": "2.2.6",
+    "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35"
+  },
+  "inputs_sha256": {
+    "acceptors/inputs/DEV_101.npz": "742a9fd4aa2113b8de78c830d1b49f03a106c2336c64effd2c91e8f284d68c6f",
+    "acceptors/inputs/DEV_202.npz": "1681d169b71e61206721188b273f1ba2fc8f72a4b027a71322feee4f30a96535",
+    "acceptors/inputs/DEV_303.npz": "51b051d4f24f275700032b1547b00ad5487f029f9d1b046f8694ad40a3a0f4f7",
+    "acceptors/inputs/FLEURS_101.npz": "7ed8d255f6bc706110b1ff42166a147b10b6fb24dc772cb1b11b5460d2f18e6e",
+    "acceptors/inputs/FLEURS_202.npz": "6bd848acde4694fa6892188e84e773c32651ee6df99034cc33b2f2df5928525f",
+    "acceptors/inputs/FLEURS_303.npz": "b007b4badc7e6ae7b5a6b254884d09a593596c70f531f3385ac202038f2af32d",
+    "acceptors/inputs/CV27_101.npz": "c37f4d515db29bbb489aceb42d5acdfb52239078c2d20979f3b9eae8be77e082",
+    "acceptors/inputs/CV27_202.npz": "04866b6446da447c9a68d28de374d7a2eaef8d4c05a22ec6845ff54e62c923b8",
+    "acceptors/inputs/CV27_303.npz": "6bde618a7b7cd3300e343e7aa13bc923c29515c653e00d62d56c3bc3fecb83d5",
+    "acceptors/counts/FLEURS_101.npz": "2f43ad792951577cdb261708eec45bbf8c9dc2d0668ddb1475161c99eee63fe8",
+    "acceptors/counts/FLEURS_202.npz": "545d518479fb1d6f52f549534801a0ce78de0c4c74fcc51c068d2b89f3cea3fa",
+    "acceptors/counts/FLEURS_303.npz": "b13209b6dac06391ac33a3e1e5143fa32b787ee85cae80c988d36c86d4fe9514",
+    "acceptors/counts/CV27_101.npz": "b6ffb1bac69cf6f7fd0cce33a58958716b9631b10a900ec8d4dd1652db3276de",
+    "acceptors/counts/CV27_202.npz": "a59fe5cd242113b29300558c2659235b1eea8d32fd2037809ce205abdd4b80ac",
+    "acceptors/counts/CV27_303.npz": "e5a09826842c41ab1fe28afa9682b9672a624b1befb377c8d640c3699eefb9be"
+  },
+  "feature_panels": [
+    {
+      "corpus": "DEV",
+      "checkpoint": 101,
+      "windows": 58171,
+      "active_candidates": 217088,
+      "singleton_banks": 2242,
+      "unknown_raw_singleton_banks": 2192,
+      "missing_nontrivial_banks": 0,
+      "genuine_observed_all_zero_candidates": 2,
+      "max_raw_relative_disagreement": 0.0,
+      "scope": "Numeric completeness for selection; not authentication of original neural scoring."
+    },
+    {
+      "corpus": "DEV",
+      "checkpoint": 202,
+      "windows": 58171,
+      "active_candidates": 215872,
+      "singleton_banks": 2382,
+      "unknown_raw_singleton_banks": 2338,
+      "missing_nontrivial_banks": 0,
+      "genuine_observed_all_zero_candidates": 1,
+      "max_raw_relative_disagreement": 0.0,
+      "scope": "Numeric completeness for selection; not authentication of original neural scoring."
+    },
+    {
+      "corpus": "DEV",
+      "checkpoint": 303,
+      "windows": 58171,
+      "active_candidates": 216922,
+      "singleton_banks": 2223,
+      "unknown_raw_singleton_banks": 2187,
+      "missing_nontrivial_banks": 0,
+      "genuine_observed_all_zero_candidates": 2,
+      "max_raw_relative_disagreement": 0.0,
+      "scope": "Numeric completeness for selection; not authentication of original neural scoring."
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "windows": 3687,
+      "active_candidates": 13594,
+      "singleton_banks": 142,
+      "unknown_raw_singleton_banks": 130,
+      "missing_nontrivial_banks": 0,
+      "genuine_observed_all_zero_candidates": 0,
+      "max_raw_relative_disagreement": 0.0,
+      "scope": "Numeric completeness for selection; not authentication of original neural scoring."
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "windows": 3687,
+      "active_candidates": 13570,
+      "singleton_banks": 129,
+      "unknown_raw_singleton_banks": 121,
+      "missing_nontrivial_banks": 0,
+      "genuine_observed_all_zero_candidates": 0,
+      "max_raw_relative_disagreement": 0.0,
+      "scope": "Numeric completeness for selection; not authentication of original neural scoring."
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "windows": 3687,
+      "active_candidates": 13705,
+      "singleton_banks": 132,
+      "unknown_raw_singleton_banks": 121,
+      "missing_nontrivial_banks": 0,
+      "genuine_observed_all_zero_candidates": 0,
+      "max_raw_relative_disagreement": 0.0,
+      "scope": "Numeric completeness for selection; not authentication of original neural scoring."
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "windows": 58514,
+      "active_candidates": 223373,
+      "singleton_banks": 2020,
+      "unknown_raw_singleton_banks": 1979,
+      "missing_nontrivial_banks": 0,
+      "genuine_observed_all_zero_candidates": 6,
+      "max_raw_relative_disagreement": 0.0,
+      "scope": "Numeric completeness for selection; not authentication of original neural scoring."
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "windows": 58514,
+      "active_candidates": 222443,
+      "singleton_banks": 2116,
+      "unknown_raw_singleton_banks": 2068,
+      "missing_nontrivial_banks": 0,
+      "genuine_observed_all_zero_candidates": 11,
+      "max_raw_relative_disagreement": 0.0,
+      "scope": "Numeric completeness for selection; not authentication of original neural scoring."
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "windows": 58514,
+      "active_candidates": 223251,
+      "singleton_banks": 2045,
+      "unknown_raw_singleton_banks": 2008,
+      "missing_nontrivial_banks": 0,
+      "genuine_observed_all_zero_candidates": 2,
+      "max_raw_relative_disagreement": 0.0,
+      "scope": "Numeric completeness for selection; not authentication of original neural scoring."
+    }
+  ],
+  "policy_unit_count": 96,
+  "S_and_T_reconstructions": 42,
+  "branch_comparisons": [
+    {
+      "corpus": "FLEURS",
+      "average": {
+        "complete_difference_pp": 1.58960935903938,
+        "nontrigger_contribution_pp": 1.589609359039379,
+        "trigger_contribution_pp": 0.0,
+        "residual_pp": 9.62193288008469e-16,
+        "whole_B_difference_pp": 1.5889464378772793,
+        "risk_vs_pairwise_trigger_difference_pp": 0.0,
+        "nontrigger_fraction_of_net_difference_percent": 99.99999999999993,
+        "whole_B_fraction_of_net_difference_percent": 99.9582965992034,
+        "recovery_gain_difference_pp": 0.0006629211621007602
+      },
+      "checkpoint": [
+        {
+          "complete_difference_pp": 1.5425849172413564,
+          "nontrigger_contribution_pp": 1.5425849172413544,
+          "trigger_contribution_pp": 0.0,
+          "residual_pp": 1.9984014443252818e-15,
+          "checkpoint": 101,
+          "whole_B_difference_pp": 1.5425849172413564,
+          "risk_vs_pairwise_trigger_difference_pp": 0.0
+        },
+        {
+          "complete_difference_pp": 1.63038231950042,
+          "nontrigger_contribution_pp": 1.6303823195004221,
+          "trigger_contribution_pp": 0.0,
+          "residual_pp": -2.220446049250313e-15,
+          "checkpoint": 202,
+          "whole_B_difference_pp": 1.63038231950042,
+          "risk_vs_pairwise_trigger_difference_pp": 0.0
+        },
+        {
+          "complete_difference_pp": 1.595860840376364,
+          "nontrigger_contribution_pp": 1.595860840376361,
+          "trigger_contribution_pp": 0.0,
+          "residual_pp": 3.1086244689504383e-15,
+          "checkpoint": 303,
+          "whole_B_difference_pp": 1.5938720768900616,
+          "risk_vs_pairwise_trigger_difference_pp": 0.0
+        }
+      ]
+    },
+    {
+      "corpus": "CV27",
+      "average": {
+        "complete_difference_pp": 2.24826669700456,
+        "nontrigger_contribution_pp": 2.186101465314363,
+        "trigger_contribution_pp": 0.06216523169019674,
+        "residual_pp": 3.1073234263434557e-16,
+        "whole_B_difference_pp": 2.176050206531999,
+        "risk_vs_pairwise_trigger_difference_pp": 0.7211616098428912,
+        "nontrigger_fraction_of_net_difference_percent": 97.23497075444733,
+        "whole_B_fraction_of_net_difference_percent": 96.78790374074494,
+        "recovery_gain_difference_pp": 0.07221649047256085
+      },
+      "checkpoint": [
+        {
+          "complete_difference_pp": 2.378596363626194,
+          "nontrigger_contribution_pp": 2.1644162341628093,
+          "trigger_contribution_pp": 0.21418012946339324,
+          "residual_pp": -8.520961713998076e-15,
+          "checkpoint": 101,
+          "whole_B_difference_pp": 2.145118863895405,
+          "risk_vs_pairwise_trigger_difference_pp": 0.9122119055233213
+        },
+        {
+          "complete_difference_pp": 2.195752265891201,
+          "nontrigger_contribution_pp": 2.222108096779146,
+          "trigger_contribution_pp": -0.026355830887946963,
+          "residual_pp": 2.1649348980190553e-15,
+          "checkpoint": 202,
+          "whole_B_difference_pp": 2.2223738174801184,
+          "risk_vs_pairwise_trigger_difference_pp": 0.08069775024453563
+        },
+        {
+          "complete_difference_pp": 2.1704514614962847,
+          "nontrigger_contribution_pp": 2.1717800650011334,
+          "trigger_contribution_pp": -0.0013286035048560459,
+          "residual_pp": 7.288223843882058e-15,
+          "checkpoint": 303,
+          "whole_B_difference_pp": 2.1606579382204743,
+          "risk_vs_pairwise_trigger_difference_pp": 1.1705751737608168
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "B_G4",
+      "macro_WER": 17.294166326753302
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "N_G4",
+      "macro_WER": 17.107222559040874
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "S_G4",
+      "macro_WER": 17.107222559040874
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "B_H4",
+      "macro_WER": 17.346236720633037
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "N_H4",
+      "macro_WER": 17.187109364603504
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "S_H4",
+      "macro_WER": 17.159292952920612
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "B_HR4",
+      "macro_WER": 17.35763960590184
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "N_HR4",
+      "macro_WER": 17.198512249872305
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "S_HR4",
+      "macro_WER": 17.170695838189413
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "B_H3",
+      "macro_WER": 18.888821637874393
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "N_H3",
+      "macro_WER": 18.72969428184486
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "S_H3",
+      "macro_WER": 18.70187787016197
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "T_H4",
+      "macro_WER": 17.107222559040874
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "T_HR4",
+      "macro_WER": 17.107222559040874
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "T_H3",
+      "macro_WER": 17.107222559040874
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 101,
+      "policy": "Direct",
+      "macro_WER": 17.107222559040874
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "B_G4",
+      "macro_WER": 17.497800953033135
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "N_G4",
+      "macro_WER": 17.064721189528086
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "S_G4",
+      "macro_WER": 17.064721189528086
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "B_H4",
+      "macro_WER": 17.48719778946728
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "N_H4",
+      "macro_WER": 17.054118025962232
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "S_H4",
+      "macro_WER": 17.054118025962232
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "B_HR4",
+      "macro_WER": 17.63263969006612
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "N_HR4",
+      "macro_WER": 17.199559926561072
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "S_HR4",
+      "macro_WER": 17.199559926561072
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "B_H3",
+      "macro_WER": 19.1175801089677
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "N_H3",
+      "macro_WER": 18.684500345462652
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "S_H3",
+      "macro_WER": 18.684500345462652
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "T_H4",
+      "macro_WER": 17.064721189528086
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "T_HR4",
+      "macro_WER": 17.064721189528086
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "T_H3",
+      "macro_WER": 17.064721189528086
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 202,
+      "policy": "Direct",
+      "macro_WER": 17.06770433475754
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "B_G4",
+      "macro_WER": 17.570291415941824
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "N_G4",
+      "macro_WER": 17.08821696002229
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "S_G4",
+      "macro_WER": 17.08821696002229
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "B_H4",
+      "macro_WER": 17.541090392704714
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "N_H4",
+      "macro_WER": 17.05901593678518
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "S_H4",
+      "macro_WER": 17.05901593678518
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "B_HR4",
+      "macro_WER": 17.546020295773538
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "N_HR4",
+      "macro_WER": 17.063945839854004
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "S_HR4",
+      "macro_WER": 17.063945839854004
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "B_H3",
+      "macro_WER": 19.134962469594775
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "N_H3",
+      "macro_WER": 18.654876777161544
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "S_H3",
+      "macro_WER": 18.654876777161544
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "T_H4",
+      "macro_WER": 17.08821696002229
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "T_HR4",
+      "macro_WER": 17.08821696002229
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "T_H3",
+      "macro_WER": 17.08821696002229
+    },
+    {
+      "corpus": "FLEURS",
+      "checkpoint": 303,
+      "policy": "Direct",
+      "macro_WER": 17.08821696002229
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "B_G4",
+      "macro_WER": 34.26240001275571
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "N_G4",
+      "macro_WER": 32.127200223151995
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "S_G4",
+      "macro_WER": 32.127072143122966
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "B_H4",
+      "macro_WER": 34.27102701810452
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "N_H4",
+      "macro_WER": 31.422516569747103
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "S_H4",
+      "macro_WER": 31.42238848971808
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "B_HR4",
+      "macro_WER": 34.30948256369469
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "N_HR4",
+      "macro_WER": 32.38867146787723
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "S_HR4",
+      "macro_WER": 32.3885433878482
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "B_H3",
+      "macro_WER": 36.416145881999924
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "N_H3",
+      "macro_WER": 33.79946231169206
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "S_H3",
+      "macro_WER": 33.800984853344275
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "T_H4",
+      "macro_WER": 31.429248931385906
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "T_HR4",
+      "macro_WER": 32.34146083690923
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "T_H3",
+      "macro_WER": 31.643429060849297
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 101,
+      "policy": "Direct",
+      "macro_WER": 31.44256270162827
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "B_G4",
+      "macro_WER": 32.69797286692765
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "N_G4",
+      "macro_WER": 31.288869225432308
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "S_G4",
+      "macro_WER": 31.288198880808135
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "B_H4",
+      "macro_WER": 32.6996952283034
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "N_H4",
+      "macro_WER": 31.54486822073423
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "S_H4",
+      "macro_WER": 31.543932155409088
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "B_HR4",
+      "macro_WER": 32.790989279091704
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "N_HR4",
+      "macro_WER": 31.71361910674873
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "S_HR4",
+      "macro_WER": 31.715923956441934
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "B_H3",
+      "macro_WER": 34.922069045783516
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "N_H3",
+      "macro_WER": 33.737379571607086
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "S_H3",
+      "macro_WER": 33.73968442130029
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "T_H4",
+      "macro_WER": 31.54166637483977
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "T_HR4",
+      "macro_WER": 31.622364125084307
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "T_H3",
+      "macro_WER": 31.51531054395182
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 202,
+      "policy": "Direct",
+      "macro_WER": 31.28984111618045
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "B_G4",
+      "macro_WER": 34.97714433217621
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "N_G4",
+      "macro_WER": 31.627302448704757
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "S_G4",
+      "macro_WER": 31.627596059741858
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "B_H4",
+      "macro_WER": 34.95404400561798
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "N_H4",
+      "macro_WER": 31.60393041254975
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "S_H4",
+      "macro_WER": 31.604224023586845
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "B_HR4",
+      "macro_WER": 34.97004373294017
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "N_HR4",
+      "macro_WER": 32.808877005281786
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "S_HR4",
+      "macro_WER": 32.809170616318895
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "B_H3",
+      "macro_WER": 37.114701943838455
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "N_H3",
+      "macro_WER": 33.77374425405539
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "S_H3",
+      "macro_WER": 33.77467548508313
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "T_H4",
+      "macro_WER": 31.626237511757942
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "T_HR4",
+      "macro_WER": 32.79681268551876
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "T_H3",
+      "macro_WER": 31.624908908253087
+    },
+    {
+      "corpus": "CV27",
+      "checkpoint": 303,
+      "policy": "Direct",
+      "macro_WER": 31.6453829503448
+    }
+  ],
+  "limitations": [
+    "Absolute unknown singleton scores remain unknown; their sole-choice output is not missing.",
+    "Both H3 and H4 were refitted; this is not a coefficient-only intervention.",
+    "A branch decomposition does not measure latency or justify selective PLL execution.",
+    "Reference/audiotext history and fit provenance are not reauthenticated by numeric checks."
+  ]
+}

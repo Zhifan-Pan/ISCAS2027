@@ -1,0 +1,40 @@
+{
+  "study_id": "HF_SUPERVISED_COMPARATOR_R8",
+  "population": {
+    "full_legal_CV27_DEV_recordings": 58171,
+    "checkpoint_recording_instances": 174513,
+    "complete_cached": 441,
+    "missing_source": 174072,
+    "eligible_per_checkpoint": {
+      "101": 55921,
+      "202": 55780,
+      "303": 55915
+    }
+  },
+  "quantiles": [
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "lambda_grid": [
+    0.0001,
+    0.01,
+    1.0,
+    100.0
+  ],
+  "tie_salt": "R8-fixed-tie-order-v1",
+  "primary_gate": "HF12",
+  "secondary_gate": "HF9",
+  "primary_q": 0.003,
+  "primary_contrast": "CV27 HF12 DEV q=0.003 minus common-eligible CR",
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 8003,
+  "training": "Five original component folds; fold-local equal-language standardization; unpenalized intercept; weighted OOF MSE; exact ties favor larger lambda.",
+  "scope": "Retrospective gate-only comparison conditional on previously DEV-fitted beta_F. No confirmation selection, GPU latency measurement or TEST tuning."
+}
