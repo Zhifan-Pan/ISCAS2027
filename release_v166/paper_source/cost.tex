@@ -3,10 +3,10 @@
 \setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.00}
 % Balance the added group rules within the existing table height.
 \setlength{\aboverulesep}{0.3ex}\setlength{\belowrulesep}{0.45ex}
-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}ccccc@{}}\toprule
+\begin{tabular*}{\columnwidth}{@{\hspace{4pt}\extracolsep{\fill}}ccccc@{\hspace{4pt}}}\toprule
 \multirow{2}{*}[-0.5ex]{Path} & \multicolumn{2}{c}{FLEURS} & \multicolumn{2}{c}{CV27}\\
 \cmidrule(l{0.2em}r{0.2em}){2-3}\cmidrule(l{0.2em}r{0.2em}){4-5}
- & \multicolumn{1}{c}{ms} & \multicolumn{1}{c}{MiB} & \multicolumn{1}{c}{ms} & \multicolumn{1}{c@{}}{MiB}\\\midrule
+ & \multicolumn{1}{c}{ms} & \multicolumn{1}{c}{MiB} & \multicolumn{1}{c}{ms} & \multicolumn{1}{c@{\hspace{4pt}}}{MiB}\\\midrule
 \multicolumn{5}{c}{A. Four paths, three checkpoints}\\
 Native HF & 1291.7 & 2980.8 & 517.4 & 2813.8\\
 B & 1352.7 & 3144.9 & 591.9 & 3133.1\\

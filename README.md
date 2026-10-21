@@ -11,7 +11,7 @@ are unchanged.
 
 - [V166 manuscript PDF](release_v166/manuscript_v166.pdf), four technical pages plus references.
 - [Complete V166 source](release_v166/paper_source/) and [source ZIP](release_v166/source_v166.zip).
-- Centered table columns and two-row headers, with extended corpus rules in Tables II–IV.
+- Centered table columns and two-row headers, with symmetric 4 pt outer padding and extended corpus rules in Tables II–IV.
 - Revised academic prose and four thematic discussion paragraphs, with unchanged numerical results and method equations.
 - Author-supplied symbol-synchronized two-column Figure 1 and all 35 references retained.
 - Inherited [V163 post-lock paired diagnostic](release_v163/), including exact analysis code and anonymous replay inputs.

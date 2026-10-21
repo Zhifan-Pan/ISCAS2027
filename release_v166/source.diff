@@ -1,11 +1,93 @@
---- a/main.tex
-+++ b/main.tex
-@@ -84,7 +84,7 @@
- Minimum Bayes risk decoding~\cite{goel2000mbr} minimizes expected word edits on the same banks using uniform mass in U-MBR or body scores $\operatorname{softmax}(Ta/\tau)$ in D-MBR. These scores are not calibrated sequence posteriors. DEV WER selects $\tau\in\{0.1,0.3,1,3,10\}$, preferring larger values on ties, while candidate ties retain bank order. A \emph{complete policy} applies its own acceptor to both banks. A \emph{triggered-subset evaluation} changes only triggered acceptance, preserving G4 elsewhere and full-panel denominators. H3Direct uses H3 elsewhere and final HF on triggers.
- 
- \section{Data and Evaluation}
--We adapt Whisper-small~\cite{whisper} on 44.60\,h of FLEURS TRAIN~\cite{fleurs} to Arabic, Persian, Polish, Turkish and Italian using LoRA~\cite{lora} with three different random seeds. Each run uses 4,656 updates, rank and scale four, zero dropout and all attention projections. Adaptation excludes CV27 TRAIN, while selectors and gates use CV27 DEV rather than FLEURS DEV. Complete TEST contains 3,665 FLEURS and 58,514 Common Voice 27.0 recordings~\cite{cv2020} from release \texttt{2026-09-11}. Its use during development makes TEST comparisons retrospective.
-+We adapt Whisper-small~\cite{whisper} on 44.60\,h of FLEURS TRAIN~\cite{fleurs} to Arabic, Persian, Polish, Turkish and Italian using LoRA~\cite{lora} with three different random seeds. Each run uses 4,656 updates, rank and scale four, zero dropout and all attention projections. Adaptation excludes CV27 TRAIN, while selectors and gates use CV27 DEV rather than FLEURS DEV. Complete TEST contains 3,665 FLEURS and 58,514 Common Voice 27.0 recordings~\cite{cv2020}. Its use during development makes TEST comparisons retrospective.
- 
- Confirmation uses 7,500 CV27 TRAIN recordings, 1,500 per language, excluding previously accessed recordings, audio and reference texts. Predictions, stopping rules and the one-sided 0.10 percentage-point (pp) margin were locked before reference evaluation under procedural controls. Within-panel correlation is addressed by 10,000 synchronized bootstrap draws of speaker components within languages. Recurring speakers across splits restrict generalization to the observed speaker-clustered sampling frame, while later gates, refits and window policies remain retrospective.
- 
+--- a/primary.tex
++++ b/primary.tex
+@@ -1,8 +1,8 @@
+ \begin{table}[H]\centering\footnotesize
+ \caption{WER (\%) with pp contrasts computed before rounding. Checks denote HF acquisition, CR gating and R reselection, with $\dagger$ for R off-trigger.}\label{tab:paths}
+ \setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.00}
+-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}ccccccc@{}}\toprule
+-Path & HF & CR & R & Scorer & \multicolumn{1}{c}{FLEURS} & \multicolumn{1}{c@{}}{CV27}\\\midrule
++\begin{tabular*}{\columnwidth}{@{\hspace{4pt}\extracolsep{\fill}}ccccccc@{\hspace{4pt}}}\toprule
++Path & HF & CR & R & Scorer & \multicolumn{1}{c}{FLEURS} & \multicolumn{1}{c@{\hspace{4pt}}}{CV27}\\\midrule
+ Raw beam-5 top-1 & -- & -- & -- & -- & 18.90 & 36.41\\
+ Native HF & $\checkmark$ & -- & -- & -- & 18.55 & 33.80\\
+ B & -- & -- & $\checkmark$ & G4 & 17.45 & 33.98\\
+@@ -16,13 +16,13 @@
+ \multicolumn{5}{c}{CR-routed oracle} & 15.83 & 27.68\\
+ \multicolumn{5}{c}{S+R gap to routed oracle, pp} & 1.26 & 4.00\\
+ \end{tabular*}\par\nointerlineskip
+-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}cccc@{}}
++\begin{tabular*}{\columnwidth}{@{\hspace{4pt}\extracolsep{\fill}}cccc@{\hspace{4pt}}}
+ \midrule\multicolumn{4}{c}{Frozen CV27 confirmation with 7,500 recordings}\\
+- & \multicolumn{1}{c}{B} & \multicolumn{1}{c}{N+R = S+R} & \multicolumn{1}{c@{}}{Gain}\\\midrule
++ & \multicolumn{1}{c}{B} & \multicolumn{1}{c}{N+R = S+R} & \multicolumn{1}{c@{\hspace{4pt}}}{Gain}\\\midrule
+ Macro-average & 35.02 & 32.75 & 2.26\\
+ \end{tabular*}\par\nointerlineskip
+-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}ccc@{}}
+-\midrule Contrast & \multicolumn{1}{c}{$\Delta$WER} & \multicolumn{1}{c@{}}{95\% upper bound}\\
++\begin{tabular*}{\columnwidth}{@{\hspace{4pt}\extracolsep{\fill}}ccc@{\hspace{4pt}}}
++\midrule Contrast & \multicolumn{1}{c}{$\Delta$WER} & \multicolumn{1}{c@{\hspace{4pt}}}{95\% upper bound}\\
+ S+R $-$ B & -2.26 & -1.32\\
+ S+R $-$ N+R & 0.00 & 0.00\\
+ \bottomrule\end{tabular*}\end{table}
+--- a/acceptors.tex
++++ b/acceptors.tex
+@@ -1,10 +1,10 @@
+ \begin{table}[!t]\centering\footnotesize
+ \caption{Same-HF TEST WER (\%) and gain B$-$S (pp) before rounding. Checks denote PLL, pairwise P and edit-gap weighting W.}\label{tab:hfacceptors}
+ \setlength{\tabcolsep}{1.6pt}\renewcommand{\arraystretch}{1.00}
+-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}cccccccccc@{}}\toprule
++\begin{tabular*}{\columnwidth}{@{\hspace{4pt}\extracolsep{\fill}}cccccccccc@{\hspace{4pt}}}\toprule
+ \multirow{2}{*}[-0.6ex]{Acceptor} & \multirow{2}{*}[-0.6ex]{PLL} & \multirow{2}{*}[-0.6ex]{P} & \multirow{2}{*}[-0.6ex]{W} & \multicolumn{3}{c}{FLEURS} & \multicolumn{3}{c}{CV27}\\
+ \cmidrule(l{0.2em}r{0.2em}){5-7}\cmidrule(l{0.2em}r{0.2em}){8-10}
+- & & & & \multicolumn{1}{c}{B} & \multicolumn{1}{c}{S} & \multicolumn{1}{c}{Gain} & \multicolumn{1}{c}{B} & \multicolumn{1}{c}{S} & \multicolumn{1}{c@{}}{Gain}\\\midrule
++ & & & & \multicolumn{1}{c}{B} & \multicolumn{1}{c}{S} & \multicolumn{1}{c}{Gain} & \multicolumn{1}{c}{B} & \multicolumn{1}{c}{S} & \multicolumn{1}{c@{\hspace{4pt}}}{Gain}\\\midrule
+ G4 & $\checkmark$ & -- & -- & 17.45 & 17.09 & 0.37 & 33.98 & 31.68 & 2.30\\
+ H4 & $\checkmark$ & -- & -- & 17.46 & 17.09 & 0.37 & 33.97 & 31.52 & 2.45\\
+ HR4 & $\checkmark$ & $\checkmark$ & -- & 17.51 & 17.14 & 0.37 & 34.02 & 32.30 & 1.72\\
+@@ -13,7 +13,7 @@
+ U-MBR & -- & -- & -- & 19.14 & 19.14 & 0.00 & 36.91 & 36.88 & 0.03\\
+ D-MBR & -- & -- & -- & 18.92 & 18.75 & 0.17 & 36.09 & 34.48 & 1.60\\
+ \end{tabular*}\par\nointerlineskip
+-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}ccc@{}}
++\begin{tabular*}{\columnwidth}{@{\hspace{4pt}\extracolsep{\fill}}ccc@{\hspace{4pt}}}
+ \midrule\multicolumn{3}{c}{Original family CV27 $\Delta$WER [individual 97.5\% CI]}\\
+ Triggered HR4 $-$ H4 & +0.72 & [+0.40, +1.16]\\
+ Complete H3 $-$ H4 & +2.25 & [+2.16, +2.34]\\
+--- a/cost.tex
++++ b/cost.tex
+@@ -3,10 +3,10 @@
+ \setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.00}
+ % Balance the added group rules within the existing table height.
+ \setlength{\aboverulesep}{0.3ex}\setlength{\belowrulesep}{0.45ex}
+-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}ccccc@{}}\toprule
++\begin{tabular*}{\columnwidth}{@{\hspace{4pt}\extracolsep{\fill}}ccccc@{\hspace{4pt}}}\toprule
+ \multirow{2}{*}[-0.5ex]{Path} & \multicolumn{2}{c}{FLEURS} & \multicolumn{2}{c}{CV27}\\
+ \cmidrule(l{0.2em}r{0.2em}){2-3}\cmidrule(l{0.2em}r{0.2em}){4-5}
+- & \multicolumn{1}{c}{ms} & \multicolumn{1}{c}{MiB} & \multicolumn{1}{c}{ms} & \multicolumn{1}{c@{}}{MiB}\\\midrule
++ & \multicolumn{1}{c}{ms} & \multicolumn{1}{c}{MiB} & \multicolumn{1}{c}{ms} & \multicolumn{1}{c@{\hspace{4pt}}}{MiB}\\\midrule
+ \multicolumn{5}{c}{A. Four paths, three checkpoints}\\
+ Native HF & 1291.7 & 2980.8 & 517.4 & 2813.8\\
+ B & 1352.7 & 3144.9 & 591.9 & 3133.1\\
+--- a/language_scope.tex
++++ b/language_scope.tex
+@@ -1,17 +1,17 @@
+ \begin{table}[t]\centering\footnotesize
+ \caption{TEST gains averaged over seeds. Calls pool seed--recordings.}\label{tab:language}
+ \setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.00}
+-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}ccccc@{}}\toprule
++\begin{tabular*}{\columnwidth}{@{\hspace{4pt}\extracolsep{\fill}}ccccc@{\hspace{4pt}}}\toprule
+ \multirow{2}{*}[-0.6ex]{Language} & \multicolumn{2}{c}{FLEURS} & \multicolumn{2}{c}{CV27}\\
+ \cmidrule(l{0.2em}r{0.2em}){2-3}\cmidrule(l{0.2em}r{0.2em}){4-5}
+- & \multicolumn{1}{c}{Gain, pp} & \multicolumn{1}{c}{Calls, \%} & \multicolumn{1}{c}{Gain, pp} & \multicolumn{1}{c@{}}{Calls, \%}\\\midrule
++ & \multicolumn{1}{c}{Gain, pp} & \multicolumn{1}{c}{Calls, \%} & \multicolumn{1}{c}{Gain, pp} & \multicolumn{1}{c@{\hspace{4pt}}}{Calls, \%}\\\midrule
+ Arabic & 0.64 & 0.23 & 1.40 & 0.11\\
+ Persian & 1.20 & 0.27 & 9.05 & 1.15\\
+ Polish & 0.00 & 0.00 & 0.30 & 0.33\\
+ Turkish & 0.00 & 0.00 & 0.51 & 0.03\\
+ Italian & 0.00 & 0.00 & 0.23 & 0.02\\
+ \end{tabular*}\par\nointerlineskip
+-\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}cccc@{}}
++\begin{tabular*}{\columnwidth}{@{\hspace{4pt}\extracolsep{\fill}}cccc@{\hspace{4pt}}}
+ \midrule\multicolumn{4}{c}{Empty-HF acceptance of 18 instances in 11 CV27 recordings}\\
+ Acceptance minus B reversion & $S=-118$ & $D=+120$ & $I=-1995$\\
+ \bottomrule\end{tabular*}\end{table}

@@ -1,15 +1,15 @@
-# V166 final sentence revisions
+# V166 final manuscript
 
-This snapshot applies the requested sentence edits to the V165 figure-symbol snapshot, using the author's selected five-page wording. It retains four technical pages and one page of references. The latest update removes the dataset release-date phrase from Section III, with no change to the experimental data or analyses.
+This snapshot includes the final sentence revisions and table spacing refinements. It retains four technical pages and one page of references.
 
 - [Manuscript PDF](manuscript_v166.pdf)
 - [Matching source ZIP](source_v166.zip) and [source tree](paper_source/)
-- [Diff for the latest wording update](source.diff)
-- [Previous snapshot](../release_v165_figure_symbols/)
+- [Diff for the latest table spacing update](source.diff)
+- [V165 figure snapshot](../release_v165_figure_symbols/)
 
-The revised text links the two cost studies, reports the existing checkpoint contrasts, distinguishes the 25-recording profile from population estimates, and explains the shared scoring pipeline. Reference [35] uses the name Seamless Communication Team. Author order remains Zhifan Pan, Maihemuti Maimaiti, Yingxiong Gao, Yuhui Ming, Aishan Wumaier.
+All four tables use centered columns with symmetric 4 pt outer padding. The last numeric columns and their headings have space before the right ends of the horizontal rules. Existing vertical header alignment and corpus group rules are retained. The update affects only primary.tex, acceptors.tex, cost.tex and language_scope.tex. Table content, results, font sizes, row heights, Figure 1 and body text are unchanged. Pages 1, 2 and 5 render identically to the preceding V166 snapshot.
 
-Only main.tex, results.tex and references.tex change. All four tables, the two-column Figure 1, other paragraphs, scientific results and layout commands are unchanged. Pages 1 and 2 render identically to V165. Additional text changes natural line wrapping on later pages.
+Earlier V166 edits link the two cost studies, report existing checkpoint contrasts, distinguish the 25-recording profile from population estimates and explain the shared scoring pipeline. The dataset paragraph omits release-date wording. Reference [35] uses Seamless Communication Team. Author order remains Zhifan Pan, Maihemuti Maimaiti, Yingxiong Gao, Yuhui Ming, Aishan Wumaier.
 
 To build with pdfLaTeX and latexmk:
 
@@ -25,4 +25,4 @@ Run `python verify_release.py` to check file hashes. This checks snapshot integr
 
 No training, inference, GPU timing, bootstrap, confirmation or model review was run for V166. Algorithmically identical triggered operations do not imply strictly identical measured wall-clock time. Sharing a scoring architecture is not an additional measured H4/HWR4 or selective-PLL timing result. Original scientific code and anonymous inputs remain in [V160](../release_v160/), with subsequent diagnostics in their respective snapshots.
 
-Private author records, task prompts, screenshots, reviews and credentials are excluded. Prior snapshots are retained. No formal conference submission was performed.
+Private author records, task prompts, screenshots, reviews and credentials are excluded. Prior versions remain in Git history. No formal conference submission was performed.
