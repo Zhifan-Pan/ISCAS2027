@@ -10,13 +10,14 @@
   "references_only_page": 5,
   "latex_warnings": [],
   "bibliography_entries": 33,
-  "pdf_sha256": "af17b63890e4d9efee39645eaf527cd0c7c35da2b34833a4a5211a13405af19f",
-  "source_zip_sha256": "f930f54f1b80e7055475c9b1127d4ec08d91506e070bef7ae21ae17e2bba88b7",
+  "pdf_sha256": "9eb6351ad5c886a6965424b5c2bf02da3aa77b389ab2dd16a4a45bb0a76677b5",
+  "source_zip_sha256": "97fbbcf0f4c1064f46ce0aa12572c45d40d2920ff051bb9a777f88e60e214ec1",
   "changes": [
     "Introduction paragraphs 1 and 3 replaced verbatim, with citation keys retained",
-    "Double-column figure width changed from 0.80 to 0.70 textwidth to retain five pages"
+    "Double-column figure width changed from 0.80 to 0.70 textwidth to retain five pages",
+    "Equation (3) arg/max spacing tightened while retaining five pages"
   ],
-  "other_manuscript_text_tables_formulas_unchanged": true,
+  "other_manuscript_text_tables_formulas_unchanged": false,
   "reference_page_text_unchanged": true,
   "visual_review_pages": [
     1,
