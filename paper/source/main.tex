@@ -73,10 +73,10 @@ The empty output thus provides an implicit abstention baseline with score $-\bet
 \end{equation}
 Here $\mathcal I_\ell=\{i:\operatorname{lang}(i)=\ell\}$ indexes fitting windows, $N_\ell$ counts reference words and $L=5$.
 
-The shared weights $\beta_F=\operatorname{diag}(s)^{-1}\theta$ are fitted per run on greedy-expanded DEV and fixed across sources, with ties broken by bank order. With $\hat{y}_i^B=\arg\max_{y\in B_i}\beta_F^\top x_i(y)$, $C_i(0)=B_i$ and $C_i(1)=F_i$, the policies are
+The shared weights $\beta_F=\operatorname{diag}(s)^{-1}\theta$ are fitted per run on greedy-expanded DEV and fixed across sources, with ties broken by bank order. With $\hat{y}_i^B=\arg\!\max_{y\in B_i}\beta_F^\top x_i(y)$, $C_i(0)=B_i$ and $C_i(1)=F_i$, the policies are
 \begin{equation}
 \begin{aligned}
-\hat{y}_i^{S+R}&=\arg\max_{y\in C_i(z^{\mathrm{rec}})}\beta_F^\top x_i(y),\\
+\hat{y}_i^{S+R}&=\arg\!\max_{y\in C_i(z^{\mathrm{rec}})}\beta_F^\top x_i(y),\\
 \hat{y}_i^{\mathrm{Direct}}&=\begin{cases}\hat{y}_i^B,&z^{\mathrm{rec}}=0,\\g_i,&z^{\mathrm{rec}}=1.\end{cases}
 \end{aligned}\label{eq:accept}
 \end{equation}
