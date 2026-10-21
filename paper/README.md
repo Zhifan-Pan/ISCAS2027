@@ -24,6 +24,7 @@ python3 paper/verify_aggregates.py
 
 These verify file identity, source ZIP contents and aggregate arithmetic, not
 new training, bootstrap inference or GPU timing. See the repository README for
-scientific replay instructions. The submission PDF is unchanged by repository
-organization. Historical experiment identifiers inside immutable records are
+scientific replay instructions. The PDF and source archive contain the current final manuscript.
+Local checks confirm embedded fonts, no PDF hyperlinks or bookmarks, and no
+layout overflows. These checks do not replace IEEE PDF eXpress certification. Historical experiment identifiers inside immutable records are
 provenance, not alternative manuscript versions.

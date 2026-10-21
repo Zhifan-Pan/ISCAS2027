@@ -1,6 +1,41 @@
 {
-  "status": "final_submission",
+  "pass": true,
   "pages": 5,
+  "size_bytes": 521835,
+  "paper": "US Letter",
+  "body_font_TeX_pt": 10,
+  "body_baseline_TeX_pt": 12,
+  "abstract_keywords_TeX_pt": 9,
+  "captions_tables_references_TeX_pt": 8,
+  "section_subsection_TeX_pt": 10,
+  "body_column_bottoms_PDF_pt": [
+    [
+      718.597,
+      718.597
+    ],
+    [
+      718.597,
+      718.597
+    ],
+    [
+      718.597,
+      716.445
+    ],
+    [
+      718.597,
+      706.813
+    ]
+  ],
+  "links": 0,
+  "bookmarks": 0,
+  "form_fields": 0,
+  "all_fonts_embedded": true,
+  "type3_fonts": false,
+  "class_matches_official": true,
+  "scientific_content_unchanged": true,
+  "overfull_underfull": false,
+  "sha256": "0523bfc9a9794c8aa1c66c2690e9139f2eb15f3f14280e8f34772f28ce852c95",
+  "status": "final_submission",
   "main_pages": [
     1,
     2,
@@ -8,23 +43,12 @@
     4
   ],
   "references_only_page": 5,
-  "latex_warnings": [],
   "bibliography_entries": 33,
-  "pdf_sha256": "9fe97443bd8ccab2be45ca4baabe13cb10de6d6b7f7ab7f40311447f142cdd46",
-  "source_zip_sha256": "ef6c7bda2095b1a57cbcab1f64e6f14fbb3f8de59a598cdc2339b1406df3ae5f",
-  "changes": [
-    "Introduction paragraphs 1 and 3 replaced verbatim, with citation keys retained",
-    "Double-column figure width adjusted to 0.69 textwidth to retain five pages",
-    "argmax defined as one operator with centered limits in Equation (3)"
-  ],
-  "other_manuscript_text_tables_formulas_unchanged": false,
-  "reference_page_text_unchanged": true,
-  "visual_review_pages": [
-    1,
-    2,
-    3,
-    4
-  ],
+  "pdf_sha256": "0523bfc9a9794c8aa1c66c2690e9139f2eb15f3f14280e8f34772f28ce852c95",
+  "source_zip_sha256": "2762e640f027fbea6e91b126d44ad9d216df34ab8b26ceb0ef11880ce57609d3",
   "aggregate_checks_passed": 572,
-  "new_scientific_experiments": false
+  "new_scientific_experiments": false,
+  "validation_scope": "Local layout, PDF structure, artifact identity and aggregate arithmetic; not IEEE PDF eXpress certification.",
+  "latex_layout_warnings": [],
+  "expected_latex_notice": "hyperref Draft mode on disables hyperlinks; IEEEtran remains in conference mode."
 }

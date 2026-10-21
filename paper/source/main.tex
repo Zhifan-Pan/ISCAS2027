@@ -6,9 +6,10 @@
 \usepackage{cmap}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb,graphicx,booktabs,multirow,array,url,cite,balance,float}
-\usepackage[bookmarks=false,hidelinks]{hyperref}
+\usepackage[draft,bookmarks=false,hidelinks]{hyperref}
 \urlstyle{same}
-\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\argmin}{argmin}
 \setcounter{topnumber}{1}\setcounter{totalnumber}{4}
 \setlength{\textfloatsep}{4pt plus 8pt minus 1pt}
 \setlength{\floatsep}{6pt plus 2pt minus 1pt}
@@ -19,8 +20,7 @@
 \input{authors.tex}
 \begin{document}\maketitle\flushbottom
 
-% Modest elastic paragraph spacing keeps short columns from stretching headings alone.
-\setlength{\parskip}{0pt plus 4pt}
+% Retain IEEEtran paragraph elasticity to distribute column balancing space.
 \setlength{\abovedisplayskip}{3pt plus 2pt minus 1pt}
 \setlength{\belowdisplayskip}{3pt plus 2pt minus 1pt}
 \setlength{\belowdisplayshortskip}{3pt plus 2pt minus 1pt}
@@ -33,11 +33,14 @@ multilingual speech recognition, selective recovery, candidate acquisition, N-be
 \end{IEEEkeywords}
 
 \section{Introduction}
-Multilingual ASR encounters both routine recognition errors and catastrophic repetition loops. Extra decoding helps only when it yields a better transcript and the scoring rule selects it; otherwise, recovery wastes computation or degrades accuracy.
+Multilingual ASR encounters routine errors and catastrophic repetition loops. Additional decoding helps only when it produces a better candidate that the scoring rule accepts. Separating acquisition from acceptance reveals when recovery helps or wastes computation.
 
+% Rebreak this paragraph without changing text or baseline spacing.
+\looseness=1
 Multilingual N-best reranking~\cite{gaur2022,yan2025wild}, discriminative rescoring~\cite{rescorebert,discriminative2023,audioattention2019}, voting~\cite{fiscus1997} and confusion networks~\cite{mangu2000} exploit existing hypotheses. Generative correction expands banks~\cite{kuo2026framework,dutta2022,progres2024,whisperingllama}, and risk-based pruning and ASR sampling allocate computation~\cite{cheng2023pruning,jinnai2025mbrasr}. Conditional computation uses recognizer cascades~\cite{xue2025sima}, selective passes~\cite{aleksic2025}, encoder proxies~\cite{fathullah2024proxies}, selective correction~\cite{lim2025hybrid} or language-specific distillation~\cite{ferraz2024distil}, but confidence need not predict the benefit of deferral~\cite{jitkrittum2023cascade}.
 
-We decouple fallback candidate acquisition from hypothesis acceptance to separate sparse repetition recovery from routine beam rescoring. A recording-level compression gate selectively expands five-beam banks with fallback hypotheses, while a shared four-feature selector scores original and expanded banks alike to isolate acquisition gains. We show that internal fallback screening governs whether direct adoption outperforms reselection, and align acceptance to screened banks under expected-risk, pairwise and minimum Bayes risk criteria~\cite{mwer2018,ranknet2005,goel2000mbr}. Within reranked pipelines, selective acquisition matches unconditional recovery accuracy at lower latency, whereas Native HF trades higher WER for faster decoding.
+\looseness=1
+We distinguish routine beam rescoring from sparse repetition recovery. We ask when bank expansion helps and when reselection helps or harms a screened fallback. The locked panel isolates acquisition; retrospective controls examine acceptance. We compare expected risk, pairwise ranking and minimum Bayes risk on matched banks~\cite{mwer2018,ranknet2005,goel2000mbr}. These controls isolate acquisition and acceptance gains within reranked pipelines. Native HF trades higher WER for faster decoding.
 
 \begin{figure*}[t]\centering
 % The vector PDF supplies its own transparency group; do not inject a duplicate.
@@ -46,15 +49,15 @@ We decouple fallback candidate acquisition from hypothesis acceptance to separat
 \let\Gread@transgrouptrue\Gread@transgroupfalse
 \fi
 \makeatother
-\includegraphics[width=0.69\textwidth]{figures/Figure1_Vector.pdf}
+\includegraphics[width=0.64\textwidth]{figures/Figure1_Vector.pdf}
 \caption{Acquisition (A) expands every window's candidate bank if any window triggers. Acceptance (B) applies the same fixed four-feature selector to the original or expanded bank. Selected window transcripts are then concatenated.}
 \label{fig:workflow}\end{figure*}
 
 \section{Controlled Acquisition and Acceptance}
 \subsection{Recording-level acquisition}
-We normalize and deduplicate five beams per window $i$ into $B_i$, with first occurrences and sources retained. With raw top beam $b_i$ and fallback $g_i$, $F_i=B_i\cup\{g_i\}$ contains at most six candidates. Before recovery, $\mathrm{CR}_{\mathrm{text}}$ is the ratio of top-beam UTF-8 byte length to zlib-compressed length, with zero for empty bytes. The fixed gate $z_i=\mathbf1\{\mathrm{CR}_{\mathrm{text},i}>2.4\}$ gives $z^{\mathrm{rec}}=\max_i z_i$. Any trigger expands every window, even singletons (Fig.~\ref{fig:workflow}), to preserve recording-level invocation. On single-window CV27 audio, $z^{\mathrm{rec}}=z_i$; Section~IV-D examines local routing for multi-window FLEURS.
+We normalize and deduplicate five beams per window $i$ into $B_i$, with first occurrences and sources retained. With raw top beam $b_i$ and fallback $g_i$, $F_i=B_i\cup\{g_i\}$ contains at most six candidates. Before recovery, $\mathrm{CR}_{\mathrm{text}}$ is the ratio of top-beam UTF-8 byte length to zlib-compressed length, with zero for empty bytes. The fixed gate $z_i=\mathbf1\{\mathrm{CR}_{\mathrm{text},i}>2.4\}$ gives $z^{\mathrm{rec}}=\max_i z_i$. Any trigger expands every window, even singletons (Fig.~\ref{fig:workflow}), as a conservative control preserving recording-level invocation. On single-window CV27 audio, $z^{\mathrm{rec}}=z_i$; Section~IV-D examines local routing for multi-window FLEURS.
 
-Recovery follows Hugging Face temperatures $0,0.2,\ldots,1$ with compression, log-probability and no-speech thresholds $1.35$, $-1$ and $0.6$. The internal compression check uses serialized token-ID bytes~\cite{hfwhisper4576}, whereas the outer gate uses decoded text to decide whether to request recovery. Native HF uses the same configuration with conditional retries and returns the final transcript without N-best rescoring.
+Recovery follows Hugging Face temperatures $0,0.2,\ldots,1$ with compression, log-probability and no-speech thresholds $1.35$, $-1$ and $0.6$. The internal check compresses serialized token-ID bytes~\cite{hfwhisper4576}; the outer gate uses decoded UTF-8 text before requesting recovery. Its byte ratio reflects script encoding as well as repetition. Native HF uses the same configuration with conditional retries and returns the final transcript without N-best rescoring.
 
 \subsection{Four-feature shared acceptance}
 For features $f(y)=(a,p,t,r)$, $a$ is the mean teacher-forced log probability over $T$ body tokens without prefix, padding or end tokens, and $t=\log(1+T)$. XLM-R-base pseudo-log-likelihood $p$~\cite{xlmr,mlmscoring}, or PLL, averages individually masked nonspecial subword log probabilities in centered contexts of at most 510 subwords of the original string, rather than within-word masking~\cite{kauf2023}. Empty outputs have no body tokens or PLL targets and map to $f(\emptyset)=(0,0,0,0)$, but normalization alone need not yield zero features.
@@ -84,29 +87,33 @@ The shared weights $\beta_F=\operatorname{diag}(s)^{-1}\theta$ are fitted per ru
 Policy B reranks $B_i$, and N+R requests and reranks $F_i$ unconditionally. S+R and Direct share acquisition and use B off-trigger, but Direct bypasses selection and PLL on triggers. Window transcripts are concatenated for full-reference scoring.
 
 \subsection{Matched acceptance controls}
-G4 keeps $\beta_F$. On complete HF-expanded DEV banks, H4 refits expected risk over four features and H3 omits PLL with $(a,t,r)$. On the same banks and four features, HR4 fits RankNet~\cite{ranknet2005} on unequal-edit pairs with language-reference normalization and equal total bank weight. HWR4 weights pairs by $|E_j-E_k|/c$, where $c$ is the training-fold mean edit gap under the original pair weights.
+G4 keeps $\beta_F$. On complete HF-expanded DEV banks, H4 refits expected risk over four features and H3 omits PLL with $(a,t,r)$. On these banks, HR4 fits RankNet~\cite{ranknet2005} probabilities $\sigma(\beta^\top(x_{ij}-x_{ik}))$ for $E_j<E_k$, where $\sigma$ is the logistic function and $x_{ij}=x_i(y_{ij})$. Language-reference normalization and equal total bank weight are retained. HWR4 weights pair losses by $w_{jk}=|E_j-E_k|/c$, where $c$ is the training-fold mean edit gap under the original pair weights.
 
 % Table I floats above the fitting discussion.
 \input{primary.tex}
-We group connected clients and reference texts into five folds within each language. Each training fold determines RMS scales, and held-fold macro WER selects among 49 log-spaced penalties from $10^{-4}$ to $1$, with stronger regularization on ties.
-After selection, L-BFGS-B refits on full DEV from zero. Singletons contribute errors and denominators but no ranking pairs, and padding is excluded from fitting and selection.
+Within each language, connected clients and reference texts form five folds. Training folds determine RMS scales; held-fold macro WER selects among 49 log-spaced penalties from $10^{-4}$ to $1$, favoring stronger regularization on ties. L-BFGS-B then refits on full DEV from zero. Singletons contribute errors and denominators but no pairs. Fitting and selection exclude padding.
 
-Minimum Bayes risk decoding~\cite{goel2000mbr} minimizes expected word edits using uniform mass in U-MBR or uncalibrated body scores $\operatorname{softmax}(Ta/\tau)$ in D-MBR. DEV WER selects $\tau\in\{0.1,0.3,1,3,10\}$ with preference for larger values on ties; candidate ties retain bank order. A \emph{complete policy} uses its acceptor on both banks, whereas \emph{triggered-subset evaluation} retains G4 off-trigger and full-panel denominators.
+MBR~\cite{goel2000mbr} selects $\hat y_i=\allowbreak\argmin_{y\in C_i}\sum_{y'\in C_i}q_i(y')E(y,y')$, where $E$ counts word edits. U-MBR sets $q_i(y')\propto1$ and D-MBR sets $q_i(y')=\operatorname{softmax}(Ta/\tau)_{y'}$. DEV WER selects $\tau\in\{0.1,0.3,1,3,10\}$ with preference for larger values on ties; candidate ties retain bank order. A \emph{complete policy} uses its acceptor on both banks, whereas \emph{triggered-subset evaluation} retains G4 off-trigger and full-panel denominators.
 
 \section{Data and Evaluation}
 We adapt Whisper-small~\cite{whisper} on 44.60~h of FLEURS TRAIN~\cite{fleurs} across Arabic, Persian, Polish, Turkish and Italian using LoRA~\cite{lora} over three random seeds (4,656 updates, rank and scale four, zero dropout across all attention projections). LoRA training excludes CV27 TRAIN, and selectors and gates are tuned on CV27 DEV. Evaluation on FLEURS TEST (13.07~h; 3,665 recordings) and CV27 TEST (83.00~h; 58,514 recordings)~\cite{cv2020} is retrospective because both splits were accessed during development.
 
 The locked confirmation panel contains 7,500 CV27 TRAIN recordings, 1,500 per language, with no previously accessed recordings, audio or reference texts. Predictions, stopping rules and the one-sided 0.10\,pp noninferiority margin were locked before reference evaluation under procedural controls. We account for within-panel correlation with 10,000 synchronized bootstrap draws of speaker components within languages. Recurring speakers across splits restrict generalization to this speaker-clustered sampling frame. Confirmatory evidence covers the original G4 acquisition policy; later gates, refits and window policies remain retrospective.
 
+We estimate costs from 255 FLEURS and 472 CV27 recordings using inverse sampling probabilities. The sample includes all first-checkpoint triggers or Native HF output changes plus ten ordinary recordings per language and duration quintile. Study~A measures four paths on three checkpoints; Study~B measures seven on one. Five FLEURS and 207 CV27 later-checkpoint triggers are unsampled (0.05\% and 0.12\% of seed--recordings). Triggered N+R and S+R execute identical acquisition and scoring. Study~B covers every trigger on its checkpoint and corroborates Study~A's savings (5.18\% and 4.54\% versus 5.15\% and 4.57\%), though unobserved timing variation is not bounded. Both use three randomized paired A40 rounds with resident models, within-path encoder and first-search reuse, and 32-mask PLL batches. Waveform-to-output timing excludes loading, warmup and interfered blocks, and peak CUDA memory in MiB is the maximum whole-call allocation across recordings and rounds. Session-conditional intervals use 4,000 paired stratified draws and finite-population correction; Study~A applies equal checkpoint weights and synchronized draws.
+
 Decoding uses known languages, bfloat16, five beams, length penalty one, native suppression and a 444-token cap in Transformers 4.57.6. At 16\,kHz, $N$ samples give $J=\lceil N/480000\rceil$ windows bounded by $\lfloor jN/J\rfloor$ without previous-window text conditioning. Deduplication, WER and $r$ share NFC normalization, digit unification, punctuation-to-space, Persian mapping and Turkish casing~\cite{normalization}, with fixed source RNG mappings. WER aggregates within languages before averaging five languages and three seeds, and calls pool seed--recordings. TEST intervals use 2,000 paired draws of client/reference components within languages, synchronized across seeds and conditional on frozen fits and source draws. FLEURS comparisons are descriptive because component metadata are unverified.
 
-We profile 255 FLEURS and 472 CV27 recordings with inverse inclusion-probability weights. We include all first-checkpoint triggers or Native HF output changes and ten ordinary recordings per language and duration quintile. Study A measures four paths on three checkpoints; Study B measures seven on one. Five FLEURS and 207 CV27 later-checkpoint triggers are unsampled despite nonzero inclusion probabilities and account for 0.05\% and 0.12\% of seed--recordings. Triggered N+R and S+R acquire and score identical banks. Study A's savings of 5.15\% and 4.57\% are close to Study B's 5.18\% and 4.54\% under complete trigger coverage for its checkpoint. Both use three randomized paired A40 rounds with resident models, within-path encoder and first-search reuse, and 32-mask PLL batches. Timing from waveform to output excludes loading, warmup and interfered blocks. Peak CUDA memory in MiB is the maximum whole-call allocation across recordings and rounds with resident models. Session-conditional intervals use 4,000 paired stratified draws and finite-population correction. Study A uses equal checkpoint weights and synchronized draws across paired rounds.
+
 
 \input{acceptors.tex}
 \section{Results}
 \input{results.tex}
+\raggedbottom
 \section{Conclusion}
-Selective acquisition matches unconditional recovery across seeds on the locked confirmation panel and reduces overhead within reranked pipelines. On matched HF banks, retrospective controls favor expected-risk fitting over unweighted ranking in every seed. Gains from direct adoption and edit-gap weighting depend on the fallback source and checkpoint.
+Selective acquisition matches unconditional recovery across seeds on the locked confirmation panel. It separates sparse recovery from routine rescoring to reduce recovery overhead. Retrospective controls favor expected risk over unweighted ranking on matched HF banks in every seed.
+
+Acceptance should match fallback screening. Reselection filters unscreened draws; Direct avoids rescoring internally screened HF outputs. Source-matched HWR4 yields the lowest exploratory CV27 WER, but acceptance gains depend on checkpoint. Window-local routing and confidence-gated PLL could further reduce acquisition and routine rescoring costs.
 \section*{Acknowledgment}
 Supported by the National Natural Science Foundation of China under Grant 62466058 and Autonomous Region Key R\&D Program under Grant 2025B03042-1.
 \label{iscas:body-end}\clearpage\raggedbottom\balance

@@ -1,15 +1,27 @@
-# Build the final manuscript
+# Submission manuscript source
+
+Build from this directory with:
 
 ```sh
-latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error main.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
 ```
 
-Run in this directory with TeX Live and latexmk installed. The output is
-`main.pdf`: four pages of main content followed by one references-only page.
-The bibliography is maintained in `references.tex`, with 33 references.
-IEEEtran, the double-column vector figure and CMap files are included.
-Preserve the Unicode mapping preamble and local CMap files.
+The result contains four body pages, including acknowledgment, and a fifth page
+containing only references. The bibliography is maintained in references.tex.
+No BibTeX run, network connection, dataset or model is needed to build.
 
-This package contains no audio, model weights or experimental logs.
-Scientific code and numeric replay inputs are available at
-https://github.com/Zhifan-Pan/ISCAS2027.
+IEEEtran conference mode uses US Letter. Body, abstract, caption, table and
+reference font settings, margins, column widths and baseline spacing are unchanged.
+Standard flushbottom aligns the first seven body columns. The final body column
+uses raggedbottom. Table I row spacing is unchanged. Figure 1 remains a vector
+image in a double-column float, scaled to 0.64 textwidth to accommodate the
+explicit acceptance definitions and expanded analysis.
+
+The manuscript includes Equations (1)--(3), an integral argmax operator, and
+references [1]--[33]. Preserve the local CMap and math-unicode files.
+No experimental run or numerical result change was made in this revision.
+
+Format maintenance: retains IEEEtran paragraph elasticity. Two Introduction
+paragraphs use looseness=1 for line breaking only. hyperref draft mode disables
+PDF hyperlinks per ISCAS 2027 PDF requirements while retaining printed URLs.
+This is not IEEEtran draft mode. No content, font or baseline changes.
