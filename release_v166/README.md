@@ -1,10 +1,10 @@
 # V166 final sentence revisions
 
-This snapshot applies the requested sentence edits to the V165 figure-symbol snapshot, using the author's selected five-page wording. It retains four technical pages and one page of references.
+This snapshot applies the requested sentence edits to the V165 figure-symbol snapshot, using the author's selected five-page wording. It retains four technical pages and one page of references. The latest update removes the dataset release-date phrase from Section III, with no change to the experimental data or analyses.
 
 - [Manuscript PDF](manuscript_v166.pdf)
 - [Matching source ZIP](source_v166.zip) and [source tree](paper_source/)
-- [Source diff against V165](source.diff)
+- [Diff for the latest wording update](source.diff)
 - [Previous snapshot](../release_v165_figure_symbols/)
 
 The revised text links the two cost studies, reports the existing checkpoint contrasts, distinguishes the 25-recording profile from population estimates, and explains the shared scoring pipeline. Reference [35] uses the name Seamless Communication Team. Author order remains Zhifan Pan, Maihemuti Maimaiti, Yingxiong Gao, Yuhui Ming, Aishan Wumaier.

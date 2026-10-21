@@ -1,8 +1,8 @@
 {
   "version": "v166",
   "files": {
-    "README.md": "b4c898e850c0799e23cf2436d04ac33ede9008bd5c4ce6e0d6bee9b65d9ecc2e",
-    "manuscript_v166.pdf": "889394eba3800bac6e013e7ecd43b756a297f2977bc91591d7bc0cadb4d76dc8",
+    "README.md": "f9db3d34495b680b25f7706bbbeaba5b5af3d500aa28902616571aefc8091f8b",
+    "manuscript_v166.pdf": "cda836835ee4059075433d9b619b2e908a18ce5bb25de72fac4eb1c9aba09d22",
     "paper_source/BUILD.md": "1760a3151854a46ca1684642560bd0b4a9f1266547aeab508c8a702c2b7fa7be",
     "paper_source/CMAP_README.txt": "898fbcab62a65d7dcceb9f46669d651be709006edf0df5e2dccd39bf8cfbd9db",
     "paper_source/IEEEtran.cls": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7",
@@ -16,7 +16,7 @@
     "paper_source/language_scope.tex": "1fa220939aa181f513e71e35429a0b405e3dd4242360792a552aad11b4a7fe83",
     "paper_source/lfe.cmap": "2527c655412808c5ce4d630275ab2cf58bbfc582c075432f643f1bd6df65cd4d",
     "paper_source/lgr.cmap": "2886fb828896346b914d9a9a28e69e84f1c510437de2af534336eb790aa3637d",
-    "paper_source/main.tex": "9e576029687a6d4d76c83644273b7e5dc061acdefc36b3c74a1291464822321b",
+    "paper_source/main.tex": "dc513d2f36547ce9c9fb1b29c05574e9270e65643dc07ff78ddf613a3d06dc62",
     "paper_source/math-unicode.tex": "3c840976cbc1712a795014a45bb44c69c60b1296a069e1f0de0748ecb47bd0f1",
     "paper_source/ot1.cmap": "9618fbd7c9661288db133764b44f382782b3693e416b74b8c0043d65adcd08d2",
     "paper_source/ot1tt.cmap": "58b4f178ac815587ccf5165cd3cc13816000f1338b05706717bdbc8345d75af3",
@@ -29,8 +29,8 @@
     "paper_source/t2b.cmap": "99a3cea4c27a32894f4b268c0f37aa3aad4c6e063c15c57177a28d699fb2b177",
     "paper_source/t2c.cmap": "a7db0328dd625d835ca63224581b5c93147b731f49d333d014f9231f5fa419ad",
     "paper_source/t5.cmap": "d0454643c5bd08f941e127fad0c2748d0589ceaaf158b2984374424e479c5fd1",
-    "source.diff": "3f594aa216c718867ca5d28d65dca69f8994237c038a7b7dd75fc18dd5efebf7",
-    "source_v166.zip": "7924dd8b24f2a0305949c1047f8de433d323bd52956ae00120353a9c65d675db",
+    "source.diff": "25bbfb5ceeea5c8ba104f874531b71de9d94fad31961925682f313387106b0df",
+    "source_v166.zip": "746c6d82238326f69b91075789b5c4a76c9cff40345a6b1a3ce406faca15f670",
     "verify_release.py": "e0d9361728a3d7c43066002b49caaa33fb4ba3fd3dd4c53a2b386e08a3a240e7"
   }
 }
