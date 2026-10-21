@@ -3,3 +3,11 @@ __pycache__/
 .env
 *REPLAY_REPORT.json
 COMPLETED_NATIVE_REPLAY.json
+
+# Local LaTeX build products
+paper/source/*.aux
+paper/source/*.log
+paper/source/*.out
+paper/source/*.fls
+paper/source/*.fdb_latexmk
+paper/source/main.pdf

@@ -1,50 +1,61 @@
 # Selective Recovery for Multilingual ASR: Candidate Acquisition and Acceptance
 
-The current manuscript and matching source are in
-[`release_v174/`](release_v174/). Scientific implementations and anonymous replay
-inputs remain in [`release_v160/`](release_v160/), with later diagnostics in
-[`release_v162/`](release_v162/) and [`release_v163/`](release_v163/).
-Historical snapshots are preserved.
+This repository accompanies the final ISCAS manuscript. It provides one
+submission PDF, matching LaTeX source, scientific code and anonymous numeric
+inputs for reproduction.
 
-## Current manuscript
+## Paper
 
-- [V174 PDF](release_v174/manuscript_v174.pdf): four pages of main content and
-  references only on page 5, with 33 references.
-- [Complete source](release_v174/paper_source/) and
-  [source ZIP](release_v174/source_v174.zip), including the two-column vector figure.
-- [Build and verification instructions](release_v174/README.md).
-- [Evidence map](release_v174/EVIDENCE.md), including the exact positive-edit
-  retention denominator and the four-language results excluding Persian.
+- **[Final paper PDF](paper/Selective%20Recovery%20for%20Multilingual%20ASR%20-%20Candidate%20Acquisition%20and%20Acceptance.pdf)**
+- [LaTeX source](paper/source/) · [Download source ZIP](paper/source.zip)
+- [Build instructions](paper/README.md) · [Claim and evidence map](paper/EVIDENCE.md)
 
-The frozen 7,500-recording confirmation panel evaluates acquisition under the
-original fixed G4 selector. Post-lock Direct diagnostics, refitted selectors and
-development-exposed TEST comparisons are retrospective. Cost Study A measures
-four paths across three checkpoints; Study B measures seven paths on one
-checkpoint. Their estimates retain their separate scopes.
+The PDF contains four pages of main content and one page of references.
 
-## Reproduce and verify
+## Repository guide
 
-Start with the [V160 reproduction guide](release_v160/REPRODUCE.md) for the
-scientific code, model fitting records, numeric inputs and audio inference CLI.
-The [V162 package](release_v162/) contains H4+e fits, and the
-[V163 package](release_v163/) contains the post-lock paired confirmation diagnostic.
+| Directory | Contents |
+| --- | --- |
+| `paper/` | Final manuscript, source and aggregate evidence |
+| `experiments/` | Candidate acquisition, acceptor fitting, audio inference and measured costs |
+| `empty_candidate_diagnostic/` | H4+e refits and empty-output controls |
+| `confirmation_diagnostic/` | Post-lock paired confirmation diagnostic and numeric replay |
+| `reproduction/` | Portable inference dependencies, configurations and original numeric inputs |
+| `matched_cost_evidence/` | Matched-runtime measurements and output/RNG checks |
+
+## Verify and reproduce
 
 ```sh
-python3 release_v174/verify_release.py
-python3 release_v174/verify_aggregates.py
-python3 release_v163/verify_release.py
-python3 release_v162/verify_release.py
-python3 release_v160/verify_release.py
+python3 verify_repository.py
+python3 paper/verify_aggregates.py
 ```
 
-The release verifiers check file identity. The aggregate verifier recomputes
-summary arithmetic from published numeric summaries. These commands do not
-train models, run audio inference, repeat bootstrap inference or measure GPU
-latency. No new experiment was needed for this manuscript update.
+The first command checks artifact hashes and the source archive. The second
+checks aggregate arithmetic. Neither launches model inference, fitting,
+bootstrap inference or GPU timing.
 
-`reproduction/` and `matched_cost_evidence/` retain historical measurements.
-The earlier overview is in [the historical README](docs/historical_readme_v139.md).
-Raw audio/reference text, recognizer and LM weights, credentials, reviews and
-private author-return bundles are excluded. Repository publication does not
-imply conference submission or acceptance. First-party Python code uses the
-[MIT license](LICENSE); see [third-party and data exclusions](THIRD_PARTY_NOTICES.md).
+For scientific reproduction, start with [the experiment guide](experiments/REPRODUCE.md).
+[Audio inference](experiments/README.md#audio-inference) requires independently
+obtained audio and model assets. The [empty-candidate guide](empty_candidate_diagnostic/README.md)
+and [confirmation guide](confirmation_diagnostic/REPRODUCE.md) describe optional CPU replay.
+Use new output directories and the recorded environments; do not overwrite
+published fitted models or evidence.
+
+## Evaluation scope
+
+The locked 7,500-recording confirmation panel evaluates acquisition under the
+original fixed G4 selector. Direct reconstruction, refitted selectors and
+TEST comparisons are retrospective. Cost Study A measures four paths across
+three checkpoints; Study B measures seven paths on one checkpoint. Their
+estimates retain separate scopes. Selective PLL remains future work.
+
+Original experiment identifiers inside protocols, scripts and result records
+are preserved for traceability. They do not denote additional paper versions.
+Raw audio/reference text, model weights and credentials are not distributed.
+Publication of this repository does not imply conference acceptance.
+
+## License
+
+First-party Python code uses the [MIT license](LICENSE). See
+[third-party notices and data exclusions](THIRD_PARTY_NOTICES.md) for manuscript,
+figure, template, dependency and dataset licensing.
