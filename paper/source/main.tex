@@ -32,11 +32,11 @@ multilingual speech recognition, selective recovery, candidate acquisition, N-be
 \end{IEEEkeywords}
 
 \section{Introduction}
-Multilingual ASR encounters both routine recognition errors and catastrophic repetition loops. Additional decoding helps only when its output improves on existing candidates and the scoring rule accepts it. Separating acquisition from acceptance reveals when extra decoding is useful and when it wastes computation.
+Multilingual ASR encounters both routine recognition errors and catastrophic repetition loops. Extra decoding helps only when it yields a better transcript and the scoring rule selects it; otherwise, recovery wastes computation or degrades accuracy.
 
 Multilingual N-best reranking~\cite{gaur2022,yan2025wild}, discriminative rescoring~\cite{rescorebert,discriminative2023,audioattention2019}, voting~\cite{fiscus1997} and confusion networks~\cite{mangu2000} exploit existing hypotheses. Generative correction expands banks~\cite{kuo2026framework,dutta2022,progres2024,whisperingllama}, and risk-based pruning and ASR sampling allocate computation~\cite{cheng2023pruning,jinnai2025mbrasr}. Conditional computation uses recognizer cascades~\cite{xue2025sima}, selective passes~\cite{aleksic2025}, encoder proxies~\cite{fathullah2024proxies}, selective correction~\cite{lim2025hybrid} or language-specific distillation~\cite{ferraz2024distil}, but confidence need not predict the benefit of deferral~\cite{jitkrittum2023cascade}.
 
-We distinguish routine beam rescoring from sparse recovery of repetition loops. The locked confirmation panel isolates acquisition under a fixed selector. Retrospective comparisons examine how fallback screening affects reselection versus direct adoption. On matched banks, we compare expected risk, pairwise ranking and minimum Bayes risk~\cite{mwer2018,ranknet2005,goel2000mbr}. The resulting accuracy--cost tradeoff applies to reranked pipelines; Native HF offers faster decoding at higher WER.
+We decouple fallback candidate acquisition from hypothesis acceptance to separate sparse repetition recovery from routine beam rescoring. A recording-level compression gate selectively expands five-beam banks with fallback hypotheses, while a shared four-feature selector scores original and expanded banks alike to isolate acquisition gains. We show that internal fallback screening governs whether direct adoption outperforms reselection, and align acceptance to screened banks under expected-risk, pairwise and minimum Bayes risk criteria~\cite{mwer2018,ranknet2005,goel2000mbr}. Within reranked pipelines, selective acquisition matches unconditional recovery accuracy at lower latency, whereas Native HF trades higher WER for faster decoding.
 
 \begin{figure*}[t]\centering
 % The vector PDF supplies its own transparency group; do not inject a duplicate.
@@ -45,7 +45,7 @@ We distinguish routine beam rescoring from sparse recovery of repetition loops. 
 \let\Gread@transgrouptrue\Gread@transgroupfalse
 \fi
 \makeatother
-\includegraphics[width=0.80\textwidth]{figures/Figure1_Vector.pdf}
+\includegraphics[width=0.70\textwidth]{figures/Figure1_Vector.pdf}
 \caption{Acquisition (A) expands every window's candidate bank if any window triggers. Acceptance (B) applies the same fixed four-feature selector to the original or expanded bank. Selected window transcripts are then concatenated.}
 \label{fig:workflow}\end{figure*}
 

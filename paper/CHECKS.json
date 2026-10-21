@@ -1,7 +1,5 @@
 {
-  "version": "v174",
-  "pdf_sha256": "e5bfa094306cfa4aee520c490321ddef7e05db7649abc645d46c06d037153957",
-  "source_zip_sha256": "528f969a62b8c43c76df3ff76f3795337197dcd341ee333ebc4ed79a087f1299",
+  "status": "final_submission",
   "pages": 5,
   "main_pages": [
     1,
@@ -11,52 +9,21 @@
   ],
   "references_only_page": 5,
   "latex_warnings": [],
-  "clean_build_command": "latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error main.tex",
-  "clean_build_text_matches_all_pages": true,
-  "clean_build_render_matches_all_pages_at_108dpi": true,
   "bibliography_entries": 33,
-  "unresolved_citations": [],
-  "tables_numeric_rows_match_previous_evidence_audit": {
-    "primary.tex": {
-      "matches_v168_evidence_audit": true,
-      "numeric_rows": 14
-    },
-    "acceptors.tex": {
-      "matches_v168_evidence_audit": true,
-      "numeric_rows": 12
-    },
-    "cost.tex": {
-      "matches_v168_evidence_audit": true,
-      "numeric_rows": 17
-    },
-    "language_scope.tex": {
-      "matches_v168_evidence_audit": true,
-      "numeric_rows": 5
-    }
-  },
-  "equations_unchanged_from_v173": true,
-  "visual_review": {
-    "pages": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "clipping_or_overlaps_observed": false,
-    "column_end_continuations": "Page 1 right continues below Figure 1 on page 2; page 2 left continues below Table I on the right; page 3 left ends Section III; page 4 left continues below Table IV on the right. No missing or duplicated text observed.",
-    "figure_1": "Double-column symbol-synchronized vector artwork retained.",
-    "tables": "Centered numeric columns, grouped headers, visible outer padding and continuous rules."
-  },
-  "aggregate_checks_passed": 572,
-  "inherited_release_integrity_checks": {
-    "v160": 222,
-    "v162": 86,
-    "v163": 44
-  },
-  "packaging_changed_source_members": [
-    "source/BUILD.md"
+  "pdf_sha256": "af17b63890e4d9efee39645eaf527cd0c7c35da2b34833a4a5211a13405af19f",
+  "source_zip_sha256": "f930f54f1b80e7055475c9b1127d4ec08d91506e070bef7ae21ae17e2bba88b7",
+  "changes": [
+    "Introduction paragraphs 1 and 3 replaced verbatim, with citation keys retained",
+    "Double-column figure width changed from 0.80 to 0.70 textwidth to retain five pages"
   ],
-  "new_training_inference_bootstrap_or_timing": false,
-  "scope": "Compilation, layout, artifact identity and descriptive arithmetic. Existing scientific evidence retained; not an independent experimental replication."
+  "other_manuscript_text_tables_formulas_unchanged": true,
+  "reference_page_text_unchanged": true,
+  "visual_review_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "aggregate_checks_passed": 572,
+  "new_scientific_experiments": false
 }
