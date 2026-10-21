@@ -1,44 +1,50 @@
 # Selective Recovery for Multilingual ASR: Candidate Acquisition and Acceptance
 
 The current manuscript and matching source are in
-[`release_v166/`](release_v166/). Original scientific code and anonymous
-inputs remain in [`release_v160/`](release_v160/). Historical releases
-are unchanged.
+[`release_v174/`](release_v174/). Scientific implementations and anonymous replay
+inputs remain in [`release_v160/`](release_v160/), with later diagnostics in
+[`release_v162/`](release_v162/) and [`release_v163/`](release_v163/).
+Historical snapshots are preserved.
 
-## Current snapshot
+## Current manuscript
 
-- Final sentence revisions clarify cost-study scope, checkpoint contrasts and the shared scoring pipeline.
+- [V174 PDF](release_v174/manuscript_v174.pdf): four pages of main content and
+  references only on page 5, with 33 references.
+- [Complete source](release_v174/paper_source/) and
+  [source ZIP](release_v174/source_v174.zip), including the two-column vector figure.
+- [Build and verification instructions](release_v174/README.md).
+- [Evidence map](release_v174/EVIDENCE.md), including the exact positive-edit
+  retention denominator and the four-language results excluding Persian.
 
-- [V166 manuscript PDF](release_v166/manuscript_v166.pdf), four technical pages plus references.
-- [Complete V166 source](release_v166/paper_source/) and [source ZIP](release_v166/source_v166.zip).
-- Centered table columns and two-row headers, with symmetric 4 pt outer padding and extended corpus rules in Tables II–IV.
-- Revised academic prose and four thematic discussion paragraphs, with unchanged numerical results and method equations.
-- Author-supplied symbol-synchronized two-column Figure 1 and all 35 references retained.
-- Inherited [V163 post-lock paired diagnostic](release_v163/), including exact analysis code and anonymous replay inputs.
-- Inherited [V162 H4+e fits](release_v162/), all 49-penalty CV records and three final models.
-- Separate four-path/three-checkpoint and seven-path/one-checkpoint cost studies.
-- Original same-HF acceptors, HF9/HF12, HWR4/MBR, runtime and numeric inputs in V160.
+The frozen 7,500-recording confirmation panel evaluates acquisition under the
+original fixed G4 selector. Post-lock Direct diagnostics, refitted selectors and
+development-exposed TEST comparisons are retrospective. Cost Study A measures
+four paths across three checkpoints; Study B measures seven paths on one
+checkpoint. Their estimates retain their separate scopes.
+
+## Reproduce and verify
+
+Start with the [V160 reproduction guide](release_v160/REPRODUCE.md) for the
+scientific code, model fitting records, numeric inputs and audio inference CLI.
+The [V162 package](release_v162/) contains H4+e fits, and the
+[V163 package](release_v163/) contains the post-lock paired confirmation diagnostic.
 
 ```sh
-python release_v166/verify_release.py
-python release_v163/verify_release.py
-python release_v162/verify_release.py
-python release_v160/verify_release.py
+python3 release_v174/verify_release.py
+python3 release_v174/verify_aggregates.py
+python3 release_v163/verify_release.py
+python3 release_v162/verify_release.py
+python3 release_v160/verify_release.py
 ```
 
-See [V166 instructions](release_v166/README.md) for scope and build details.
-No training, inference, GPU timing or bootstrap was performed for V166.
-The original confirmation does not confirm later refits or post-lock
-diagnostics. H4+e remains retrospective and retains the observed empty-output
-acceptances. The paired interval is descriptive, not an equivalence test.
-Small call rates do not establish a latency bound; shared scoring architecture
-does not replace measured full-policy costs.
+The release verifiers check file identity. The aggregate verifier recomputes
+summary arithmetic from published numeric summaries. These commands do not
+train models, run audio inference, repeat bootstrap inference or measure GPU
+latency. No new experiment was needed for this manuscript update.
 
-`reproduction/` and `matched_cost_evidence/` retain historical measurements;
-their earlier scopes are not the current complete evidence. The historical
-README remains [here](docs/historical_readme_v139.md).
-
+`reproduction/` and `matched_cost_evidence/` retain historical measurements.
+The earlier overview is in [the historical README](docs/historical_readme_v139.md).
 Raw audio/reference text, recognizer and LM weights, credentials, reviews and
-private author return bundles are excluded. Repository availability does not
+private author-return bundles are excluded. Repository publication does not
 imply conference submission or acceptance. First-party Python code uses the
 [MIT license](LICENSE); see [third-party and data exclusions](THIRD_PARTY_NOTICES.md).

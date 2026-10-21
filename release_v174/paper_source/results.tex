@@ -1,0 +1,28 @@
+\subsection{Acquisition with fixed acceptance}
+On the locked confirmation panel, S+R gains 2.26\,pp over B, with seed gains of 0.20 to 4.54\,pp (Table~\ref{tab:paths}). Matching N+R's error counts in every seed meets the prespecified 0.10\,pp margin but does not guarantee zero loss under distribution shift. Of 61 triggers, 49 improve edits and two worsen them.
+
+Retrospective evaluation yields 32.71\% WER for Direct versus S+R's locked 32.75\%. Both beat B and Native HF's retrospective 34.87\% by over 2.1\,pp. Direct's unrounded difference from S+R is $-0.05$\,pp with a paired speaker-bootstrap 95\% interval from $-0.19$ to $+0.04$\,pp.
+
+On TEST, S+R retains all ten beneficial FLEURS instances at 0.09\% calls and 370 of 373 CV27 instances at 0.30\%, with five edits missed. We obtain 99.98\% retention by dividing retained positive edit gain by available gain after normalizing both by full language reference counts and averaging over languages and seeds. Normalized N+R and S+R outputs differ on one FLEURS and 13 CV27 nontriggers despite nearly identical WER. Reference-assisted oracles minimize recording edits after window concatenation over original, expanded or CR-routed banks. Routing changes this bound by under 0.01\,pp versus CV27 S+R's 4.00\,pp gap, so acceptance offers greater headroom.
+
+\subsection{Interaction with the fallback source}
+S+R can reject unscreened fallbacks and beats Direct by 0.53\,pp with greedy recovery and 0.43\,pp with one $T=0.2$ draw. HF screens retries internally, but G4 was fitted on greedy expansions. Direct then leads by 0.22\,pp, with a 95\% interval from 0.11 to 0.37\,pp. The gain comes from one checkpoint ($-0.68$\,pp versus $+0.00$ and $+0.02$\,pp). DEV favored HF reselection at 30.08\% versus 30.09\% and guided the fixed acquisition control.
+
+Direct retains 67.13\% of positive gain from unconditional final HF, compared with S+R's 99.98\% from N+R. Relative to its own control, Direct forgoes 1.24\,pp of benefit but avoids 3.58\,pp of harm.
+
+\input{cost.tex}
+\subsection{Acceptance on matched HF banks}
+After refitting on HF banks, H4 improves over G4 but trails Direct. Weighted HWR4 yields the lowest complete CV27 WER of 31.44\% (Table~\ref{tab:hfacceptors}, where S denotes each acceptor's selective policy). Triggered HR4 trails H4 in every seed ($+0.91$, $+0.08$ and $+1.17$\,pp). Edit-gap weighting reverses the mean contrast to $-0.08$\,pp through a 0.25\,pp gain in one checkpoint. Intervals provide 95\% Bonferroni coverage per family, with 10,000 synchronized draws for the later family.
+
+FLEURS gains round to 0.37\,pp for fitted acceptors because S equals its own B off-trigger. H3's B has two fewer errors on one of ten triggers, but S errors match and the average difference is below 0.006\,pp. Nontriggers account for 97.23\% of the refitted H3--H4 WER gap in routine selection, without isolating PLL's causal contribution or time share.
+
+\subsection{Cost, heterogeneity and supporting diagnostics}
+For systems using B, S+R preserves N+R's accuracy gain at lower recovery overhead (Table~\ref{tab:cost}). In Study B, B exceeds raw top-1 by 141.4\,ms on FLEURS and 125.2\,ms on CV27. S+R saves 87.7\% and 56.6\% of N+R's increment over B. An unweighted CV27 profile of 25 recordings averages teacher scoring at 85.9\,ms and PLL at 149.3\,ms, with both stages skipped for two singletons. The larger population share of singletons explains the smaller overall increment; stage shares were not measured separately. Native HF skips N-best rescoring and is faster at a WER cost of 1.46\,pp on FLEURS and over 2.1\,pp on CV27 TEST.
+
+H3Direct uses H3 off-trigger and final HF on triggers, and omits PLL like raw top-1. On CV27 it saves 6.29\% over Direct but trails Native HF by 55.2\,ms, with a 95\% interval of 52.3 to 58.2\,ms; the FLEURS interval spans zero.
+H4 and HWR4 only replace G4's weights; selective PLL remains future work. In Study B, Direct bypasses scoring on the CV27 trigger responsible for B's peak CUDA memory. On FLEURS, Direct and H3Direct match S+R's peak CUDA allocation during the same two-window recovery, with both windows' state retained.
+
+\input{language_scope.tex}
+Empty TEST candidates enter only through HF. Under signs $(+,+,-,-)$, the centered abstention baseline in Section~II-B outranks candidates with $a,p\le0$, $t>0$ and $r\ge0$, even without repetition. Accepting 18 empties in 11 CV27 recordings removes 1,995 insertions, with S/D/I tradeoffs in Table~\ref{tab:language}. This accords with hallucination suppression~\cite{baranski2025nonspeech}, although silence labels are needed to establish acoustic causes. Reverting these acceptances to B retains 91.52\% of gain, or 2.10\,pp at 31.88\% WER. The H4+$e$ refit adds $e(y)=\mathbf1\{y=\emptyset\}$ on H4's DEV folds and grid and retains all 18 acceptances at 31.52\% WER. These acceptances agree with the aggregate benefit, but only one or two DEV empties per checkpoint limit calibration.
+
+The change from raw top-1 to B measures routine rescoring across five languages; B to S+R isolates sparse repetition recovery. Persian contributes 78.77\% of CV27 TEST gain and 84.07\% of gain on the locked confirmation panel (Table~\ref{tab:language}). Excluding Persian, the four-language macro gain remains 0.61\,pp on CV27 TEST and 0.45\,pp on the locked confirmation panel. Polish, Turkish and Italian have no FLEURS triggers or gains. These patterns track repetition without separating script, acoustics or LoRA effects. The 22 two-window FLEURS recordings yield 52.69\% of net gain. On cached TEST banks, local S+R routing reduces window requests from 15 to 10 with unchanged error counts. Local Direct changes WER by under 0.01\,pp, although live request order may alter RNG draws.

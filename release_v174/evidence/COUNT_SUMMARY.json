@@ -1,0 +1,229 @@
+{
+  "confirmation": {
+    "macro_WER": {
+      "B": 35.01745366238694,
+      "Direct_postlock": 32.70659529080486,
+      "Native": 34.86827316737279,
+      "NplusR": 32.75476627936039,
+      "SplusR": 32.75476627936039
+    },
+    "non_Persian_macro_WER": {
+      "B": 29.13680304006205,
+      "Direct_postlock": 28.685636329190086,
+      "Native": 30.738720175419218,
+      "NplusR": 28.68623697308033,
+      "SplusR": 28.68623697308033
+    },
+    "non_Persian_gain_pp": 0.4505660669817182,
+    "B_to_SplusR_gain_pp": 2.2626873830265524,
+    "Persian_gain_pp": 9.511172647205868,
+    "Persian_share_percent": 84.06970152884134,
+    "leave_one_language_out": [
+      {
+        "excluded_language": "ar",
+        "B": 25.388556671835342,
+        "SplusR": 22.80796287930632,
+        "gain_pp": 2.5805937925290223
+      },
+      {
+        "excluded_language": "fa",
+        "B": 29.13680304006205,
+        "SplusR": 28.68623697308033,
+        "gain_pp": 0.4505660669817182
+      },
+      {
+        "excluded_language": "pl",
+        "B": 40.17335953149382,
+        "SplusR": 37.538407635371264,
+        "gain_pp": 2.6349518961225584
+      },
+      {
+        "excluded_language": "tr",
+        "B": 39.56466546733941,
+        "SplusR": 36.74177717693157,
+        "gain_pp": 2.822888290407839
+      },
+      {
+        "excluded_language": "it",
+        "B": 40.82388360120404,
+        "SplusR": 37.999446732112446,
+        "gain_pp": 2.824436869091592
+      }
+    ],
+    "instances": {
+      "101": {
+        "triggers": 19,
+        "improvements": 14,
+        "regressions": 1
+      },
+      "202": {
+        "triggers": 4,
+        "improvements": 2,
+        "regressions": 0
+      },
+      "303": {
+        "triggers": 38,
+        "improvements": 33,
+        "regressions": 1
+      }
+    }
+  },
+  "FLEURS": {
+    "macro_WER": {
+      "B": 17.454086231909418,
+      "Direct": 17.08771461794023,
+      "H3_B": 19.047121405478958,
+      "H3_S": 18.68041833092872,
+      "H4_B": 17.45817496760168,
+      "H4_S": 17.09080897188934,
+      "HR4_B": 17.512099863913832,
+      "HR4_S": 17.1447338682015,
+      "HWR4_B": 17.468216206427268,
+      "HWR4_S": 17.100850210714935,
+      "NplusR": 17.08672023619708,
+      "SplusR": 17.08672023619708
+    },
+    "non_Persian_macro_WER": {
+      "B": 14.046928792886492,
+      "Direct": 13.887693124096684,
+      "H3_B": 15.666572583345655,
+      "H3_S": 15.507336914555848,
+      "H4_B": 14.052454038228129,
+      "H4_S": 13.893218369438323,
+      "HR4_B": 14.115302575628876,
+      "HR4_S": 13.95606690683907,
+      "HWR4_B": 14.06624856393906,
+      "HWR4_S": 13.907012895149249,
+      "NplusR": 13.887693124096684,
+      "SplusR": 13.887693124096684
+    },
+    "non_Persian_gain_pp": 0.15923566878980822,
+    "B_to_SplusR_gain_pp": 0.36736599571233697,
+    "Persian_gain_pp": 1.1998873034024449,
+    "Persian_share_percent": 65.32380881228904,
+    "leave_one_language_out": [
+      {
+        "excluded_language": "ar",
+        "B": 15.608457463089389,
+        "SplusR": 15.308485637238777,
+        "gain_pp": 0.2999718258506121
+      },
+      {
+        "excluded_language": "fa",
+        "B": 14.046928792886492,
+        "SplusR": 13.887693124096684,
+        "gain_pp": 0.15923566878980822
+      },
+      {
+        "excluded_language": "pl",
+        "B": 18.42400556457384,
+        "SplusR": 17.96479806993342,
+        "gain_pp": 0.4592074946404203
+      },
+      {
+        "excluded_language": "tr",
+        "B": 18.900330410679288,
+        "SplusR": 18.441122916038864,
+        "gain_pp": 0.4592074946404239
+      },
+      {
+        "excluded_language": "it",
+        "B": 20.290708928318093,
+        "SplusR": 19.83150143367767,
+        "gain_pp": 0.4592074946404239
+      }
+    ],
+    "retention": {
+      "macro_gain_pp": 0.36736599571233575,
+      "macro_loss_pp": 0.0,
+      "macro_retained_gain_pp": 0.36736599571233575,
+      "macro_retention_percent": 100.0,
+      "pooled_positive_edits": 877,
+      "pooled_lost_edits": 0,
+      "pooled_retained_edits": 877,
+      "pooled_retention_percent": 100.0,
+      "helpful_instances": 10,
+      "retained_helpful_instances": 10,
+      "call_rate_percent": 0.09095043201455207
+    }
+  },
+  "CV27": {
+    "macro_WER": {
+      "B": 33.979172403953186,
+      "Direct": 31.459262256051172,
+      "H3_B": 36.15097229054063,
+      "H3_S": 33.7717815865759,
+      "H4_B": 33.97492208400863,
+      "H4_S": 31.523514889571338,
+      "HR4_B": 34.02350519190886,
+      "HR4_S": 32.304545986869684,
+      "HWR4_B": 33.96773611627505,
+      "HWR4_S": 31.439447625870464,
+      "NplusR": 31.681123965763017,
+      "SplusR": 31.680955694557653
+    },
+    "non_Persian_macro_WER": {
+      "B": 25.218028650251778,
+      "Direct": 24.602965078695277,
+      "H3_B": 27.48219342715434,
+      "H3_S": 26.88147516276558,
+      "H4_B": 25.212942174985063,
+      "H4_S": 24.610032491796076,
+      "HR4_B": 25.283294108079748,
+      "HR4_S": 24.756814606907028,
+      "HWR4_B": 25.213016701877518,
+      "HWR4_S": 24.60049962037199,
+      "NplusR": 24.60846940672013,
+      "SplusR": 24.608145855381434
+    },
+    "non_Persian_gain_pp": 0.6098827948703445,
+    "B_to_SplusR_gain_pp": 2.2982167093955326,
+    "Persian_gain_pp": 9.051552367496278,
+    "Persian_share_percent": 78.77022502266098,
+    "leave_one_language_out": [
+      {
+        "excluded_language": "ar",
+        "B": 29.44462884930783,
+        "SplusR": 26.92299287522906,
+        "gain_pp": 2.5216359740787695
+      },
+      {
+        "excluded_language": "fa",
+        "B": 25.218028650251778,
+        "SplusR": 24.608145855381434,
+        "gain_pp": 0.6098827948703445
+      },
+      {
+        "excluded_language": "pl",
+        "B": 38.83182043029611,
+        "SplusR": 36.03466922636975,
+        "gain_pp": 2.7971512039263615
+      },
+      {
+        "excluded_language": "tr",
+        "B": 37.3434389276936,
+        "SplusR": 34.59709625754133,
+        "gain_pp": 2.7463426701522664
+      },
+      {
+        "excluded_language": "it",
+        "B": 39.057945162216626,
+        "SplusR": 36.2418742582667,
+        "gain_pp": 2.816070903949928
+      }
+    ],
+    "retention": {
+      "macro_gain_pp": 2.302018912656153,
+      "macro_loss_pp": 0.0004009802081769477,
+      "macro_retained_gain_pp": 2.3016179324479764,
+      "macro_retention_percent": 99.98258136777363,
+      "pooled_positive_edits": 25013,
+      "pooled_lost_edits": 5,
+      "pooled_retained_edits": 25008,
+      "pooled_retention_percent": 99.98001039459481,
+      "helpful_instances": 373,
+      "retained_helpful_instances": 370,
+      "call_rate_percent": 0.29907372594592746
+    }
+  }
+}

@@ -1,0 +1,7 @@
+dataset,checkpoint,instances,triggers,helpful,missed_helpful,lost_edits,regressions_S_vs_B
+FLEURS,101,3665,2,2,0,0,0
+FLEURS,202,3665,2,2,0,0,0
+FLEURS,303,3665,6,6,0,0,0
+CV27,101,58514,169,111,1,1,7
+CV27,202,58514,105,74,0,0,8
+CV27,303,58514,251,188,2,4,12
