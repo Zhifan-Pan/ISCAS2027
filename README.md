@@ -1,14 +1,16 @@
 # Selective Recovery for Multilingual ASR: Candidate Acquisition and Acceptance
 
 The current manuscript and matching source are in
-[`release_v165_figure_symbols/`](release_v165_figure_symbols/). Original scientific code and anonymous
+[`release_v166/`](release_v166/). Original scientific code and anonymous
 inputs remain in [`release_v160/`](release_v160/). Historical releases
 are unchanged.
 
 ## Current snapshot
 
-- [V165 manuscript PDF](release_v165_figure_symbols/manuscript_v165.pdf), four technical pages plus references.
-- [Complete V165 source](release_v165_figure_symbols/paper_source/) and [source ZIP](release_v165_figure_symbols/source_v165.zip).
+- Final sentence revisions clarify cost-study scope, checkpoint contrasts and the shared scoring pipeline.
+
+- [V166 manuscript PDF](release_v166/manuscript_v166.pdf), four technical pages plus references.
+- [Complete V166 source](release_v166/paper_source/) and [source ZIP](release_v166/source_v166.zip).
 - Centered table columns and two-row headers, with extended corpus rules in Tables II–IV.
 - Revised academic prose and four thematic discussion paragraphs, with unchanged numerical results and method equations.
 - Author-supplied symbol-synchronized two-column Figure 1 and all 35 references retained.
@@ -18,14 +20,14 @@ are unchanged.
 - Original same-HF acceptors, HF9/HF12, HWR4/MBR, runtime and numeric inputs in V160.
 
 ```sh
-python release_v165_figure_symbols/verify_release.py
+python release_v166/verify_release.py
 python release_v163/verify_release.py
 python release_v162/verify_release.py
 python release_v160/verify_release.py
 ```
 
-See [V165 instructions](release_v165_figure_symbols/README.md) for scope and build details.
-No training, inference, GPU timing or bootstrap was performed for V165.
+See [V166 instructions](release_v166/README.md) for scope and build details.
+No training, inference, GPU timing or bootstrap was performed for V166.
 The original confirmation does not confirm later refits or post-lock
 diagnostics. H4+e remains retrospective and retains the observed empty-output
 acceptances. The paired interval is descriptive, not an equivalence test.
