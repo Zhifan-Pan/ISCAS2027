@@ -11,7 +11,8 @@ cd paper/source
 latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error main.tex
 ```
 
-Run from the repository root. The output is `paper/source/main.pdf`.
+Run these commands from the repository root. The compiler output is
+`paper/source/main.pdf`; the submission PDF linked above is named after the title.
 The manuscript has four main-content pages and references only on page 5.
 The supplied vector figure and CMap files require no conversion or network access.
 
@@ -24,7 +25,9 @@ python3 paper/verify_aggregates.py
 
 These verify file identity, source ZIP contents and aggregate arithmetic, not
 new training, bootstrap inference or GPU timing. See the repository README for
-scientific replay instructions. The PDF and source archive contain the current final manuscript.
+scientific replay instructions. The PDF and source archive contain the current
+final manuscript.
 Local checks confirm embedded fonts, no PDF hyperlinks or bookmarks, and no
-layout overflows. These checks do not replace IEEE PDF eXpress certification. Historical experiment identifiers inside immutable records are
-provenance, not alternative manuscript versions.
+layout overflows. These checks do not replace IEEE PDF eXpress certification.
+Historical experiment identifiers inside immutable records are provenance,
+not alternative manuscript versions.

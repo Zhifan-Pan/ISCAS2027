@@ -16,12 +16,12 @@ The PDF contains four pages of main content and one page of references.
 
 | Directory | Contents |
 | --- | --- |
-| `paper/` | Final manuscript, source and aggregate evidence |
-| `experiments/` | Candidate acquisition, acceptor fitting, audio inference and measured costs |
-| `empty_candidate_diagnostic/` | H4+e refits and empty-output controls |
-| `confirmation_diagnostic/` | Post-lock paired confirmation diagnostic and numeric replay |
-| `reproduction/` | Portable inference dependencies, configurations and original numeric inputs |
-| `matched_cost_evidence/` | Matched-runtime measurements and output/RNG checks |
+| [paper/](paper/README.md) | Final manuscript, source and aggregate evidence |
+| [experiments/](experiments/README.md) | Acceptor fitting, audio inference and the final Table III studies |
+| [empty_candidate_diagnostic/](empty_candidate_diagnostic/README.md) | H4+e refits and empty-output controls |
+| [confirmation_diagnostic/](confirmation_diagnostic/README.md) | Post-lock paired confirmation diagnostic and numeric replay |
+| [reproduction/](reproduction/README.md) | Original acquisition fits, numeric inputs and portable dependencies |
+| [matched_cost_evidence/](matched_cost_evidence/README.md) | Earlier two-path timing records retained for provenance |
 
 ## Verify and reproduce
 
@@ -51,6 +51,8 @@ estimates retain separate scopes. Selective PLL remains future work.
 
 Original experiment identifiers inside protocols, scripts and result records
 are preserved for traceability. They do not denote additional paper versions.
+The final Table III summaries are in `experiments/cost/`; the earlier two-path
+records in `matched_cost_evidence/` have a separate measurement scope.
 Raw audio/reference text, model weights and credentials are not distributed.
 Publication of this repository does not imply conference acceptance.
 

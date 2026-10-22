@@ -10,4 +10,6 @@ paper/source/*.log
 paper/source/*.out
 paper/source/*.fls
 paper/source/*.fdb_latexmk
+paper/source/*.synctex.gz
+paper/source/*.toc
 paper/source/main.pdf

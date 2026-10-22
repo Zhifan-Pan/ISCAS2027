@@ -17,11 +17,11 @@ uses raggedbottom. Table I row spacing is unchanged. Figure 1 remains a vector
 image in a double-column float, scaled to 0.64 textwidth to accommodate the
 explicit acceptance definitions and expanded analysis.
 
-The manuscript includes Equations (1)--(3), an integral argmax operator, and
+The manuscript includes Equations (1)--(3), a single argmax operator, and
 references [1]--[33]. Preserve the local CMap and math-unicode files.
 No experimental run or numerical result change was made in this revision.
 
 Format maintenance: retains IEEEtran paragraph elasticity. Two Introduction
 paragraphs use looseness=1 for line breaking only. hyperref draft mode disables
 PDF hyperlinks per ISCAS 2027 PDF requirements while retaining printed URLs.
-This is not IEEEtran draft mode. No content, font or baseline changes.
+This is not IEEEtran draft mode. These settings preserve font sizes and baselines.

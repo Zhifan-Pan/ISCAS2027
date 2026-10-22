@@ -32,6 +32,14 @@ aggregates, not additional subgroup significance tests.
 
 ## Interpretation retained in the manuscript
 
+G4 uses weighted RMS over non-top candidate differences, with normalized
+weights proportional to `1 / [N_language * (bank_size - 1)]`. The HF refits use
+unweighted pooled RMS over training-fold differences. The implementations are
+[the frozen G4 fit](../reproduction/fit/fit_frozen_selector.py) and
+[the HF fitting engine](../experiments/acceptors/tools/objective_engine.py).
+The outer compression threshold is locked at 2.4; the manuscript does not claim
+that a DEV search selected it. Selector fitting uses CV27 DEV.
+
 Confirmatory evidence covers the original fixed G4 acquisition comparison.
 Later acceptance refits do not inherit confirmation status, and TEST was
 accessed during development. Native HF skips N-best rescoring but retains its

@@ -1,7 +1,7 @@
 {
   "pass": true,
   "pages": 5,
-  "size_bytes": 521891,
+  "size_bytes": 522173,
   "paper": "US Letter",
   "body_font_TeX_pt": 10,
   "body_baseline_TeX_pt": 12,
@@ -32,9 +32,8 @@
   "all_fonts_embedded": true,
   "type3_fonts": false,
   "class_matches_official": true,
-  "scientific_content_unchanged": true,
   "overfull_underfull": false,
-  "sha256": "c129421750bf4ed4d82c933900173d653b881c3c5010129c2e1ed42cfa5cedee",
+  "sha256": "7bd3d24d421be7b31632c13ada5c495fce3da5744ad2f4f9dd457860efe57fc1",
   "status": "final_submission",
   "main_pages": [
     1,
@@ -44,11 +43,14 @@
   ],
   "references_only_page": 5,
   "bibliography_entries": 33,
-  "pdf_sha256": "c129421750bf4ed4d82c933900173d653b881c3c5010129c2e1ed42cfa5cedee",
-  "source_zip_sha256": "45eb8f7101f12b2eb08eee496b11db80e1a794b77b3c6ca1e6ad08d6ae6b7853",
+  "pdf_sha256": "7bd3d24d421be7b31632c13ada5c495fce3da5744ad2f4f9dd457860efe57fc1",
+  "source_zip_sha256": "e7eb3a0450ac36ff54e9ced4e36cf3e518e08f9aa00e829f7aff73dc1b7b3ae4",
   "aggregate_checks_passed": 572,
   "new_scientific_experiments": false,
   "validation_scope": "Local layout, PDF structure, artifact identity and aggregate arithmetic; not IEEE PDF eXpress certification.",
   "latex_layout_warnings": [],
-  "expected_latex_notice": "hyperref Draft mode on disables hyperlinks; IEEEtran remains in conference mode."
+  "expected_latex_notice": "hyperref Draft mode on disables hyperlinks; IEEEtran remains in conference mode.",
+  "experimental_results_unchanged": true,
+  "numbered_equations_unchanged": true,
+  "method_descriptions_clarified": true
 }
