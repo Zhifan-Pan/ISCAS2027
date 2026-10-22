@@ -1,7 +1,7 @@
 {
   "package": "paper",
   "files": {
-    "CHECKS.json": "bfaa5a3a1c5618f92fd7de556269e212285a468984f8d51ae2fd759b77f0fb00",
+    "CHECKS.json": "5fb9b4bc145ebb6aafe2c59dc8e1b52f6c5087617bf65fc36643b018e28532c2",
     "EVIDENCE.md": "971e39e1d302259f072b5d24971dbf6c0937a7c5bed58cf0b29380a50a851344",
     "README.md": "d929a773c14170a39c0e5af94b014b0457de4de4021b8482406fdd3af7470127",
     "REVISION_AUDIT.md": "5f1e3b0ac1cade5c580b4a2a492c2be7f4a34e1e8f2cca46fd2647cd2b3db379",
@@ -74,11 +74,6 @@
     "source/language_scope.tex": "a56071d6c11d4eaa17a58ffaf506873d94b5ca614bb11bc8fc2aec11646cb2e7",
     "source/lfe.cmap": "2527c655412808c5ce4d630275ab2cf58bbfc582c075432f643f1bd6df65cd4d",
     "source/lgr.cmap": "2886fb828896346b914d9a9a28e69e84f1c510437de2af534336eb790aa3637d",
-    "source/main.aux": "1dd14b390818f343eadded4d3a4bf584c9ebb62360a4c2ac0dfa6f66f6e8f8bb",
-    "source/main.fdb_latexmk": "39254757150ee2741fcff9e9fddd0c263dd0af37d4d8de12fe2a0a385a4e98b0",
-    "source/main.fls": "27a4d7e0bbe0b4630a6aa6e0088a10db1e3da517866d6ddb2a1781c4addb74ac",
-    "source/main.log": "ae9e8a06ae979258eaa8410d9dd8eaac3697bbe5d1d359b85de30e2014ef746c",
-    "source/main.pdf": "c129421750bf4ed4d82c933900173d653b881c3c5010129c2e1ed42cfa5cedee",
     "source/main.tex": "2b8fd574810998b20e068410a82ed07f79b4a04fef0126616a2478ec62fb1dd8",
     "source/math-unicode.tex": "3c840976cbc1712a795014a45bb44c69c60b1296a069e1f0de0748ecb47bd0f1",
     "source/ot1.cmap": "9618fbd7c9661288db133764b44f382782b3693e416b74b8c0043d65adcd08d2",
@@ -92,7 +87,7 @@
     "source/t2b.cmap": "99a3cea4c27a32894f4b268c0f37aa3aad4c6e063c15c57177a28d699fb2b177",
     "source/t2c.cmap": "a7db0328dd625d835ca63224581b5c93147b731f49d333d014f9231f5fa419ad",
     "source/t5.cmap": "d0454643c5bd08f941e127fad0c2748d0589ceaaf158b2984374424e479c5fd1",
-    "source.zip": "40f97ffd1bd870115d6fb00190f8d400fb3f8c880c0f3fa7c43f2721b8f38e3f",
+    "source.zip": "c0235219c6f339ab6efdea571818152e37c540a323cd2afe9e668413d56a1e02",
     "verify_aggregates.py": "bc58b316bffa63ee5613d203d03041b4bc1c6e54ae5519dcc428393162886a9b",
     "verify_release.py": "ddae608a73a9d46865913c066b336444c43b9bf1fe6100fc5c6dbc24a198758d",
     "verify_revision_evidence.py": "a4dc4963d5fdd526934cb4c2f1dda738016611f6a3bba16c2537565d81e17260"
