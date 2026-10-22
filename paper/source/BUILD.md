@@ -19,7 +19,9 @@ explicit acceptance definitions and expanded analysis.
 
 The manuscript includes Equations (1)--(3), a single argmax operator, and
 references [1]--[33]. Preserve the local CMap and math-unicode files.
-No experimental run or numerical result change was made in this revision.
+Original experimental values are unchanged. Table IV adds baseline WERs from
+existing counts, and the text reports a separate CPU RMS sensitivity analysis.
+The unnumbered RankNet objective supplements numbered Equations (1)--(3).
 
 Format maintenance: retains IEEEtran paragraph elasticity. Two Introduction
 paragraphs use looseness=1 for line breaking only. hyperref draft mode disables

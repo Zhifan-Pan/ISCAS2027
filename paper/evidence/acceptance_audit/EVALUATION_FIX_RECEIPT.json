@@ -1,0 +1,13 @@
+{
+  "status": "evaluation adapter corrected after model lock; no refitting",
+  "initial_failure": "KeyError: 'counts': TEST counts use single_counts plus multi-window accounting",
+  "correction": "Use existing evaluate_acceptors.score_selected for TEST evaluation; fitting and model selection unchanged.",
+  "original_run_script_sha256": "59fd47a5869bd5a5c8c30e75ccb2e712eb2485aa9f053f76d57789508ac12bdb",
+  "corrected_script_sha256": "94e578bf538a7ec85431fc920ce15fbb32fa5c9bbea5ab0e95ea8a1824081ef0",
+  "model_lock_sha256": "a3428e1f1440b2144256f85fdc14ffeaad6e425db304d4ed42263cda8fb53a75",
+  "initial_log": "scaling_stdout.log",
+  "completed_evaluation_log": "scaling_evaluation.log",
+  "model_count": 9,
+  "converged_fits": 2223,
+  "GPU_used": false
+}

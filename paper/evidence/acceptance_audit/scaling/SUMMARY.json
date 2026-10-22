@@ -1,0 +1,151 @@
+{
+  "status": "COMPLETE",
+  "converged_fits": 2223,
+  "GPU_used": false,
+  "results": [
+    {
+      "dataset": "FLEURS",
+      "family": "H4",
+      "policy": "B",
+      "pooled": 17.45817496760168,
+      "weighted": 17.456097812803083,
+      "change_pp": -0.00207715479859516
+    },
+    {
+      "dataset": "FLEURS",
+      "family": "H4",
+      "policy": "S",
+      "pooled": 17.09080897188934,
+      "weighted": 17.08873181709075,
+      "change_pp": -0.0020771547985916072
+    },
+    {
+      "dataset": "FLEURS",
+      "family": "H4",
+      "policy": "Triggered",
+      "pooled": 17.086720236197085,
+      "weighted": 17.086720236197085,
+      "change_pp": 0.0
+    },
+    {
+      "dataset": "FLEURS",
+      "family": "HR4",
+      "policy": "B",
+      "pooled": 17.512099863913836,
+      "weighted": 17.47768575012401,
+      "change_pp": -0.03441411378982551
+    },
+    {
+      "dataset": "FLEURS",
+      "family": "HR4",
+      "policy": "S",
+      "pooled": 17.144733868201495,
+      "weighted": 17.110319754411677,
+      "change_pp": -0.0344141137898184
+    },
+    {
+      "dataset": "FLEURS",
+      "family": "HR4",
+      "policy": "Triggered",
+      "pooled": 17.086720236197085,
+      "weighted": 17.086720236197085,
+      "change_pp": 0.0
+    },
+    {
+      "dataset": "FLEURS",
+      "family": "HWR4",
+      "policy": "B",
+      "pooled": 17.46821620642727,
+      "weighted": 17.46119565308589,
+      "change_pp": -0.00702055334138052
+    },
+    {
+      "dataset": "FLEURS",
+      "family": "HWR4",
+      "policy": "S",
+      "pooled": 17.100850210714935,
+      "weighted": 17.093829657373558,
+      "change_pp": -0.007020553341376967
+    },
+    {
+      "dataset": "FLEURS",
+      "family": "HWR4",
+      "policy": "Triggered",
+      "pooled": 17.086720236197085,
+      "weighted": 17.086720236197085,
+      "change_pp": 0.0
+    },
+    {
+      "dataset": "CV27",
+      "family": "H4",
+      "policy": "B",
+      "pooled": 33.97492208400863,
+      "weighted": 33.98550066521918,
+      "change_pp": 0.010578581210545224
+    },
+    {
+      "dataset": "CV27",
+      "family": "H4",
+      "policy": "S",
+      "pooled": 31.523514889571334,
+      "weighted": 31.56780637368759,
+      "change_pp": 0.044291484116254054
+    },
+    {
+      "dataset": "CV27",
+      "family": "H4",
+      "policy": "Triggered",
+      "pooled": 31.532384272661204,
+      "weighted": 31.563359166694465,
+      "change_pp": 0.03097489403326037
+    },
+    {
+      "dataset": "CV27",
+      "family": "HR4",
+      "policy": "B",
+      "pooled": 34.02350519190885,
+      "weighted": 33.99544960232217,
+      "change_pp": -0.028055589586685414
+    },
+    {
+      "dataset": "CV27",
+      "family": "HR4",
+      "policy": "S",
+      "pooled": 32.30454598686968,
+      "weighted": 32.24796088962078,
+      "change_pp": -0.05658509724889882
+    },
+    {
+      "dataset": "CV27",
+      "family": "HR4",
+      "policy": "Triggered",
+      "pooled": 32.2535458825041,
+      "weighted": 32.224744665245105,
+      "change_pp": -0.028801217258994427
+    },
+    {
+      "dataset": "CV27",
+      "family": "HWR4",
+      "policy": "B",
+      "pooled": 33.967736116275056,
+      "weighted": 33.97069541123116,
+      "change_pp": 0.002959294956106362
+    },
+    {
+      "dataset": "CV27",
+      "family": "HWR4",
+      "policy": "S",
+      "pooled": 31.43944762587046,
+      "weighted": 31.442316350960994,
+      "change_pp": 0.00286872509053282
+    },
+    {
+      "dataset": "CV27",
+      "family": "HWR4",
+      "policy": "Triggered",
+      "pooled": 31.450712755310434,
+      "weighted": 31.450612203951824,
+      "change_pp": -0.00010055135861009035
+    }
+  ]
+}

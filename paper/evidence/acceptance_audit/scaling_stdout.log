@@ -1,0 +1,17 @@
+{"seed": 303, "family": "H4", "completed": true, "seconds": 35.59671543492004}
+{"seed": 101, "family": "H4", "completed": true, "seconds": 40.10599630558863}
+{"seed": 202, "family": "H4", "completed": true, "seconds": 42.940879883710295}
+{"seed": 303, "family": "HR4", "completed": true, "seconds": 31.68948752898723}
+{"seed": 101, "family": "HR4", "completed": true, "seconds": 30.075654461048543}
+{"seed": 202, "family": "HR4", "completed": true, "seconds": 28.996907718013972}
+{"seed": 303, "family": "HWR4", "completed": true, "seconds": 49.26031450694427}
+{"seed": 101, "family": "HWR4", "completed": true, "seconds": 51.52087763790041}
+{"seed": 202, "family": "HWR4", "completed": true, "seconds": 56.778646676335484}
+Traceback (most recent call last):
+  File "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_audit_20261022/reviewer_revision/scaling_sensitivity.py", line 172, in <module>
+    w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
+    ^^
+  File "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_audit_20261022/reviewer_revision/scaling_sensitivity.py", line 157, in main
+    for ds in ('FLEURS', 'CV27'):
+    
+KeyError: 'counts'

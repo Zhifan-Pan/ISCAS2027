@@ -9,6 +9,7 @@ inputs for reproduction.
 - **[Final paper PDF](paper/Selective%20Recovery%20for%20Multilingual%20ASR%20-%20Candidate%20Acquisition%20and%20Acceptance.pdf)**
 - [LaTeX source](paper/source/) · [Download source ZIP](paper/source.zip)
 - [Build instructions](paper/README.md) · [Claim and evidence map](paper/EVIDENCE.md)
+- [Baseline, scaling and checkpoint audit](paper/REVISION_AUDIT.md)
 
 The PDF contains four pages of main content and one page of references.
 
@@ -28,10 +29,11 @@ The PDF contains four pages of main content and one page of references.
 ```sh
 python3 verify_repository.py
 python3 paper/verify_aggregates.py
+python3 paper/verify_revision_evidence.py
 ```
 
-The first command checks artifact hashes and the source archive. The second
-checks aggregate arithmetic. Neither launches model inference, fitting,
+These commands check artifact hashes, the source archive, aggregate arithmetic
+and added baseline/RMS evidence. They do not launch model inference, fitting,
 bootstrap inference or GPU timing.
 
 For scientific reproduction, start with [the experiment guide](experiments/REPRODUCE.md).

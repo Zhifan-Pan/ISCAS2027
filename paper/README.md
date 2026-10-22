@@ -2,7 +2,7 @@
 
 - [Submission PDF](Selective%20Recovery%20for%20Multilingual%20ASR%20-%20Candidate%20Acquisition%20and%20Acceptance.pdf)
 - [LaTeX source](source/) and [source archive](source.zip)
-- [Evidence map](EVIDENCE.md)
+- [Evidence map](EVIDENCE.md) and [revision audit](REVISION_AUDIT.md)
 
 ## Build
 
@@ -21,6 +21,7 @@ The supplied vector figure and CMap files require no conversion or network acces
 ```sh
 python3 paper/verify_release.py
 python3 paper/verify_aggregates.py
+python3 paper/verify_revision_evidence.py
 ```
 
 These verify file identity, source ZIP contents and aggregate arithmetic, not

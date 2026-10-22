@@ -1,5 +1,5 @@
 \begin{table}[!t]\centering\footnotesize
-\caption{WER (\%) with pp contrasts computed before rounding. Checks denote HF acquisition, CR gating and R reselection, with $\dagger$ for R off-trigger.}\label{tab:paths}
+\caption{WER (\%) and pp contrasts before rounding. Checks denote HF acquisition, CR gating and R reselection ($\dagger$: off-trigger only).}\label{tab:paths}
 \setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.00}
 \setlength{\abovecaptionskip}{3pt}
 \setlength{\aboverulesep}{0.20ex}\setlength{\belowrulesep}{0.28ex}
@@ -12,14 +12,14 @@ N+R & $\checkmark$ & -- & $\checkmark$ & G4 & 17.09 & 31.68\\
 S+R & $\checkmark$ & $\checkmark$ & $\checkmark$ & G4 & 17.09 & 31.68\\
 Direct & $\checkmark$ & $\checkmark$ & $\checkmark^{\dagger}$ & G4 & 17.09 & 31.46\\
 H3Direct & $\checkmark$ & $\checkmark$ & $\checkmark^{\dagger}$ & H3 & 18.68 & 33.64\\
-\midrule\multicolumn{7}{c}{\itshape Reference-assisted TEST oracle bounds}\\
+\midrule\multicolumn{7}{l}{\bfseries A. Reference-assisted TEST oracle bounds}\\
 \multicolumn{5}{c}{Original-bank oracle} & 16.19 & 30.19\\
 \multicolumn{5}{c}{Full-HF oracle} & 15.83 & 27.68\\
 \multicolumn{5}{c}{CR-routed oracle} & 15.83 & 27.68\\
 \multicolumn{5}{c}{S+R gap to routed oracle, pp} & 1.26 & 4.00\\
 \end{tabular*}\par\nointerlineskip
 \begin{tabular*}{\columnwidth}{@{\hspace{4pt}\extracolsep{\fill}}cccc@{\hspace{4pt}}}
-\midrule\multicolumn{4}{c}{\itshape Locked CV27 confirmation panel (7,500 recordings)}\\
+\midrule\multicolumn{4}{l}{\bfseries B. Locked CV27 confirmation (7,500 recordings)}\\
  & \multicolumn{1}{c}{B} & \multicolumn{1}{c}{N+R = S+R} & \multicolumn{1}{c@{\hspace{4pt}}}{Gain}\\\midrule
 Macro-average & 35.02 & 32.75 & 2.26\\
 \end{tabular*}\par\nointerlineskip

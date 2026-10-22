@@ -6,6 +6,7 @@
 | Direct versus S+R on that panel | [Paired diagnostic and interval](../confirmation_diagnostic/results/confirmation_interval.json), [replay instructions](../confirmation_diagnostic/REPRODUCE.md) | Post-lock retrospective diagnostic |
 | Table I TEST and Table II acceptors | [G4/H4/HR4/H3](../experiments/acceptors/), [HWR4/MBR](../experiments/extensions/) | Retrospective TEST; fits use DEV |
 | Table III | [Study A](../experiments/cost/study_A_three_checkpoints.json), [Study B](../experiments/cost/study_B_one_checkpoint.json), [profile](../experiments/cost/stage_profile.csv), [runtime](../experiments/runtime/) | Four paths/three checkpoints and seven paths/one checkpoint remain separate |
+| RMS scaling sensitivity and checkpoint score diagnostics | [Revision audit](REVISION_AUDIT.md), [CPU fits and numeric evidence](evidence/acceptance_audit/) | Retrospective DEV-selected sensitivity; original fits retained |
 | Table IV and non-Persian results | [Language/seed SDIN totals](evidence/language_seed_SDIN.csv), [summary](evidence/COUNT_SUMMARY.json) | Descriptive aggregation of existing counts |
 | Empty-candidate and window diagnostics | [Cached controls](../experiments/diagnostics/candidate_controls/), [H4+e](../empty_candidate_diagnostic/) | Retrospective; no new live execution |
 
@@ -37,13 +38,22 @@ weights proportional to `1 / [N_language * (bank_size - 1)]`. The HF refits use
 unweighted pooled RMS over training-fold differences. The implementations are
 [the frozen G4 fit](../reproduction/fit/fit_frozen_selector.py) and
 [the HF fitting engine](../experiments/acceptors/tools/objective_engine.py).
-The outer compression threshold is locked at 2.4; the manuscript does not claim
+A CPU sensitivity analysis repeats DEV selection with G4's scaling rule on the
+HF banks. Complete CV27 WER changes by +0.044291484116254054 pp (H4),
+−0.05658509724889882 pp (HR4) and +0.00286872509053282 pp (HWR4); the order
+is unchanged. G4 versus H4 changes both banks and scaling, whereas the HF
+acceptor comparisons use common banks, folds and scales.
+
+The outer compression threshold adopts Whisper's standard 2.4 value; the manuscript does not claim
 that a DEV search selected it. Selector fitting uses CV27 DEV.
 
 Confirmatory evidence covers the original fixed G4 acquisition comparison.
 Later acceptance refits do not inherit confirmation status, and TEST was
 accessed during development. Native HF skips N-best rescoring but retains its
 internal retry procedure. It is not a single-pass decoder.
+
+Each paired recording block runs on one NVIDIA A40 (48 GB), with blocks
+distributed over the four-card server. Memory is per process, not summed across GPUs.
 
 Study B's strategy differences are population-weighted whole-path increments.
 The 85.9 ms teacher-scoring and 149.3 ms PLL profile means instead cover all

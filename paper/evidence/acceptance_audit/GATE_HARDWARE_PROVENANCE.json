@@ -1,0 +1,88 @@
+{
+  "interpretation": "Each paired recording block is executed by one process on one visible A40. Blocks can be distributed over the four-card server; a recording does not use model parallelism. Peak CUDA MiB is the process-local whole-call allocated-memory maximum.",
+  "hardware": [
+    {
+      "historical_path": "live_cost_v153_20261019/scripts/supervisor.py",
+      "sha256": "46eeb1d0019d0e4f74e481c3b791810ce0cd219b2cd758154da8711dc9c3ee67",
+      "excerpts": [
+        {
+          "line": 72,
+          "text": "worker_env=env.copy();worker_env['CUDA_VISIBLE_DEVICES']=GPUS[gpu]"
+        }
+      ]
+    },
+    {
+      "historical_path": "cost_checkpoint_extension/scripts/supervisor.py",
+      "sha256": "9337eb3522ea4a5c6cd8cbf7a585d66a261025252c343bd61a6ffdbc02aab18b",
+      "excerpts": [
+        {
+          "line": 28,
+          "text": "env=os.environ.copy();env.update(CUDA_VISIBLE_DEVICES=uuids[gpu],OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1',TOKENIZERS_PARALLELISM='false')"
+        }
+      ]
+    },
+    {
+      "historical_path": "live_cost_v153_20261019/scripts/measurement.py",
+      "sha256": "e6bcec324fca163d5d38262c10b661b12642d0b1bbdf4cc60d83c4a2b06d6a5c",
+      "excerpts": [
+        {
+          "line": 45,
+          "text": "torch.cuda.synchronize()"
+        },
+        {
+          "line": 46,
+          "text": "torch.cuda.reset_peak_memory_stats()"
+        },
+        {
+          "line": 51,
+          "text": "torch.cuda.synchronize()"
+        },
+        {
+          "line": 53,
+          "text": "peak_allocated=torch.cuda.max_memory_allocated()"
+        }
+      ]
+    },
+    {
+      "historical_path": "live_cost_v153_20261019/scripts/runtime_v153.py",
+      "sha256": "e0cfc6f1ea01bb87789d95542ace06bb308fb035a83657399e1220d1d6cb11af",
+      "excerpts": [
+        {
+          "line": 105,
+          "text": "part=wave[j*len(wave)//J:(j+1)*len(wave)//J];inp=e.proc.feature_extractor([part],sampling_rate=16000,return_tensors='pt',padding='max_length',max_length=480000,truncation=True,return_attention_mask=True);w={'feat':inp.input_features.to('cuda:0',dtype=torch.bfloat16),'mask':inp.attention_mask.to('cuda:0')};w['enc']=e.encode(w['feat']);states.append(w)"
+        }
+      ]
+    }
+  ],
+  "gate": [
+    {
+      "url": "https://raw.githubusercontent.com/openai/whisper/v20250625/whisper/transcribe.py",
+      "sha256": "848b82877500d6fb8f0b91bee7a08ac67ef670a113591d11b494848d263ad0f6",
+      "excerpts": [
+        {
+          "line": 44,
+          "text": "compression_ratio_threshold: Optional[float] = 2.4,"
+        }
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openai/whisper/v20250625/whisper/utils.py",
+      "sha256": "c25990446ab7dd5ba30bd52bd4f0e6537f11b5e361a015f02c21355d41027b05",
+      "excerpts": [
+        {
+          "line": 45,
+          "text": "def compression_ratio(text) -> float:"
+        },
+        {
+          "line": 46,
+          "text": "text_bytes = text.encode(\"utf-8\")"
+        },
+        {
+          "line": 47,
+          "text": "return len(text_bytes) / len(zlib.compress(text_bytes))"
+        }
+      ]
+    }
+  ],
+  "gate_scope": "Standard decoded-text threshold fixed before confirmation; DEV recovery check does not imply a DEV threshold search."
+}

@@ -1,7 +1,7 @@
 {
   "pass": true,
   "pages": 5,
-  "size_bytes": 522173,
+  "size_bytes": 521949,
   "paper": "US Letter",
   "body_font_TeX_pt": 10,
   "body_baseline_TeX_pt": 12,
@@ -14,7 +14,7 @@
       718.597
     ],
     [
-      718.597,
+      719.292,
       718.597
     ],
     [
@@ -23,7 +23,7 @@
     ],
     [
       718.597,
-      706.813
+      703.824
     ]
   ],
   "links": 0,
@@ -32,8 +32,10 @@
   "all_fonts_embedded": true,
   "type3_fonts": false,
   "class_matches_official": true,
+  "official_class_sha256": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7",
+  "official_class_url": "https://mirrors.ctan.org/macros/latex/contrib/IEEEtran/IEEEtran.cls",
   "overfull_underfull": false,
-  "sha256": "7bd3d24d421be7b31632c13ada5c495fce3da5744ad2f4f9dd457860efe57fc1",
+  "sha256": "83e554e8bcc7cb16821e0da222bce22814707b0fd4aed4e8e25c6b524df37292",
   "status": "final_submission",
   "main_pages": [
     1,
@@ -43,14 +45,16 @@
   ],
   "references_only_page": 5,
   "bibliography_entries": 33,
-  "pdf_sha256": "7bd3d24d421be7b31632c13ada5c495fce3da5744ad2f4f9dd457860efe57fc1",
-  "source_zip_sha256": "e7eb3a0450ac36ff54e9ced4e36cf3e518e08f9aa00e829f7aff73dc1b7b3ae4",
+  "pdf_sha256": "83e554e8bcc7cb16821e0da222bce22814707b0fd4aed4e8e25c6b524df37292",
+  "source_zip_sha256": "40f97ffd1bd870115d6fb00190f8d400fb3f8c880c0f3fa7c43f2721b8f38e3f",
   "aggregate_checks_passed": 572,
-  "new_scientific_experiments": false,
+  "added_evidence_checks_passed": 380,
+  "new_scientific_experiments": true,
+  "new_experiment_scope": "CPU-only retrospective RMS sensitivity: 9 baseline replays plus 2214 converged weighted-RMS fits; no GPU decoding or timing",
   "validation_scope": "Local layout, PDF structure, artifact identity and aggregate arithmetic; not IEEE PDF eXpress certification.",
   "latex_layout_warnings": [],
   "expected_latex_notice": "hyperref Draft mode on disables hyperlinks; IEEEtran remains in conference mode.",
-  "experimental_results_unchanged": true,
+  "original_experimental_results_unchanged": true,
   "numbered_equations_unchanged": true,
   "method_descriptions_clarified": true
 }
