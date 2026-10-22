@@ -6,19 +6,25 @@
 
 ## Build
 
+Run from the repository root:
+
 ```sh
-cd paper/source
-latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error main.tex
+latexmk -cd -pdf -interaction=nonstopmode -halt-on-error -file-line-error -outdir=../build paper/source/main.tex
 ```
 
-Run these commands from the repository root. The compiler output is
-`paper/source/main.pdf`; the submission PDF linked above is named after the title.
+The compiler output is `paper/build/main.pdf`; temporary build files stay in
+the same Git-ignored directory. The submission PDF linked above is named after
+the title. The source archive includes [standalone build instructions](source/BUILD.md).
 The manuscript has four main-content pages and references only on page 5.
+Table I separates the locked-panel macro WER summary (B) from paired contrasts
+(C), with matching three-column layouts. Table II separates its comparison families.
 Table IV presents Calls and Gain in five columns; full baseline WERs and the
 exact RMS rules remain available in the linked evidence and audit.
 The supplied vector figure and CMap files require no conversion or network access.
 
 ## Verify
+
+Run from the repository root:
 
 ```sh
 python3 paper/verify_release.py

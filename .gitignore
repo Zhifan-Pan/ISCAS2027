@@ -5,6 +5,7 @@ __pycache__/
 COMPLETED_NATIVE_REPLAY.json
 
 # Local LaTeX build products
+/paper/build/
 paper/source/*.aux
 paper/source/*.log
 paper/source/*.out

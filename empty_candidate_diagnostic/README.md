@@ -28,10 +28,17 @@ python /path/to/new/replay/revision_v162/tools/check_evidence.py refit
 
 Use NumPy/SciPy from the recorded environment in each CV RESULT.json. To
 independently refit, use a separate prepared workspace and run
-`fit_empty_acceptor.py --root /path/to/new/replay/revision_v162 --data-root
-/path/to/new/replay/final_decision_return/reviewer_artifact/acceptors/inputs
---seed 101 --family H4plusE` for each of the three recorded seeds. Refitting
-is optional reproduction, not required to read or verify the released results.
+the following command, replacing `101` with each of the three recorded seeds
+(`101`, `202`, `303`):
+
+```sh
+python /path/to/new/replay/revision_v162/tools/fit_empty_acceptor.py \
+  --root /path/to/new/replay/revision_v162 \
+  --data-root /path/to/new/replay/final_decision_return/reviewer_artifact/acceptors/inputs \
+  --seed 101 --family H4plusE
+```
+
+Refitting is optional reproduction, not required to read or verify the released results.
 Existing CV directories are protected from overwrite. The original protocol's
 time records remain historical, not a new preregistration for a replay.
 
