@@ -1,0 +1,2707 @@
+{
+  "scope_roots": [
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments",
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction",
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/research_archive",
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return",
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return"
+  ],
+  "root_files": "/home/mhmt_stu/Code/ISCAS2027_working_v63",
+  "excluded_directory_names": [
+    ".git",
+    "__pycache__",
+    "paper_source",
+    "review_round_1",
+    "review_round_2",
+    "review_trio",
+    "reviewer_artifact",
+    "validation"
+  ],
+  "extensions": [
+    ".csv",
+    ".json",
+    ".log",
+    ".md",
+    ".py",
+    ".txt",
+    ".yaml",
+    ".yml"
+  ],
+  "pattern": "unadapted|un[-_ ]?finetuned|zero[-_ ]?shot|zeroshot|pretrained.{0,60}wer|wer.{0,60}pretrained|base.{0,15}whisper|whisper.{0,15}base",
+  "scanned_files": [
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/CONTINUATION_SUMMARY_V131.md",
+      "bytes": 2040,
+      "sha256": "66b1d89d57b0bbb8b05f1edf80f57e5fa22b94e2cc38322adc424b9ff13fb0a2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/CURRENT_DELIVERY.json",
+      "bytes": 892,
+      "sha256": "4cbb2741f1be287caf742a84f88f6b667aaef986d0cd492a7847e42f33a61a64"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_REVIEW_ROUND_4.json",
+      "bytes": 1315,
+      "sha256": "ef105b3221cc43490dd0a6b8018216a93a3282246310079c6d96e86c80bc9326"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V130.json",
+      "bytes": 1451,
+      "sha256": "9be96da077ff1b7dbda5c02feb31e8f5a40033e105f14518cb2c00d76d0c59f2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V131.json",
+      "bytes": 1845,
+      "sha256": "7b5227a897129c5dee32846e202f8cd583c85151dde0d839e25f775690f4d198"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V132.json",
+      "bytes": 2234,
+      "sha256": "7d3fede9609a9d73a2b25eb54fcbafb2366e18d24bb9eb92af43ce02b2194b29"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V133.json",
+      "bytes": 2265,
+      "sha256": "826afd4b76bd4c770898654d12be4dae1e10c36ace497fb8ce0fd206b12dab03"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V136.json",
+      "bytes": 4100,
+      "sha256": "90ecf47938db22ea7791ed46a1c198e32727ab4cb8875b5805c21f644faaee89"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V139.json",
+      "bytes": 5561,
+      "sha256": "80b47d430531c4355b7c43e2729fb8ba6999348058eb768d31e3b18691d76b1f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V140.json",
+      "bytes": 6103,
+      "sha256": "7e8e5dbd2b30c67f76780c0a58bbeb76a7fa38f0a95569a6d9a2680fd818de24"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V141.json",
+      "bytes": 2999,
+      "sha256": "8d6131baa53ffd631dbe0895afc5b7fc187e64c0da5db9074a4497e74ee91385"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V142.json",
+      "bytes": 2738,
+      "sha256": "76b0504d43180813563a35ff205770888c010e7e44591039c9980203b45c39de"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V143.json",
+      "bytes": 1590,
+      "sha256": "32d3430f823c9375b1d2a826e1729ca64c9c1d1acdd312f388d3b8da3e0009c7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V144.json",
+      "bytes": 1274,
+      "sha256": "0801acc3357f11ca326c8cbed7c44ae9a03f8b21cabfeb68954fbde8c87096d5"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V145.json",
+      "bytes": 1169,
+      "sha256": "ffce3672fbbfa9803d50f599c7cc034dd53b570476fe3be3245f58b6ff3f6a8e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V146.json",
+      "bytes": 1230,
+      "sha256": "a7ccb641526817d4b106a5b70cbf718795c6abc7f761a5d1a33092c3a0fd87df"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V147.json",
+      "bytes": 1651,
+      "sha256": "3c446267651cf5e47b288020af8526db5011b5032e83ccd7bd2acc0d37dada38"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V148.json",
+      "bytes": 1612,
+      "sha256": "835b9a2a3875972865798f3ffb2cb11875daf55c63f48601524d15d4eb4e4f0f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V149.json",
+      "bytes": 3142,
+      "sha256": "432cec09bdf2135c6c95c9a2821ca264e9427b16b92e1ee7a9111888510e0554"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V150.json",
+      "bytes": 2358,
+      "sha256": "9c6c5e9b395c7fb005e5b967141fc125feb024b0d1eef31286eb1d9915432703"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V151.json",
+      "bytes": 2317,
+      "sha256": "2346812bba395da35c44ce47290f658cbd52298c852c2f5d3213e0f7586adb16"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V152.json",
+      "bytes": 1653,
+      "sha256": "8cd95a6becf711c4a939f115e852bca5aa8c63d03bc18bc371d7fb9eb5446bbf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V153.json",
+      "bytes": 3017,
+      "sha256": "b02ed599274a621f86273843dde9d6a403a473114e70b1d904ab374dccaeb8ab"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V153_AUTHORSHIP.json",
+      "bytes": 1594,
+      "sha256": "1984040c738194d30f4407e43fee36a1c8a5a422c13fdf27cf8c176bcaf306da"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V153_FIGURE1.json",
+      "bytes": 1559,
+      "sha256": "8f9e27b538ea40932f1d9dce4870612198f5f773ff9495985ab0e708d1c2979b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/DELIVERY_V153_RESTORED.json",
+      "bytes": 1576,
+      "sha256": "0ff01dc44736dcf9f67783ceb24619bc32e9ff650a1f125230cf2e19eaaa1d59"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/EVIDENCE_PROGRESS_V157_CN.md",
+      "bytes": 3546,
+      "sha256": "6ba95e1368a46e082fc50af676866402678684de82e1e262cdff3ea86385f184"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/FIGURE1_V74_PROMPT.txt",
+      "bytes": 2360,
+      "sha256": "f44d9240aced3830cf56c3b77b688b18c087ae1992a097bf23daeb1c321303e8"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/FIGURE1_V76_PROMPT.txt",
+      "bytes": 242,
+      "sha256": "971cda9c71f62e70336c7e8d731c8d179f0dd4e89bfad8913ac7712c2a8f967e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/FIGURE2_TRADEOFF_V80_DATA.json",
+      "bytes": 18153,
+      "sha256": "02457e46ca32abba7e933e7f58a1ad8f7b83dcbcbba0f87d523ab892f4b9352f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/FIGURE2_V74_DATA.json",
+      "bytes": 1554,
+      "sha256": "e42f47a2d3e174f8ac5fcb7487d7b8dfd1a99a27c833ad2bc5ec5522eb8dc5b0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/IMPLEMENTATION_NOTES_V110.md",
+      "bytes": 4630,
+      "sha256": "a3702c1456003bf0e218568e6e78a02d7acd9408e98558ba4c60480d0a04cc5c"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/ISCAS2027_R8_CPU_preparation_RECEIPT.json",
+      "bytes": 641,
+      "sha256": "ba3c01933ea6fd9a61f45e6d8bd51af6c343e39462882ad1c3b2552cade6c81d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/ISCAS2027_R8_pilot_stop_delivery.json",
+      "bytes": 891,
+      "sha256": "74df8086c8f979f41315c8cd2d05892be435c8979171f8402435b2008b87e16f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/ISCAS2027_R8_pilot_stop_verification.json",
+      "bytes": 844,
+      "sha256": "fd6f36296cf50fb6972622a32bf8515261f63b39353e5caaab60d9ddd591ea89"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/ISCAS2027_v142_delivery_verification.json",
+      "bytes": 543,
+      "sha256": "3a6542e9fbe8af8d837f0b60985301b84fc1323ce203a13954fc50bdc7e814e6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/MANUSCRIPT_VERSIONING.md",
+      "bytes": 567,
+      "sha256": "94fbced11869514340be040ddcf9ad4f29424855b6d863c6b58cdfe3116bdf39"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_ARCHIVE_20261012_before_compact.json",
+      "bytes": 12735,
+      "sha256": "f16cec8f82e77f4b0a50ad4909fe59fddff10dfa21d59fb6ab559737ad23a9f7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_GPU_WINDOW_REPLY.json",
+      "bytes": 10732,
+      "sha256": "4d9934c3bf7fbbc8889fb566242f4f9f337981c7ffd19d354d32901a1c9fc6f3"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_SINGLE_PAIR_COMPACT.json",
+      "bytes": 12604,
+      "sha256": "331adf3ec54ccefb1994d4eb3252a56a23b54a1ceb4f2e1ce03b389e6ae4bafa"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_V100.json",
+      "bytes": 5657,
+      "sha256": "1c6e622d01baa13bf348143b278dc862521631105b8975840b1ab21864c9a05a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_V101.json",
+      "bytes": 6254,
+      "sha256": "ea9391a7e890564b91657d0b7e02ccaa191c699d404fe6b8621c1c3f2e533961"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_V102.json",
+      "bytes": 6391,
+      "sha256": "f625b1d2ccbf989f0aa482ff13895a2ddadb5e055e4fe0c3f13f6ad9bc783c07"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_V103.json",
+      "bytes": 6593,
+      "sha256": "bfb53101143b0f00d6651715aea6194996831d99e4c0d02d9a25cad52bff2540"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_V112.json",
+      "bytes": 12782,
+      "sha256": "05b954ed55855778bfdbeccd4771274076fa6b20b04ab7fb27d562417180b7e6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_V113_FINALIZATION.json",
+      "bytes": 13346,
+      "sha256": "99d9ec1717bf1c09d1c8e2cdacc24b2ff39b5fbdfa67e2f1c0163ac14279f82d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_V89.json",
+      "bytes": 12208,
+      "sha256": "fab9b8ada42c1950d0aceebc123d9fa3073d66d97531d420a8230c6f0acac44e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_V96.json",
+      "bytes": 4486,
+      "sha256": "fa768780f6f82f35628bc1a982c4d1c5f7b6f810c962e0bf367d3f8384dc0202"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_V97.json",
+      "bytes": 5130,
+      "sha256": "4398de6412baf91464e9057f2a168feaa34cb9cd006eced82a793d2116354655"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_V98.json",
+      "bytes": 5126,
+      "sha256": "20b4c187ea116a9ba4009c9998c99eab56a5705585de52b6e38ded0949dbe716"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_BEFORE_V99.json",
+      "bytes": 5358,
+      "sha256": "e7073c70ede5a76cfba9c21023da37e56c2369065343721eb10d81cc53a2613f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_CAPSULE.before_v153_restoration_20261019.json",
+      "bytes": 1294,
+      "sha256": "8d4876bb0ac8c0e3c6b7b7971f91de57992edf8e2ae0e0abae97b4c85381fb0f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_CAPSULE.json",
+      "bytes": 512,
+      "sha256": "926e3e8600f9ac31aa56ff8d2d22574c514c6f0c823dc3b5a06e6af30275fece"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_V112.json",
+      "bytes": 280,
+      "sha256": "ba61e3fa8af7a719a8b63c1f0f087f6ee2a434db07f1bdf2c5bd3087ce31edd4"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_V113.json",
+      "bytes": 589,
+      "sha256": "2e674a9640f4dd21ebfbbde39596da1ae591957ce685c780ce92b4026e765135"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_V114.json",
+      "bytes": 1118,
+      "sha256": "473b07e49d5a999d73e86ce99d8006fad347e6f9a043e2e5419eff2a7c213f1d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_V115.json",
+      "bytes": 4388,
+      "sha256": "b963e8d55ac1285227b5cccdfb81e607a4fe16e5ce4c474405080d8b51201a15"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_V116.json",
+      "bytes": 4977,
+      "sha256": "8a685b945d15829b8c3fcebdb958e0f06895de5b2a188c0539c057eda47eea8d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_V117.json",
+      "bytes": 4977,
+      "sha256": "8a685b945d15829b8c3fcebdb958e0f06895de5b2a188c0539c057eda47eea8d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/RECOVERY_V118.json",
+      "bytes": 5070,
+      "sha256": "4c857edc603d7cd59325a620570fb9ebed142bd7de8f7b87c1d3e640e682ff0f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/REVIEW_ACTIONS_V80.md",
+      "bytes": 5543,
+      "sha256": "d2f6ab5ea0fb2fa2ece854175d891b9fc5d1e4d07eda730e67890a4176de6943"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/REVIEW_RESPONSE_V80_ZH.md",
+      "bytes": 5815,
+      "sha256": "cd0c8ef66c9c35b3561ce4d41a6ddf804aae5887ecbd1b6af669cfe2a19e16e2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/REVIEW_ROUND_5_DELIVERY.json",
+      "bytes": 1557,
+      "sha256": "2ac681e7db0802e7e15af5da76dff1eb5665bb5213fd72936b2b747ffe1d4848"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/REVISION_V75.md",
+      "bytes": 1062,
+      "sha256": "58edbe5e909c974b5d9901e579d5074433ea3bd7f79c0455df91c49bed7f370c"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/REVISION_V81_ZH.md",
+      "bytes": 4749,
+      "sha256": "aab179878e7a3731f596459ed719bc2c0fa4c57f316e3f033b6c4017bffb39ef"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/SUBMISSION_FIELDS_V136.txt",
+      "bytes": 1897,
+      "sha256": "bb619682185089e83f7aaa5c220ad9ef04a4408933d460ad7d82b6e8e973c15e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/SUBMISSION_FIELDS_V139.txt",
+      "bytes": 3196,
+      "sha256": "71ac1e9cbdbec3dae406788e1cf580ea7ccb6eff43890babfd924aa2c78b4594"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/SUPPLEMENT_V80.md",
+      "bytes": 12151,
+      "sha256": "328fc060da279dcac43c10eecc1314d71eb0ac9bc9da1739fe95056c77d6b00d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/SUPPLEMENT_V81.md",
+      "bytes": 17933,
+      "sha256": "334fa2fc12c120cb865f27622efa516743d191f5c69c47d66a0b21a6d894fee8"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/V110_COMPLETION_INPUT_LOCK.json",
+      "bytes": 1933,
+      "sha256": "3bae34e53fba857bffb654932c57eda78a45a37f2723d46ddcb5d3cf58279c31"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/_hashes_v139_tmp.json",
+      "bytes": 3960,
+      "sha256": "da1bdad868f0a42c24ad1cd19ec7832632b3bf7ae15edcd6d0ac91b213c19437"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/RECOVERY_CAPSULE.json",
+      "bytes": 711,
+      "sha256": "e8398837d0161e1328d60aebb814cd504f210e9a1a52611d24115700976a0eed"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/CV27_101.json",
+      "bytes": 1322,
+      "sha256": "0228ad210b016c1e245ddf2c6cf44ee0894711a3a5643ff8cc521338482e0f12"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/CV27_202.json",
+      "bytes": 1325,
+      "sha256": "b6c56ca4d97efc7c4ba1a4a133b1bc22f847fa22b6ce61bcd6c25c7cc9190037"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/CV27_303.json",
+      "bytes": 1325,
+      "sha256": "d7e51488ce6bd9502711e0c0354b706ef3996381e1a2a50d18ea3fc5b161c783"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/DEV_101.json",
+      "bytes": 820,
+      "sha256": "a1b021d37e41a57b9ed95fe04fd34f6c121d99bdbefb45de4fc7adaa54ee5716"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/DEV_202.json",
+      "bytes": 819,
+      "sha256": "353c8bfeaf7c9e64b079d29636e9efefc10ad0c4233ab8d2a03ccdce679aa926"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/DEV_303.json",
+      "bytes": 820,
+      "sha256": "59aee889f90f851a133aa940d4851972559f764713f5cc2a3556a822a9a8f8de"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/FLEURS_101.json",
+      "bytes": 1289,
+      "sha256": "1ef451e283c9270f4530b24a86ed9d93011139f6f07820f9861d802d429d5124"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/FLEURS_202.json",
+      "bytes": 1288,
+      "sha256": "227973c1963d1c37f25afe47b0a7e1cf4a79176834a4fa169bd3ab2ab08a3cbd"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/FLEURS_303.json",
+      "bytes": 1288,
+      "sha256": "28202a537fe5e205615ab528a7a899286fa376fd585207442a6a54e28834a36d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/component_verification.json",
+      "bytes": 490,
+      "sha256": "ef5727efa93ed69cca146041fa8f307a7aad34208167ee0d1aafc91812cf7a86"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/dev_export_101.log",
+      "bytes": 768,
+      "sha256": "5a12d40eea50dd6157ce1a6354489f590ab4bffd8c8196e7a1037d4ff5123487"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/dev_export_202.log",
+      "bytes": 767,
+      "sha256": "4fc1dadc84d16732a6a092e82584fd57f0f9a44b95fa67faea03be9dc43d0544"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/dev_export_303.log",
+      "bytes": 768,
+      "sha256": "f476a8c4893c59566b88ba620a5ba0906c149a903a5fdad337059e3788fccd74"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/dev_progress_101.json",
+      "bytes": 78,
+      "sha256": "2136948479cccc34a95ddd72708c259adb98b918ed02ff0039994027359b7002"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/dev_progress_202.json",
+      "bytes": 78,
+      "sha256": "99aa7c94adc2d755d47b09ac4014b3b27a81e4b38380b5776677d363b82d7e1d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/dev_progress_303.json",
+      "bytes": 79,
+      "sha256": "49da880a12a69e983147418f25429913e2e9e3f0f5b6233c512b415860e1ef1e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/engine_validation.json",
+      "bytes": 1319,
+      "sha256": "17bb16e248ab23019a3a93dbe3cc04f199304bfdec310744a477f178ba91f9cd"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/evaluation.log",
+      "bytes": 780,
+      "sha256": "decaa26b9a96b624e7ad20b3c99f102d6aa738f3e8696866399f385ef2ad160e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/fit_H3_101.log",
+      "bytes": 157,
+      "sha256": "e103f12111c4e3a16e9f544af008d02e6bff138e586d6b11cbc7361d62dbb2b3"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/fit_H3_202.log",
+      "bytes": 156,
+      "sha256": "c8363af7de4b97c994d36dbf688e58548196232e1851be03fb7b7d8948987630"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/fit_H3_303.log",
+      "bytes": 158,
+      "sha256": "caba3b9bc9d2aa426225dd77e7e146fce7cbb20061a1cdede6c3dcc8a815bc7e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/fit_H4_101.log",
+      "bytes": 159,
+      "sha256": "be1987cf3ad52ea5250400ef158f7de6d9519505aca8005acb4861d3cfcc5e9b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/fit_H4_202.log",
+      "bytes": 157,
+      "sha256": "e003ccb223b24cfdea8134fcb5ead6642aec52b170bf9d19e9854b4b56600947"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/fit_H4_303.log",
+      "bytes": 158,
+      "sha256": "bf9792f355dede8bbcc81dbd38c773dadf87c6a85772cf12ac9bf896758c7fab"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/fit_HR4_101.log",
+      "bytes": 159,
+      "sha256": "e4d30239657f68b6732a53f7a6b75dc41434fd15d68d2e4ea0878ed8a2525724"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/fit_HR4_202.log",
+      "bytes": 158,
+      "sha256": "beda6deec986af7b3289892d6a2af5aa090a2143acb06d0eda02eda4a74f88ba"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/fit_HR4_303.log",
+      "bytes": 160,
+      "sha256": "f2c58de76633832819c8dbded3587d607b941584844b9578dc47eaaeede3a53a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/fit_supervisor.log",
+      "bytes": 1293,
+      "sha256": "a971bf8bacd4cc170632108961bae2075103a33f401e8f3caea5fd2b98c30c7a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/read_receipt.json",
+      "bytes": 1889,
+      "sha256": "f4bce0da2ac1e1e7b3efa925db7d7ff7a067eb6d1cb9c36c7a853513eabe699a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/reference_tests.log",
+      "bytes": 1341,
+      "sha256": "b58b60f463f3d477ee57813c129d544c498b45d6aa9f86ee11c3c0c058499d3f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/test_export_101_attempt1.log",
+      "bytes": 490,
+      "sha256": "0c97287c8c2aaa071927b3f436379e272353ed6ea67bc99205e148e361d8f2a2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/test_export_101_attempt2.log",
+      "bytes": 2439,
+      "sha256": "f7f685cf5fffd06f9207c24907a74487451aa50aa2c33656e910bf7299b3ae90"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/test_export_202.log",
+      "bytes": 2441,
+      "sha256": "df61c78c3ce744a6e132a6b83f9a14dadbc795fd02e08063826affc0ef78cb13"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/test_export_303.log",
+      "bytes": 2441,
+      "sha256": "2f3bcb8942f4d75f6b24542b57ccc39a8b925274748cc017a62f2bfa6cb0b649"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/test_progress_101.json",
+      "bytes": 98,
+      "sha256": "17713e989c10d8f4304c6a70016328819828f84e0d7dc9e26b1c8e934886d12a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/test_progress_202.json",
+      "bytes": 99,
+      "sha256": "dfdb6d2e00ce695278d39dfc8934f1a889073d56e78e809fc447f3a2ace79c5f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/audit/test_progress_303.json",
+      "bytes": 99,
+      "sha256": "dbde7fd3e2623102176cb3f3bbe4b07f5e3f16df52ab9b207417e667c80a82c1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/before_after.json",
+      "bytes": 3976,
+      "sha256": "dfd0399ff82c420dc7d2e0d2e6b730a08ed759773e3e31dd6e5705b64d4caccf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/before_after.md",
+      "bytes": 1334,
+      "sha256": "b8dc703e0268024544b5cfaab52b83143bc7cce29e6c64efda8a7d3698b9b881"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/candidate_availability.json",
+      "bytes": 11768,
+      "sha256": "04cb0c6e72e1087147b014f317ab3164c2a365f12457ef383212c77321c3e526"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/candidate_export_schema.json",
+      "bytes": 24748,
+      "sha256": "cbfd9f21ee9f6b59c5165c51c49ef099212efc0390064020d0d8bbc0abb02e99"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/candidate_identity.json",
+      "bytes": 2307,
+      "sha256": "86b3611b4f0f7fca3b2c75fe89b206554b231f33002f1ece4a7cb68753bcbc07"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/claim_evidence_matrix.csv",
+      "bytes": 2439,
+      "sha256": "00436ff50720ebdf02ab17bdb0ce1894d23d82f9d9c3dfae69e161a27d74e8a7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/audit_release.py",
+      "bytes": 5357,
+      "sha256": "6f7e9b2b1bbf3b484b8dcab6ccabfdc2cac098c44119f0a06399cbce30648d13"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/build_reviewer_package.py",
+      "bytes": 6937,
+      "sha256": "f9fc826342b7c4e65109443591f39c909730d87f4bb60873db0b982c85f1a154"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/close_delivery.py",
+      "bytes": 19101,
+      "sha256": "b2ce0a5c64a784fdb017ddd270844285373f27e62bb6e7ecfea4ef64ccf52339"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/evaluate_acceptors.py",
+      "bytes": 7846,
+      "sha256": "d6c0fb478598aad4439dda4452fa4c00a1500fe35041f0351e9dfafc1f21d6a3"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/export_dev.py",
+      "bytes": 7838,
+      "sha256": "c96179ce63253bb9014db0badfa76e439f4c1731c4fc7d4950b1ada9e1f0e7fc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/export_test.py",
+      "bytes": 12458,
+      "sha256": "22fe110f2456ae6fff6e4d7b80786323b9d0a935ea3b35c266ccc3ecd6d45514"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/finalize_documents.py",
+      "bytes": 26857,
+      "sha256": "46f571e4f7c98b2106460511975d31a413bf8caa3d12d1d7a8886011a3f09686"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/fit_acceptor.py",
+      "bytes": 5997,
+      "sha256": "bb101a18e3be891700ab5de9bbed51e33920f63ae1243b222445f4eabd29a4c4"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/freeze_plan.py",
+      "bytes": 4869,
+      "sha256": "4f0c0d6d092c36ac0836dd5358d3c799219e144cc5225114b13d4b0ba8f34660"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/integrate_manuscript.py",
+      "bytes": 16553,
+      "sha256": "181637449b720a15f76a5bc1298d1df31e1d29c5be0fdc711911ce56eecb1fbf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/objective_engine.py",
+      "bytes": 3274,
+      "sha256": "5e2736272c7d5e97418387f016a94ec3b18a292a97137d2810bb5b7f0a215047"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/package_final.py",
+      "bytes": 4503,
+      "sha256": "fbb914e714b00431753fd2c6b4bb278aa8c35ddb6ad96b1cf74e4356d3339625"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/refine_layout.py",
+      "bytes": 8307,
+      "sha256": "89df9ff56867800b072069c111bc401afcf46a8cbd5ed7c0f5f1c6bc35ae3fac"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/replay_packaged.py",
+      "bytes": 4790,
+      "sha256": "ce01c3708c639cfa737c11d7c0a23b64d33ed18fe0361bccdcbce29c73db6233"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/run_fits.py",
+      "bytes": 1716,
+      "sha256": "d76a7e9dbe5a93193794db7c10419311175de0cd49cb214300fc882f46a49c8a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/code_and_tests/study_common.py",
+      "bytes": 2740,
+      "sha256": "d08a6106f8cfd5c537511b3f3e20f99041f9c7ae89b36b97ef839c81b6332cc2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/current_effect_audit/effects.json",
+      "bytes": 12115,
+      "sha256": "cb19e999d3e60ebb09fe95ac856d5cf3d2f43e3db7071695cf25e1391f9a945d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/current_effect_audit/stdout.log",
+      "bytes": 5793,
+      "sha256": "0657d0fa5124946ecfebaadbc1cea0b1f7e2b3044f57e9888540e17b59000e06"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/H3_101/RESULT.json",
+      "bytes": 8494,
+      "sha256": "6e802e385510f043b471019ad19b93a4729a52bb0e14edce1731c9f8de949dc2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/H3_101/progress.json",
+      "bytes": 128,
+      "sha256": "7b94c56b5e787a002c1c434f0cf4a1aeceb43412c36dd106678132401ce88807"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/H3_202/RESULT.json",
+      "bytes": 8490,
+      "sha256": "b5ff6c00497fa61504d98831dfb0434c481b02ac4be4aa71af18c20fdccfc222"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/H3_202/progress.json",
+      "bytes": 127,
+      "sha256": "81aad892dcbd45f9e79dd16bf2b222043491b240226b008be8bb000f71687a3f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/H3_303/RESULT.json",
+      "bytes": 8494,
+      "sha256": "fcef613459b44d5f0c3dd9a25715569a2710529fb39e597fb11614321fcd01b6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/H3_303/progress.json",
+      "bytes": 128,
+      "sha256": "4371cdb9c2f1db527744ecdd07edfda3d9046a603c439cf0f390efcc44c7a716"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/H4_101/RESULT.json",
+      "bytes": 8650,
+      "sha256": "bb8e82e4afb44c700c3682fec3040a3dda1b253576442f95fcaea67afc7201f6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/H4_101/progress.json",
+      "bytes": 129,
+      "sha256": "2b3c778e861799cfd4a610427c452db474fb1e4ce612f02460c04f68b009b323"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/H4_202/RESULT.json",
+      "bytes": 8655,
+      "sha256": "cfce800a0aaf9b58e57adeefe02b79d37126e6ed8774cdcb96b8f248a8f58234"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/H4_202/progress.json",
+      "bytes": 128,
+      "sha256": "f90a3d058052e0da3e59115f5d46f72db6d8c744e3a270789cf8cc377dde6e81"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/H4_303/RESULT.json",
+      "bytes": 8650,
+      "sha256": "546f99808dad4b71d8fd9cedf050ee48d1df768970a0522de39c0d49e8f8de5e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/H4_303/progress.json",
+      "bytes": 128,
+      "sha256": "4cebcfb0852712c4ee198b816fa5ac3b2ad83021b654cd2330c1d7c4884e808e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/HR4_101/RESULT.json",
+      "bytes": 9193,
+      "sha256": "aa795fa9260d8477bca57bac7ce7dfa926cccd0b412b51ed5be4b47337d206d1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/HR4_101/progress.json",
+      "bytes": 130,
+      "sha256": "f52c7e5bc4523bb59881c61c2a5778aecac9d7d66236cc20252a171e909b9036"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/HR4_202/RESULT.json",
+      "bytes": 9202,
+      "sha256": "8dc9e4bba6f94f4bbfd7329a29596e5a46d2198b7ff92d491f1eaa94b31e6833"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/HR4_202/progress.json",
+      "bytes": 129,
+      "sha256": "98d36a8bb2d0c482443fc8b40119750a3b9d7e87fe43a66e09b0fb8ef49084c8"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/HR4_303/RESULT.json",
+      "bytes": 9204,
+      "sha256": "fada6946d2af55e09ad9d9e055f7f20c91cc6013fde548c478c91880436a6de9"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/cv/HR4_303/progress.json",
+      "bytes": 129,
+      "sha256": "ecc9a7d521e44685682d47a214c550997fce6d5c2c9c3b015a7148a77a9676f7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/folds_and_scaling.json",
+      "bytes": 2746,
+      "sha256": "1dd38d1c66f63603150c80ca2d3e43bb92c032b4146484f566b82e4bcea28049"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/independent_review/PAPER_CLAIM_AUDIT.json",
+      "bytes": 140129,
+      "sha256": "acf5570abf498f485170112ccea89ad9edc39504003acb81293e41f4f8440675"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/independent_review/PAPER_CLAIM_AUDIT.md",
+      "bytes": 4553,
+      "sha256": "b34c6e12168252373b6f8d7ecbc6d7c08b83d9ca8bdbba9ad877d0ac4e5fb5fc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/00_README.zh.md",
+      "bytes": 1937,
+      "sha256": "567f8bf3ca5c55bf5fdc7d202a310f8141cc41d4e3eceaf188dbdee4c967627e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/01_CODEX_MASTER_PROMPT.zh.txt",
+      "bytes": 6841,
+      "sha256": "d4676b370f12fa9faca6387b338df6115e3aeedfb55902a91626eea119dd5934"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/02_DIAGNOSIS_AND_REVIEW_MATRIX.zh.md",
+      "bytes": 4310,
+      "sha256": "66b262dc9b44a18424ac2f42b7dcb0887d344052063bed16b9d0d1a393bd6f6f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/03_CANDIDATE_DATA_PROTOCOL.zh.md",
+      "bytes": 2819,
+      "sha256": "795385e7eb7aa87e022c5f563e47b1e8af34b9adca8c78b76dd8247d62abcdee"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/04_MATCHED_ACCEPTOR_BENCHMARK.zh.md",
+      "bytes": 3825,
+      "sha256": "48ef3adc6571e725bba856d2411a6848fd2a4aa9c7cae47f017d754bbe822ad0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/05_STATISTICS_AND_COST.zh.md",
+      "bytes": 3099,
+      "sha256": "73a63811f1ed611b17db9e3963eb301d890d58a825000560ae227632d0bb6a28"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/06_MANUSCRIPT_AND_PRESERVE.zh.md",
+      "bytes": 2163,
+      "sha256": "50dffe46f7a235a79e9575b9c0b91b638d86aff62567e3633b898a7994c09c25"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/07_ACCEPTANCE_AND_STOP.zh.md",
+      "bytes": 3136,
+      "sha256": "31a83029f5184c9c196463c003b35d211f43f4ad1b47d490f0a1a27d52c585ae"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/08_RETURN_CONTENTS.zh.md",
+      "bytes": 1662,
+      "sha256": "0773e5c5beda1c2b635ee25de081f0bc02624e7a017f8cb1fb53c28c2f5e0a75"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/09_COPY_START.zh.txt",
+      "bytes": 724,
+      "sha256": "b42cc49586f3fa90c292bcbdb6d93706a91089f21058c9d5d5629f51c5b8f61a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/10_NEUTRAL_REVIEW_PROMPT.zh.txt",
+      "bytes": 1055,
+      "sha256": "0c329d24f1efcef289cf4be5905f7d36adac8013ea04830ab03d999e66459dbb"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/MANIFEST.json",
+      "bytes": 3360,
+      "sha256": "75ebce13ac72126a63f543f99b47b54af81ef5328d5df6a925a6f4dd9e2d6a20"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/evidence/SOURCES.md",
+      "bytes": 1137,
+      "sha256": "370408443cc90eb1aeca889622baa12e0f6320bed2d0f92fa6fa6a12425416cf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/evidence/current_audit_stdout.txt",
+      "bytes": 4253,
+      "sha256": "a0f3b515dd307e296d8fd397f0dabd2bf9ea7ae0718aadff30ddf703a4625d9e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/evidence/current_audit_stdout_v2.txt",
+      "bytes": 5792,
+      "sha256": "e27b678b72f78156c5da0e604f4b33a8619ccc447beffb64111b31001c53b157"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/evidence/current_effect_scope.json",
+      "bytes": 10574,
+      "sha256": "9e32093c340d7e2d7efd1addceda9bce52ac54cd086e4a0f5060d8861dfe0b26"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/evidence/current_effect_scope_v2.json",
+      "bytes": 12113,
+      "sha256": "8a93c08f41f5ddaf300f81c9368dfbaf8d093cfec7b1d955d1a3b9659c86e9bb"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/evidence/input_and_execution_scope.json",
+      "bytes": 1299,
+      "sha256": "3e4ef087d22e2a063e1fee7d919c50e6a74a5d1abb4d384f61dc02b4551f70b3"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/evidence/tests.log",
+      "bytes": 1773,
+      "sha256": "bb62abf160242870ac7b5f42c92fcce625c6cbf8ed2a990d3307ed2509a0e54e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/snippets/limited_edits.en.md",
+      "bytes": 1909,
+      "sha256": "b6ca0e73ecf573a348bf6e1c9365f85fc519e024547ebb4e7c10e067f10cddc8"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/templates/candidate_schema.json",
+      "bytes": 1183,
+      "sha256": "193e499572131682fd6d16839bc61f7132c585c115e087e987845000f051ad48"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/templates/round_report.md",
+      "bytes": 385,
+      "sha256": "b7785c8dd75bc5f1b72231b21419783b5beeb33d4b638af5441be41520975cbe"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/templates/route_and_budget.json",
+      "bytes": 629,
+      "sha256": "13cb414f51a072caf68762303f307915bd3ef3e98f660c041d973c6e3165d32a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/templates/study_plan.json",
+      "bytes": 734,
+      "sha256": "b5d02f817596aae3102dafe2aadcd868e40ce5860cddcdb9fce1bbee84ed5494"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/templates/validation.json",
+      "bytes": 311,
+      "sha256": "6cc84717ae9aa71c510416e27115b6b6377c4037a9f69f91e8631baeab240cda"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/tests/test_reference_tools.py",
+      "bytes": 4234,
+      "sha256": "5dec87d9a9ebb44446ca709f695181f61ca7199dfede32389eca5b68b6d8168e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/tools/README.zh.md",
+      "bytes": 1553,
+      "sha256": "f2d6528746b8751f7b1bfd164ee16ce16b0ba7908b168678ddb576e29ece4e57"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/tools/audit_effect_scope.py",
+      "bytes": 8130,
+      "sha256": "dee588cdc38b7bdf65fde1e05644cf97fb699f4c210c9564f99d1a3118d3566a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/input/ISCAS_V146_DecisiveAcceptorStudy/tools/candidate_objectives.py",
+      "bytes": 5516,
+      "sha256": "2a139eb7feb0bdccf66b33f36a19a78c6f7f2962898e013e232edeefd71c3751"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/layout_changes.json",
+      "bytes": 8592,
+      "sha256": "8debd041c701c1f58c3271122dc58966ce9cd80c28a24f1a9bd0bd160f41c2ec"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/layout_changes_2.json",
+      "bytes": 2051,
+      "sha256": "66fcf089b33373cd79c2aac4462d83e95c3d8db77d877a2de88198826d5dae55"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/layout_changes_3.json",
+      "bytes": 2279,
+      "sha256": "26f2634c21d87799fe587eb05423a99c318c45f197d971beb094aa308681cd40"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/layout_changes_4.json",
+      "bytes": 1035,
+      "sha256": "264e89aaa5a8ad86f311c98ea3b1061f174e5e359637e5d532c85bf331e4a8f4"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/models/H3_101.json",
+      "bytes": 1211,
+      "sha256": "698909d7b93ab8146debe6282ee91eaa862759b35b82360510959787826ce347"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/models/H3_202.json",
+      "bytes": 1209,
+      "sha256": "b1675033a536e1191aacaae05a2cb7182d55c0902feb97761ac82cad59b225e1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/models/H3_303.json",
+      "bytes": 1217,
+      "sha256": "5fc4a980994e773f215f4bab365abd385f23c8abb473eca37f00317ce0108b29"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/models/H4_101.json",
+      "bytes": 1318,
+      "sha256": "eb8fac9fab1eaf4a3827aa4bebc97f8d15a80da23d6934a0ab225b2caf8f8e5e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/models/H4_202.json",
+      "bytes": 1321,
+      "sha256": "3aa61638acc061e07f29b39147603378cc10e3803fd3028fa8894c7d91ff6945"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/models/H4_303.json",
+      "bytes": 1324,
+      "sha256": "0ab6fd4eb3350519fe5f7e3f99e2088bd3f4685de225c98437c2c524003d0d08"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/models/HR4_101.json",
+      "bytes": 1319,
+      "sha256": "9343bcd3d6b82ca8fe88d846fbabddfdbf1a08aaefe51206f79586390e233f29"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/models/HR4_202.json",
+      "bytes": 1287,
+      "sha256": "f6d3f5fbbd12b7802d72f3a310f0d3bce0a8b7ebe5985b341767967055cf52bf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/models/HR4_303.json",
+      "bytes": 1322,
+      "sha256": "dd5e1557acee5f8821372dd34ac918c1f1c949c7db8120d94a21cd5185fa3151"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/models/MODEL_LOCK.json",
+      "bytes": 924,
+      "sha256": "f62e988756e3c95bcea16fb7bcaa3147bb4d0a3704a3209646439c09f6d495f6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/prerefit_plan.json",
+      "bytes": 6007,
+      "sha256": "25d19f6a693a9f18ba52de713d4861422df6c65d61b4ee5bf06ababc5dda07ef"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/private/G4_LOCK.json",
+      "bytes": 900,
+      "sha256": "805c836bdbedf49fb578a5971a40775fc805ea91b2943585349dfec249192ce1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/results/EVALUATION_RECEIPT.json",
+      "bytes": 1722,
+      "sha256": "95a17c3d9229701a48ae12c4407d9528c384f302fe993ede3df7b0f66497cf20"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/results/per_language_SDIN.csv",
+      "bytes": 27883,
+      "sha256": "bfd13e3d6052e0e98d454b1835efb8f1013748a57119e1259991cfd916ccd2cf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/results/policy_summary.csv",
+      "bytes": 5628,
+      "sha256": "5941f2a71012a780ca47fe8163d2305e7eea783511c1cf2f2b4ef683405133df"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/results/primary_comparisons.json",
+      "bytes": 1892,
+      "sha256": "b94fad9c9f35338a72173236b36b903da7bf9a6f8b016f65d923af49d93e3290"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/results/three_checkpoint_means.json",
+      "bytes": 6294,
+      "sha256": "a55a03cc1e69bc56e17d90cd79af20d162bb34ffb3a6d30dd6a5b75dac8786ad"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/round_report.md",
+      "bytes": 4222,
+      "sha256": "e007eabd7b48695f10316720b2c291f37c88a6ecb0856e2d1a3ff08ccb1f9fac"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/route_and_budget.json",
+      "bytes": 308,
+      "sha256": "b8b0f492412caf31f0798399e2441355167c40cd2507af35c7da7121e014bc3b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/scientific_conclusion.md",
+      "bytes": 2528,
+      "sha256": "c88a97af49381a5d2d95a6d94565068db6eb62fde9a89a8dba62be800ac61f6d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/source_changes.json",
+      "bytes": 1609,
+      "sha256": "b16b809177f69bdd04c7dacd763458e2be3bd167ccb7c5c31f164342bdd710ac"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/submission_decision.json",
+      "bytes": 1097,
+      "sha256": "9df3fb8a5fc374d86cedaf83ca119cb8da080dffefaf948616930bb006b3a5b9"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/timing/STATUS.json",
+      "bytes": 243,
+      "sha256": "106b6432a5d0d93adb5d65450dc1d624d88989f999c65a1bb937643f1ad073f8"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/acceptor_study_return/validation.json",
+      "bytes": 3529,
+      "sha256": "b205a1e6494ab95246f4c4bb717f0209150cfe13404cca8fe59ea07836b091c2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v100_compile.log",
+      "bytes": 17582,
+      "sha256": "8d2afa29e80544a9ea7bb2020ac70175f97b0f6bed1a46e40ef56ef2a58ddb28"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v101_compile.log",
+      "bytes": 17608,
+      "sha256": "31ba1c25596b202cd8842ce9a8f25c542bdbb96e45e338aa1f4ea0495d65d8b2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v102_compile.log",
+      "bytes": 8707,
+      "sha256": "f57196bdb12bd16849d04cd042bee71f4965c86581f77d2fb7afa6f612bf46ac"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v103_compile.log",
+      "bytes": 15878,
+      "sha256": "b38f73ecc17faf42d307f8c799e6ac540263d3068d3c7e645d7c494e375f19c3"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v105_compile.log",
+      "bytes": 16208,
+      "sha256": "0d331c64f5829f1a97d618f8ade426da0f0eae608d3b0d9f2eeaa5dccdc4ad94"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v106_compile.log",
+      "bytes": 16204,
+      "sha256": "8172a892698b0ead2f325c93e0a173eb9c93081fad371750028a48ce8eaa70d1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v107_console.log",
+      "bytes": 8636,
+      "sha256": "7527423939f5fb9ec1fc7ef3a1e043d5f856c064d2a5cdc2739470f871a0f611"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v107_validation_console.json",
+      "bytes": 1197,
+      "sha256": "9e517c1c390332b2af4b11fb2b42d9f102df3d7b3133bd83ffdaee2d90916854"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v108_console.log",
+      "bytes": 17224,
+      "sha256": "fe83ef4d65175303daf2faa8ddefa7a3aa891dabcfb7df27da62b0cca9a3c661"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v109_console.log",
+      "bytes": 17288,
+      "sha256": "22ea86799c426470b64db85db0961e270d4ab467f8ff8115dac879b1e824fd82"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v110_console.log",
+      "bytes": 209,
+      "sha256": "c5c911c40f75bb6d7ec015fa72a46e20e51872d3ac6e62752431042f20dd25b4"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v112_console.txt",
+      "bytes": 8436,
+      "sha256": "c4ca663e3e5e76a2cab2cb85db4fdcfd55c3ff07c38cd062947f0e823fe7e0e3"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v113_console.txt",
+      "bytes": 17074,
+      "sha256": "feaa1feb7e549afa443a2e2385be4ba476654b3d2a94e78b3e095fcaddd76cff"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v114_console.txt",
+      "bytes": 17034,
+      "sha256": "9c0555594f821e09ef923d0f64b789f1f376ccc1e7991475eb035f7252ea6125"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v114_locked_console.txt",
+      "bytes": 22636,
+      "sha256": "fbf23ce3d0d8412a144b62aaed0bc8d85ef54dccea902da5984b4644e660243b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v115_console.txt",
+      "bytes": 17660,
+      "sha256": "a914d96fb0acf46e727001133b4fb85be1e10eebad75281d488eb281bef2fd8e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v116_console.txt",
+      "bytes": 15576,
+      "sha256": "16e723455c588a515d60fb00c5da20ae2fc734f03760022aa6196332573697c2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v117_compile.log",
+      "bytes": 15176,
+      "sha256": "4063d9caa9c299f5c98820882c2c8bf59a6380ffa44d12f36366d80dede742c2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v137_console.txt",
+      "bytes": 8027,
+      "sha256": "59cd50d29f4effd597d992b8b9b844df0a609da85356aae314bc790d2eed4260"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v138_console.txt",
+      "bytes": 26991,
+      "sha256": "1979e6b3f255d46ef2dfce57e55b732c656743a29a22498f6d8fe8d60ad05c87"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v139_console.txt",
+      "bytes": 7613,
+      "sha256": "00d5275ed23f1c04f22ea03e06799ed16331d1335b9dadf744584ff4d20d3cbf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v91_compile.log",
+      "bytes": 16570,
+      "sha256": "6bc38a2c5e5c9ce10d667c245f29f833df446e4486196df2aab51031888db01b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v91_stats_compile.log",
+      "bytes": 5309,
+      "sha256": "6aeb6e2ceaef251e948a6cca4cd9c8732a0886b7d27c6554f3ce9116c4b163b8"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v92_compile.log",
+      "bytes": 8436,
+      "sha256": "5913aec09f500de6bdfa7d6f807c0fb4f39dbb5c9b5b1d8dbb65fb772984397f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v93_compile.log",
+      "bytes": 9105,
+      "sha256": "657ec17165be82f7ff177309a2e6641abe11a46b7f77a49e9908ee26673968c8"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v94_compile.log",
+      "bytes": 9170,
+      "sha256": "952e21376291aa6639cddd95cbbf18cd017cfdb0a9a804b6d4b98ec20477bcfd"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v95_compile.log",
+      "bytes": 18372,
+      "sha256": "4b5cece080a5bbbe43c73779b1c822f592a9963702a91c71143543706746f232"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v96_compile.log",
+      "bytes": 16482,
+      "sha256": "a83741eb074fd6399c01661163358ad19856ebf6cd71a2cf48e512bead1a2aaf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v97_compile.log",
+      "bytes": 16340,
+      "sha256": "7db84e983f176f4770ed9b08ae5ee6e15991402d30e9e00a190868ee0fa20b09"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v98_compile.log",
+      "bytes": 8799,
+      "sha256": "4d3675db17e624717515c377c5135283cb6968f07ddca1a658508bb5e81862b5"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/build_v99_compile.log",
+      "bytes": 20933,
+      "sha256": "fcf4d15a91c79fba2a0f3c96f89d7c57ab805d8bb0353bb8873122a04605d4fc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/close_v114_once.py",
+      "bytes": 9098,
+      "sha256": "aa16d1bd0748601b214aad8e18ae936416ee8f6083e7a57a346caaeb0fdb3b1f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/PDF_ONLY_QUESTIONS.md",
+      "bytes": 1533,
+      "sha256": "35fd5f6c83141a50a906b8f8aa61f6d2bcd8c2fbe5adc3837a8fb0eeb5e87ab2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/RECOVERY_CAPSULE.json",
+      "bytes": 513,
+      "sha256": "c5b75fc0e5667f59cd8671d12aef6c393cdf6a6fc034ea24c1f5601c0461ee1d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/before_after.md",
+      "bytes": 1768,
+      "sha256": "5c83577e6812fd8d2c7cb0f30c83ded4fe6f8e9b41e33c5521e76b0a8026e6dd"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/claim_evidence_matrix.csv",
+      "bytes": 3591,
+      "sha256": "12267accae651ff603498969cc6b7c4fd9108fcac705be6e73404b52d25882c6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/code_and_tests/audit_v147_evidence.py",
+      "bytes": 9773,
+      "sha256": "65567f9b35673ec3b4235d06371a14c7840ed03e967f30097142a3716d09c839"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/code_and_tests/deliver_v148.py",
+      "bytes": 17662,
+      "sha256": "7c6ad9d9f21d635e879fa9cbe6a02ed317e2ee13fc3192892b08cf9943f1f6b6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/code_and_tests/render_branch_table.py",
+      "bytes": 1675,
+      "sha256": "e24b981abf24e2f5a994b07873cb82d1344088e4593e163385e0f35a40abc4c9"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/code_and_tests/seal_artifact.py",
+      "bytes": 10280,
+      "sha256": "724837ad1d033c85c95fb6dfa455d2be9cf924a69d882d733c8aaa2128a9c581"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/code_and_tests/test_audit.py",
+      "bytes": 3227,
+      "sha256": "a75130ae6e606a0aa66f072ed79bb332b5054fa5eb9f72c8174cce28bc77539d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/code_and_tests/write_closeout_records.py",
+      "bytes": 17733,
+      "sha256": "54b06b64240309f15c6c969aacd663c856e1a5c0f9b961cdd8e5d37ca1706dfe"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/build_main.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/build_main.stdout.log",
+      "bytes": 29171,
+      "sha256": "0b5312b5a5ff002c6720d32bac933be7cc02ceca853558c33bf7c4944a344659"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/build_main_final.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/build_main_final.stdout.log",
+      "bytes": 17073,
+      "sha256": "d118f11c1f42131617fe48bab059a7846824522f76e4969adc29be321d8fc489"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/build_supplement.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/build_supplement.stdout.log",
+      "bytes": 10865,
+      "sha256": "1a405b206b02a2c90489a0878ce7a804dbba16915e8abeabc3a6eae45d0dd2bc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/build_supplement_final.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/build_supplement_final.stdout.log",
+      "bytes": 5341,
+      "sha256": "dcda3f0f8dae64e7fb64f3354531a9b28e1dc2683f74c59aded45ba9ba01a49f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/delivery_console.log",
+      "bytes": 1076,
+      "sha256": "81c1f4d18fd7e191293afffda869a1260e884a2f4297ec890bbe5603b65af3a0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/numeric_audit.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/numeric_audit.stdout.log",
+      "bytes": 152,
+      "sha256": "ad23ec24a95dc70fc12413164805fd7d6d0fcd4d3e910bae87e50f600c9758b7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/render_branch_table.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/render_branch_table.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/seal_artifact_initial_error.json",
+      "bytes": 386,
+      "sha256": "90b3aa45bc4b2874a4cf205d0565fc6d2b99b1bc48d8393ed6d706ab4d746d83"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/tool_tests.stderr.log",
+      "bytes": 1003,
+      "sha256": "91401dbe98d9c87c18eaf6866a6f0924975bd37165bf3a9b855be5653ddc5aca"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/tool_tests.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/verify_delivered_artifact.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/verify_delivered_artifact.stdout.log",
+      "bytes": 197,
+      "sha256": "a6182ce22ff0f3bfe7540ac11a22a7c1f2defa9660e540532465146ab7c8a5bf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/verify_staged_artifact.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/logs/verify_staged_artifact.stdout.log",
+      "bytes": 197,
+      "sha256": "a6182ce22ff0f3bfe7540ac11a22a7c1f2defa9660e540532465146ab7c8a5bf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/numeric_audit/audit.json",
+      "bytes": 21812,
+      "sha256": "b72a525804d2b7c018280b9dd9ee3c47b7416b1620885029e08200980d1284e0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/numeric_audit/branch_partition.csv",
+      "bytes": 771,
+      "sha256": "af8a3d6e31d8f3fd135a68f9423171b1f4019bd0db3236c627095ced86c6a61d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/release_request.json",
+      "bytes": 765,
+      "sha256": "bcabf32ad71eab3fa385a69c2ecd33471665e951a1382666f751229b238fbcc7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/review_disposition.csv",
+      "bytes": 6208,
+      "sha256": "fdfcb36865300d6b021fcedcefe8133601158d94f30b91af635ab1a89843c3cd"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/round_report.md",
+      "bytes": 4599,
+      "sha256": "d99b865607299770c947d032f000f2dfa94d3e91b9fa0c3379adc99c1011f227"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/source/BUILD.md",
+      "bytes": 425,
+      "sha256": "98114fa4cf8cd646232e3235ba057ec2507d746e563dcc798d17914a4b835eb6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/source/figure_v144/generate.py",
+      "bytes": 2664,
+      "sha256": "d9442aebb686bc64dcc99ebfbbf7c6a54ebd19335b595b2b045bb153025ce2d8"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/source/main_v148.log",
+      "bytes": 23320,
+      "sha256": "beab4b7bdf92483784b47693300a0556066f3320d2b3587388497aa56863bf8e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/source/supplement/supplement.log",
+      "bytes": 13013,
+      "sha256": "f513fc8eb67bdbafe54da1982247ed1b7f1fcccc7fe4e341bfe03718565a7e31"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/final_decision_return/validation.json",
+      "bytes": 2674,
+      "sha256": "c431dbd34d1683747f168be955c875c6cbb20b274e238bdf92e70fe088d89312"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/finalize_v110_cost.py",
+      "bytes": 8039,
+      "sha256": "81debc285ea1d707323d3bb02a1066ab42b2dfd625fa10665b203a601a97712f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/findings.md",
+      "bytes": 445,
+      "sha256": "014b6a97a5615a7286bdeb3f44b574e0d7de298f1a893702d36583c7558db7e1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/implementation_details_v117.md",
+      "bytes": 2328,
+      "sha256": "8a7f0baa4945dca26a47487c6f96e1cb605e10a76cd1a67d08c0d4592fd998e5"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/integrate_native_v113.py",
+      "bytes": 1524,
+      "sha256": "dd400d143994d17ed5edbb53b150adf4dfc2905f447184489e310e9573a3d4b2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/main.log",
+      "bytes": 22449,
+      "sha256": "5abdc82ada147b7a8c86861d7ea0879cb68a92a052815a5ba529cb419213c8de"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/main_v120.log",
+      "bytes": 22563,
+      "sha256": "7dbd6c6525727a36a188e97ce55e0a80e2d315019cf05a7c70d6b2039a318c15"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/main_v121.log",
+      "bytes": 22562,
+      "sha256": "a4dff5d485061233c370890244450407bc2e0bc914209ed1cb91c4e3a9a9a2fd"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/main_v122.log",
+      "bytes": 22639,
+      "sha256": "619be4e36cfd54590151e0c6ef001834fe6d7631b650e86e6f6219fa685a0236"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/main_v123.log",
+      "bytes": 22712,
+      "sha256": "6c5307f2bca418c133a0aba972cc55da6cc945d393e1d00c8f4027b8168f86b6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/main_v144.log",
+      "bytes": 22870,
+      "sha256": "1f31f45be0b2bfc79490d8e4045baac654b34ebd11a44fc66124d072db6dc5cb"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_aligned_v77.py",
+      "bytes": 3438,
+      "sha256": "5b0afd034ecf1f3b9caed07e18034a662277c837e151a2875564d4a64269525c"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_cost_v75.py",
+      "bytes": 2578,
+      "sha256": "27a397944e3a09805e78a9c72db0d197b872953cf5f3117fcf5d5f1e83d116a1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_cost_v93.py",
+      "bytes": 3203,
+      "sha256": "2c7d7dcab4cb1dec8683cd830f385fc2f63ef42a86607c932d01f04973a71e02"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_evidence_v79.py",
+      "bytes": 2896,
+      "sha256": "9a7bf3d453083c0b29910403c20ed12d142cba8dcd0f0e80ae0328bbdcbc84b3"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure1_v109.py",
+      "bytes": 5126,
+      "sha256": "711934f984802f62493deae7d6413583ffc8d99d9f70a0123606049f0e2fc3c7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure1_v110.py",
+      "bytes": 5217,
+      "sha256": "f2a6d440b61b42ef51de7c1ef60915f36f66bf86e62068a1c9398fa52a19c2e0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure1_v129.py",
+      "bytes": 21602,
+      "sha256": "5dc71d2c583a8ec3cdfe473b106cb6ccbcba756eaf429a04e6f6eab8fcd67e9a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure1_v130.py",
+      "bytes": 22216,
+      "sha256": "964fa3e8f6b28e9ddf68405f0ea7c453c22a976fa78d833582eb3033e7724782"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure1_v131.py",
+      "bytes": 22954,
+      "sha256": "7fddff8efa59c33a62e3ee67396f07e8fbc778ab9fd669cc971250bf37250859"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure2_v100.py",
+      "bytes": 4440,
+      "sha256": "539c5bdf866add9ce69449c064f9405e386794bf4347bcae1365ab53978c076e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure2_v101.py",
+      "bytes": 4943,
+      "sha256": "b8b91b0959e09646711479e20fed76b6b1a6bb41048a643dab84c3893769e1f9"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure2_v102.py",
+      "bytes": 3682,
+      "sha256": "f2be9b63c94fe9c1948fbec8ff845fe380c49433cc24af8c6cf363b29d757da1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure2_v108.py",
+      "bytes": 5037,
+      "sha256": "9475893309f1541b655cf127b7d7677f8b107810be2c12600020a9854529d395"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure2_v110.py",
+      "bytes": 5498,
+      "sha256": "81deef2d73caa6aa5006c5c33f8b8f457fd052de82cafdc52b5570eed879fafc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure2_v113.py",
+      "bytes": 5695,
+      "sha256": "1789ee4b274c7187186752dfbffc08850f76025edc79eff40d07fca2d7072e27"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure2_v124.py",
+      "bytes": 5696,
+      "sha256": "1d232d2f4c0b696600bf1460145942b00c7c104b1bb24e56ada93e67ce5bc51d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure2_v74.py",
+      "bytes": 2346,
+      "sha256": "f046add0923e8a7d5d589b591f99582f57fea09e46bd01dad568943cf58f7ebb"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure2_v82.py",
+      "bytes": 4375,
+      "sha256": "dba86e471451cba22fc4037bb014ccdd0a05d90c663f9722745f06e2627da400"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure2_v96.py",
+      "bytes": 2761,
+      "sha256": "70e64b8d37f462063be4d8da8f6adb1e86de9e0a71ddfe5d280ca79ec8ca32d1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure2_v97.py",
+      "bytes": 2762,
+      "sha256": "b7fee8e8a3ecabfd4f256129718fbc587cbaf33ae87e3123dc31e1b72f3af9e9"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure2_v98.py",
+      "bytes": 4497,
+      "sha256": "cb7b64df6f3e8bf0fdad008ab1a3c9e2ca37219cf531d93f0cfbd7bc8ed85f7c"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure_v81.py",
+      "bytes": 2313,
+      "sha256": "7aba7fe7b3474b3790ac607fed82d5bbc8b84b80f6f761cfa899ccf5700b5b2b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure_v82.py",
+      "bytes": 2113,
+      "sha256": "4a0e5e73dd07fffbafd56ff1a47335a98376edfae964b7dd490fe77b28e5c4bc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure_v84.py",
+      "bytes": 2258,
+      "sha256": "3681c4968dbe80b05a8e53ddde90b1c2894bae5b2c251ae32b09edff05734e23"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure_v85.py",
+      "bytes": 2780,
+      "sha256": "b874502258a5414723e6d411728e533ab59fc82cbb18bed7b9add28835ea80f7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figure_v86.py",
+      "bytes": 3059,
+      "sha256": "19784543a4c4388a10c54748fba2127b86ff1cef034dc7b38abe71b11042bfd1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figures_v107.py",
+      "bytes": 8384,
+      "sha256": "a2ffaf2e14b1f6878e9ec61043bf3a5ebff50310c4862fc85b56cf6a94be43cc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_figures_v93.py",
+      "bytes": 7603,
+      "sha256": "f907a2126632648e5a5889c78cfb86ca10227b6fa153b0c8f7edaeab4dd7e5a8"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_tables_v74.py",
+      "bytes": 2878,
+      "sha256": "cc578284ca57e08bb06579eeb0ab7e29111fbfd9b0c32697df3061d5adb86a65"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_tradeoff_v80.py",
+      "bytes": 3008,
+      "sha256": "107cb2f79151a34cc53963be5212bb6bac55ce04103b836757c624bf07bda706"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_v80_review_assets.py",
+      "bytes": 4612,
+      "sha256": "b30fc8aa5d340e2cdd490a574816d0e492fea73d236065cf946596d0e71bd41a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_v80_supplement.py",
+      "bytes": 8316,
+      "sha256": "fd92900624cb57696b883d2b6ee31d9583d96598d70b88f31fcef2ecb6cc91af"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/make_v86_evidence.py",
+      "bytes": 4257,
+      "sha256": "ff2b92660542e206b33f13a871ccc6122f065ac4e5ad908c56f7c4812e59ce7e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/package_v111.py",
+      "bytes": 8612,
+      "sha256": "f83afbf3674de94634ab8f2c3486e9912195e9e21cdbf2b567b4f5029910d36d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/package_v112.py",
+      "bytes": 11963,
+      "sha256": "23ff57a0065da63a254c291776da56676eedd1946c2aae48cc2edbae2da71891"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/package_v113.py",
+      "bytes": 13300,
+      "sha256": "b9d614c131a4d572d17f99bd647642ae64f1dd3ad5c5dabd0f0a2daf5159709c"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/package_v114.py",
+      "bytes": 6573,
+      "sha256": "f8265f8f25a5b9945cf5b64da429be4f00c8c2c58ad0ca179c07ba32c92b1fbf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/package_v114_console.txt",
+      "bytes": 732,
+      "sha256": "bf251890be3afbe6ce0e8071bf1ef952172f3c0d461d69d40db4bfb8fdd2432f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/package_v78.py",
+      "bytes": 9087,
+      "sha256": "b4a24893c22d88c064211a5f8549dd9412fd0340410a7b11962e15d5726d5759"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/package_v79.py",
+      "bytes": 8273,
+      "sha256": "9734e061d2ef990745050e89f8755442e92b1b2bca2e0387a10a827f539bb822"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/package_v80.py",
+      "bytes": 8041,
+      "sha256": "8f92ec5a413e6bbafee8dd64e0703a755808468cf6108e3dbb95df77c30097e7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/prepare_package_v110.py",
+      "bytes": 7878,
+      "sha256": "a56b5b5d99029ae9e13d99a0986b7795d6ee27732019385c117e2ea891afc159"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/replay_completed_native.py",
+      "bytes": 2697,
+      "sha256": "e8aefc163e4e0b305114d277ffe5e3f0b7087ed6ea5712419a62324eb0030e24"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/research_archive/ARCHIVE_INDEX.json",
+      "bytes": 2215,
+      "sha256": "f7adc3137ad7acb8cb4a84753654ea54ed791fb3cdbca789e023133d21a6ecf9"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/research_archive/ARCHIVE_STATUS.md",
+      "bytes": 743,
+      "sha256": "27a10d6a70b8e512f2deffe3291222ea73dca56f54ff6da3258cd7b98cbba884"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/review_round_1_delivery_refresh.log",
+      "bytes": 405,
+      "sha256": "7feb15bb4df88b9980ab416813a7746bdd1151a62dc1676e7b1f41cd523fea7a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/review_round_1_refresh.log",
+      "bytes": 375,
+      "sha256": "4661aa29cf1df34830ec56c38383329d93984b5249830ae13662965477624f57"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revise_v112.py",
+      "bytes": 4588,
+      "sha256": "be49bd93a7c34af950bcb8a5f62be7535faa76ac5fbfc27d292fe83ebc5ba368"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revise_v81.py",
+      "bytes": 6855,
+      "sha256": "303d709c4c4cab60b4281ff9e39545cace67e0135c0f93ee464267063db633d5"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revise_v82.py",
+      "bytes": 7639,
+      "sha256": "a0709d10bd314428ab8f281f2714eb1b9db2f5d30d8ad533ca63fb1a91c7adcc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revise_v83.py",
+      "bytes": 4091,
+      "sha256": "59716c419542f8f6d727d9e090362cd6161dddbe56e613903f811f9a785699cc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/DATA.md",
+      "bytes": 1020,
+      "sha256": "3c413e6338dc222260014a35f279eaae3d53dc0b857d9098374109f84c2d7427"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/ENVIRONMENT.md",
+      "bytes": 841,
+      "sha256": "0d2f1a736a7d0bbb1c671eaeef19e7e7d26eb78277aab5ac52c60c8cf8b6d7d3"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/EXPERIMENTS.md",
+      "bytes": 1080,
+      "sha256": "541dfffc3fd7fd56fd0dd9de59fe1a9e03be4f5314fd31bf77d3cb4676248d21"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/FILE_MANIFEST.json",
+      "bytes": 33835,
+      "sha256": "89e116a4a2a60728271ac6b6bba8c8d1701261a595b26abbcab93c91f08017b2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/LIMITATIONS.md",
+      "bytes": 1042,
+      "sha256": "b2775667ca91f3f28f5fb5025e8e4410c8a709a101d05e642458d78a00b0fb7f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/PROVENANCE.json",
+      "bytes": 55063,
+      "sha256": "21e0a58f7d0f132fbdf0a3874cb6b6e274308051cc44c21da4958643c7dafb69"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/README.md",
+      "bytes": 4222,
+      "sha256": "17448847ff489b5e60f314b764e4560eb5791e9493ed53a708bf1a8a735f4397"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/REPRODUCE.md",
+      "bytes": 1233,
+      "sha256": "e042f264697c7f9a1ea90d54eb9acdf789c070c4660fab2cbc5002b8c6642d09"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/RESULTS_MAP.md",
+      "bytes": 1304,
+      "sha256": "e8d308cda45950bdca8ff22104683a1e7cdfa573ada5e03b634d88a789001f8b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/PACKAGING_IDENTITY.json",
+      "bytes": 8098,
+      "sha256": "7a447bb9d008b073c06c7fbd84625f4598faa7fff26cd37663ad6668d11b8e94"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/README.md",
+      "bytes": 4612,
+      "sha256": "54d1ae9c042b1f95b9651bde3f058fd482e56c5308dcc311bc8960a626335fb3"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/branch_audit/README.md",
+      "bytes": 2120,
+      "sha256": "55890338d1fd4d15c0eda2142cdb6267e0594854a39e6fca86c43ed7985fd5b7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/branch_audit/expected/audit.json",
+      "bytes": 21812,
+      "sha256": "b72a525804d2b7c018280b9dd9ee3c47b7416b1620885029e08200980d1284e0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/branch_audit/expected/branch_partition.csv",
+      "bytes": 771,
+      "sha256": "af8a3d6e31d8f3fd135a68f9423171b1f4019bd0db3236c627095ced86c6a61d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/branch_audit/tests/test_audit.py",
+      "bytes": 3227,
+      "sha256": "a75130ae6e606a0aa66f072ed79bb332b5054fa5eb9f72c8174cce28bc77539d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/branch_audit/tools/audit_v147_evidence.py",
+      "bytes": 9773,
+      "sha256": "65567f9b35673ec3b4235d06371a14c7840ed03e967f30097142a3716d09c839"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/branch_audit/tools/render_branch_table.py",
+      "bytes": 1675,
+      "sha256": "e24b981abf24e2f5a994b07873cb82d1344088e4593e163385e0f35a40abc4c9"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/candidate_availability.json",
+      "bytes": 10582,
+      "sha256": "9762f6535cbb7039412d2395e282b5e7a63b71f4f3d33f345fef6129e9aacde1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/candidate_export_schema.json",
+      "bytes": 24748,
+      "sha256": "cbfd9f21ee9f6b59c5165c51c49ef099212efc0390064020d0d8bbc0abb02e99"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/cv/H3_101/RESULT.json",
+      "bytes": 8494,
+      "sha256": "6e802e385510f043b471019ad19b93a4729a52bb0e14edce1731c9f8de949dc2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/cv/H3_202/RESULT.json",
+      "bytes": 8490,
+      "sha256": "b5ff6c00497fa61504d98831dfb0434c481b02ac4be4aa71af18c20fdccfc222"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/cv/H3_303/RESULT.json",
+      "bytes": 8494,
+      "sha256": "fcef613459b44d5f0c3dd9a25715569a2710529fb39e597fb11614321fcd01b6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/cv/H4_101/RESULT.json",
+      "bytes": 8650,
+      "sha256": "bb8e82e4afb44c700c3682fec3040a3dda1b253576442f95fcaea67afc7201f6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/cv/H4_202/RESULT.json",
+      "bytes": 8655,
+      "sha256": "cfce800a0aaf9b58e57adeefe02b79d37126e6ed8774cdcb96b8f248a8f58234"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/cv/H4_303/RESULT.json",
+      "bytes": 8650,
+      "sha256": "546f99808dad4b71d8fd9cedf050ee48d1df768970a0522de39c0d49e8f8de5e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/cv/HR4_101/RESULT.json",
+      "bytes": 9193,
+      "sha256": "aa795fa9260d8477bca57bac7ce7dfa926cccd0b412b51ed5be4b47337d206d1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/cv/HR4_202/RESULT.json",
+      "bytes": 9202,
+      "sha256": "8dc9e4bba6f94f4bbfd7329a29596e5a46d2198b7ff92d491f1eaa94b31e6833"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/cv/HR4_303/RESULT.json",
+      "bytes": 9204,
+      "sha256": "fada6946d2af55e09ad9d9e055f7f20c91cc6013fde548c478c91880436a6de9"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/expected/EVALUATION_RECEIPT.json",
+      "bytes": 1722,
+      "sha256": "95a17c3d9229701a48ae12c4407d9528c384f302fe993ede3df7b0f66497cf20"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/expected/effect_scope.json",
+      "bytes": 12115,
+      "sha256": "cb19e999d3e60ebb09fe95ac856d5cf3d2f43e3db7071695cf25e1391f9a945d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/expected/per_language_SDIN.csv",
+      "bytes": 27883,
+      "sha256": "bfd13e3d6052e0e98d454b1835efb8f1013748a57119e1259991cfd916ccd2cf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/expected/policy_summary.csv",
+      "bytes": 5628,
+      "sha256": "5941f2a71012a780ca47fe8163d2305e7eea783511c1cf2f2b4ef683405133df"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/expected/primary_comparisons.json",
+      "bytes": 1892,
+      "sha256": "b94fad9c9f35338a72173236b36b903da7bf9a6f8b016f65d923af49d93e3290"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/expected/three_checkpoint_means.json",
+      "bytes": 6294,
+      "sha256": "a55a03cc1e69bc56e17d90cd79af20d162bb34ffb3a6d30dd6a5b75dac8786ad"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/export_reference/export_dev.py",
+      "bytes": 7838,
+      "sha256": "c96179ce63253bb9014db0badfa76e439f4c1731c4fc7d4950b1ada9e1f0e7fc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/export_reference/export_test.py",
+      "bytes": 12458,
+      "sha256": "22fe110f2456ae6fff6e4d7b80786323b9d0a935ea3b35c266ccc3ecd6d45514"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/export_reference/study_common.py",
+      "bytes": 2726,
+      "sha256": "4dee40df5ccd332169429605629a020727c5fa2265e34aa265224c19e5f5d7c0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/folds_and_scaling.json",
+      "bytes": 2746,
+      "sha256": "1dd38d1c66f63603150c80ca2d3e43bb92c032b4146484f566b82e4bcea28049"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/inputs/G4_LOCK.json",
+      "bytes": 900,
+      "sha256": "805c836bdbedf49fb578a5971a40775fc805ea91b2943585349dfec249192ce1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/models/H3_101.json",
+      "bytes": 1211,
+      "sha256": "698909d7b93ab8146debe6282ee91eaa862759b35b82360510959787826ce347"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/models/H3_202.json",
+      "bytes": 1209,
+      "sha256": "b1675033a536e1191aacaae05a2cb7182d55c0902feb97761ac82cad59b225e1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/models/H3_303.json",
+      "bytes": 1217,
+      "sha256": "5fc4a980994e773f215f4bab365abd385f23c8abb473eca37f00317ce0108b29"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/models/H4_101.json",
+      "bytes": 1318,
+      "sha256": "eb8fac9fab1eaf4a3827aa4bebc97f8d15a80da23d6934a0ab225b2caf8f8e5e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/models/H4_202.json",
+      "bytes": 1321,
+      "sha256": "3aa61638acc061e07f29b39147603378cc10e3803fd3028fa8894c7d91ff6945"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/models/H4_303.json",
+      "bytes": 1324,
+      "sha256": "0ab6fd4eb3350519fe5f7e3f99e2088bd3f4685de225c98437c2c524003d0d08"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/models/HR4_101.json",
+      "bytes": 1319,
+      "sha256": "9343bcd3d6b82ca8fe88d846fbabddfdbf1a08aaefe51206f79586390e233f29"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/models/HR4_202.json",
+      "bytes": 1287,
+      "sha256": "f6d3f5fbbd12b7802d72f3a310f0d3bce0a8b7ebe5985b341767967055cf52bf"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/models/HR4_303.json",
+      "bytes": 1322,
+      "sha256": "dd5e1557acee5f8821372dd34ac918c1f1c949c7db8120d94a21cd5185fa3151"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/models/MODEL_LOCK.json",
+      "bytes": 924,
+      "sha256": "f62e988756e3c95bcea16fb7bcaa3147bb4d0a3704a3209646439c09f6d495f6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/prerefit_plan.json",
+      "bytes": 6196,
+      "sha256": "ff1efffd0593e5d80ea8e455a1483a6ea8a59e6a81d5a9442ead0725f918facc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/tests/test_reference_tools.py",
+      "bytes": 4234,
+      "sha256": "5dec87d9a9ebb44446ca709f695181f61ca7199dfede32389eca5b68b6d8168e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/tools/audit_effect_scope.py",
+      "bytes": 8130,
+      "sha256": "dee588cdc38b7bdf65fde1e05644cf97fb699f4c210c9564f99d1a3118d3566a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/tools/candidate_objectives.py",
+      "bytes": 5516,
+      "sha256": "2a139eb7feb0bdccf66b33f36a19a78c6f7f2962898e013e232edeefd71c3751"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/tools/evaluate_acceptors.py",
+      "bytes": 7846,
+      "sha256": "d6c0fb478598aad4439dda4452fa4c00a1500fe35041f0351e9dfafc1f21d6a3"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/tools/fit_acceptor.py",
+      "bytes": 5997,
+      "sha256": "bb101a18e3be891700ab5de9bbed51e33920f63ae1243b222445f4eabd29a4c4"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/tools/objective_engine.py",
+      "bytes": 3274,
+      "sha256": "5e2736272c7d5e97418387f016a94ec3b18a292a97137d2810bb5b7f0a215047"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/tools/replay_packaged.py",
+      "bytes": 4790,
+      "sha256": "ce01c3708c639cfa737c11d7c0a23b64d33ed18fe0361bccdcbce29c73db6233"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/cost/stage_profile.csv",
+      "bytes": 2739,
+      "sha256": "49c126cab00463ef8a1bfeccca9300fc5e112178c73cff094f434417b9a6ca2b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/cost/study_A_three_checkpoints.json",
+      "bytes": 11953,
+      "sha256": "914508467e06aaeb79ac0b5b4012ff44ac76bb65b38c87ec6ca59fe892ee3a69"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/cost/study_B_one_checkpoint.json",
+      "bytes": 15823,
+      "sha256": "af95e1a6859044b81b65fa8154579e9a159444c47962cfb013a66fa42dc84016"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/cost/trigger_coverage.csv",
+      "bytes": 813,
+      "sha256": "f97cbcba2137f7e7fa45522f6e41effa060176335a09d11c986d0b5f4ddb88b0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/diagnostics/candidate_controls/RESULT.json",
+      "bytes": 5313,
+      "sha256": "6790499a9eac054b5d5a49c2b4fadd21db016fff4ff7bbf65a1fa720371b964e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/diagnostics/candidate_controls/per_language_SDIN.csv",
+      "bytes": 7984,
+      "sha256": "8947990fd8f9c000256b762fd7ca4f824a5493b0cef679a766cf593e037f67c0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/diagnostics/candidate_controls/policies.csv",
+      "bytes": 1361,
+      "sha256": "347b2196fceb70481c820f4abe5f4c692d95dfb20b39e7ce74fe86ea65eb59dc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/diagnostics/candidate_controls/two_window_Direct.csv",
+      "bytes": 7696,
+      "sha256": "534dee29bf356f0713da1cb14df2d47516b09476bc22bea51b34100ac123ad6f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/diagnostics/confirmation_direct/RESULT.json",
+      "bytes": 2199,
+      "sha256": "448a11cd23e8250af66a4852559debbd231071611956a0d3aea6b0438dfe7c4f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/diagnostics/confirmation_direct/per_language_SDIN.csv",
+      "bytes": 4364,
+      "sha256": "a9a9327a344a4b124d6a90c643e1ab7f701373706089c79684c7b365279b19eb"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/diagnostics/confirmation_direct/policies.csv",
+      "bytes": 532,
+      "sha256": "1b1157f39bdd6e85161a1537b68c7a1e6be26bd76195d37596a0b0f82252521c"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/analysis/E02_DEV/temperature_grid.csv",
+      "bytes": 433,
+      "sha256": "6974529bf2354f2078889e6276dea0923a41389630d7d326a3e0f14d01b94232"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/analysis/controls/RESULT.json",
+      "bytes": 5217,
+      "sha256": "46e2a8c7b52bbdb8621509840528cce0cbd624ff36640bae19f00751d7acd059"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/analysis/controls/per_language_SDIN.csv",
+      "bytes": 28797,
+      "sha256": "513e19adb81886d326cc5ad9cc0983ab5194308989a7a7f248edaf5d8d3eccce"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/analysis/controls/policies.csv",
+      "bytes": 7323,
+      "sha256": "326d65b8d60fd2bb36a8e92c4eeadbf1c3dc5ff77c0de64a3e0fdad7cbdcec0b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/analysis/controls/window_diagnostic.csv",
+      "bytes": 385,
+      "sha256": "3c3a2bad2965484efa6814de68818d1f5ec85b5bd358097bd1bea5b2f38922e7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/analysis/display/RESULT.json",
+      "bytes": 1987,
+      "sha256": "a64cc6dea13ab06ca98f9630c00aa982889eb2fd580e2cdcf95773b13acb0fcb"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/analysis/display/budget_gain_decomposition.csv",
+      "bytes": 31389,
+      "sha256": "3a4245094f26a0ba56f3c9a1aabd362e04916da02a5e5d057a53932944b74bcc"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/analysis/display/original_language_checkpoint_effects.csv",
+      "bytes": 9283,
+      "sha256": "59568cfc16694f1ab3f1d4ad43b5330e6ecebe689a63d7d2589c24f791eeb694"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/analysis/statistics/RESULT.json",
+      "bytes": 1282,
+      "sha256": "22e150dbf40ad34cda39e8bc23a52337fce1ee3690eda7805830211b0d594ffa"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/code/audit_existing.py",
+      "bytes": 738,
+      "sha256": "022883e37fbaa603126956684932ad68577faf762fcfa5a007e26ffaa00e0a96"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/code/common.py",
+      "bytes": 2744,
+      "sha256": "d2fabdc4da803fde0459417dc5716a7c9e5fa465ee3027516d6f51703c035443"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/code/evaluate_controls.py",
+      "bytes": 8309,
+      "sha256": "cb4b4ab504284bf208ec0978cfb3f522e614ed582394b388be52e1a6978462b0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/code/fit_hwr4.py",
+      "bytes": 5794,
+      "sha256": "3de240df6cb90d4be3c7cab3d4e855cbd9a7d1e7ba814e126f816a333d31066b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/code/objective_engine.py",
+      "bytes": 3274,
+      "sha256": "5e2736272c7d5e97418387f016a94ec3b18a292a97137d2810bb5b7f0a215047"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/cv/HWR4_101/RESULT.json",
+      "bytes": 6117,
+      "sha256": "8b0e3d8171552e59d3f8ef9874531ba2cef8384b26293457941c8feafc0bb524"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/cv/HWR4_202/RESULT.json",
+      "bytes": 6123,
+      "sha256": "36ab1113a1558741e7bf425c4a25e51a57d6c3ed195d6e882f8a0cdd62c9aa3d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/cv/HWR4_303/RESULT.json",
+      "bytes": 6120,
+      "sha256": "02cfcdb60971507bae1d409fff504f2c0d478c1a2e398c4b26678b79ae09d048"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/models/HWR4_101.json",
+      "bytes": 856,
+      "sha256": "e8e71b11f4f5822c953a74edff2f2a151a3bd282b032d0f700b2b55ca69f2c67"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/models/HWR4_202.json",
+      "bytes": 854,
+      "sha256": "4cbbdb078093f2754492d189f224d437ef391de50b0152c08094044b1e15e03c"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/models/HWR4_303.json",
+      "bytes": 855,
+      "sha256": "9f7df5a7ab243d313680a5abe2477765913bc55b9f61ce773d8109a1b697097a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/models/HWR4_LOCK.json",
+      "bytes": 396,
+      "sha256": "aeb1cb315c7b3a6f0e9e64db8e7d550ad9a9d826b32843aa76ffbc9b57399142"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/models/MBR_LOCK.json",
+      "bytes": 1180,
+      "sha256": "68b2bf3ea2fc238b126da7d9d1a5473ffac9ae8d46e3255a70041dfe3a0b6c03"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/protocols/LOCKED_PLAN.json",
+      "bytes": 3684,
+      "sha256": "9ee00d141331477235e49ba42ed8116c75837180ad8f043733cf4353cbda8cfb"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/README.md",
+      "bytes": 1410,
+      "sha256": "291dd9577c7fe6bb2d8cad7373fe769b19df53c60a06c4481274c48a21255299"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/expected/controls_q003.csv",
+      "bytes": 3676,
+      "sha256": "e6460a86399541c461069c67db577f4f7efe21b329d12694498d6aad2b5eb70d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/expected/cv_losses.csv",
+      "bytes": 11189,
+      "sha256": "c99ffd7f51e3ec11a94b4acb98822aee47efe292e05981fd56c31250aac1b878"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/expected/exact_K_per_checkpoint.csv",
+      "bytes": 2846,
+      "sha256": "534e6cbe05dc6b3defa36a231b4ea3c03fccf7d66794747df6aa0a4210f76054"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/expected/frozen_models.json",
+      "bytes": 11495,
+      "sha256": "3d75f870dfc47eb16ab165d26e3c2c9b228c779db73a7fcd42ae999ef3828825"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/expected/label_distribution.csv",
+      "bytes": 12390,
+      "sha256": "aef9a56581b20fe12f44efddb66fffa3f4226fef4aa24866e00a8a8cbcd5a1c2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/expected/per_checkpoint_hf.csv",
+      "bytes": 10156,
+      "sha256": "6b3ac53900dc23c66f7320d3c12ade550af45ba6c865abf352f176837249a99c"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/expected/per_language_hf.csv",
+      "bytes": 40540,
+      "sha256": "2cf662bae90b065c2e463682bd54a55673987f7b6e2b4ed3b79696082437a1be"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/expected/results.json",
+      "bytes": 21392,
+      "sha256": "b9c845a9bf0e95b8041034bcf2076b8aecefee20771401bd4cfc33f19a9d3188"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/expected/summary.csv",
+      "bytes": 5945,
+      "sha256": "5adc3e8ee59b734aad899af69a4c57cf9514a615e185e5d77a74c74d50393494"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/feature_definition.json",
+      "bytes": 2077,
+      "sha256": "39e784dfad9a83abfdb1e16000d864d8c2cea3cccb90be7932482c4f7559ff72"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/protocol.json",
+      "bytes": 1057,
+      "sha256": "019f1a817c64af2b3fa8685ed37965b39f404e942b9156554082b45b83f08158"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/tools/evaluate_budget_matched.py",
+      "bytes": 14139,
+      "sha256": "ebae11b6b9c81e04c11a5a5d107c91dd894d18eb2b9b743370b0dd240e74c939"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/tools/hf_gate_math.py",
+      "bytes": 2436,
+      "sha256": "68f0e5acca885996a27e9093ab1ee3d15769dde252a7a59c1deb36ff4cc9bb51"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/tools/replay_hf_supervised.py",
+      "bytes": 11526,
+      "sha256": "3f77dc638b73e3b662525eeb965ba3e6e5eb768eb9bed59741330d7f2e02a526"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/r8/tools/scientific_core.py",
+      "bytes": 3642,
+      "sha256": "86e8b9e7abd6bf16d9ec1f11555d96a7ca6744b8e5d5d6c9a7442b31fc718c38"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/requirements-cpu.txt",
+      "bytes": 27,
+      "sha256": "4b81b6b6a549771115529e6900b9589835cdbfff0c6acf179aef53d283b744d5"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/runtime/cost_statistics.py",
+      "bytes": 995,
+      "sha256": "621fb61879f7aa24909bc7ce973133292fcdb52682abb8230fa864ae54e38a6e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/runtime/feature_scoring.py",
+      "bytes": 1380,
+      "sha256": "b55ecbd5000b54d10459f12143def44915151ad2e2275d722d150ce863a191d4"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/runtime/infer_audio.py",
+      "bytes": 2629,
+      "sha256": "04b39924ee9164c14b0a0559a2ab92b17d4494e8c3c3cb3369592b49d6603b75"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/runtime/models/H3_101.json",
+      "bytes": 1211,
+      "sha256": "698909d7b93ab8146debe6282ee91eaa862759b35b82360510959787826ce347"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/runtime/models/H3_202.json",
+      "bytes": 1209,
+      "sha256": "b1675033a536e1191aacaae05a2cb7182d55c0902feb97761ac82cad59b225e1"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/runtime/models/H3_303.json",
+      "bytes": 1217,
+      "sha256": "5fc4a980994e773f215f4bab365abd385f23c8abb473eca37f00317ce0108b29"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/runtime/models/SELECTOR_LOCK.json",
+      "bytes": 1512,
+      "sha256": "64d44eaf49a577aad8322ad34919b20c5a9f2fa96e19ab1ae55dfea60ab50f28"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/runtime/runtime_v153.py",
+      "bytes": 10496,
+      "sha256": "e0cfc6f1ea01bb87789d95542ace06bb308fb035a83657399e1220d1d6cb11af"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/runtime/stage_profiler.py",
+      "bytes": 2971,
+      "sha256": "8d429dc29e3bbaea53945c80b6190f84ca6092c8afe1a68aa57e7d66f0141221"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/verify_release.py",
+      "bytes": 704,
+      "sha256": "99fc4472f70c6ee56a817466276e288ea34dff985fd305c2cd33ff86d13cc691"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/BASELINE_GRIDS.md",
+      "bytes": 2328,
+      "sha256": "8a7f0baa4945dca26a47487c6f96e1cb605e10a76cd1a67d08c0d4592fd998e5"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/IMPLEMENTATION_AND_TIMELINE.md",
+      "bytes": 5838,
+      "sha256": "a51babfed04ee2e77d91ba42a9facfe49e7cf464a8e62b779e7cf7b1d4d24ea9"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/README.md",
+      "bytes": 2096,
+      "sha256": "b1ade9197a046fa54f1c8d75478b1f0b1714cc719d666b05cfc6c0b34edc65dd"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/analyses/DIAGNOSTIC_DECISION.json",
+      "bytes": 796,
+      "sha256": "bd9566e62d5c64c4b0480b5d5ea60a3df259668b1cb1484c9cb9438dd4f5fb90"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/analyses/acceptance_feature_attribution.json",
+      "bytes": 97832,
+      "sha256": "b943bbfdb624d753409937967c55268ae3c282541f2ce6fde49b1e0c719059df"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/analyses/acceptance_score_intervention.json",
+      "bytes": 15526,
+      "sha256": "0b9d0ab854d93d1658f04495ac32bf9ebf48e5dc857f9b36ce7d678689747f7b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/analyses/cost_work_accounting.json",
+      "bytes": 5706,
+      "sha256": "c46d93aea934005f212c51f4f3ffacdf99019b6096ec7ef15d51f81e744eb54b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/analyses/difference_case_index.json",
+      "bytes": 5585,
+      "sha256": "a47265640c118ae620483f47c9e81d3b8f6de4e6db753f94b4d7e941ccbf4e61"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/analyses/helpful_recovery_accounting.json",
+      "bytes": 36914,
+      "sha256": "c3e0d6018459a47375bbed70cb59feb9940905983e8070f47716bd0e35b987db"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/INPUT_SHA256.json",
+      "bytes": 4687,
+      "sha256": "796d4bebee90be8f8dd560f51f89632d884ded193593d27b9d784b8eb2c521ff"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/README.md",
+      "bytes": 617,
+      "sha256": "284a9c7589c26b3050ae71f5f7a1bf98c0d797c7f78c0222623ff182bf7527ae"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/V119_REPLAY.json",
+      "bytes": 974,
+      "sha256": "c4f68c86b8c95c6d255662c8734ed535bf2cd1447395dd6b4a6492f76607e26a"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/data/ALL_CHECKPOINT_COMPARISONS.json",
+      "bytes": 5396,
+      "sha256": "0033929a010fda31c716c4a55d716459f6b66b79417cde22992868a11ad30372"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/data/CACHE_DIAGNOSTICS.json",
+      "bytes": 13593,
+      "sha256": "eb0d649e4bca66ae5981208d6059abd9fe9e8141e2c53b6da93095528a47d447"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/data/FINAL_DEV_LOCK_101.json",
+      "bytes": 4328,
+      "sha256": "beb6fe269b91b507c6d01c312fb22c9c834764d4572de17a3589bfa544ab91a9"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/data/FINAL_DEV_LOCK_202.json",
+      "bytes": 4339,
+      "sha256": "ef736c74eefc8f2780ff4f418ec76d04467e16bdfc055f005a488b14f433096d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/data/FINAL_DEV_LOCK_303.json",
+      "bytes": 4294,
+      "sha256": "e48349b2520099fcc9c4954bb9c82956fced7a347291954766eb6605b441d6f0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/data/GATE_SUMMARY.json",
+      "bytes": 3879,
+      "sha256": "e4582986d6731da986a471d478a39bfad45974779f6e2fb86bf8e930fd036271"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/data/LONG_FLEURS_IDS.json",
+      "bytes": 1497,
+      "sha256": "4cd0d57cb9f9ea55b7ebe41cf769ad5244116bb03345d30dec37d66be6468e09"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/data/NATIVE_DECOMPOSITION_101.json",
+      "bytes": 283,
+      "sha256": "f679d138596b2ef9cfce248940eebdc2d481603ced68c27ca78d9f79b87829e2"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/data/NATIVE_RESCORE_RESULTS.json",
+      "bytes": 1222,
+      "sha256": "07f9a6c31eb3b2fafa824b67e6beafa0088e6d0149fb930e31be99255b15c1e0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/data/OOF_DECISION_INFORMATION.json",
+      "bytes": 204,
+      "sha256": "c1e08c22836a0e54df08ba19452f771224d7cf1070fd03ad54af4855621eb04f"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/data/RESULTS.json",
+      "bytes": 72388,
+      "sha256": "0f8f262fc5a625011beb768f48c619def90e330de2699524bd9def58aedfec26"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/data/SOURCE_ACCEPTANCE_OOF_DEV_LOCK.json",
+      "bytes": 1957,
+      "sha256": "d1c5ed82a5a9bb3a32b8b5702818824523c19578579bd9265a5046e9441c5bc4"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/replay_completed_native.py",
+      "bytes": 2697,
+      "sha256": "e8aefc163e4e0b305114d277ffe5e3f0b7087ed6ea5712419a62324eb0030e24"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/replay_core.py",
+      "bytes": 4982,
+      "sha256": "55ca090ec66329028de2fa06016d15b3e35f0f7c708249f9af3c511ad68941a6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/cache/replay_v119.py",
+      "bytes": 4493,
+      "sha256": "4041a62155718d1dbb11fd302ce9245c9c4ed37bbbf3302bf03c1cba122dd9c7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/config/ASR_REPRO_CONFIG.example.json",
+      "bytes": 421,
+      "sha256": "abc4178126e6cc8a4f58d8675d09e15252cc960e1f4ff5a03a4c28ace25ce5a6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/config/FIT_CONFIG.json",
+      "bytes": 3034,
+      "sha256": "76e0553eec5311e34c065b85cb5fe47f62912402b054a41aed25dd43cb355376"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/config/MATCHED_COST_FINAL_AUDIT.json",
+      "bytes": 971,
+      "sha256": "5db6361f238065ce226d7b6ad8548c074b73ed87a746c860eabfaa36ecf5514e"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/config/PLL_IDENTITY.json",
+      "bytes": 1032,
+      "sha256": "1bf90e5b28d51b93f14e006ebf8128227cb83d5a62f5dea0e60a9dc5616011d8"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/config/SELECTORS.json",
+      "bytes": 4107,
+      "sha256": "d1a237f662963c0e27ee79b0ef5fa8f9866620ec35601a44c1343370263a40bb"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/config/TIMING_PROTOCOL.json",
+      "bytes": 2247,
+      "sha256": "cdcd730cb1edcefa5724319fcab1a819422ffb2e8592e5d877cc921155553e47"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/config/TIMING_PROTOCOL_ADDENDUM.json",
+      "bytes": 2928,
+      "sha256": "666c38b8222efb649867d9b662d8f1d39e651dbeabc1739c0a86a72c3e2663be"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/config/VERSIONS_AND_ASSETS.json",
+      "bytes": 9006,
+      "sha256": "314137f4961b79d1f1bbb6c6d5ae0f5a2ba1dbc9ec7ee57d6e08cdc7184cc744"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/config/prediction_parity.json",
+      "bytes": 10767,
+      "sha256": "73dc9c3e1888bde5baa64d1454bc9dc6b8f60925a348f1afe881311849b3591c"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/fit/FINAL_FIT_REPLAY.json",
+      "bytes": 1535,
+      "sha256": "67b215fdf859f351922efb83bf2b30c3deb72b54c951d9ecd66596a4e4541f55"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/fit/fit_frozen_selector.py",
+      "bytes": 3281,
+      "sha256": "bb99a655c9f8988a76a44f9d602da9331d46f90e465ad93891e2288050839fe5"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/historical_math/fit_review_controls.py",
+      "bytes": 7136,
+      "sha256": "2a927985d12afb4da2e0efe9d46b9cd5417610fda59a88bd58376b5297d4dc37"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/historical_math/repetition_math.py",
+      "bytes": 5758,
+      "sha256": "7091ec89594d5ac49321941123beadf30268786f435a6255d99a7f7e5508fe7d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/historical_math/selector_math_full.py",
+      "bytes": 2005,
+      "sha256": "b135256c589fe04aed333d3eaefc24086cfbf105dfeb9e07cbe28ea42d2b2ae7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/asr_vendor_loader.py",
+      "bytes": 1368,
+      "sha256": "52f17fc3455f496798e929ba6c6410ef3c75f86ea0a677600e0f7dd8715a145b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/bindings/evidence/GENERATION_FREEZE.json",
+      "bytes": 7706,
+      "sha256": "adbfbba3c76154c3961df85f6369a8c00a02de2d2a2fd8d101c961631eafce56"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/bindings/runs/F6-TECH-TRAIN_dev_attempt0/EFFECTIVE_GENERATION.json",
+      "bytes": 31543,
+      "sha256": "fb354075ee456c70bbe2d5f242f640228d51fc07d266a966d84be487c1b04c68"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/frozen_inference.py",
+      "bytes": 6165,
+      "sha256": "b605cd2a2c03a02b96acb39ae9687d050f3a0b29ff96986e2132361b14015846"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/vendor/__init__.py",
+      "bytes": 71,
+      "sha256": "c1ce547486d1cbbad60e82399f05629e818f180cb751025d1a71464c0e4c15b7"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/vendor/audio_core.py",
+      "bytes": 8233,
+      "sha256": "3c4dbd9ede7f9866f3b88a457cbd4e6c3131dd729f7143f0f2cbfddaf1be219b"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/vendor/cluster_bootstrap.py",
+      "bytes": 805,
+      "sha256": "1e75a91f344a151f11d61432926c528c23f51b67db41faebb1932abd7a41b879"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/vendor/common.py",
+      "bytes": 505,
+      "sha256": "9826d4c36e04105241c3c50274ec66e12373e10fc77cc34639b8318ba168c93c"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/vendor/ir_common.py",
+      "bytes": 53,
+      "sha256": "ae599bf938c91c9f797548ab7934fc77371b1d5ece802e097351e31fd1b35135"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/vendor/pll.py",
+      "bytes": 3084,
+      "sha256": "e07c3edc625162ad3ead22567594cf2924c854374475c9090467658cb318d8bd"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/vendor/risk_selector.py",
+      "bytes": 2751,
+      "sha256": "cd8437790c7d2853a48f1f71929c64a49a64c7a84e50f17d652c7b7a143ea39c"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/vendor/wer_rules_v3.py",
+      "bytes": 5364,
+      "sha256": "9e8ac7523ba836128e092f8358ea7949feb3ca16c7245c34dd8de147c19bc3fd"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/raw/SELECTOR_LOCK.json",
+      "bytes": 1512,
+      "sha256": "64d44eaf49a577aad8322ad34919b20c5a9f2fa96e19ab1ae55dfea60ab50f28"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/raw/infer_audio.py",
+      "bytes": 1816,
+      "sha256": "1c54618860572e119f029254e35233a8ae27ac39cbd908b6d4467f780f2edcc0"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/raw/runtime.py",
+      "bytes": 7283,
+      "sha256": "69fb9871ee004ad76aa15c858c365c65a6cddb8a5c3fec5511fc522ddefe659d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/requirements-cpu.txt",
+      "bytes": 27,
+      "sha256": "4b81b6b6a549771115529e6900b9589835cdbfff0c6acf179aef53d283b744d5"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/requirements-raw-recorded.txt",
+      "bytes": 284,
+      "sha256": "602c630a43e7b056250aaa668f3f9c606c9904cab39d8174370c71131e79d4ac"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v107.py",
+      "bytes": 6059,
+      "sha256": "6536827ef70f800d8e0aba82e0f50a0947e66f346be8e8b3d3ac32c914608352"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v108.py",
+      "bytes": 6345,
+      "sha256": "b0944f23330594ddbe100a34dcd36c24ab207758ea13c5e2581b1cfc7f8a7abe"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v109.py",
+      "bytes": 6382,
+      "sha256": "d777cb26b1af7a3b1d4c73a930128d5e9262b2db42012797b8c4641ca22ff7e6"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v110.py",
+      "bytes": 6408,
+      "sha256": "454d8b98a23949c38bdff3220f74ad1e9f79759c8886750d2c9677d31618f721"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v111.py",
+      "bytes": 6595,
+      "sha256": "23e73c7cb7432f0aa1808b4e60e0fce4db0323bc8fb5e4915ffd28fdc44cf731"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v112.py",
+      "bytes": 7298,
+      "sha256": "98abe2a08d7823035e7e39a1f1f303f1874b4ba76afaea8f100a283b84dac723"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v113.py",
+      "bytes": 8902,
+      "sha256": "f0415ec77c65f7e2697405e066396806da5405a13313b277e96b6b0474ef8e37"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v114.py",
+      "bytes": 4976,
+      "sha256": "fa270551d22e117bf64b9db287e84bdd6790824bab7e619b5c6c3d9ea12bfb0d"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v115.py",
+      "bytes": 2539,
+      "sha256": "cd509fba5789e6d924ec1ed926ab6f80246f9547846be46fba4aaab6825a4965"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v116.py",
+      "bytes": 2621,
+      "sha256": "1695734ad052862292bc355f019eb7c09b5db610c3fa2958b072fa27a3033002"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v117.py",
+      "bytes": 2762,
+      "sha256": "483f0a222cfd6a8ef2de09f0a0b6364ac5a7de96047cd0216b405e1dab8bb691"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v118.py",
+      "bytes": 2760,
+      "sha256": "cb80fdf1112cad956a78e2082197e5701f4622610fc3bcdd6622730146e6ed01"
+    },
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/validate_v119.py",
+      "bytes": 5346,
+      "sha256": "bb9a61c13caff48a51b8830121ebd777114d8010df2d82475a9975bea5055bf3"
+    }
+  ],
+  "matches": [
+    {
+      "path": "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/vendor/audio_core.py",
+      "line": 19,
+      "text": "  self.base=WhisperForConditionalGeneration.from_pretrained(str(MODEL),local_files_only=True,torch_dtype=torch.bfloat16)"
+    }
+  ],
+  "skipped": [],
+  "limit": "Keyword search of bounded text metadata, not proof that no unadapted run exists anywhere."
+}

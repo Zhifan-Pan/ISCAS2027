@@ -1,0 +1,45 @@
+{"scanned": 533, "matches": 1, "skipped": 0}
+[
+  {
+    "language": "ar",
+    "seed_recordings": 30813,
+    "trigger_instances": 6,
+    "pooled_call_rate_percent": 0.019472300652322073,
+    "mean_seed_call_rate_percent": 0.019472300652322073
+  },
+  {
+    "language": "fa",
+    "seed_recordings": 32265,
+    "trigger_instances": 326,
+    "pooled_call_rate_percent": 1.0103827677049435,
+    "mean_seed_call_rate_percent": 1.0103827677049433
+  },
+  {
+    "language": "pl",
+    "seed_recordings": 30288,
+    "trigger_instances": 83,
+    "pooled_call_rate_percent": 0.27403592181722136,
+    "mean_seed_call_rate_percent": 0.27403592181722136
+  },
+  {
+    "language": "tr",
+    "seed_recordings": 35592,
+    "trigger_instances": 14,
+    "pooled_call_rate_percent": 0.039334681951000226,
+    "mean_seed_call_rate_percent": 0.039334681951000226
+  },
+  {
+    "language": "it",
+    "seed_recordings": 45555,
+    "trigger_instances": 12,
+    "pooled_call_rate_percent": 0.026341784655910437,
+    "mean_seed_call_rate_percent": 0.026341784655910434
+  },
+  {
+    "language": "pooled",
+    "seed_recordings": 174513,
+    "trigger_instances": 441,
+    "pooled_call_rate_percent": 0.2527032370081312,
+    "mean_seed_call_rate_percent": 0.2527032370081312
+  }
+]

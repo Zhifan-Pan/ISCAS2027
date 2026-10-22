@@ -1,0 +1,761 @@
+{
+  "script_sha256": "9ffb22da59a356e9a3faf349cbbfa98dbbd3fe847d061614ac12732ff2ef5346",
+  "source_files": {
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/ASR_v2_CV27_run_20260919/review_strengthening_20260923/reproduction/config/CACHE_INDEX.json": {
+      "sha256": "433203a1a6c0bfaed4209ffab18a11fcc1a2bb891e4f95e9ef05907d98e33d3b",
+      "bytes": 9728
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/bindings/evidence/GENERATION_FREEZE.json": {
+      "sha256": "adbfbba3c76154c3961df85f6369a8c00a02de2d2a2fd8d101c961631eafce56",
+      "bytes": 7706
+    },
+    "/home/mhmt_stu/Code/models_cache/huggingface/hub/models--openai--whisper-small/snapshots/973afd24965f72e36ca33b3055d56a652f456b4d/config.json": {
+      "sha256": "e6a2b489da1b5aed65a8eb8d1e7466fa867ad5643a8bc138ba708bd56b2875c4",
+      "bytes": 1967
+    },
+    "/home/mhmt_stu/Code/.venv/lib/python3.10/site-packages/transformers/models/whisper/generation_whisper.py": {
+      "sha256": "f6cbc3599bcc8b9b5194b83c17c5d1dde568d38f6f6419caa2618cf39ec73949",
+      "bytes": 110511
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/reproduction/portable/vendor/wer_rules_v3.py": {
+      "sha256": "9e8ac7523ba836128e092f8358ea7949feb3ca16c7245c34dd8de147c19bc3fd",
+      "bytes": 5364
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/results/FULL_AUDIO_BANKS_READY.json": {
+      "sha256": "efd11fe1798b57ae3aa77f57f8b470c7da8accef714bfd94fa28b9bf83fa8756",
+      "bytes": 54635
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00000.json": {
+      "sha256": "994dddb3cf3d14764903f17e0605ee9fc2755b0e1eedc6a9cb3a7a876ca71411",
+      "bytes": 38709
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00001.json": {
+      "sha256": "ea07c89d7b2cf1671c24f9f5548548a541729735a707fdb93de31904fa37721e",
+      "bytes": 28635
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00002.json": {
+      "sha256": "f67bc6b6a450b81c980600f6883c79036c229e28dd114c2c9a65bd4dc3efe727",
+      "bytes": 24776
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00003.json": {
+      "sha256": "dd679665bf68cdd92c70957e8481bcabf61819694f0391b077d8e5a9433dc390",
+      "bytes": 17560
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00004.json": {
+      "sha256": "f7bba7c063a4053bf173e63f75ab3b2f467039fe619050e88936af38daa815bc",
+      "bytes": 163630
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00005.json": {
+      "sha256": "7cedef929d57219b72b4a575e23db798200cff42a0954b7e83d497178fd128c7",
+      "bytes": 15353
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00006.json": {
+      "sha256": "e0f91fee25153f9d189d4b2313fb211957fc770b4154d935967b18faf6151fbd",
+      "bytes": 30361
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00007.json": {
+      "sha256": "e9c6f530f0b9f127a0b0628a3984f0cbfa120f99e101aa328d13d4d15bb25c8e",
+      "bytes": 31008
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00008.json": {
+      "sha256": "09222e5d27e123c81867623a8c101afef3e549ae1c12e4f5974284187d507d36",
+      "bytes": 22467
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00009.json": {
+      "sha256": "e686a73f9faeaf9489c1192690a148a57587a56df8fa1395f5f01367702e25a4",
+      "bytes": 38357
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00010.json": {
+      "sha256": "e9f301cb5f73164df2f34012b546f0c13d60c6146bf31fa4837967858522988f",
+      "bytes": 24733
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00011.json": {
+      "sha256": "fdbac9251464de066a67e40d8052a6345655c22e57be44010c755ff829df0857",
+      "bytes": 13678
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00012.json": {
+      "sha256": "046ca660a4bcca3038769453a1aef3ad70ceb37f41717dd7ef398853d5fd8160",
+      "bytes": 27060
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00013.json": {
+      "sha256": "53efa31eae5fbddfd726c3617f8f6066a55d00fcf48e0977f464a6881749a818",
+      "bytes": 29623
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00014.json": {
+      "sha256": "72cbcbe71025514152ffa62678a0a9c174828c551e67d0cde4d2928b0b9c545c",
+      "bytes": 10668
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00015.json": {
+      "sha256": "3c1cff4fc40d50e82dedd1632f437af95b15116154af47c4d6d7e2b4750cff2d",
+      "bytes": 19155
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00016.json": {
+      "sha256": "7d0fe54d027570029d9b9f15edd2f60d87a2a10d71a98aa925d8a9ed34d3011b",
+      "bytes": 22563
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00017.json": {
+      "sha256": "bfa24fa443de20097653ee638ddf8a4b37e38f83257f4ec38e05d6c4f2acdcdd",
+      "bytes": 39451
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00018.json": {
+      "sha256": "a17e9d2e8c788037d496a121c2e910528f1a3388ab2b7918bde371fbe6553214",
+      "bytes": 18038
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00019.json": {
+      "sha256": "fab360c81647a7536a54ffa806984a123b97f2c9c5d3a8d0e345b6d9063e90cb",
+      "bytes": 14355
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00020.json": {
+      "sha256": "c1cfcc3aab0a095c23058f9a4abf3d5655e1b41a285e0dbcc20d2741963e57d6",
+      "bytes": 163099
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00021.json": {
+      "sha256": "fbdcd05ed002d7ce7e0f4e6cdaf0e03cdaeceeb78c0300743fd8b300083e5a5c",
+      "bytes": 25467
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00022.json": {
+      "sha256": "9a4d23dac5a672820e5e64d05f993987d6318f472e58e136a95afb415885d2fb",
+      "bytes": 37208
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00023.json": {
+      "sha256": "875b87bcb95ffad98d48592d35a9a76a045e0653659f4c2b0fc82e2a4198df38",
+      "bytes": 11160
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00024.json": {
+      "sha256": "87e45a7a0db3a3288816e64a0a9541e9499dd38e776dcfae40c368b1b53be234",
+      "bytes": 38204
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00025.json": {
+      "sha256": "0f8bd4e963d02cfea7194e86601cd5f1b6904203663ab5fb3fbe093585d81f3b",
+      "bytes": 38588
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00026.json": {
+      "sha256": "50b318b448d40fed16518330ebacfc7effc093e94fec9c04847562686d0448ac",
+      "bytes": 23310
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00027.json": {
+      "sha256": "5dad629b248bd70072c41fc13c6b3d949199e1f8c4d9bb810ea3de7667312b45",
+      "bytes": 20064
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00028.json": {
+      "sha256": "5ac616b8da406f6c314c588dc5d710fca3ec4e87a9293405cd8f93ba8903059a",
+      "bytes": 20068
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00029.json": {
+      "sha256": "d2a25ade47922a8744e6019ffc275df8bff5ff08aac1ae62afa2dcd3d81ee3e6",
+      "bytes": 14493
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00030.json": {
+      "sha256": "ede60df7535acb73a889d9f6185416c37026daece96ce2ab15c82daababdca29",
+      "bytes": 20915
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00031.json": {
+      "sha256": "5618f2fc7262aa433de0ca48900626c68305d2e9b90b58a494f8773799dacd81",
+      "bytes": 14633
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00032.json": {
+      "sha256": "58c4c0b58bcbac790aa16c8d3ed8803c15f8b0cf4a868a2a6d84f4587afbc44e",
+      "bytes": 10087
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00033.json": {
+      "sha256": "048e58cd4499a52f6879eae5ddea6a844911e38d0e311f77a10892f6779ff123",
+      "bytes": 13601
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00034.json": {
+      "sha256": "16a212803e6be902476b9196b260b53a3df1d7ccc00c65edecf2a829fda6b8e6",
+      "bytes": 12965
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00035.json": {
+      "sha256": "4ba9c710f857b78661275fbf0104932654a7db4a43dfc4f40002a729a937f024",
+      "bytes": 2190
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00036.json": {
+      "sha256": "a2a8ad6d03e8dac5a83e06a2c90a80d015dc9a1047e1a10fa24928302be7e13c",
+      "bytes": 16706
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00037.json": {
+      "sha256": "167eb8a04aac6b037508a7e631316c87a2f7621239f9cfe27668085a19ae0270",
+      "bytes": 16222
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00038.json": {
+      "sha256": "5b8cb35a2ed505af85b8b6ad426e14f845b29831fcbd7aee8754584918bb90e2",
+      "bytes": 6886
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00039.json": {
+      "sha256": "3630247b453dc3e2f2c077967eef756e2edc42c7be83ca5dce39418e39da0467",
+      "bytes": 9937
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00040.json": {
+      "sha256": "a6baa12b16c1d6608c56cf3a5dbb0289f413dac115ba53b68b4f24f5acc7f0a0",
+      "bytes": 8438
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00041.json": {
+      "sha256": "61d7847ebc98159b47413785e0ce87134d28c8632233396df76b29fc9576161f",
+      "bytes": 2442
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00042.json": {
+      "sha256": "4af4c1b992f77e5801f73571563b9d6527b724b9db504fe56ee7f0dd9f5be224",
+      "bytes": 8945
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_101/00043.json": {
+      "sha256": "d0a2311232960afbc9cb0b521c1cb4112725c196d345b980b56a9c92171d2014",
+      "bytes": 9972
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/inputs/FLEURS_101.npz": {
+      "sha256": "7ed8d255f6bc706110b1ff42166a147b10b6fb24dc772cb1b11b5460d2f18e6e",
+      "bytes": 610460
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/numeric_inputs/FLEURS_101_diagnostics.npz": {
+      "sha256": "c5378bca574ec2f159d6e3118eb00bcd50a721ca970a2f0f9beba7ef186a316b",
+      "bytes": 811185
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v146_matched_recovery/COUNTS_FLEURS_101.npz": {
+      "sha256": "1568d0c25e9edc20e3c4ec1c062ef528e23072495628851fd4cda1caf7ef06b1",
+      "bytes": 280193
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/ASR_v2_CV27_run_20260919/followup7_acoustic_selection_20260921/state/merged/TEST_101_features.jsonl": {
+      "sha256": "08b80199e078f44e4cf5ba302d54e2146abb0ffddd8fd177b50913d370f27a4f",
+      "bytes": 59415327
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/inputs/CV27_101.npz": {
+      "sha256": "c37f4d515db29bbb489aceb42d5acdfb52239078c2d20979f3b9eae8be77e082",
+      "bytes": 8973596
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/numeric_inputs/CV27_101_diagnostics.npz": {
+      "sha256": "4796c018c8c6bb9cd86161de8db5275aa2141e01e4e5cda189f260b3da82d6ff",
+      "bytes": 12723387
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v146_matched_recovery/COUNTS_CV27_101.npz": {
+      "sha256": "c8c997ebafba8c1406cfa182f44a2e410b0a88e4455bcfb6706ba824e8201582",
+      "bytes": 3965058
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/ASR_v2_CV27_run_20260919/followup7_acoustic_selection_20260921/state/merged/CV27_101_features.jsonl": {
+      "sha256": "be6e6f4545f6717bdf78c67e0141b881214e2f72d1d2ff3f5ef6e9b3227d27f9",
+      "bytes": 446690092
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00000.json": {
+      "sha256": "acad05603bd7d4db967925221f2a4584664f11db01d198618cc4dbdd1ca3a168",
+      "bytes": 31078
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00001.json": {
+      "sha256": "d0110d6652f9f11e6fb1ec3c916b2fd52a7fdc5bf1b423b7ad5d86b12ff81748",
+      "bytes": 34217
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00002.json": {
+      "sha256": "63c29eb691c1ae01785c36de48af747950d12d6fd72e2baa370d6239dcbcd341",
+      "bytes": 16792
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00003.json": {
+      "sha256": "b28af2de2b77c3601788b0d41f3a76f4822e742d8e0d26b1e8be96bea431476d",
+      "bytes": 17572
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00004.json": {
+      "sha256": "2f53e4e9c0a5363a371f92b9f25389f13f84557d089d116bd672e9396f44b7fa",
+      "bytes": 44251
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00005.json": {
+      "sha256": "71e2fd0279f765611fb963ed800d5608303dcc97b2943e1eebf51d230f0d9593",
+      "bytes": 31534
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00006.json": {
+      "sha256": "a0bafc91ff43db0575208a296b17e05931bd4cccc4a4e653e203badd49039515",
+      "bytes": 37362
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00007.json": {
+      "sha256": "06b565c36258024d006f9a44969f5115866b9b571724891faf1a61061ce88d8a",
+      "bytes": 29728
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00008.json": {
+      "sha256": "93a88ed2352f225911049edf3b8a5c509e7f65cd78f7cba588bd532ac67aec19",
+      "bytes": 22007
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00009.json": {
+      "sha256": "1cf66d8ad80a306040ffffef403d128982ce1206d0bc6701584fb518fbdddef9",
+      "bytes": 32434
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00010.json": {
+      "sha256": "f938d9dde29fe77f2e2d7f88c3eb1ba6ea8a158c05578c080681816dbd9e2890",
+      "bytes": 15692
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00011.json": {
+      "sha256": "1495202b3f3ab4c294c2d46e5e19902f2d85a737146c9b7b78fe84a869a01032",
+      "bytes": 17922
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00012.json": {
+      "sha256": "55481570cf1306a887522f6d69bd37fe923a86940c47fdd77ad029ffcb109bbf",
+      "bytes": 28041
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00013.json": {
+      "sha256": "505d92fbf3f886013a86a4dec2837b87d83d8bc861d7672d8f5dd3fe35c3051c",
+      "bytes": 29949
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00014.json": {
+      "sha256": "d35a6efe7e3ccf1ef95df6a8944838a680566b0127bdbba345a9a5b3cff07ab5",
+      "bytes": 14868
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00015.json": {
+      "sha256": "7da70ea319b32d408f3c4ef5955f6cba55bdada6748f8a37a6a086c8654e88d1",
+      "bytes": 14325
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00016.json": {
+      "sha256": "f39e16588ba71067a6fb7f3eb9d6a0176e1f44956c37d960ddf8ca09ab3b34ec",
+      "bytes": 37679
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00017.json": {
+      "sha256": "7c59a1bdc9838025f91c1ffe0b9f1498388a80ed5432b9b3580099fc6371f30f",
+      "bytes": 27257
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00018.json": {
+      "sha256": "e7a4c36484b93a82ff52c7d80f0d37f8e8b930dcca4585cd2ad95a27de172ba8",
+      "bytes": 26819
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00019.json": {
+      "sha256": "43a9be4283544641976cc07d569109057a655de932145b3396baa2d9583ed1db",
+      "bytes": 20711
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00020.json": {
+      "sha256": "2931ee6023fb32aaa536acd5dd98da9a0814dde271b8110bc60329146d90e634",
+      "bytes": 142305
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00021.json": {
+      "sha256": "607a4c58c408c67e5249cbb093e9bda095243c55fb18c443f67565e6a8584c4b",
+      "bytes": 31790
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00022.json": {
+      "sha256": "0a720f4826f926a1c382941008ca9e6a348742672b17bc7d8ae1242105556cfd",
+      "bytes": 43624
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00023.json": {
+      "sha256": "d7204c2b97da1bcbdf97877b92c9fa8373c81e4960ce5c6c4232f9dcd3b82016",
+      "bytes": 26329
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00024.json": {
+      "sha256": "d333c06714b8df6c11d458e18fc35349cb5fd9c326a61d69fdce56c8613d7fa6",
+      "bytes": 25449
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00025.json": {
+      "sha256": "dbf24173b5b40220934147f408d6e7eda8e0ff828cf95a47517f79984595642d",
+      "bytes": 37603
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00026.json": {
+      "sha256": "06209878022479c2a35709b31e24acf7062144802346dfb20cc669af95a31572",
+      "bytes": 14561
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00027.json": {
+      "sha256": "2bac93196cd5471fe0a46fde853e929292f51abf9aaa728bc62ff48bea10a15e",
+      "bytes": 25255
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00028.json": {
+      "sha256": "dca56ab995609593b79a46ccc90315822f95da1fa1564e5c80e28875a4c60b45",
+      "bytes": 24602
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00029.json": {
+      "sha256": "1576efec12090a09a5b7bcea0c10f1567af46ba9868a5ff7df9d73ba6ad02f24",
+      "bytes": 14519
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00030.json": {
+      "sha256": "dd4317b56a17d2a7de4d902e0902a0973ffa28fbba8eca539c33b10ac8816984",
+      "bytes": 25828
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00031.json": {
+      "sha256": "63a113e4b006f0c7aa1fa2a7975241a69818987c9257f0703dead660adeb9f58",
+      "bytes": 14494
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00032.json": {
+      "sha256": "38bec6970e168f9f4f90ab3d5f647b38accd030f0bfc47ee3b21fb8b9fa84d56",
+      "bytes": 10189
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00033.json": {
+      "sha256": "1328a065469695d4a3b8217cb2c38268274bfa1b877cfd42450ebfdebd1bebd6",
+      "bytes": 2484
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00034.json": {
+      "sha256": "707aa6b4563140dccfe1a82bd0103b029545716ef7fc122d36a98ab4100ef70a",
+      "bytes": 12952
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00035.json": {
+      "sha256": "a56c71cf08d4f2dc057b61e855a394ecc9bb25f216851adb35ddacd09447b37f",
+      "bytes": 9527
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00036.json": {
+      "sha256": "a300585a7ec182e675bdf46fccbff8be050310ef51db518f004f5b08042fe1d7",
+      "bytes": 12953
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00037.json": {
+      "sha256": "174a78446afe914517cf260f9425978107ffa29f857e04e8015925c0775609b5",
+      "bytes": 12580
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00038.json": {
+      "sha256": "9ccf828e18037da6453ae407d7ff2e24126fbdb7b145e89f760d41d42ebb58ce",
+      "bytes": 6890
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00039.json": {
+      "sha256": "648729334dc314ace36f057bea778e19f9bac9ded746e7153d0cfc15a5f07cff",
+      "bytes": 12750
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00040.json": {
+      "sha256": "07cbe92afb24674e0304c79b4e7bb208804b8bed3510df568c20171f926dda68",
+      "bytes": 11793
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00041.json": {
+      "sha256": "861d93ae7e02ac66101737d07595bddbf89e4d909d03b965f08a16d512200024",
+      "bytes": 8800
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00042.json": {
+      "sha256": "67a8fcdf169217906de1c1e473f5a10ba2e1fe61f2c5612f6010ea81684200c2",
+      "bytes": 8999
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_202/00043.json": {
+      "sha256": "0cd4180c6021e7c4bb48d7daeee35c12cbffdf079a9c88fec4cc53cc42d00485",
+      "bytes": 12633
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/inputs/FLEURS_202.npz": {
+      "sha256": "6bd848acde4694fa6892188e84e773c32651ee6df99034cc33b2f2df5928525f",
+      "bytes": 609723
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/numeric_inputs/FLEURS_202_diagnostics.npz": {
+      "sha256": "9fed177bce7637077c03047106b3bcfacf3ba72199454b23b9dac1e0532174a6",
+      "bytes": 811713
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v146_matched_recovery/COUNTS_FLEURS_202.npz": {
+      "sha256": "78676aec064143dd0b1edebe499288a5dbd08361a446fb45ca59b7c4671ba79d",
+      "bytes": 280235
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/ASR_v2_CV27_run_20260919/followup7_acoustic_selection_20260921/state/merged/TEST_202_features.jsonl": {
+      "sha256": "2d8d5e31591b3f65dced3666f6e9f5c4aada7e86e6a294fc0453d073f4442ae0",
+      "bytes": 59612536
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/inputs/CV27_202.npz": {
+      "sha256": "04866b6446da447c9a68d28de374d7a2eaef8d4c05a22ec6845ff54e62c923b8",
+      "bytes": 8928215
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/numeric_inputs/CV27_202_diagnostics.npz": {
+      "sha256": "5b0ea69e30e39f1b9d7b83eee3cfd8d9ef23bd83887343331672ffce54c2e6c9",
+      "bytes": 12672772
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v146_matched_recovery/COUNTS_CV27_202.npz": {
+      "sha256": "5089aff35cff130726b0e0ddb3837ac07939634f89848967a8a883c010908d5c",
+      "bytes": 3961416
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/ASR_v2_CV27_run_20260919/followup8_fixed_cv_replication_20260922/state/merged/CV27_202_features.jsonl": {
+      "sha256": "07b00ad551aec60adf39fa166a98b3c975697dc1c424cb1e1132e78a6ad9753e",
+      "bytes": 434896285
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00000.json": {
+      "sha256": "bd0da9c7a515f8d85b62636284a4f061d97b022986be23c86326a1a302ee2d30",
+      "bytes": 165343
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00001.json": {
+      "sha256": "2e183649822f55bfe54442ecad98d2fae58ab9183b94360a4c8526e52e8217cc",
+      "bytes": 23321
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00002.json": {
+      "sha256": "e952e2077adf5b6c20351cfd2c780753f456df0b9a6bb3a6dc3a51f82a013f1e",
+      "bytes": 20482
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00003.json": {
+      "sha256": "530a8e272d1e2466f837c402e893be70a4804f99e1d44d59efd500ae19894ba4",
+      "bytes": 17708
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00004.json": {
+      "sha256": "e529fa8b3d0741c0d32b06ec635a90e411847a633dbe28b0d6ece4965cd08c01",
+      "bytes": 65261
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00005.json": {
+      "sha256": "06c6e24e86578d57bac676b5d8b405b4c3d8d41170137a8d7155fb8fe50665e0",
+      "bytes": 28773
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00006.json": {
+      "sha256": "3383ec792497aee9d3e22f4cbf3c21f4acb5570802919d2ee197e0b6b83b38d4",
+      "bytes": 161935
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00007.json": {
+      "sha256": "4835304cea173e2c723abb3f524f8c7c165f0838f60a0c5e69aa6c276c3fea3d",
+      "bytes": 35561
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00008.json": {
+      "sha256": "039d8d5beba33a0e1068c55a8b841dbe7c5f4014267cbee6e81f5bdb0ef2e247",
+      "bytes": 17137
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00009.json": {
+      "sha256": "42f692801e21f186eb98aa40e73d7c098db5f95dbf391d6defaa49717a916d0c",
+      "bytes": 13769
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00010.json": {
+      "sha256": "9f3c2a4790784664dfde91b88ab68bb298efb45dc8c596c491acfe5f015dbd90",
+      "bytes": 20178
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00011.json": {
+      "sha256": "33920567726a4f7c8da82c6eafa92638cf063966ec93fc8517bfa0d9df5e2333",
+      "bytes": 18197
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00012.json": {
+      "sha256": "00237fb9ebd04fbd8c7de2f95895c6f5e843a9330d4594ebb795c536f00813b9",
+      "bytes": 27575
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00013.json": {
+      "sha256": "af880a995fb4b13a4e58e55c6a8aa8cb35ec8bcc71ec2929428be7aa7be01590",
+      "bytes": 29253
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00014.json": {
+      "sha256": "9714c2c1d6b8bdf3385e4be57a82d4f2f887d040d239fb1dbcea53bd16bc912f",
+      "bytes": 15052
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00015.json": {
+      "sha256": "a6d63d8223e4101055d6337b946b0111b537b757d533ca2188f2bd702d5b849c",
+      "bytes": 15222
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00016.json": {
+      "sha256": "24657f2453004d84b887004912b0206f3238ae5660b16703f8e91edd8fee7c51",
+      "bytes": 42736
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00017.json": {
+      "sha256": "a0a26eb6afb3112edeae02a4527dab9449b93ff2ed5336ea43b0f2dcd4108ce3",
+      "bytes": 39613
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00018.json": {
+      "sha256": "759c6954758adaea58ea9378c90e1a1658a70da83d6e105ef22f3ab4019af76a",
+      "bytes": 27867
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00019.json": {
+      "sha256": "3f98b14eacd3d738393f206dccdfe1e7bd5e99dbf9b71fef8b57dc76e0d9400e",
+      "bytes": 40620
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00020.json": {
+      "sha256": "f3a328b4fa6d472759fe7608ebdd3bc88a3a8207e06709ebd8c1a2efeaf03087",
+      "bytes": 39482
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00021.json": {
+      "sha256": "12178b52b23ff1ccf74e222742443c0ed59d59336eff88c6c2eeefa9d175989b",
+      "bytes": 23797
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00022.json": {
+      "sha256": "b261ea72b16da87c9a0965a562ff8c1a1a425a61f6af2b2d849d628fb9061a2a",
+      "bytes": 22780
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00023.json": {
+      "sha256": "89a9df6745927c038ed763749237602b8ceb24cc0fd15f8a8cf9eb9c9155aaff",
+      "bytes": 20460
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00024.json": {
+      "sha256": "65b26e7596df647cee788e9b54da4742fcaf587089e9d3123edc4bd138ffae8b",
+      "bytes": 37925
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00025.json": {
+      "sha256": "9e797067b240ed237e39c4eac9443550d9268fc8437d1e62feeb79642933005c",
+      "bytes": 39219
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00026.json": {
+      "sha256": "85b29981f04dd5c5adb0441c88aaafd50922fb690df410fbf695b1cdcf01c8b7",
+      "bytes": 10309
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00027.json": {
+      "sha256": "7ab71573fd82807bc434929ba8837c62306e6867d0d8194aa3b04ecd7315f2e8",
+      "bytes": 19774
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00028.json": {
+      "sha256": "b946ab759bb296d3cfd300ea821815ab2d128baa967570e6fbe083d10ae6a625",
+      "bytes": 25222
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00029.json": {
+      "sha256": "850bb10689c1fd9690595460d11e8cae29218db0566791f93f87901bd21b3c96",
+      "bytes": 18744
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00030.json": {
+      "sha256": "2818915d2ec3e8cd9271bbed0b3c7d14f312c547d6ccd00ce78606daf28f323e",
+      "bytes": 20641
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00031.json": {
+      "sha256": "4e5b2cdd652f2485d4608371d353b71d503bee8ee72f12ad602303de9147b9f1",
+      "bytes": 10217
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00032.json": {
+      "sha256": "a8040f71f0810ec064c94cbb36c26cb10d0b639ad3bb463433204929ed6a8e5e",
+      "bytes": 10194
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00033.json": {
+      "sha256": "207478eab7cb104f5777986e4fcd1f15f6c1ead1f0ad24cfbea0fcd9b75eb559",
+      "bytes": 9646
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00034.json": {
+      "sha256": "cab028af0ca72bb51b9e5d6c094931f6d7d47f04b7c31e45d243d7bda538d526",
+      "bytes": 12840
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00035.json": {
+      "sha256": "18e7745bc948e18e63f4f80cdb5dcd118d5c5a95061d2723352636c028655dc7",
+      "bytes": 8528
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00036.json": {
+      "sha256": "e0c42aedc6a94ec63a29fbbeecc0adf57fb7d22db0037f9d8ce5553be47ebabf",
+      "bytes": 20599
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00037.json": {
+      "sha256": "d1d5502c11596a841f8e742d73ecc9778c9650e3aeed3b2ee6e995b3b50766b2",
+      "bytes": 12547
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00038.json": {
+      "sha256": "13e1cd44b7b01650bad49e1c3b9cedb6d0161bb3cdd7fe54d1ffccc33eb5e9d1",
+      "bytes": 6890
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00039.json": {
+      "sha256": "6d68045ff39a9b72dc3edd6e9c48265216d4f24cb3179c790a1f46e6df12a1ed",
+      "bytes": 9953
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00040.json": {
+      "sha256": "1643caa71fe2fde8769c41fbfa34ffb59f7fbcb494e75989596a43dff925a996",
+      "bytes": 11876
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00041.json": {
+      "sha256": "3de9f1aba1229da21fd07f5e0f4435dd0a5cb7191a2547dbddb97363a623be6e",
+      "bytes": 2443
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00042.json": {
+      "sha256": "3fc75b00139fdc5603e00ea0d0d40101175f048a22ea3d161bf5bd44959fe35c",
+      "bytes": 8936
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/asr_official_fullaudio/20260929_v1/private/candidates_v2_Whisper_303/00043.json": {
+      "sha256": "7fb9c33d12026c589193303071c99d963f132757890e02684ea78bff19b33b71",
+      "bytes": 9813
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/inputs/FLEURS_303.npz": {
+      "sha256": "b007b4badc7e6ae7b5a6b254884d09a593596c70f531f3385ac202038f2af32d",
+      "bytes": 615173
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/numeric_inputs/FLEURS_303_diagnostics.npz": {
+      "sha256": "8ac6c764b4825d07e64b79e81992c3f281735e3c04104aff14860ec13465ce4e",
+      "bytes": 818992
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v146_matched_recovery/COUNTS_FLEURS_303.npz": {
+      "sha256": "fbf5713414d43de49923ae8655560be7c6de597e45c7cc8396ce8e3c898c1401",
+      "bytes": 280268
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/ASR_v2_CV27_run_20260919/followup7_acoustic_selection_20260921/state/merged/TEST_303_features.jsonl": {
+      "sha256": "989a693ec8168f3a4833f9e2319eb1db2f0713d14e8a8e0da228b9c08c1a6382",
+      "bytes": 60413498
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/acceptors/inputs/CV27_303.npz": {
+      "sha256": "6bde618a7b7cd3300e343e7aa13bc923c29515c653e00d62d56c3bc3fecb83d5",
+      "bytes": 8974376
+    },
+    "/home/mhmt_stu/Code/ISCAS2027_working_v63/revision_v161/public_repository/experiments/extensions/numeric_inputs/CV27_303_diagnostics.npz": {
+      "sha256": "38ad20ff3a059e572de5a0e70a7dbf454a22e3b840141b0bc65947501a95a932",
+      "bytes": 12721974
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/artifacts/iscas_repetition_robustness/20261014_v146_matched_recovery/COUNTS_CV27_303.npz": {
+      "sha256": "0fc1a47db90152122ac38efb3de09f1405b93238cb10917e8f45baa84519f8f0",
+      "bytes": 3967998
+    },
+    "/home/mhmt_stu/Code/paper-qwen-projector-icassp2027/ASR_v2_CV27_run_20260919/followup8_fixed_cv_replication_20260922/state/merged/CV27_303_features.jsonl": {
+      "sha256": "e7e12bec9982965c2afb646113ffd971facfd6f9a792d1e4cc7b094b0d4ec4e1",
+      "bytes": 451791485
+    }
+  },
+  "checks": [
+    {
+      "dataset": "FLEURS",
+      "checkpoint": 101,
+      "recordings": 3665,
+      "windows": 3687,
+      "raw_CR_exact": true,
+      "raw_repetition_exact": true,
+      "original_recording_flags_exact": true,
+      "HF_function_exact_all_windows": true,
+      "B_S_alignment_exact": true,
+      "terminations": {
+        "natural_eos": 3685,
+        "length_cap": 2
+      },
+      "output_sha256": "64f577092a113d33cb3835961eacf1f40c80655bac5912702606e15982a6559a"
+    },
+    {
+      "dataset": "CV27",
+      "checkpoint": 101,
+      "recordings": 58514,
+      "windows": 58514,
+      "raw_CR_exact": true,
+      "raw_repetition_exact": true,
+      "original_recording_flags_exact": true,
+      "HF_function_exact_all_windows": true,
+      "B_S_alignment_exact": true,
+      "terminations": {
+        "natural_eos": 58400,
+        "length_cap": 114
+      },
+      "output_sha256": "314a160863910688b30cad79be5ea7558e8a9d2859491feada8faf0acd40760f"
+    },
+    {
+      "dataset": "FLEURS",
+      "checkpoint": 202,
+      "recordings": 3665,
+      "windows": 3687,
+      "raw_CR_exact": true,
+      "raw_repetition_exact": true,
+      "original_recording_flags_exact": true,
+      "HF_function_exact_all_windows": true,
+      "B_S_alignment_exact": true,
+      "terminations": {
+        "natural_eos": 3685,
+        "length_cap": 2
+      },
+      "output_sha256": "66574f5d233355389c8348e6a9ee3d3d3db413d8cf038b58f2879c6cb766e832"
+    },
+    {
+      "dataset": "CV27",
+      "checkpoint": 202,
+      "recordings": 58514,
+      "windows": 58514,
+      "raw_CR_exact": true,
+      "raw_repetition_exact": true,
+      "original_recording_flags_exact": true,
+      "HF_function_exact_all_windows": true,
+      "B_S_alignment_exact": true,
+      "terminations": {
+        "natural_eos": 58422,
+        "length_cap": 92
+      },
+      "output_sha256": "008567be0c5cb62b58498210925be4811e401b7740def21388ca4eab3cda27f5"
+    },
+    {
+      "dataset": "FLEURS",
+      "checkpoint": 303,
+      "recordings": 3665,
+      "windows": 3687,
+      "raw_CR_exact": true,
+      "raw_repetition_exact": true,
+      "original_recording_flags_exact": true,
+      "HF_function_exact_all_windows": true,
+      "B_S_alignment_exact": true,
+      "terminations": {
+        "natural_eos": 3681,
+        "length_cap": 6
+      },
+      "output_sha256": "046fd16a9fcac4bbd97d66ec6c347325902fa8b2851c075ab10fb30af3119a82"
+    },
+    {
+      "dataset": "CV27",
+      "checkpoint": 303,
+      "recordings": 58514,
+      "windows": 58514,
+      "raw_CR_exact": true,
+      "raw_repetition_exact": true,
+      "original_recording_flags_exact": true,
+      "HF_function_exact_all_windows": true,
+      "B_S_alignment_exact": true,
+      "terminations": {
+        "natural_eos": 58310,
+        "length_cap": 204
+      },
+      "output_sha256": "b8e4568c24332bad95a3d5c5735a653dec47ddc289bc48a85021eecd23b274ef"
+    }
+  ],
+  "token_ratio": {
+    "implementation": "transformers 4.57.6 WhisperGenerationMixin._retrieve_compression_ratio",
+    "vocab_size": 51865,
+    "token_byte_width": 2,
+    "endianness": "little",
+    "zlib_level": "default",
+    "eos_token_id": 50257,
+    "EOS_handling": "Restore exactly one EOS for cached natural_eos, none for length_cap; exclude decoder prefix and padding, matching HF pre-fallback seek_sequence."
+  },
+  "scope": "Counterfactual outer gate on frozen original top beam; not the full HF internal retry/no-speech policy. Numeric exports contain no text, token IDs, audio or references. No new inference."
+}

@@ -1,6 +1,24 @@
 # Manuscript revision audit
 
-This audit uses frozen numeric caches and CPU fitting only. No audio decoding, GPU timing or confirmation refitting was run. Original Tables I–III results, Table IV gains/call rates and all confidence intervals remain unchanged. Added values are per-language baseline WERs derived from the original counts and a separately identified retrospective RMS sensitivity analysis.
+This audit uses frozen caches and CPU analysis only. No audio decoding, GPU timing or confirmation refitting was run. Original Tables I–III results, Table IV gains/call rates and all confidence intervals remain unchanged. Added evidence comprises per-language baseline WERs from the original counts, retrospective RMS sensitivity, and an offline comparison of acquisition gates.
+
+## Cached gate comparison and domain audit
+
+The [gate audit](evidence/gate_audit/README.md) changes only the acquisition gate on six frozen TEST panels. G4 weights, B/N+R picks, candidate draws and complete-recording alignments remain fixed. FLEURS routing uses the maximum window trigger before selecting every window of a recording. No TEST threshold search was conducted. These comparisons are retrospective and do not extend the locked confirmation or timing claims.
+
+| Gate | FLEURS calls % | FLEURS WER % | Positive-gain retention % | CV27 calls % | CV27 WER % | Positive-gain retention % |
+|---|---:|---:|---:|---:|---:|---:|
+| UTF-8 text CR > 2.4 | 0.0909504320 | 17.0867202362 | 100.0000000000 | 0.2990737259 | 31.6809556946 | 99.9825813678 |
+| Word repetition r4,3 > 0 | 0.0636653024 | 17.1111814227 | 93.3414668804 | 0.1834318852 | 31.6953937814 | 99.2076394332 |
+| Token-ID byte CR > 1.35 | 0.2000909504 | 17.0867202362 | 100.0000000000 | 0.3087580180 | 31.6806899739 | 99.9941243095 |
+
+The respective recording trigger counts are 10/7/22 of 10,995 FLEURS seed-recordings and 525/322/542 of 175,542 CV27 seed-recordings. The word gate reduces calls but misses some positive recovery gain. The token gate preserves slightly more gain with extra calls; this does not establish universal optimality of either gate. Tokenization remains language dependent. [SUMMARY.csv](evidence/gate_audit/SUMMARY.csv), [PER_LANGUAGE_SEED.csv](evidence/gate_audit/PER_LANGUAGE_SEED.csv) and [RESULT.json](evidence/gate_audit/RESULT.json) retain full precision and exact denominators. The independent review confirmed prefix/EOS handling and the HF two-byte little-endian compression calculation. All 423 route, count, denominator and identity checks passed.
+
+The [domain audit](evidence/domain_audit/README.md) found no verified unadapted Whisper-small evaluation in its bounded search of 533 metadata files. Raw top-1 is the LoRA-adapted baseline, not an unadapted comparator. DEV triggers total 441/174,513 seed-recordings (136, 64 and 241 by checkpoint). Pooled language counts are Arabic 6/30,813, Persian 326/32,265, Polish 83/30,288, Turkish 14/35,592 and Italian 12/45,555. Exact rates are preserved in its CSV and provenance JSON. CV27 tests cross-domain acoustic transfer without CV27 acoustic adaptation, while the selector uses CV27 DEV. Acoustic and orthographic effects have not been causally separated.
+
+Across all nine DEV/TEST caches, the observed positive-length feature vectors satisfy the signs required for strictly negative G4 scores. A zero-feature HF empty therefore wins deterministically whenever it enters the candidate bank. Centering and an ordinary shared intercept cannot change that ranking; the H4+e feature is empty-specific. The complete CV27 banks contain 19 zero-feature proposals, of which 18 are triggered. Reverting those 18 acceptances retains 91.52% of gain. One or two DEV empties per checkpoint limit calibration; no per-instance no-speech branch is inferred.
+
+The manuscript now states this algebra explicitly, reports the two alternative gates, limits zero-shot language to acoustic transfer, and describes Direct as a simplification on triggers with comparable accuracy. Direct's main gain is on checkpoint one, whereas HWR4's gain over H4 is on checkpoint two. The three reported typos were already absent from the baseline source and were checked again in the final PDF. Only `main.tex` and `results.tex` changed in this surgical revision. Tables I–IV, numbered Equations (1)–(3), figure, authors, affiliations and references are byte-identical to the preceding final source. Repeated prose was removed to preserve the page budget; IEEEtran, font sizes, margins, baseline spacing, figure size and table row spacing were not changed.
 
 ## Per-language baseline and selective WER
 

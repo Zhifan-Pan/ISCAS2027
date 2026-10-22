@@ -1,0 +1,4 @@
+{
+  "checks_passed": 423,
+  "scope": "Independent row-level route, integer counts, denominators, mean WER, macro positive-gain ratio, and input/script hashes."
+}

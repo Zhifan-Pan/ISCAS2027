@@ -22,6 +22,7 @@ The supplied vector figure and CMap files require no conversion or network acces
 python3 paper/verify_release.py
 python3 paper/verify_aggregates.py
 python3 paper/verify_revision_evidence.py
+python3 paper/evidence/gate_audit/verify_gate_audit.py --repo .
 ```
 
 These verify file identity, source ZIP contents and aggregate arithmetic, not

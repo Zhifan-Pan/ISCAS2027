@@ -1,0 +1,64 @@
+{
+  "inputs_sha256": {
+    "experiments/acceptors/inputs/DEV_101.npz": "742a9fd4aa2113b8de78c830d1b49f03a106c2336c64effd2c91e8f284d68c6f",
+    "experiments/acceptors/inputs/DEV_202.npz": "1681d169b71e61206721188b273f1ba2fc8f72a4b027a71322feee4f30a96535",
+    "experiments/acceptors/inputs/DEV_303.npz": "51b051d4f24f275700032b1547b00ad5487f029f9d1b046f8694ad40a3a0f4f7"
+  },
+  "language_order": [
+    "ar",
+    "fa",
+    "pl",
+    "tr",
+    "it"
+  ],
+  "language_map_source": "paper/evidence/acceptance_audit/extract_evidence.py",
+  "gate": "cached flags: recording-level max of UTF-8 text CR > 2.4",
+  "dataset": "CV27 DEV",
+  "adapted_model": true,
+  "denominator": "unique recording IDs within language and checkpoint",
+  "pooled_unit": "seed-recording (three checkpoints)",
+  "language_mean_rates": [
+    {
+      "language": "ar",
+      "seed_recordings": 30813,
+      "trigger_instances": 6,
+      "pooled_call_rate_percent": 0.019472300652322073,
+      "mean_seed_call_rate_percent": 0.019472300652322073
+    },
+    {
+      "language": "fa",
+      "seed_recordings": 32265,
+      "trigger_instances": 326,
+      "pooled_call_rate_percent": 1.0103827677049435,
+      "mean_seed_call_rate_percent": 1.0103827677049433
+    },
+    {
+      "language": "pl",
+      "seed_recordings": 30288,
+      "trigger_instances": 83,
+      "pooled_call_rate_percent": 0.27403592181722136,
+      "mean_seed_call_rate_percent": 0.27403592181722136
+    },
+    {
+      "language": "tr",
+      "seed_recordings": 35592,
+      "trigger_instances": 14,
+      "pooled_call_rate_percent": 0.039334681951000226,
+      "mean_seed_call_rate_percent": 0.039334681951000226
+    },
+    {
+      "language": "it",
+      "seed_recordings": 45555,
+      "trigger_instances": 12,
+      "pooled_call_rate_percent": 0.026341784655910437,
+      "mean_seed_call_rate_percent": 0.026341784655910434
+    },
+    {
+      "language": "pooled",
+      "seed_recordings": 174513,
+      "trigger_instances": 441,
+      "pooled_call_rate_percent": 0.2527032370081312,
+      "mean_seed_call_rate_percent": 0.2527032370081312
+    }
+  ]
+}

@@ -9,6 +9,8 @@
 | RMS scaling sensitivity and checkpoint score diagnostics | [Revision audit](REVISION_AUDIT.md), [CPU fits and numeric evidence](evidence/acceptance_audit/) | Retrospective DEV-selected sensitivity; original fits retained |
 | Table IV and non-Persian results | [Language/seed SDIN totals](evidence/language_seed_SDIN.csv), [summary](evidence/COUNT_SUMMARY.json) | Descriptive aggregation of existing counts |
 | Empty-candidate and window diagnostics | [Cached controls](../experiments/diagnostics/candidate_controls/), [H4+e](../empty_candidate_diagnostic/) | Retrospective; no new live execution |
+| Alternative acquisition gates | [Exact results and replay](evidence/gate_audit/README.md), [independent review](evidence/gate_audit/INDEPENDENT_REVIEW.md) | Fixed cached TEST banks, fixed G4, recording-level routing; no decoding or timing |
+| DEV trigger census and empty-output algebra | [Domain/feature audit](evidence/domain_audit/README.md) | Existing DEV and TEST caches; bounded search found no verified unadapted comparator |
 
 ## Rounding and denominators
 
@@ -65,3 +67,23 @@ not by themselves establish a deterministic wall-clock error bound.
 The H3/H4 output partition, H4+e refit and nonempty guard are observed diagnostics.
 They do not establish an isolated causal contribution of PLL or guaranteed
 short-speech safety. The manuscript preserves these distinctions.
+
+Under G4's observed coefficient signs (+,+,-,-), all positive-token-length
+candidates have a negative raw score, whereas zero-feature empties score zero.
+Centering or a candidate-independent intercept cannot change this order.
+An HF-proposed zero-feature empty therefore wins deterministically when it
+enters the selected bank. Only 18 of the complete banks' 19 such CV27 proposals
+occur on triggered recordings. The H4+e feature is empty-specific and can change
+this ordering; its five DEV empty examples across checkpoints do not establish
+general calibration or a verified no-speech termination mechanism.
+
+The alternative word gate reduces calls but loses positive recovery gain.
+The token-ID gate retains slightly more gain at additional calls. Both use
+recording-level maximum routing and complete-recording word alignments,
+including FLEURS's two-window recordings. Neither changes the frozen gate in
+Tables I–IV. Tokenization remains language dependent, and new stochastic
+decoding under another request schedule need not reproduce the cached draws.
+
+CV27 is a test of cross-domain transfer without CV27 acoustic adaptation;
+the selector still uses CV27 DEV. Noise and orthographic mismatch are possible
+contributors to the baseline gap, not separately identified causal findings.

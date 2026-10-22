@@ -9,7 +9,7 @@ inputs for reproduction.
 - **[Final paper PDF](paper/Selective%20Recovery%20for%20Multilingual%20ASR%20-%20Candidate%20Acquisition%20and%20Acceptance.pdf)**
 - [LaTeX source](paper/source/) · [Download source ZIP](paper/source.zip)
 - [Build instructions](paper/README.md) · [Claim and evidence map](paper/EVIDENCE.md)
-- [Baseline, scaling and checkpoint audit](paper/REVISION_AUDIT.md)
+- [Baseline, scaling, checkpoint and gate audit](paper/REVISION_AUDIT.md)
 
 The PDF contains four pages of main content and one page of references.
 
@@ -30,10 +30,11 @@ The PDF contains four pages of main content and one page of references.
 python3 verify_repository.py
 python3 paper/verify_aggregates.py
 python3 paper/verify_revision_evidence.py
+python3 paper/evidence/gate_audit/verify_gate_audit.py --repo .
 ```
 
 These commands check artifact hashes, the source archive, aggregate arithmetic
-and added baseline/RMS evidence. They do not launch model inference, fitting,
+and baseline/RMS/gate evidence. They do not launch model inference, fitting,
 bootstrap inference or GPU timing.
 
 For scientific reproduction, start with [the experiment guide](experiments/REPRODUCE.md).
@@ -50,6 +51,9 @@ original fixed G4 selector. Direct reconstruction, refitted selectors and
 TEST comparisons are retrospective. Cost Study A measures four paths across
 three checkpoints; Study B measures seven paths on one checkpoint. Their
 estimates retain separate scopes. Selective PLL remains future work.
+The [alternative-gate comparison](paper/evidence/gate_audit/README.md) reuses
+fixed TEST candidates and G4 choices. Its word-repetition and token-compression
+results are retrospective and do not add a confirmation or latency claim.
 
 Original experiment identifiers inside protocols, scripts and result records
 are preserved for traceability. They do not denote additional paper versions.
