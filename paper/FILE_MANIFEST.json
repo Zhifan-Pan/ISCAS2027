@@ -1,10 +1,10 @@
 {
   "package": "paper",
   "files": {
-    "CHECKS.json": "cf83811d078e3411523062d0001fea9b8d4c4f197aa0dbfee8e60f67e9ac0f56",
+    "CHECKS.json": "7b66a1b2a9830051f6d884fb3711c016d17b6d271a54d82b3f92ed3813dcd4b9",
     "EVIDENCE.md": "5e7d0fdaf4301b42011e2c8ab99e53fe5edb3cddde2f75eca36046d972d50b82",
     "README.md": "0022a3dc91f704b6fd679b72a4df421d17b53227abc864984de7ef77cc60999c",
-    "Selective Recovery for Multilingual ASR - Candidate Acquisition and Acceptance.pdf": "5b37df6d3fc31387c8ef775289f8a180aa0f338a507dc81489f23c96eeb1620d",
+    "Selective Recovery for Multilingual ASR - Candidate Acquisition and Acceptance.pdf": "c129421750bf4ed4d82c933900173d653b881c3c5010129c2e1ed42cfa5cedee",
     "evidence/COUNT_SUMMARY.json": "8e2be81e6cd2e1ddb91edb7e562d900d2058f265ba233dc57fb22836b41c4b37",
     "evidence/instances.csv": "d12058e7ee24b63cccd813c0181e866cc3ad65d19b9ef5d3b7cf6493513ef21e",
     "evidence/language_seed_SDIN.csv": "5af8ff07459a6bb2c5df7097a242504d83d5a1e1b31a7893e9cd716fc7723a1d",
@@ -12,7 +12,7 @@
     "source/BUILD.md": "d4ddee645d1fc2fd7452fc1a1a0b946771327b2a08b3f7a22ee9ea74da9c3fb8",
     "source/CMAP_README.txt": "898fbcab62a65d7dcceb9f46669d651be709006edf0df5e2dccd39bf8cfbd9db",
     "source/IEEEtran.cls": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7",
-    "source/acceptors.tex": "d863ce9c5bac82095f55c98e5976093fc0778acc840b8361c3b55f5277280900",
+    "source/acceptors.tex": "f7985f9e452ba3e34cb9c77bbfaa4fd4a29af3fa190d1bc4e8b52e4d0b4ae131",
     "source/authors.tex": "e06b1a81159e3215f66ad6a5217a20c5dbf8a208ca53b3261f237fcae18fe70a",
     "source/cmap.sty": "67123f5846b014963904c7395605d3521e98e11493be933aacf45e2bb3c12327",
     "source/cost.tex": "bb65eb1ac3d0694ff103ec9bd5d315ab694917676272c32297c0e2aac602f1e3",
@@ -35,7 +35,7 @@
     "source/t2b.cmap": "99a3cea4c27a32894f4b268c0f37aa3aad4c6e063c15c57177a28d699fb2b177",
     "source/t2c.cmap": "a7db0328dd625d835ca63224581b5c93147b731f49d333d014f9231f5fa419ad",
     "source/t5.cmap": "d0454643c5bd08f941e127fad0c2748d0589ceaaf158b2984374424e479c5fd1",
-    "source.zip": "8b2869ed5d6618ea63b45ba9f54a50e2fb6b2e4d5e2f1104d36258331dc07484",
+    "source.zip": "45eb8f7101f12b2eb08eee496b11db80e1a794b77b3c6ca1e6ad08d6ae6b7853",
     "verify_aggregates.py": "bc58b316bffa63ee5613d203d03041b4bc1c6e54ae5519dcc428393162886a9b",
     "verify_release.py": "ddae608a73a9d46865913c066b336444c43b9bf1fe6100fc5c6dbc24a198758d"
   }

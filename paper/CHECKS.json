@@ -1,7 +1,7 @@
 {
   "pass": true,
   "pages": 5,
-  "size_bytes": 521856,
+  "size_bytes": 521891,
   "paper": "US Letter",
   "body_font_TeX_pt": 10,
   "body_baseline_TeX_pt": 12,
@@ -19,7 +19,7 @@
     ],
     [
       718.597,
-      716.445
+      718.597
     ],
     [
       718.597,
@@ -34,7 +34,7 @@
   "class_matches_official": true,
   "scientific_content_unchanged": true,
   "overfull_underfull": false,
-  "sha256": "5b37df6d3fc31387c8ef775289f8a180aa0f338a507dc81489f23c96eeb1620d",
+  "sha256": "c129421750bf4ed4d82c933900173d653b881c3c5010129c2e1ed42cfa5cedee",
   "status": "final_submission",
   "main_pages": [
     1,
@@ -44,8 +44,8 @@
   ],
   "references_only_page": 5,
   "bibliography_entries": 33,
-  "pdf_sha256": "5b37df6d3fc31387c8ef775289f8a180aa0f338a507dc81489f23c96eeb1620d",
-  "source_zip_sha256": "8b2869ed5d6618ea63b45ba9f54a50e2fb6b2e4d5e2f1104d36258331dc07484",
+  "pdf_sha256": "c129421750bf4ed4d82c933900173d653b881c3c5010129c2e1ed42cfa5cedee",
+  "source_zip_sha256": "45eb8f7101f12b2eb08eee496b11db80e1a794b77b3c6ca1e6ad08d6ae6b7853",
   "aggregate_checks_passed": 572,
   "new_scientific_experiments": false,
   "validation_scope": "Local layout, PDF structure, artifact identity and aggregate arithmetic; not IEEE PDF eXpress certification.",
