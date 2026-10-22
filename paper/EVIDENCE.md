@@ -12,6 +12,8 @@
 | Alternative acquisition gates | [Exact results and replay](evidence/gate_audit/README.md), [independent review](evidence/gate_audit/INDEPENDENT_REVIEW.md) | Fixed cached TEST banks, fixed G4, recording-level routing; no decoding or timing |
 | DEV trigger census and empty-output algebra | [Domain/feature audit](evidence/domain_audit/README.md) | Existing DEV and TEST caches; bounded search found no verified unadapted comparator |
 
+The compact Table IV reports Calls and Gain for each dataset. Per-language B and Raw top-1 WERs remain available in the [audit](REVISION_AUDIT.md#per-language-baseline-and-selective-wer) and [full-precision means](evidence/acceptance_audit/PER_LANGUAGE_MEANS.csv). The displayed column reduction does not remove the underlying baseline evidence.
+
 ## Rounding and denominators
 
 The locked-panel S+R WER is **32.75476627936039%**, which displays as **32.75%**.

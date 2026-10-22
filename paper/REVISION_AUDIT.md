@@ -1,6 +1,6 @@
 # Manuscript revision audit
 
-This audit uses frozen caches and CPU analysis only. No audio decoding, GPU timing or confirmation refitting was run. Original Tables I–III results, Table IV gains/call rates and all confidence intervals remain unchanged. Added evidence comprises per-language baseline WERs from the original counts, retrospective RMS sensitivity, and an offline comparison of acquisition gates.
+This audit uses frozen caches and CPU analysis only. No audio decoding, GPU timing or confirmation refitting was run. Original Tables I–III results, Table IV gains/call rates and all confidence intervals remain unchanged. Retained evidence comprises per-language baseline WERs from the original counts, retrospective RMS sensitivity, and an offline comparison of acquisition gates. The current editorial revision runs no new fitting or decoding and leaves those evidence files unchanged.
 
 ## Cached gate comparison and domain audit
 
@@ -18,7 +18,13 @@ The [domain audit](evidence/domain_audit/README.md) found no verified unadapted 
 
 Across all nine DEV/TEST caches, the observed positive-length feature vectors satisfy the signs required for strictly negative G4 scores. A zero-feature HF empty therefore wins deterministically whenever it enters the candidate bank. Centering and an ordinary shared intercept cannot change that ranking; the H4+e feature is empty-specific. The complete CV27 banks contain 19 zero-feature proposals, of which 18 are triggered. Reverting those 18 acceptances retains 91.52% of gain. One or two DEV empties per checkpoint limit calibration; no per-instance no-speech branch is inferred.
 
-The manuscript now states this algebra explicitly, reports the two alternative gates, limits zero-shot language to acoustic transfer, and describes Direct as a simplification on triggers with comparable accuracy. Direct's main gain is on checkpoint one, whereas HWR4's gain over H4 is on checkpoint two. The three reported typos were already absent from the baseline source and were checked again in the final PDF. Only `main.tex` and `results.tex` changed in this surgical revision. Tables I–IV, numbered Equations (1)–(3), figure, authors, affiliations and references are byte-identical to the preceding final source. Repeated prose was removed to preserve the page budget; IEEEtran, font sizes, margins, baseline spacing, figure size and table row spacing were not changed.
+The current manuscript presents the empty score as an implicit abstention baseline in Section II-B and retains its ordering over nonempty candidates under the fitted signs in Section IV-D. It does not attribute the 18 acceptances to unlogged no-speech or log-probability termination branches. The text reports the insertion/deletion tradeoff, the 91.52% nonempty-guard result and the limited DEV calibration of H4+e.
+
+The gate replay now explains the call–retention tradeoff explicitly. The text gate preserves all FLEURS positive gain at less than half the token-ID gate's calls; the word gate uses fewer calls but loses gain. This supports a parsimonious operating point on the cached panels, not universal gate optimality or a measured latency advantage for the replayed gates. Direct's main gain remains on checkpoint one, whereas HWR4's gain over H4 is on checkpoint two.
+
+Table IV now contains five columns: Language, FLEURS Calls/Gain, and CV27 Calls/Gain. Its 20 original values and S/D/I footer are unchanged. The per-language B and Raw top-1 WERs are retained below and in the complete numeric evidence, rather than repeated in the compact table or results paragraph. G4's weighted and HF refits' pooled RMS remain distinguished by the Section IV-C sensitivity result and the exact definitions below. No experiment has been relabeled as having used a common scaling rule.
+
+The reported `33,98` and `2988.3.` typos were already absent from the baseline source. Final PDF inspection confirms `33.98` and `2988.3`. The table sources are hardcoded; the Table IV evidence verifier was updated for the requested Calls/Gain column order without removing any baseline-WER checks.
 
 ## Per-language baseline and selective WER
 
@@ -84,14 +90,13 @@ Study A and Study B retain distinct sampling scopes. Triggered N+R and S+R perfo
 
 ## Source changes and final layout
 
-- `main.tex`: identify the standard fixed gate; explain script-sensitive compression; state the exact RMS rule and explicit RankNet loss; distinguish policies and acceptors; clarify fixed-gate DEV checking and per-block single-GPU execution. Numbered Equations (1)–(3) are unchanged; RankNet is unnumbered.
-- `primary.tex`: visually separate the oracle and locked-confirmation panels. Existing numeric cells and reference numbers are unchanged.
-- `acceptors.tex`: label the main panel as complete-policy results; define complete versus triggered comparisons in the method. Original numbers and intervals are unchanged.
-- `language_scope.tex`: add B baseline WER columns to both datasets. All original gain/call/SDI values are preserved.
-- `results.tex`: explain observed score mechanisms, report the CPU scaling sensitivity and Persian baselines, and retain the empty-output insertion/deletion tradeoff and calibration limits.
-- Repeated wording was shortened to accommodate the methods without changing IEEEtran, margins, body sizes, baselines, figure size or table row spacing. The conclusion still has two paragraphs. Authors, affiliations, acknowledgment grants, figure and bibliography are unchanged.
+- `main.tex`: restore the concise Abstract and Conclusion; keep the fixed Whisper text gate, simplify the script-encoding discussion, present the empty score baseline, remove the displayed RankNet loss while retaining its probabilities/edit-gap weights, and clarify DEV use. Numbered Equations (1)–(3), including intact `argmax`, are unchanged.
+- `results.tex`: explain the cached gate operating point, retain checkpoint-specific Direct/HWR4 findings and the matched-RMS sensitivity, and present empty-output suppression and non-Persian gains without repeating per-language baseline WERs.
+- `language_scope.tex`: restore five columns with Calls before Gain for each dataset. All retained values and the S/D/I footer agree with the existing counts.
+- `verify_revision_evidence.py`: check the new Table IV column order against cached means. All per-language Raw top-1/B/S+R, RMS, model-lock and provenance checks remain active.
+- Tables I–III, numbered equations, figure, authors, affiliations, grants and all 33 references are unchanged. Repeated wording within the revised paragraphs was shortened to meet the page budget. IEEEtran, margins, body sizes, baselines, figure size and table row spacing are unchanged.
 
-The PDF has **five US Letter pages**. Main text and acknowledgment finish on page 4; page 5 starts with REFERENCES and contains references [1]–[33] only. Poppler word-box bottoms for the first seven columns are 718.597–719.292 pt; page 4 right ends at 703.824 pt. No Overfull/Underfull hbox or vbox messages remain. All fonts are embedded, no Type 3 font is used, and hyperlinks/bookmarks remain disabled. Local checks do not replace IEEE PDF eXpress certification.
+The PDF has **five US Letter pages**. Main text and acknowledgment finish on page 4; page 5 starts with REFERENCES and contains references [1]–[33] only. Poppler word-box bottoms for the first seven columns are 718.597 pt; page 4 right ends at 706.813 pt. All five pages were visually inspected. No Overfull/Underfull hbox or vbox messages remain. All fonts are embedded, no Type 3 font is used, and hyperlinks/bookmarks remain disabled. Local checks do not replace IEEE PDF eXpress certification.
 
 ## Reproduction
 

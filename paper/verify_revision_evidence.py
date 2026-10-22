@@ -56,7 +56,7 @@ def main():
         values = []
         for dataset in ('FLEURS', 'CV27'):
             row = next(r for r in means if r['language'] == language and r['dataset'] == dataset)
-            values.extend(f'{float(row[k]):.2f}' for k in ('B_WER', 'Gain_pp', 'Calls_pct'))
+            values.extend(f'{float(row[k]):.2f}' for k in ('Calls_pct', 'Gain_pp'))
         check(label + ' & ' + ' & '.join(values) + r'\\' in table, 'Table IV ' + label)
 
     scaling = audit / 'scaling'

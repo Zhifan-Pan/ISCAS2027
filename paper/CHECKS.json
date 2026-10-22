@@ -1,7 +1,7 @@
 {
   "pass": true,
   "pages": 5,
-  "size_bytes": 522081,
+  "size_bytes": 521705,
   "paper": "US Letter",
   "body_font_TeX_pt": 10,
   "body_baseline_TeX_pt": 12,
@@ -14,16 +14,16 @@
       718.597
     ],
     [
-      719.292,
-      718.597
-    ],
-    [
       718.597,
       718.597
     ],
     [
       718.597,
-      703.824
+      718.597
+    ],
+    [
+      718.597,
+      706.813
     ]
   ],
   "links": 0,
@@ -35,7 +35,7 @@
   "official_class_sha256": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7",
   "official_class_url": "https://mirrors.ctan.org/macros/latex/contrib/IEEEtran/IEEEtran.cls",
   "overfull_underfull": false,
-  "sha256": "44448a8d0f9a9dea7e643ad544f2388f447d5c3ebf4a51104ed1f984f5e20ed9",
+  "sha256": "a21036e83e484ae0739549b975b9de45d76979e7e47d79defd610d0ff2b0f500",
   "status": "final_submission",
   "main_pages": [
     1,
@@ -45,18 +45,23 @@
   ],
   "references_only_page": 5,
   "bibliography_entries": 33,
-  "pdf_sha256": "44448a8d0f9a9dea7e643ad544f2388f447d5c3ebf4a51104ed1f984f5e20ed9",
-  "source_zip_sha256": "af5c9eb9ac37e1db3286927b7406d5fb82003d8c76342d0cfdd8890987685150",
+  "pdf_sha256": "a21036e83e484ae0739549b975b9de45d76979e7e47d79defd610d0ff2b0f500",
+  "source_zip_sha256": "00be6125dbb4dc4f17623280c0fb7a8d3d01daa7429be2f60ff659686f217f77",
   "aggregate_checks_passed": 572,
   "added_evidence_checks_passed": 380,
   "gate_evidence_checks_passed": 423,
-  "domain_census_replayed": true,
-  "new_scientific_experiments": true,
-  "new_experiment_scope": "CPU-only retrospective gate replay on 6 TEST panels with 3 fixed gates and a DEV/empty-feature census. Prior RMS sensitivity retained unchanged. No new fitting, GPU decoding or timing in this revision.",
+  "domain_census_replayed": false,
+  "new_scientific_experiments": false,
+  "new_experiment_scope": "Editorial revision only. Existing CPU gate replay, DEV census and RMS sensitivity retained unchanged; no new fitting, GPU decoding or timing.",
   "validation_scope": "Local layout, PDF structure, artifact identity and aggregate arithmetic; not IEEE PDF eXpress certification.",
   "latex_layout_warnings": [],
   "expected_latex_notice": "hyperref Draft mode on disables hyperlinks; IEEEtran remains in conference mode.",
   "original_experimental_results_unchanged": true,
   "numbered_equations_unchanged": true,
-  "method_descriptions_clarified": true
+  "method_descriptions_clarified": true,
+  "table_iv_columns": 5,
+  "table_iv_baselines_preserved_in_evidence": true,
+  "tables_i_iii_byte_identical": true,
+  "figure_authors_references_byte_identical": true,
+  "all_pages_visually_inspected": true
 }

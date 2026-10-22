@@ -14,6 +14,8 @@ latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error main.tex
 Run these commands from the repository root. The compiler output is
 `paper/source/main.pdf`; the submission PDF linked above is named after the title.
 The manuscript has four main-content pages and references only on page 5.
+Table IV presents Calls and Gain in five columns; full baseline WERs and the
+exact RMS rules remain available in the linked evidence and audit.
 The supplied vector figure and CMap files require no conversion or network access.
 
 ## Verify
