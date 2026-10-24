@@ -1,6 +1,6 @@
 # Selective Recovery for Multilingual ASR: Candidate Acquisition and Acceptance
 
-This repository accompanies the final ISCAS manuscript. It provides one
+This [repository](https://github.com/Zhifan-Pan/selective-asr-recovery) accompanies the final ISCAS manuscript. It provides one
 submission PDF, matching LaTeX source, scientific code and anonymous numeric
 inputs for reproduction.
 

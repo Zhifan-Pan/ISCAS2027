@@ -1,5 +1,7 @@
 # Submission manuscript source
 
+Canonical repository: [https://github.com/Zhifan-Pan/selective-asr-recovery](https://github.com/Zhifan-Pan/selective-asr-recovery).
+
 Build from this directory with:
 
 ```sh

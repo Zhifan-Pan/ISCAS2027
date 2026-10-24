@@ -1,5 +1,7 @@
 # Final manuscript
 
+Canonical repository: [https://github.com/Zhifan-Pan/selective-asr-recovery](https://github.com/Zhifan-Pan/selective-asr-recovery).
+
 - [Submission PDF](Selective%20Recovery%20for%20Multilingual%20ASR%20-%20Candidate%20Acquisition%20and%20Acceptance.pdf)
 - [LaTeX source](source/) and [source archive](source.zip)
 - [Evidence map](EVIDENCE.md) and [revision audit](REVISION_AUDIT.md)
