@@ -23,6 +23,7 @@ The manuscript includes Equations (1)--(3), a single argmax operator, and
 references [1]--[33]. Preserve the local CMap and math-unicode files.
 Table I separates its locked-panel macro WER summary and paired contrasts into
 three-column panels B and C. Table II separates the two comparison families.
+Table I begins the left column of page 3, with Table II at the top of the right column.
 Table IV reports Calls and Gain in five columns; baseline WERs remain in the
 repository evidence. Section II-C gives inline RankNet probabilities and
 edit-gap weights; Section IV-C reports the CPU RMS sensitivity analysis.

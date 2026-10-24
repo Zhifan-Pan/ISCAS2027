@@ -1,7 +1,7 @@
 {
   "pass": true,
   "pages": 5,
-  "size_bytes": 521742,
+  "size_bytes": 521668,
   "paper": "US Letter",
   "body_font_TeX_pt": 10,
   "body_baseline_TeX_pt": 12,
@@ -23,7 +23,7 @@
     ],
     [
       718.597,
-      706.813
+      718.597
     ]
   ],
   "links": 0,
@@ -35,7 +35,7 @@
   "official_class_sha256": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7",
   "official_class_url": "https://mirrors.ctan.org/macros/latex/contrib/IEEEtran/IEEEtran.cls",
   "overfull_underfull": false,
-  "sha256": "0937fd99f04c8eeb52f9413016896ab87b6edb4d3f9ebc7e0d9e96ca6b2ea266",
+  "sha256": "192ba8447be3c9e8a33220942e0b474318bad0137ffb7f9f2607fbe1c147581c",
   "status": "final_submission",
   "main_pages": [
     1,
@@ -45,14 +45,14 @@
   ],
   "references_only_page": 5,
   "bibliography_entries": 33,
-  "pdf_sha256": "0937fd99f04c8eeb52f9413016896ab87b6edb4d3f9ebc7e0d9e96ca6b2ea266",
-  "source_zip_sha256": "57a0879d357ab766df0bdc70da6dfe268cafce4ad6649c1cfa0ee6fd9b0e8577",
+  "pdf_sha256": "192ba8447be3c9e8a33220942e0b474318bad0137ffb7f9f2607fbe1c147581c",
+  "source_zip_sha256": "bec95b7d1636471165f47bc554ad9b5f3f56d447168593da710a5486a4d5bee0",
   "aggregate_checks_passed": 572,
   "added_evidence_checks_passed": 380,
   "gate_evidence_checks_passed": 423,
   "domain_census_replayed": false,
   "new_scientific_experiments": false,
-  "new_experiment_scope": "Documentation and build-output housekeeping only; published PDF, LaTeX and scientific evidence unchanged.",
+  "new_experiment_scope": "No new experiments. Table I moved to page 3 left-column top; all manuscript prose, formulas, table contents and scientific evidence unchanged.",
   "validation_scope": "Local layout, PDF structure, artifact identity and aggregate arithmetic; not IEEE PDF eXpress certification.",
   "latex_layout_warnings": [],
   "expected_latex_notice": "hyperref Draft mode on disables hyperlinks; IEEEtran remains in conference mode.",
@@ -67,11 +67,17 @@
   "table_ii_families_separated": true,
   "body_text_byte_identical_to_previous_release": true,
   "tables_iii_iv_byte_identical_to_previous_release": true,
-  "source_scope_verified": "Only source/BUILD.md changed within the source archive; all TeX, class, style and figure bytes unchanged.",
-  "evidence_checks": "572 aggregate, 380 acceptance/RMS and 423 gate checks passed in the preceding release; all evidence remains byte-identical; all experimental values remain unchanged.",
+  "source_scope_verified": "Only the primary.tex input location and its comment changed in main.tex; BUILD.md documents the placement. All other source files are byte-identical.",
+  "evidence_checks": "572 aggregate, 380 acceptance/RMS and 423 gate checks passed in the 2026-10-22 readiness audit; their inputs and verifier scripts remain byte-identical. This update rechecks layout, artifact identity and source-archive contents.",
   "all_experimental_numeric_values_unchanged": true,
   "tables_ii_iii_iv_byte_identical_to_previous_release": true,
   "table_i_confirmation_panels_share_three_column_grid": true,
   "documented_build_verified": true,
-  "documented_build_pixel_identical_to_submission": true
+  "documented_build_pixel_identical_to_submission": true,
+  "table_i_page": 3,
+  "table_i_column": "left",
+  "table_ii_page": 3,
+  "table_ii_column": "right",
+  "all_tables_byte_identical_to_previous_release": true,
+  "pixels_identical_to_approved_placement_trial": true
 }

@@ -16,6 +16,7 @@ The compiler output is `paper/build/main.pdf`; temporary build files stay in
 the same Git-ignored directory. The submission PDF linked above is named after
 the title. The source archive includes [standalone build instructions](source/BUILD.md).
 The manuscript has four main-content pages and references only on page 5.
+Table I is at the top of the left column on page 3, beside Table II on the right.
 Table I separates the locked-panel macro WER summary (B) from paired contrasts
 (C), with matching three-column layouts. Table II separates its comparison families.
 Table IV presents Calls and Gain in five columns; full baseline WERs and the
